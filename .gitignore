@@ -1,0 +1,6 @@
+ocg_standard.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.tmp
+*.bak

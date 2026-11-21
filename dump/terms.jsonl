@@ -1,0 +1,88 @@
+{"term_id": "advance_summon", "category": "game_mechanic", "ja_base": "アドバンス召喚", "ja_kana": "アドバンスしょうかん", "ocg_name": "Advance Summon", "tcg_en": "Tribute Summon", "en_legacy_terms": "Sacrifice Summon"}
+{"term_id": "angel", "category": "monster_type", "ja_base": "天使族", "ja_kana": "てんしぞく", "ocg_name": "Angel", "tcg_en": "Fairy", "en_legacy_terms": null}
+{"term_id": "aqua", "category": "monster_type", "ja_base": "水族", "ja_kana": "みずぞく", "ocg_name": "Aqua", "tcg_en": "Aqua", "en_legacy_terms": null}
+{"term_id": "battle_phase", "category": "phase", "ja_base": null, "ja_kana": "バトルフェイズ", "ocg_name": "Battle Phase", "tcg_en": "Battle Phase", "en_legacy_terms": null}
+{"term_id": "beast", "category": "monster_type", "ja_base": "獣族", "ja_kana": "じゅうぞく", "ocg_name": "Beast", "tcg_en": "Beast", "en_legacy_terms": null}
+{"term_id": "beast_warrior", "category": "monster_type", "ja_base": "獣戦士族", "ja_kana": "じゅうせんしぞく", "ocg_name": "Beast-Warrior", "tcg_en": "Beast-Warrior", "en_legacy_terms": null}
+{"term_id": "bird_beast", "category": "monster_type", "ja_base": "鳥獣族", "ja_kana": "ちょうじゅうぞく", "ocg_name": "Bird-Beast", "tcg_en": "Winged Beast", "en_legacy_terms": null}
+{"term_id": "cemetery", "category": "zone", "ja_base": "墓地", "ja_kana": "ぼち", "ocg_name": "Cemetery", "tcg_en": "GY", "en_legacy_terms": "Graveyard"}
+{"term_id": "censor_cleavage", "category": "censorship_concept", "ja_base": "露出・谷間修正", "ja_kana": "ろしゅつたにましゅうせい", "ocg_name": "Cleavage and Exposure Censorship", "tcg_en": "Sexual Censorship", "en_legacy_terms": null}
+{"term_id": "censor_firearms", "category": "censorship_concept", "ja_base": "実銃・兵器修正", "ja_kana": "じつじゅうへいきしゅうせい", "ocg_name": "Realistic Firearm Censorship", "tcg_en": "Firearm Censorship", "en_legacy_terms": null}
+{"term_id": "censor_religious", "category": "censorship_concept", "ja_base": "宗教的象徴修正", "ja_kana": "しゅうきょうてきしょうちょうしゅうせい", "ocg_name": "Religious Symbolism Censorship", "tcg_en": "Religious Censorship", "en_legacy_terms": null}
+{"term_id": "continuous_magic", "category": "card_type", "ja_base": "永続魔法", "ja_kana": "えいぞくまほう", "ocg_name": "Continuous Magic", "tcg_en": "Continuous Spell", "en_legacy_terms": null}
+{"term_id": "continuous_trap", "category": "card_type", "ja_base": "永続罠", "ja_kana": "えいぞくわな", "ocg_name": "Continuous Trap", "tcg_en": "Continuous Trap", "en_legacy_terms": null}
+{"term_id": "counter_trap", "category": "card_type", "ja_base": "カウンター罠", "ja_kana": "カウンターわな", "ocg_name": "Counter Trap", "tcg_en": "Counter Trap", "en_legacy_terms": null}
+{"term_id": "creator_god", "category": "monster_type", "ja_base": "創造神族", "ja_kana": "そうぞうしんぞく", "ocg_name": "Creator God", "tcg_en": "Creator God", "en_legacy_terms": null}
+{"term_id": "cyberse", "category": "monster_type", "ja_base": "サイバース族", "ja_kana": "サイバースぞく", "ocg_name": "Cyberse", "tcg_en": "Cyberse", "en_legacy_terms": null}
+{"term_id": "daemon_type", "category": "monster_type", "ja_base": "悪魔族", "ja_kana": "あくまぞく", "ocg_name": "Demon", "tcg_en": "Fiend", "en_legacy_terms": null}
+{"term_id": "damage_step", "category": "step", "ja_base": null, "ja_kana": "ダメージステップ", "ocg_name": "Damage Step", "tcg_en": "Damage Step", "en_legacy_terms": null}
+{"term_id": "dark_attr", "category": "attribute", "ja_base": "闇", "ja_kana": "やみ", "ocg_name": "DARK", "tcg_en": "DARK", "en_legacy_terms": null}
+{"term_id": "destroy", "category": "game_mechanic", "ja_base": "破壊", "ja_kana": "はかい", "ocg_name": "Destroy", "tcg_en": "Destroy", "en_legacy_terms": null}
+{"term_id": "dinosaur", "category": "monster_type", "ja_base": "恐竜族", "ja_kana": "きょうりゅうぞく", "ocg_name": "Dinosaur", "tcg_en": "Dinosaur", "en_legacy_terms": null}
+{"term_id": "divine_attr", "category": "attribute", "ja_base": "神", "ja_kana": "かみ", "ocg_name": "DIVINE", "tcg_en": "DIVINE", "en_legacy_terms": null}
+{"term_id": "divine_beast", "category": "monster_type", "ja_base": "幻神獣族", "ja_kana": "げんしんじゅうぞく", "ocg_name": "Divine-Beast", "tcg_en": "Divine-Beast", "en_legacy_terms": null}
+{"term_id": "dragon", "category": "monster_type", "ja_base": "ドラゴン族", "ja_kana": "ドラゴンぞく", "ocg_name": "Dragon", "tcg_en": "Dragon", "en_legacy_terms": null}
+{"term_id": "draw_phase", "category": "phase", "ja_base": null, "ja_kana": "ドローフェイズ", "ocg_name": "Draw Phase", "tcg_en": "Draw Phase", "en_legacy_terms": null}
+{"term_id": "dual_subtype", "category": "monster_subtype", "ja_base": null, "ja_kana": "デュアル", "ocg_name": "Dual", "tcg_en": "Gemini", "en_legacy_terms": null}
+{"term_id": "earth_attr", "category": "attribute", "ja_base": "地", "ja_kana": "じ", "ocg_name": "EARTH", "tcg_en": "EARTH", "en_legacy_terms": null}
+{"term_id": "effect_monster", "category": "card_type", "ja_base": "効果モンスター", "ja_kana": "こうかモンスター", "ocg_name": "Effect Monster", "tcg_en": "Effect Monster", "en_legacy_terms": null}
+{"term_id": "end_phase", "category": "phase", "ja_base": null, "ja_kana": "エンドフェイズ", "ocg_name": "End Phase", "tcg_en": "End Phase", "en_legacy_terms": null}
+{"term_id": "equip_magic", "category": "card_type", "ja_base": "装備魔法", "ja_kana": "そうびまほう", "ocg_name": "Equip Magic", "tcg_en": "Equip Spell", "en_legacy_terms": null}
+{"term_id": "excavate", "category": "game_mechanic", "ja_base": null, "ja_kana": "めくる", "ocg_name": "Excavate", "tcg_en": "Excavate", "en_legacy_terms": "Pick up; Reveal"}
+{"term_id": "exclusion", "category": "zone", "ja_base": "除外", "ja_kana": "じょがい", "ocg_name": "Exclude", "tcg_en": "Banish", "en_legacy_terms": "Remove from play"}
+{"term_id": "extra_deck", "category": "zone", "ja_base": null, "ja_kana": "エクストラデッキ", "ocg_name": "Extra Deck", "tcg_en": "Extra Deck", "en_legacy_terms": "Fusion Deck"}
+{"term_id": "face_down_defense", "category": "battle_position", "ja_base": "裏側守備表示", "ja_kana": "うらがわしゅびひょうじ", "ocg_name": "Face-Down Defense Position", "tcg_en": "face-down Defense Position", "en_legacy_terms": null}
+{"term_id": "face_up_attack", "category": "battle_position", "ja_base": "表側攻撃表示", "ja_kana": "おもてがわこうげきひょうじ", "ocg_name": "Face-Up Attack Position", "tcg_en": "face-up Attack Position", "en_legacy_terms": null}
+{"term_id": "face_up_defense", "category": "battle_position", "ja_base": "表側守備表示", "ja_kana": "おもてがわしゅびひょうじ", "ocg_name": "Face-Up Defense Position", "tcg_en": "face-up Defense Position", "en_legacy_terms": null}
+{"term_id": "field", "category": "zone", "ja_base": null, "ja_kana": "フィールド", "ocg_name": "Field", "tcg_en": "Field", "en_legacy_terms": null}
+{"term_id": "field_magic", "category": "card_type", "ja_base": "フィールド魔法", "ja_kana": "フィールドまほう", "ocg_name": "Field Magic", "tcg_en": "Field Spell", "en_legacy_terms": null}
+{"term_id": "fire_attr", "category": "attribute", "ja_base": "炎", "ja_kana": "ほのお", "ocg_name": "FIRE", "tcg_en": "FIRE", "en_legacy_terms": null}
+{"term_id": "fish", "category": "monster_type", "ja_base": "魚族", "ja_kana": "さかなぞく", "ocg_name": "Fish", "tcg_en": "Fish", "en_legacy_terms": null}
+{"term_id": "fusion_deck", "category": "zone", "ja_base": "融合デッキ", "ja_kana": "ゆうごうデッキ", "ocg_name": "Fusion Deck", "tcg_en": "Fusion Deck", "en_legacy_terms": null}
+{"term_id": "fusion_monster", "category": "card_type", "ja_base": "融合モンスター", "ja_kana": "ゆうごうモンスター", "ocg_name": "Fusion Monster", "tcg_en": "Fusion Monster", "en_legacy_terms": null}
+{"term_id": "hand", "category": "zone", "ja_base": "手札", "ja_kana": "てふだ", "ocg_name": "Hand", "tcg_en": "Hand", "en_legacy_terms": null}
+{"term_id": "illusion", "category": "monster_type", "ja_base": "幻想魔族", "ja_kana": "げんそうまぞく", "ocg_name": "Illusion", "tcg_en": "Illusion", "en_legacy_terms": null}
+{"term_id": "insect", "category": "monster_type", "ja_base": "昆虫族", "ja_kana": "こんちゅうぞく", "ocg_name": "Insect", "tcg_en": "Insect", "en_legacy_terms": null}
+{"term_id": "life_points", "category": "game_mechanic", "ja_base": null, "ja_kana": "ライフポイント", "ocg_name": "Life Points", "tcg_en": "Life Points / LP", "en_legacy_terms": null}
+{"term_id": "light_attr", "category": "attribute", "ja_base": "光", "ja_kana": "ひかり", "ocg_name": "LIGHT", "tcg_en": "LIGHT", "en_legacy_terms": null}
+{"term_id": "link_monster", "category": "card_type", "ja_base": null, "ja_kana": "リンクモンスター", "ocg_name": "Link Monster", "tcg_en": "Link Monster", "en_legacy_terms": null}
+{"term_id": "machine", "category": "monster_type", "ja_base": "機械族", "ja_kana": "きかいぞく", "ocg_name": "Machine", "tcg_en": "Machine", "en_legacy_terms": null}
+{"term_id": "magic_card", "category": "card_type", "ja_base": "魔法カード", "ja_kana": "まほうカード", "ocg_name": "Magic Card", "tcg_en": "Spell Card", "en_legacy_terms": null}
+{"term_id": "main_deck", "category": "zone", "ja_base": null, "ja_kana": "メインデッキ", "ocg_name": "Main Deck", "tcg_en": "Deck", "en_legacy_terms": null}
+{"term_id": "main_phase_1", "category": "phase", "ja_base": "メインフェイズ1", "ja_kana": "メインフェイズワン", "ocg_name": "Main Phase 1", "tcg_en": "Main Phase 1", "en_legacy_terms": null}
+{"term_id": "main_phase_2", "category": "phase", "ja_base": "メインフェイズ2", "ja_kana": "メインフェイズツー", "ocg_name": "Main Phase 2", "tcg_en": "Main Phase 2", "en_legacy_terms": null}
+{"term_id": "normal_magic", "category": "card_type", "ja_base": "通常魔法", "ja_kana": "つうじょうまほう", "ocg_name": "Normal Magic", "tcg_en": "Normal Spell", "en_legacy_terms": null}
+{"term_id": "normal_monster", "category": "card_type", "ja_base": "通常モンスター", "ja_kana": "つうじょうモンスター", "ocg_name": "Normal Monster", "tcg_en": "Normal Monster", "en_legacy_terms": null}
+{"term_id": "normal_summon", "category": "game_mechanic", "ja_base": "通常召喚", "ja_kana": "つうじょうしょうかん", "ocg_name": "Normal Summon", "tcg_en": "Normal Summon", "en_legacy_terms": null}
+{"term_id": "normal_trap", "category": "card_type", "ja_base": "通常罠", "ja_kana": "つうじょうわな", "ocg_name": "Normal Trap", "tcg_en": "Normal Trap", "en_legacy_terms": null}
+{"term_id": "pendulum_monster", "category": "card_type", "ja_base": null, "ja_kana": "ペンデュラムモンスター", "ocg_name": "Pendulum Monster", "tcg_en": "Pendulum Monster", "en_legacy_terms": null}
+{"term_id": "phantom_dragon", "category": "monster_type", "ja_base": "幻竜族", "ja_kana": "げんりゅうぞく", "ocg_name": "Phantom Dragon", "tcg_en": "Wyrm", "en_legacy_terms": null}
+{"term_id": "piercing", "category": "game_mechanic", "ja_base": "貫通", "ja_kana": "かんつう", "ocg_name": "Piercing", "tcg_en": "Piercing", "en_legacy_terms": null}
+{"term_id": "plant", "category": "monster_type", "ja_base": "植物族", "ja_kana": "しょくぶつぞく", "ocg_name": "Plant", "tcg_en": "Plant", "en_legacy_terms": null}
+{"term_id": "psychic", "category": "monster_type", "ja_base": "サイキック族", "ja_kana": "サイキックぞく", "ocg_name": "Psychic", "tcg_en": "Psychic", "en_legacy_terms": null}
+{"term_id": "pyro", "category": "monster_type", "ja_base": "炎族", "ja_kana": "ほのおぞく", "ocg_name": "Pyro", "tcg_en": "Pyro", "en_legacy_terms": null}
+{"term_id": "quick_play_magic", "category": "card_type", "ja_base": "速攻魔法", "ja_kana": "そっこうまほう", "ocg_name": "Quick-Play Magic", "tcg_en": "Quick-Play Spell", "en_legacy_terms": null}
+{"term_id": "release", "category": "game_mechanic", "ja_base": null, "ja_kana": "リリース", "ocg_name": "Release", "tcg_en": "Tribute", "en_legacy_terms": "Sacrifice"}
+{"term_id": "reptile", "category": "monster_type", "ja_base": "爬虫類族", "ja_kana": "はちゅうるいぞく", "ocg_name": "Reptile", "tcg_en": "Reptile", "en_legacy_terms": null}
+{"term_id": "reverse_subtype", "category": "monster_subtype", "ja_base": null, "ja_kana": "リバース", "ocg_name": "Reverse", "tcg_en": "Flip", "en_legacy_terms": null}
+{"term_id": "ritual_magic", "category": "card_type", "ja_base": "儀式魔法", "ja_kana": "ぎしきまほう", "ocg_name": "Ritual Magic", "tcg_en": "Ritual Spell", "en_legacy_terms": null}
+{"term_id": "ritual_monster", "category": "card_type", "ja_base": "儀式モンスター", "ja_kana": "ぎしきモンスター", "ocg_name": "Ritual Monster", "tcg_en": "Ritual Monster", "en_legacy_terms": null}
+{"term_id": "rock", "category": "monster_type", "ja_base": "岩石族", "ja_kana": "がんせきぞく", "ocg_name": "Rock", "tcg_en": "Rock", "en_legacy_terms": null}
+{"term_id": "sacrifice", "category": "game_mechanic", "ja_base": "生け贄", "ja_kana": "いけにえ", "ocg_name": "Sacrifice", "tcg_en": "Tribute", "en_legacy_terms": null}
+{"term_id": "sea_serpent", "category": "monster_type", "ja_base": "海竜族", "ja_kana": "かいりゅうぞく", "ocg_name": "Sea Serpent", "tcg_en": "Sea Serpent", "en_legacy_terms": null}
+{"term_id": "special_summon", "category": "game_mechanic", "ja_base": "特殊召喚", "ja_kana": "とくしゅしょうかん", "ocg_name": "Special Summon", "tcg_en": "Special Summon", "en_legacy_terms": null}
+{"term_id": "spellcaster", "category": "monster_type", "ja_base": "魔法使い族", "ja_kana": "まほうつかいぞく", "ocg_name": "Spellcaster", "tcg_en": "Spellcaster", "en_legacy_terms": null}
+{"term_id": "spirit_subtype", "category": "monster_subtype", "ja_base": null, "ja_kana": "スピリット", "ocg_name": "Spirit", "tcg_en": "Spirit", "en_legacy_terms": null}
+{"term_id": "standby_phase", "category": "phase", "ja_base": null, "ja_kana": "スタンバイフェイズ", "ocg_name": "Standby Phase", "tcg_en": "Standby Phase", "en_legacy_terms": null}
+{"term_id": "synchro_monster", "category": "card_type", "ja_base": null, "ja_kana": "シンクロモンスター", "ocg_name": "Synchro Monster", "tcg_en": "Synchro Monster", "en_legacy_terms": null}
+{"term_id": "target", "category": "game_mechanic", "ja_base": "対象", "ja_kana": "たいしょう", "ocg_name": "Target", "tcg_en": "Target", "en_legacy_terms": "Designate; Select"}
+{"term_id": "thunder_type", "category": "monster_type", "ja_base": "雷族", "ja_kana": "かみなりぞく", "ocg_name": "Thunder", "tcg_en": "Thunder", "en_legacy_terms": null}
+{"term_id": "toon_subtype", "category": "monster_subtype", "ja_base": null, "ja_kana": "トゥーン", "ocg_name": "Toon", "tcg_en": "Toon", "en_legacy_terms": null}
+{"term_id": "trap_card", "category": "card_type", "ja_base": "罠カード", "ja_kana": "わなカード", "ocg_name": "Trap Card", "tcg_en": "Trap Card", "en_legacy_terms": null}
+{"term_id": "tuner_subtype", "category": "monster_subtype", "ja_base": null, "ja_kana": "チューナー", "ocg_name": "Tuner", "tcg_en": "Tuner", "en_legacy_terms": null}
+{"term_id": "undead", "category": "monster_type", "ja_base": "アンデット族", "ja_kana": "アンデットぞく", "ocg_name": "Undead", "tcg_en": "Zombie", "en_legacy_terms": null}
+{"term_id": "union_subtype", "category": "monster_subtype", "ja_base": null, "ja_kana": "ユニオン", "ocg_name": "Union", "tcg_en": "Union", "en_legacy_terms": null}
+{"term_id": "warrior", "category": "monster_type", "ja_base": "戦士族", "ja_kana": "せんしぞく", "ocg_name": "Warrior", "tcg_en": "Warrior", "en_legacy_terms": null}
+{"term_id": "water_attr", "category": "attribute", "ja_base": "水", "ja_kana": "みず", "ocg_name": "WATER", "tcg_en": "WATER", "en_legacy_terms": null}
+{"term_id": "wind_attr", "category": "attribute", "ja_base": "風", "ja_kana": "かぜ", "ocg_name": "WIND", "tcg_en": "WIND", "en_legacy_terms": null}
+{"term_id": "xyz_monster", "category": "card_type", "ja_base": null, "ja_kana": "エクシーズモンスター", "ocg_name": "Xyz Monster", "tcg_en": "Xyz Monster", "en_legacy_terms": null}
