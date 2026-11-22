@@ -4,3 +4,5 @@ ocg_standard.db
 *.db-journal
 *.tmp
 *.bak
+.cache/
+undo.ps1

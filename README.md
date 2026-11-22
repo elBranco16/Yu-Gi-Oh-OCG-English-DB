@@ -11,6 +11,7 @@ Instead of tracking a binary SQLite `.db` file directly in Git, all tables are s
 ```text
 .
 ├── sync_db.py                  # Export/import/validate between SQLite and dump/
+├── apply_text_mod.py           # Populate/update ocg_text & en_legacy_names (erratas, numbering, PSCT shortening, OCG localization)
 └── dump/
     ├── schema.sql              # Exact SQLite table & index definitions
     ├── cards.jsonl             # 17,728 cards (OCG, Rush Duel, game-only)
@@ -28,7 +29,7 @@ Instead of tracking a binary SQLite `.db` file directly in Git, all tables are s
 
 | Table | Columns |
 | :--- | :--- |
-| `cards` | `id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `en_legacy_names`, `ocg_lore`, `tcg_lore`, `overriden_check` |
+| `cards` | `id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `en_legacy_names`, `ocg_text`, `overriden_check` |
 | `archetypes` | `archetype_id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `strict_negative_check` |
 | `series` | `series_id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name` |
 | `card_archetypes` | `card_id`, `archetype_id`, `is_rule_override` |
@@ -39,7 +40,8 @@ Instead of tracking a binary SQLite `.db` file directly in Git, all tables are s
 ### Key Conventions
 - **Card IDs (`cards.id`):** Uses the official Konami Card Database ID (`cid`, e.g., `4007` for *Blue-Eyes White Dragon*, `15150` for *Sevens Road Magician*). Cards without a Konami `cid` (such as retro game-only cards, Tokens, or alternate variants) use sequential IDs starting at `900001`.
 - **Japanese Names (`ja_base` / `ja_kana`):** `ja_kana` stores the reading/kana; `ja_base` is `null` whenever the name has no kanji and would be identical to `ja_kana`.
-- **TCG Divergence (`tcg_name` / `tcg_lore`):** Populated only when the TCG localization differs from `ocg_name` / `ocg_lore`; otherwise `null`.
+- **TCG Divergence (`tcg_name`):** Populated only when the TCG card name differs from `ocg_name`; otherwise `null`. Alternate official/game name variants (e.g., `#1` punctuation differences) are merged into `en_legacy_names` (`; `-separated).
+- **Card Text Formatting (`ocg_text`):** Combines official/community effect erratas, `① ② ③` effect numbering, standard PSCT shortenings, and full OCG card/archetype/terminology localization (`terms.jsonl`). Rush Duel cards preserve `[Requirement]` / `[Effect]` blocks.
 - **Manual Overrides (`overriden_check`):** `1` marks a curated/overridden card entry; `0` is default.
 
 ---

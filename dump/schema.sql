@@ -31,8 +31,7 @@ CREATE TABLE "cards" (
                         ocg_name TEXT NOT NULL UNIQUE,
                         tcg_name TEXT,
                         en_legacy_names TEXT,
-                        ocg_lore TEXT,
-                        tcg_lore TEXT,
+                        ocg_text TEXT,
                         overriden_check INTEGER NOT NULL DEFAULT 0
                     );
 
