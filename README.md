@@ -2,7 +2,7 @@
 
 A collaborative, Git-friendly Master OCG Standard database covering Yu-Gi-Oh! cards (OCG, Rush Duel, and game-only), archetypes, thematic series, characters, and core terminology.
 
-Instead of tracking a binary SQLite `.db` file directly in Git, all tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*.jsonl`)** alongside `dump/schema.sql`, and can be rebuilt into `ocg_standard.db` on demand with `sync_db.py`.
+All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*.jsonl`)** alongside `dump/schema.sql`, and can be rebuilt into `ocg_standard.db` on demand with `sync_db.py`.
 
 ---
 
@@ -89,3 +89,10 @@ git push
 | `python sync_db.py check` | Validates all `dump/*.jsonl` files in a temporary SQLite DB (JSON syntax, primary keys, foreign keys, and integrity) without touching any local `.db`. |
 | `python sync_db.py import` | Rebuilds `./ocg_standard.db` from `dump/`. Supports `--db <path>`. |
 | `python sync_db.py export` | Exports `./ocg_standard.db` back into sorted, UTF-8/LF `dump/*.jsonl` files and `dump/schema.sql`. Supports `--db <path>`. |
+
+---
+
+## Credits & Acknowledgments
+
+- **[Yugipedia](https://yugipedia.com/)**: Source for baseline card metadata, Konami Card Database IDs, Japanese readings, archetype/series classifications, and card text for Rush Duel, OCG-only, and retro game-only cards.
+- **[Ultimate Card Text Mod by FoodUnderKeyboard](https://www.nexusmods.com/yugiohmasterduel/mods/2087)**: Source of the card text overhaul, including effect erratas, `① ② ③` effect numbering, and standard PSCT effect shortenings.
