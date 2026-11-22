@@ -18,6 +18,7 @@
 {"term_id": "race", "category": "monster_type", "ja_base": "種族", "ja_kana": "しゅぞく", "ocg_name": "Race", "tcg_en": "Type", "en_legacy_terms": null}
 {"term_id": "release", "category": "game_mechanic", "ja_base": null, "ja_kana": "リリース", "ocg_name": "Release", "tcg_en": "Tribute", "en_legacy_terms": "Sacrifice"}
 {"term_id": "reverse_subtype", "category": "monster_subtype", "ja_base": null, "ja_kana": "リバース", "ocg_name": "Reverse", "tcg_en": "Flip", "en_legacy_terms": null}
+{"term_id": "reverse_summon", "category": "game_mechanic", "ja_base": "反転召喚", "ja_kana": "はんてんしょうかん", "ocg_name": "Reverse Summon", "tcg_en": "Flip Summon", "en_legacy_terms": null}
 {"term_id": "sea_serpent", "category": "monster_type", "ja_base": "海竜族", "ja_kana": "かいりゅうぞく", "ocg_name": "Sea Dragon", "tcg_en": "Sea Serpent", "en_legacy_terms": null}
 {"term_id": "spellcaster", "category": "monster_type", "ja_base": "魔法使い族", "ja_kana": "まほうつかいぞく", "ocg_name": "Magician", "tcg_en": "Spellcaster", "en_legacy_terms": null}
 {"term_id": "undead", "category": "monster_type", "ja_base": "アンデット族", "ja_kana": "アンデットぞく", "ocg_name": "Undead", "tcg_en": "Zombie", "en_legacy_terms": null}
