@@ -12,13 +12,16 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 .
 ├── sync_db.py                  # Export/import/validate between SQLite and dump/
 ├── apply_text_mod.py           # Populate/update ocg_text & en_legacy_names (erratas, numbering, PSCT shortening, OCG localization)
+├── audit_archetypes.py         # Bidirectional archetype exclusivity & false-negative auditor
 └── dump/
     ├── schema.sql              # Exact SQLite table & index definitions
-    ├── cards.jsonl             # 17,814 cards (OCG, Rush Duel, game-only)
-    ├── archetypes.jsonl        # 618 official OCG archetypes
-    ├── series.jsonl            # 367 thematic series
-    ├── card_archetypes.jsonl   # 10,109 card <-> archetype links
-    ├── card_series.jsonl       # 3,982 card <-> series links
+    ├── cards.jsonl             # 14,975 Master-format cards (OCG, game-only, Tokens)
+    ├── rush_cards.jsonl        # 2,839 Rush Duel cards
+    ├── archetypes.jsonl        # 617 official OCG archetypes
+    ├── series.jsonl            # 368 thematic series
+    ├── card_archetypes.jsonl   # 10,011 Master card <-> archetype links
+    ├── card_series.jsonl       # 2,040 Master card <-> series links
+    ├── rush_card_series.jsonl  # 1,943 Rush card <-> series links
     ├── characters.jsonl        # 1,548 characters
     └── terms.jsonl             # 24 core OCG terminology entries
 ```
@@ -30,10 +33,12 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 | Table | Columns |
 | :--- | :--- |
 | `cards` | `id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `en_legacy_names`, `ocg_text`, `overriden_check` |
+| `rush_cards` | `id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `en_legacy_names`, `ocg_text`, `overriden_check` |
 | `archetypes` | `archetype_id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `strict_negative_check` |
 | `series` | `series_id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name` |
 | `card_archetypes` | `card_id`, `archetype_id`, `is_rule_override` |
 | `card_series` | `card_id`, `series_id` |
+| `rush_card_series` | `card_id`, `series_id` |
 | `characters` | `character_id`, `series`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_dub_name` |
 | `terms` | `term_id`, `category`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_en`, `en_legacy_terms` |
 
@@ -89,6 +94,21 @@ git push
 | `python sync_db.py check` | Validates all `dump/*.jsonl` files in a temporary SQLite DB (JSON syntax, primary keys, foreign keys, and integrity) without touching any local `.db`. |
 | `python sync_db.py import` | Rebuilds `./ocg_standard.db` from `dump/`. Supports `--db <path>`. |
 | `python sync_db.py export` | Exports `./ocg_standard.db` back into sorted, UTF-8/LF `dump/*.jsonl` files and `dump/schema.sql`. Supports `--db <path>`. |
+
+---
+
+## `audit_archetypes.py` (Archetype Exclusivity)
+
+Validates bidirectional archetype exclusivity across Master-format `cards.jsonl` using the **Smart First-Letter Case-Sensitive Rule**:
+- Exact case-sensitive substring matching by default (`"HERO"` ≠ `"Hero"`, `"Ai"` ≠ `"Maid"`, `"Xyz"` ≠ `"XYZ"`).
+- Lowercase-initial archetype names (e.g., `"roid"`, `"tellarknight"`, `"verz"`) match both lowercase and capitalized first letters (`[Rr]oid`, `[Tt]ellarknight`, `[Vv]erz`).
+- Wildcard numeric archetypes (`number_10x`, `number_c10x`) match `101`–`107`.
+
+```bash
+python audit_archetypes.py --snc all --format summary
+python audit_archetypes.py --snc 1 --format md
+python audit_archetypes.py --snc 1 --strict
+```
 
 ---
 

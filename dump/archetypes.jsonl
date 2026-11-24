@@ -508,7 +508,6 @@
 {"archetype_id": "stealth_kragen", "ja_base": null, "ja_kana": "ステルス・クラーゲン", "ocg_name": "Stealth Kragen", "tcg_name": "Stealth Kragen", "strict_negative_check": 1}
 {"archetype_id": "steelswarm", "ja_base": null, "ja_kana": "インヴェルズ", "ocg_name": "Inverz", "tcg_name": "Steelswarm", "strict_negative_check": 1}
 {"archetype_id": "stellarknight", "ja_base": null, "ja_kana": "ステラナイト", "ocg_name": "Stellarknight", "tcg_name": "Stellarknight", "strict_negative_check": 1}
-{"archetype_id": "stray_cat", "ja_base": "捨て猫", "ja_kana": "すてねこ", "ocg_name": "Stray Cat", "tcg_name": "Stray Cat", "strict_negative_check": 1}
 {"archetype_id": "subterror", "ja_base": null, "ja_kana": "サブテラー", "ocg_name": "Subterror", "tcg_name": "Subterror", "strict_negative_check": 1}
 {"archetype_id": "subterror_behemoth", "ja_base": null, "ja_kana": "サブテラーマリス", "ocg_name": "Subterror Malice", "tcg_name": "Subterror Behemoth", "strict_negative_check": 1}
 {"archetype_id": "sun_god", "ja_base": "太陽神", "ja_kana": "たいようしん", "ocg_name": "Sun God", "tcg_name": "Sun God", "strict_negative_check": 1}

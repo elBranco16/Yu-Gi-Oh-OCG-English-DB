@@ -44,6 +44,25 @@ CREATE TABLE characters (
                 tcg_dub_name TEXT
             );
 
+CREATE TABLE rush_card_series (
+                card_id INTEGER NOT NULL,
+                series_id TEXT NOT NULL,
+                PRIMARY KEY (card_id, series_id),
+                FOREIGN KEY (card_id) REFERENCES rush_cards(id) ON DELETE CASCADE,
+                FOREIGN KEY (series_id) REFERENCES series(series_id) ON DELETE CASCADE
+            );
+
+CREATE TABLE "rush_cards" (
+                        id INTEGER PRIMARY KEY,
+                        ja_base TEXT,
+                        ja_kana TEXT,
+                        ocg_name TEXT NOT NULL UNIQUE,
+                        tcg_name TEXT,
+                        en_legacy_names TEXT,
+                        ocg_text TEXT,
+                        overriden_check INTEGER NOT NULL DEFAULT 0
+                    );
+
 CREATE TABLE series (
             series_id TEXT PRIMARY KEY,
             ja_base TEXT,
@@ -81,6 +100,18 @@ CREATE INDEX idx_cards_tcg_name ON cards(tcg_name);
 CREATE INDEX idx_characters_ocg_name ON characters(ocg_name);
 
 CREATE INDEX idx_characters_series ON characters(series);
+
+CREATE INDEX idx_rush_card_series_card ON rush_card_series(card_id);
+
+CREATE INDEX idx_rush_card_series_series ON rush_card_series(series_id);
+
+CREATE INDEX idx_rush_cards_en_legacy ON rush_cards(en_legacy_names);
+
+CREATE INDEX idx_rush_cards_ja_base ON rush_cards(ja_base);
+
+CREATE INDEX idx_rush_cards_ocg_name ON rush_cards(ocg_name);
+
+CREATE INDEX idx_rush_cards_tcg_name ON rush_cards(tcg_name);
 
 CREATE INDEX idx_series_ocg_name ON series(ocg_name);
 

@@ -297,6 +297,7 @@
 {"series_id": "star_knight", "ja_base": "星戦騎", "ja_kana": "せいせんき", "ocg_name": "Star Battle Knight", "tcg_name": "Star Knight"}
 {"series_id": "star_protector", "ja_base": "救惺", "ja_kana": "きゅうせい", "ocg_name": "Wise Salvation", "tcg_name": "Star Protector"}
 {"series_id": "starliege", "ja_base": "輝光", "ja_kana": "きこう", "ocg_name": "Radiant-Light", "tcg_name": "Starliege"}
+{"series_id": "stray_cat", "ja_base": "捨て猫", "ja_kana": "すてねこ", "ocg_name": "Stray Cat", "tcg_name": "Stray Cat"}
 {"series_id": "straynge_cat", "ja_base": "はぐれ使い魔", "ja_kana": "はぐれつかいま", "ocg_name": "Stray Familiar", "tcg_name": "Straynge Cat"}
 {"series_id": "strike_dragon", "ja_base": "撃竜", "ja_kana": "げきりゅう", "ocg_name": "Strike Dragon", "tcg_name": "Strike Dragon"}
 {"series_id": "stygian", "ja_base": null, "ja_kana": "ヘル", "ocg_name": "Hell", "tcg_name": "Stygian"}

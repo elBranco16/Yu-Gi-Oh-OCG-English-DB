@@ -1,0 +1,554 @@
+#!/usr/bin/env python3
+"""
+Standalone bidirectional archetype exclusivity auditor for ocg-standard-db.
+
+Reads directly from `dump/*.jsonl` (no SQLite lock required) and evaluates
+Master-format `cards.jsonl` against `archetypes.jsonl` and `card_archetypes.jsonl`
+using the Smart First-Letter Case-Sensitive matching rule.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from pathlib import Path
+from typing import Any
+
+ROOT = Path(__file__).resolve().parent
+DUMP_DIR = ROOT / "dump"
+
+
+def load_jsonl(path: Path) -> list[dict[str, Any]]:
+    with path.open("r", encoding="utf-8") as f:
+        return [json.loads(line) for line in f if line.strip()]
+
+
+def card_pool(card: dict[str, Any]) -> str:
+    cid = card["id"]
+    if cid < 4007 or cid >= 900000:
+        return "VG"
+    name = card["ocg_name"]
+    if name.endswith(" Token") or name == "Token":
+        return "TOKEN"
+    return "OCG"
+
+
+def ja_display(row: dict[str, Any]) -> str:
+    return row.get("ja_base") or row.get("ja_kana") or ""
+
+
+def ja_matches(arch: dict[str, Any], card: dict[str, Any]) -> bool:
+    ja_a = ja_display(arch)
+    if not ja_a:
+        return False
+    return (ja_a in (card.get("ja_base") or "")) or (ja_a in (card.get("ja_kana") or ""))
+
+
+def match_archetype(arch_name: str, card_name: str, archetype_id: str | None = None) -> bool:
+    """
+    Canonical Smart First-Letter Case-Sensitive Rule:
+    - `number_10x` / `number_c10x` ("Numbers 10X" / "Chaos Numbers 10X"): match 10[1-7]\\b.
+    - Lowercase-initial archetype names ("roid", "tellarknight", "verz", "code Talker"):
+      match both lowercase and uppercase first letters.
+    - All other Title-Case / ALL-CAPS names: strict exact case-sensitive substring.
+    """
+    if archetype_id in ("number_10x", "number_c10x") and arch_name.endswith("10X"):
+        prefix = re.escape(arch_name[:-3])
+        return bool(re.search(rf"{prefix}10[1-7]\b", card_name))
+
+    if arch_name and arch_name[0].islower():
+        cap = arch_name[0].upper() + arch_name[1:]
+        return (arch_name in card_name) or (cap in card_name)
+
+    return arch_name in card_name
+
+
+def _snc_matches_filter(snc_val: int, snc_filter: str) -> bool:
+    if snc_filter == "all":
+        return True
+    return snc_val == int(snc_filter)
+
+
+def run_audit(
+    cards: list[dict[str, Any]],
+    archetypes: list[dict[str, Any]],
+    links: list[dict[str, Any]],
+    snc_filter: str = "all",
+    min_fp: int = 0,
+    max_fp: int | None = None,
+) -> dict[str, Any]:
+    card_by_id = {c["id"]: c for c in cards}
+    arch_by_id = {a["archetype_id"]: a for a in archetypes}
+
+    arch_members: dict[str, set[int]] = {}
+    arch_overrides: dict[str, set[int]] = {}
+    for link in links:
+        cid = link["card_id"]
+        aid = link["archetype_id"]
+        if cid not in card_by_id or aid not in arch_by_id:
+            continue
+        arch_members.setdefault(aid, set()).add(cid)
+        if link.get("is_rule_override"):
+            arch_overrides.setdefault(aid, set()).add(cid)
+
+    # 1. False positives & 2. False negatives across all archetypes
+    all_fps_by_arch: dict[str, list[dict[str, Any]]] = {}
+    all_fns_by_arch: dict[str, list[dict[str, Any]]] = {}
+    for a in archetypes:
+        aid = a["archetype_id"]
+        aname = a["ocg_name"]
+        mems = arch_members.get(aid, set())
+        overrides = arch_overrides.get(aid, set())
+
+        fps: list[dict[str, Any]] = []
+        for c in cards:
+            if c["id"] in mems:
+                continue
+            if match_archetype(aname, c["ocg_name"], aid):
+                fps.append(
+                    {
+                        "id": c["id"],
+                        "ocg_name": c["ocg_name"],
+                        "tcg_name": c.get("tcg_name"),
+                        "ja": ja_display(c),
+                        "pool": card_pool(c),
+                        "ja_match": ja_matches(a, c),
+                    }
+                )
+        if fps:
+            all_fps_by_arch[aid] = fps
+
+        fns: list[dict[str, Any]] = []
+        for cid in sorted(mems):
+            if cid in overrides:
+                continue
+            c = card_by_id[cid]
+            if not match_archetype(aname, c["ocg_name"], aid):
+                fns.append(
+                    {
+                        "id": cid,
+                        "ocg_name": c["ocg_name"],
+                        "tcg_name": c.get("tcg_name"),
+                        "ja": ja_display(c),
+                        "pool": card_pool(c),
+                        "ja_match": ja_matches(a, c),
+                    }
+                )
+        if fns:
+            all_fns_by_arch[aid] = fns
+
+    # Filtered views for --snc / --min-fp / --max-fp
+    scoped_archs = [
+        a for a in archetypes if _snc_matches_filter(int(a.get("strict_negative_check") or 0), snc_filter)
+    ]
+
+    fps_report: list[dict[str, Any]] = []
+    for a in scoped_archs:
+        aid = a["archetype_id"]
+        fps = all_fps_by_arch.get(aid, [])
+        n_fp = len(fps)
+        if n_fp == 0:
+            continue
+        if n_fp < min_fp or (max_fp is not None and n_fp > max_fp):
+            continue
+        fps_report.append(
+            {
+                "archetype_id": aid,
+                "ocg_name": a["ocg_name"],
+                "tcg_name": a["tcg_name"],
+                "ja": ja_display(a),
+                "strict_negative_check": int(a.get("strict_negative_check") or 0),
+                "member_count": len(arch_members.get(aid, set())),
+                "fp_count": n_fp,
+                "ocg_fp_count": sum(1 for x in fps if x["pool"] == "OCG"),
+                "vg_fp_count": sum(1 for x in fps if x["pool"] == "VG"),
+                "token_fp_count": sum(1 for x in fps if x["pool"] == "TOKEN"),
+                "ja_match_count": sum(1 for x in fps if x["ja_match"]),
+                "collisions": fps,
+            }
+        )
+    fps_report.sort(key=lambda x: (-x["fp_count"], x["archetype_id"]))
+
+    fns_report: list[dict[str, Any]] = []
+    for a in scoped_archs:
+        aid = a["archetype_id"]
+        fns = all_fns_by_arch.get(aid, [])
+        if not fns:
+            continue
+        fns_report.append(
+            {
+                "archetype_id": aid,
+                "ocg_name": a["ocg_name"],
+                "tcg_name": a["tcg_name"],
+                "ja": ja_display(a),
+                "strict_negative_check": int(a.get("strict_negative_check") or 0),
+                "member_count": len(arch_members.get(aid, set())),
+                "fn_count": len(fns),
+                "misses": fns,
+            }
+        )
+    fns_report.sort(key=lambda x: (-x["fn_count"], x["archetype_id"]))
+
+    # 3. Archetype-in-archetype overlaps (non-sub-archetype A-in-B)
+    arch_overlaps: list[dict[str, Any]] = []
+    for a in scoped_archs:
+        aid = a["archetype_id"]
+        aname = a["ocg_name"]
+        a_ja = ja_display(a)
+        a_mems = arch_members.get(aid, set())
+        for b in archetypes:
+            bid = b["archetype_id"]
+            if aid == bid:
+                continue
+            if not match_archetype(aname, b["ocg_name"], aid):
+                continue
+            b_ja = ja_display(b)
+            b_mems = arch_members.get(bid, set())
+            ja_sub = bool(a_ja and b_ja and (a_ja in b_ja))
+            overlap = len(a_mems & b_mems)
+            if not ja_sub and overlap < len(b_mems):
+                arch_overlaps.append(
+                    {
+                        "outer_id": aid,
+                        "outer_ocg": aname,
+                        "outer_ja": a_ja,
+                        "outer_snc": int(a.get("strict_negative_check") or 0),
+                        "inner_id": bid,
+                        "inner_ocg": b["ocg_name"],
+                        "inner_ja": b_ja,
+                        "inner_snc": int(b.get("strict_negative_check") or 0),
+                        "member_overlap": overlap,
+                        "inner_member_count": len(b_mems),
+                    }
+                )
+    arch_overlaps.sort(key=lambda x: (x["outer_id"], x["inner_id"]))
+
+    # 4. Mixed-case candidates (Title-Case archetypes with lowercase mid-word members)
+    mixed_case: list[dict[str, Any]] = []
+    for a in scoped_archs:
+        aid = a["archetype_id"]
+        aname = a["ocg_name"]
+        if not aname or not aname[0].isupper():
+            continue
+        low_init = aname[0].lower() + aname[1:]
+        mems = arch_members.get(aid, set())
+        overrides = arch_overrides.get(aid, set())
+
+        exact_mems = []
+        lower_mems = []
+        for cid in sorted(mems):
+            if cid in overrides:
+                continue
+            c = card_by_id[cid]
+            if aname in c["ocg_name"]:
+                exact_mems.append(c)
+            elif low_init in c["ocg_name"]:
+                lower_mems.append(c)
+        if not lower_mems:
+            continue
+
+        extra_fps = [
+            {
+                "id": c["id"],
+                "ocg_name": c["ocg_name"],
+                "ja": ja_display(c),
+                "pool": card_pool(c),
+                "ja_match": ja_matches(a, c),
+            }
+            for c in cards
+            if c["id"] not in mems and aname not in c["ocg_name"] and low_init in c["ocg_name"]
+        ]
+        mixed_case.append(
+            {
+                "archetype_id": aid,
+                "ocg_name": aname,
+                "proposed_ocg_name": low_init,
+                "tcg_name": a["tcg_name"],
+                "ja": ja_display(a),
+                "strict_negative_check": int(a.get("strict_negative_check") or 0),
+                "exact_member_count": len(exact_mems),
+                "lower_member_count": len(lower_mems),
+                "extra_fp_count": len(extra_fps),
+                "exact_sample": [c["ocg_name"] for c in exact_mems[:2]],
+                "lower_sample": [c["ocg_name"] for c in lower_mems[:3]],
+                "extra_fps": extra_fps,
+            }
+        )
+    mixed_case.sort(key=lambda x: (-x["lower_member_count"], x["extra_fp_count"], x["archetype_id"]))
+
+    # 5. Clean SNC=0 candidates (ready to flip to SNC=1)
+    clean_snc0: list[dict[str, Any]] = []
+    for a in archetypes:
+        if int(a.get("strict_negative_check") or 0) != 0:
+            continue
+        aid = a["archetype_id"]
+        if aid not in all_fps_by_arch and aid not in all_fns_by_arch:
+            clean_snc0.append(
+                {
+                    "archetype_id": aid,
+                    "ocg_name": a["ocg_name"],
+                    "tcg_name": a["tcg_name"],
+                    "ja": ja_display(a),
+                    "member_count": len(arch_members.get(aid, set())),
+                }
+            )
+
+    strict_violations = sum(
+        1
+        for a in scoped_archs
+        if a["archetype_id"] in all_fps_by_arch or a["archetype_id"] in all_fns_by_arch
+    )
+
+    return {
+        "counts": {
+            "master_cards": len(cards),
+            "archetypes_total": len(archetypes),
+            "archetypes_scoped": len(scoped_archs),
+            "card_archetypes_master": sum(len(v) for v in arch_members.values()),
+            "fp_archetypes": len(fps_report),
+            "fp_pairs_total": sum(r["fp_count"] for r in fps_report),
+            "fp_pairs_ocg": sum(r["ocg_fp_count"] for r in fps_report),
+            "fp_pairs_vg": sum(r["vg_fp_count"] for r in fps_report),
+            "fp_pairs_token": sum(r["token_fp_count"] for r in fps_report),
+            "fp_pairs_ja_match": sum(r["ja_match_count"] for r in fps_report),
+            "fn_archetypes": len(fns_report),
+            "fn_pairs_total": sum(r["fn_count"] for r in fns_report),
+            "arch_overlap_pairs": len(arch_overlaps),
+            "mixed_case_candidates": len(mixed_case),
+            "mixed_case_zero_extra_fp": sum(1 for m in mixed_case if m["extra_fp_count"] == 0),
+            "clean_snc0_candidates": len(clean_snc0),
+            "strict_violations": strict_violations,
+        },
+        "false_positives": fps_report,
+        "false_negatives": fns_report,
+        "arch_overlaps": arch_overlaps,
+        "mixed_case": mixed_case,
+        "clean_snc0": clean_snc0,
+    }
+
+
+def _md_escape(text: str) -> str:
+    return text.replace("|", "\\|")
+
+
+def format_summary(report: dict[str, Any], category: str, snc_filter: str) -> str:
+    c = report["counts"]
+    lines = [
+        f"Audit Scope: snc={snc_filter} ({c['archetypes_scoped']}/{c['archetypes_total']} archetypes, {c['master_cards']:,} Master cards, {c['card_archetypes_master']:,} links)",
+        f"False Positives : {c['fp_archetypes']} archetypes, {c['fp_pairs_total']:,} pairs (OCG={c['fp_pairs_ocg']:,}, VG={c['fp_pairs_vg']}, TOKEN={c['fp_pairs_token']}, JA_MATCH={c['fp_pairs_ja_match']})",
+        f"False Negatives : {c['fn_archetypes']} archetypes, {c['fn_pairs_total']} unflagged (is_rule_override=0) pairs",
+        f"Arch Overlaps   : {c['arch_overlap_pairs']} non-sub-archetype A-in-B pairs",
+        f"Mixed-Case Cands: {c['mixed_case_candidates']} archetypes ({c['mixed_case_zero_extra_fp']} with 0 extra FPs)",
+        f"Clean SNC=0     : {c['clean_snc0_candidates']} archetypes with 0 FPs and 0 FNs",
+    ]
+
+    if category in ("fp", "all") and report["false_positives"]:
+        lines.append("\n--- Top False Positives ---")
+        for row in report["false_positives"][:30]:
+            ex = ", ".join(
+                f"{x['id']}:{x['ocg_name']}{'[JA]' if x['ja_match'] else ''}"
+                for x in row["collisions"][:3]
+            )
+            lines.append(
+                f"  {row['fp_count']:4d} (OCG={row['ocg_fp_count']:4d},VG={row['vg_fp_count']:2d},JA={row['ja_match_count']:2d}) "
+                f"| SNC={row['strict_negative_check']} | {row['archetype_id']:24s} | {row['ocg_name']!r:20s} | {ex}"
+            )
+        if len(report["false_positives"]) > 30:
+            lines.append(f"  ... +{len(report['false_positives']) - 30} more archetypes")
+
+    if category in ("fn", "all") and report["false_negatives"]:
+        lines.append("\n--- False Negatives (is_rule_override=0) ---")
+        for row in report["false_negatives"]:
+            ex = ", ".join(f"{x['id']}:{x['ocg_name']}" for x in row["misses"][:3])
+            lines.append(
+                f"  {row['fn_count']:3d} | SNC={row['strict_negative_check']} | {row['archetype_id']:24s} | {row['ocg_name']!r:20s} | {ex}"
+            )
+
+    if category in ("arch_overlap", "all") and report["arch_overlaps"]:
+        lines.append("\n--- Archetype-in-Archetype Overlaps ---")
+        for row in report["arch_overlaps"][:25]:
+            lines.append(
+                f"  {row['outer_id']} ({row['outer_ocg']!r}, SNC={row['outer_snc']}) IN "
+                f"{row['inner_id']} ({row['inner_ocg']!r}) [overlap {row['member_overlap']}/{row['inner_member_count']}]"
+            )
+        if len(report["arch_overlaps"]) > 25:
+            lines.append(f"  ... +{len(report['arch_overlaps']) - 25} more overlaps")
+
+    if category in ("mixed_case", "all") and report["mixed_case"]:
+        lines.append("\n--- Mixed-Case Candidates ---")
+        for row in report["mixed_case"][:25]:
+            lines.append(
+                f"  lo={row['lower_member_count']:2d} ex={row['exact_member_count']:3d} extraFP={row['extra_fp_count']:2d} "
+                f"| SNC={row['strict_negative_check']} | {row['archetype_id']:22s} | {row['ocg_name']!r} -> {row['proposed_ocg_name']!r}"
+            )
+
+    if category in ("clean_snc0", "all") and report["clean_snc0"]:
+        lines.append("\n--- Clean SNC=0 Archetypes (Ready for SNC=1) ---")
+        lines.append("  " + ", ".join(r["archetype_id"] for r in report["clean_snc0"]))
+
+    return "\n".join(lines)
+
+
+def format_markdown(report: dict[str, Any], category: str, snc_filter: str) -> str:
+    c = report["counts"]
+    lines = [
+        f"# Archetype Exclusivity Audit Report (`snc={snc_filter}`)",
+        "",
+        f"- **Master cards:** {c['master_cards']:,} | **Scoped archetypes:** {c['archetypes_scoped']}/{c['archetypes_total']} | **Links:** {c['card_archetypes_master']:,}",
+        f"- **False positives:** {c['fp_archetypes']} archetypes, {c['fp_pairs_total']:,} pairs (OCG={c['fp_pairs_ocg']:,}, VG={c['fp_pairs_vg']}, TOKEN={c['fp_pairs_token']}, `JA_MATCH`={c['fp_pairs_ja_match']})",
+        f"- **False negatives (`is_rule_override=0`):** {c['fn_archetypes']} archetypes, {c['fn_pairs_total']} pairs",
+        f"- **Archetype-in-archetype overlaps:** {c['arch_overlap_pairs']} | **Mixed-case candidates:** {c['mixed_case_candidates']} ({c['mixed_case_zero_extra_fp']} zero-extra-FP) | **Clean SNC=0:** {c['clean_snc0_candidates']}",
+        "",
+    ]
+
+    if category in ("fp", "all") and report["false_positives"]:
+        lines.extend(
+            [
+                "## False Positives (Non-Member Collisions)",
+                "",
+                "| `archetype_id` | SNC | `ocg_name` | `tcg_name` | JA | Members | FPs (OCG/VG/TOK) | `JA_MATCH` | Sample Colliding Cards |",
+                "| :--- | :---: | :--- | :--- | :--- | ---: | :--- | ---: | :--- |",
+            ]
+        )
+        for row in report["false_positives"]:
+            sample = "; ".join(
+                f"`{x['id']}` {_md_escape(x['ocg_name'])} ({x['pool']}{', JA' if x['ja_match'] else ''})"
+                for x in row["collisions"][:5]
+            )
+            if row["fp_count"] > 5:
+                sample += f"; ... (+{row['fp_count'] - 5})"
+            counts_str = f"{row['fp_count']} ({row['ocg_fp_count']}/{row['vg_fp_count']}/{row['token_fp_count']})"
+            lines.append(
+                f"| `{row['archetype_id']}` | {row['strict_negative_check']} | `{_md_escape(row['ocg_name'])}` | "
+                f"`{_md_escape(row['tcg_name'])}` | {_md_escape(row['ja'])} | {row['member_count']} | "
+                f"{counts_str} | {row['ja_match_count']} | {sample} |"
+            )
+        lines.append("")
+
+    if category in ("fn", "all") and report["false_negatives"]:
+        lines.extend(
+            [
+                "## False Negatives (`is_rule_override = 0`)",
+                "",
+                "| `archetype_id` | SNC | `ocg_name` | JA | FNs | Sample Unmatched Members |",
+                "| :--- | :---: | :--- | :--- | ---: | :--- |",
+            ]
+        )
+        for row in report["false_negatives"]:
+            sample = "; ".join(
+                f"`{x['id']}` {_md_escape(x['ocg_name'])} ({_md_escape(x['ja'])})"
+                for x in row["misses"][:5]
+            )
+            if row["fn_count"] > 5:
+                sample += f"; ... (+{row['fn_count'] - 5})"
+            lines.append(
+                f"| `{row['archetype_id']}` | {row['strict_negative_check']} | `{_md_escape(row['ocg_name'])}` | "
+                f"{_md_escape(row['ja'])} | {row['fn_count']} | {sample} |"
+            )
+        lines.append("")
+
+    if category in ("mixed_case", "all") and report["mixed_case"]:
+        lines.extend(
+            [
+                "## Mixed-Case Candidates (Lowercase Mid-Word Members)",
+                "",
+                "| `archetype_id` | SNC | Current | Proposed | JA | Exact | Lower | Extra FPs | Lower Example | Extra FP Examples |",
+                "| :--- | :---: | :--- | :--- | :--- | ---: | ---: | ---: | :--- | :--- |",
+            ]
+        )
+        for row in report["mixed_case"]:
+            lo_ex = ", ".join(_md_escape(x) for x in row["lower_sample"][:2])
+            fp_ex = ", ".join(f"`{x['id']}` {_md_escape(x['ocg_name'])}" for x in row["extra_fps"][:3])
+            lines.append(
+                f"| `{row['archetype_id']}` | {row['strict_negative_check']} | `{_md_escape(row['ocg_name'])}` | "
+                f"`{_md_escape(row['proposed_ocg_name'])}` | {_md_escape(row['ja'])} | {row['exact_member_count']} | "
+                f"{row['lower_member_count']} | {row['extra_fp_count']} | {lo_ex} | {fp_ex} |"
+            )
+        lines.append("")
+
+    if category in ("arch_overlap", "all") and report["arch_overlaps"]:
+        lines.extend(
+            [
+                "## Archetype-in-Archetype Overlaps",
+                "",
+                "| Outer (`archetype_id`) | Outer `ocg_name` | SNC | Inner (`archetype_id`) | Inner `ocg_name` | Member Overlap |",
+                "| :--- | :--- | :---: | :--- | :--- | ---: |",
+            ]
+        )
+        for row in report["arch_overlaps"]:
+            lines.append(
+                f"| `{row['outer_id']}` | `{_md_escape(row['outer_ocg'])}` | {row['outer_snc']} | "
+                f"`{row['inner_id']}` | `{_md_escape(row['inner_ocg'])}` | {row['member_overlap']}/{row['inner_member_count']} |"
+            )
+        lines.append("")
+
+    if category in ("clean_snc0", "all") and report["clean_snc0"]:
+        lines.extend(
+            [
+                "## Clean `SNC = 0` Archetypes (0 FPs, 0 FNs)",
+                "",
+                "| `archetype_id` | `ocg_name` | `tcg_name` | JA | Members |",
+                "| :--- | :--- | :--- | :--- | ---: |",
+            ]
+        )
+        for row in report["clean_snc0"]:
+            lines.append(
+                f"| `{row['archetype_id']}` | `{_md_escape(row['ocg_name'])}` | `{_md_escape(row['tcg_name'])}` | "
+                f"{_md_escape(row['ja'])} | {row['member_count']} |"
+            )
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Bidirectional Master-format archetype exclusivity auditor")
+    parser.add_argument("--snc", choices=["1", "0", "all"], default="all", help="Filter by strict_negative_check (default: all)")
+    parser.add_argument(
+        "--category",
+        choices=["fp", "fn", "arch_overlap", "mixed_case", "clean_snc0", "all"],
+        default="all",
+        help="Audit category to display (default: all)",
+    )
+    parser.add_argument("--min-fp", type=int, default=0, help="Minimum FP count filter")
+    parser.add_argument("--max-fp", type=int, default=None, help="Maximum FP count filter")
+    parser.add_argument("--format", choices=["summary", "md", "json"], default="summary", help="Output format")
+    parser.add_argument("--out", type=Path, default=None, help="Optional file path to write output")
+    parser.add_argument("--strict", action="store_true", help="Exit with code 1 if any FP or unflagged FN exists in scope")
+    args = parser.parse_args()
+
+    cards = load_jsonl(DUMP_DIR / "cards.jsonl")
+    archetypes = load_jsonl(DUMP_DIR / "archetypes.jsonl")
+    links = load_jsonl(DUMP_DIR / "card_archetypes.jsonl")
+
+    report = run_audit(
+        cards,
+        archetypes,
+        links,
+        snc_filter=args.snc,
+        min_fp=args.min_fp,
+        max_fp=args.max_fp,
+    )
+
+    if args.format == "json":
+        rendered = json.dumps(report, ensure_ascii=False, indent=2) + "\n"
+    elif args.format == "md":
+        rendered = format_markdown(report, args.category, args.snc)
+    else:
+        rendered = format_summary(report, args.category, args.snc)
+
+    if args.out is not None:
+        args.out.parent.mkdir(parents=True, exist_ok=True)
+        args.out.write_text(rendered, encoding="utf-8", newline="\n")
+        print(f"Wrote audit report to {args.out}")
+    else:
+        print(rendered)
+
+    if args.strict and report["counts"]["strict_violations"] > 0:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
