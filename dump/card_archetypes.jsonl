@@ -281,8 +281,8 @@
 {"card_id": 5213, "archetype_id": "prophecy", "is_rule_override": 0}
 {"card_id": 5218, "archetype_id": "change", "is_rule_override": 0}
 {"card_id": 5234, "archetype_id": "apophis", "is_rule_override": 0}
-{"card_id": 5239, "archetype_id": "harpie_lady", "is_rule_override": 1}
-{"card_id": 5239, "archetype_id": "harpy", "is_rule_override": 1}
+{"card_id": 5239, "archetype_id": "harpie_lady", "is_rule_override": 0}
+{"card_id": 5239, "archetype_id": "harpy", "is_rule_override": 0}
 {"card_id": 5242, "archetype_id": "serket", "is_rule_override": 0}
 {"card_id": 5243, "archetype_id": "gaia_the_fierce_knight", "is_rule_override": 0}
 {"card_id": 5244, "archetype_id": "celtic_guard", "is_rule_override": 0}
@@ -909,7 +909,7 @@
 {"card_id": 7171, "archetype_id": "ultimate_crystal", "is_rule_override": 0}
 {"card_id": 7172, "archetype_id": "chrysalis", "is_rule_override": 0}
 {"card_id": 7173, "archetype_id": "chrysalis", "is_rule_override": 0}
-{"card_id": 7174, "archetype_id": "neo_spacian", "is_rule_override": 1}
+{"card_id": 7174, "archetype_id": "neo_spacian", "is_rule_override": 0}
 {"card_id": 7175, "archetype_id": "elemental_hero", "is_rule_override": 0}
 {"card_id": 7175, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 7175, "archetype_id": "neos", "is_rule_override": 0}
@@ -1063,7 +1063,7 @@
 {"card_id": 7432, "archetype_id": "gladiator", "is_rule_override": 0}
 {"card_id": 7432, "archetype_id": "gladiator_beast", "is_rule_override": 0}
 {"card_id": 7437, "archetype_id": "koala", "is_rule_override": 0}
-{"card_id": 7441, "archetype_id": "neo_spacian", "is_rule_override": 1}
+{"card_id": 7441, "archetype_id": "neo_spacian", "is_rule_override": 0}
 {"card_id": 7442, "archetype_id": "elemental_hero", "is_rule_override": 0}
 {"card_id": 7442, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 7442, "archetype_id": "neos", "is_rule_override": 0}
@@ -3513,8 +3513,8 @@
 {"card_id": 11123, "archetype_id": "rose", "is_rule_override": 0}
 {"card_id": 11125, "archetype_id": "prophecy", "is_rule_override": 0}
 {"card_id": 11132, "archetype_id": "number", "is_rule_override": 0}
-{"card_id": 11132, "archetype_id": "utopia", "is_rule_override": 1}
-{"card_id": 11132, "archetype_id": "utopic", "is_rule_override": 1}
+{"card_id": 11132, "archetype_id": "utopia", "is_rule_override": 0}
+{"card_id": 11132, "archetype_id": "utopic", "is_rule_override": 0}
 {"card_id": 11133, "archetype_id": "chaos", "is_rule_override": 0}
 {"card_id": 11133, "archetype_id": "cxyz", "is_rule_override": 0}
 {"card_id": 11133, "archetype_id": "xyz", "is_rule_override": 0}
@@ -3652,7 +3652,7 @@
 {"card_id": 11308, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 11310, "archetype_id": "chaos", "is_rule_override": 0}
 {"card_id": 11310, "archetype_id": "elemental_hero", "is_rule_override": 1}
-{"card_id": 11310, "archetype_id": "hero", "is_rule_override": 1}
+{"card_id": 11310, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 11311, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 11311, "archetype_id": "masked_hero", "is_rule_override": 0}
 {"card_id": 11312, "archetype_id": "hero", "is_rule_override": 0}
@@ -3745,7 +3745,7 @@
 {"card_id": 11407, "archetype_id": "yang_zing", "is_rule_override": 0}
 {"card_id": 11408, "archetype_id": "naturia", "is_rule_override": 0}
 {"card_id": 11410, "archetype_id": "fusion", "is_rule_override": 0}
-{"card_id": 11413, "archetype_id": "number", "is_rule_override": 1}
+{"card_id": 11413, "archetype_id": "number", "is_rule_override": 0}
 {"card_id": 11413, "archetype_id": "utopic", "is_rule_override": 0}
 {"card_id": 11413, "archetype_id": "utopic_future", "is_rule_override": 0}
 {"card_id": 11414, "archetype_id": "gagaga", "is_rule_override": 0}
@@ -3836,7 +3836,7 @@
 {"card_id": 11500, "archetype_id": "ritual_beast_ulti", "is_rule_override": 0}
 {"card_id": 11501, "archetype_id": "ritual_beast", "is_rule_override": 0}
 {"card_id": 11502, "archetype_id": "ritual_beast", "is_rule_override": 0}
-{"card_id": 11504, "archetype_id": "fusion", "is_rule_override": 1}
+{"card_id": 11504, "archetype_id": "fusion", "is_rule_override": 0}
 {"card_id": 11505, "archetype_id": "burning_abyss", "is_rule_override": 0}
 {"card_id": 11506, "archetype_id": "burning_abyss", "is_rule_override": 0}
 {"card_id": 11507, "archetype_id": "burning_abyss", "is_rule_override": 0}
@@ -4188,7 +4188,7 @@
 {"card_id": 11930, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 11930, "archetype_id": "masked_hero", "is_rule_override": 0}
 {"card_id": 11931, "archetype_id": "stardust", "is_rule_override": 0}
-{"card_id": 11932, "archetype_id": "number", "is_rule_override": 1}
+{"card_id": 11932, "archetype_id": "number", "is_rule_override": 0}
 {"card_id": 11932, "archetype_id": "utopic", "is_rule_override": 0}
 {"card_id": 11932, "archetype_id": "zexal", "is_rule_override": 0}
 {"card_id": 11933, "archetype_id": "pendulum_magician", "is_rule_override": 0}
@@ -5023,7 +5023,7 @@
 {"card_id": 12884, "archetype_id": "pendulum", "is_rule_override": 0}
 {"card_id": 12885, "archetype_id": "frightfur", "is_rule_override": 0}
 {"card_id": 12886, "archetype_id": "frightfur", "is_rule_override": 0}
-{"card_id": 12887, "archetype_id": "raidraptor", "is_rule_override": 1}
+{"card_id": 12887, "archetype_id": "raidraptor", "is_rule_override": 0}
 {"card_id": 12890, "archetype_id": "number", "is_rule_override": 0}
 {"card_id": 12891, "archetype_id": "number", "is_rule_override": 0}
 {"card_id": 12892, "archetype_id": "roid", "is_rule_override": 0}
@@ -5131,7 +5131,7 @@
 {"card_id": 12997, "archetype_id": "ancient_gear", "is_rule_override": 0}
 {"card_id": 13016, "archetype_id": "d_d", "is_rule_override": 0}
 {"card_id": 13016, "archetype_id": "d_d_d", "is_rule_override": 0}
-{"card_id": 13017, "archetype_id": "number", "is_rule_override": 1}
+{"card_id": 13017, "archetype_id": "number", "is_rule_override": 0}
 {"card_id": 13017, "archetype_id": "utopic", "is_rule_override": 0}
 {"card_id": 13017, "archetype_id": "utopic_future", "is_rule_override": 0}
 {"card_id": 13018, "archetype_id": "raidraptor", "is_rule_override": 0}
@@ -6579,8 +6579,8 @@
 {"card_id": 14955, "archetype_id": "crystal", "is_rule_override": 0}
 {"card_id": 14955, "archetype_id": "crystal_beast", "is_rule_override": 0}
 {"card_id": 14956, "archetype_id": "t_g", "is_rule_override": 0}
-{"card_id": 14958, "archetype_id": "number", "is_rule_override": 1}
-{"card_id": 14958, "archetype_id": "utopic", "is_rule_override": 1}
+{"card_id": 14958, "archetype_id": "number", "is_rule_override": 0}
+{"card_id": 14958, "archetype_id": "utopic", "is_rule_override": 0}
 {"card_id": 14958, "archetype_id": "utopic_future", "is_rule_override": 1}
 {"card_id": 14959, "archetype_id": "galaxy", "is_rule_override": 0}
 {"card_id": 14959, "archetype_id": "galaxy_eyes", "is_rule_override": 0}
@@ -7216,8 +7216,8 @@
 {"card_id": 16000, "archetype_id": "number", "is_rule_override": 1}
 {"card_id": 16000, "archetype_id": "number_c", "is_rule_override": 1}
 {"card_id": 16000, "archetype_id": "number_c39", "is_rule_override": 1}
-{"card_id": 16000, "archetype_id": "utopia", "is_rule_override": 1}
-{"card_id": 16000, "archetype_id": "utopic", "is_rule_override": 1}
+{"card_id": 16000, "archetype_id": "utopia", "is_rule_override": 0}
+{"card_id": 16000, "archetype_id": "utopic", "is_rule_override": 0}
 {"card_id": 16001, "archetype_id": "zexal", "is_rule_override": 0}
 {"card_id": 16001, "archetype_id": "zw", "is_rule_override": 0}
 {"card_id": 16002, "archetype_id": "springans", "is_rule_override": 0}
@@ -7422,8 +7422,8 @@
 {"card_id": 16421, "archetype_id": "number", "is_rule_override": 1}
 {"card_id": 16421, "archetype_id": "number_c", "is_rule_override": 1}
 {"card_id": 16421, "archetype_id": "number_c39", "is_rule_override": 1}
-{"card_id": 16421, "archetype_id": "utopia", "is_rule_override": 1}
-{"card_id": 16421, "archetype_id": "utopic", "is_rule_override": 1}
+{"card_id": 16421, "archetype_id": "utopia", "is_rule_override": 0}
+{"card_id": 16421, "archetype_id": "utopic", "is_rule_override": 0}
 {"card_id": 16422, "archetype_id": "zexal", "is_rule_override": 0}
 {"card_id": 16424, "archetype_id": "number", "is_rule_override": 0}
 {"card_id": 16424, "archetype_id": "stealth_kragen", "is_rule_override": 0}
@@ -8565,7 +8565,7 @@
 {"card_id": 19466, "archetype_id": "goblin_biker", "is_rule_override": 0}
 {"card_id": 19467, "archetype_id": "snake_eye", "is_rule_override": 0}
 {"card_id": 19468, "archetype_id": "gate_guardian", "is_rule_override": 1}
-{"card_id": 19468, "archetype_id": "guardian", "is_rule_override": 1}
+{"card_id": 19468, "archetype_id": "guardian", "is_rule_override": 0}
 {"card_id": 19469, "archetype_id": "phantasm", "is_rule_override": 0}
 {"card_id": 19470, "archetype_id": "ghoti", "is_rule_override": 0}
 {"card_id": 19471, "archetype_id": "ghoti", "is_rule_override": 0}
@@ -8595,7 +8595,7 @@
 {"card_id": 19505, "archetype_id": "rose", "is_rule_override": 0}
 {"card_id": 19506, "archetype_id": "majespecter", "is_rule_override": 0}
 {"card_id": 19508, "archetype_id": "prophecy", "is_rule_override": 0}
-{"card_id": 19511, "archetype_id": "raidraptor", "is_rule_override": 1}
+{"card_id": 19511, "archetype_id": "raidraptor", "is_rule_override": 0}
 {"card_id": 19511, "archetype_id": "rank_up_magic", "is_rule_override": 0}
 {"card_id": 19512, "archetype_id": "raidraptor", "is_rule_override": 0}
 {"card_id": 19515, "archetype_id": "goblin", "is_rule_override": 0}
@@ -9675,11 +9675,11 @@
 {"card_id": 22692, "archetype_id": "prophecy", "is_rule_override": 0}
 {"card_id": 22693, "archetype_id": "elemental_hero", "is_rule_override": 1}
 {"card_id": 22693, "archetype_id": "favorite", "is_rule_override": 0}
-{"card_id": 22693, "archetype_id": "hero", "is_rule_override": 1}
+{"card_id": 22693, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 22693, "archetype_id": "wingman", "is_rule_override": 0}
 {"card_id": 22694, "archetype_id": "elemental_hero", "is_rule_override": 1}
 {"card_id": 22694, "archetype_id": "favorite", "is_rule_override": 0}
-{"card_id": 22694, "archetype_id": "hero", "is_rule_override": 1}
+{"card_id": 22694, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 22694, "archetype_id": "wingman", "is_rule_override": 0}
 {"card_id": 22695, "archetype_id": "kuriboh", "is_rule_override": 0}
 {"card_id": 22695, "archetype_id": "lv", "is_rule_override": 0}
@@ -9749,7 +9749,7 @@
 {"card_id": 22741, "archetype_id": "chaos", "is_rule_override": 0}
 {"card_id": 22742, "archetype_id": "rank_up_magic", "is_rule_override": 0}
 {"card_id": 22829, "archetype_id": "familiar_possessed", "is_rule_override": 1}
-{"card_id": 22829, "archetype_id": "possessed", "is_rule_override": 1}
+{"card_id": 22829, "archetype_id": "possessed", "is_rule_override": 0}
 {"card_id": 22920, "archetype_id": "clown_crew", "is_rule_override": 0}
 {"card_id": 22921, "archetype_id": "assault_mode", "is_rule_override": 0}
 {"card_id": 22921, "archetype_id": "rose", "is_rule_override": 0}

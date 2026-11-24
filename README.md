@@ -18,9 +18,9 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
     ├── cards.jsonl             # 14,975 Master-format cards (OCG, game-only, Tokens)
     ├── rush_cards.jsonl        # 2,839 Rush Duel cards
     ├── gba_cards.jsonl         # 28 GBA-exclusive DM7/DM8 non-OCG cards
-    ├── archetypes.jsonl        # 614 official OCG archetypes
+    ├── archetypes.jsonl        # 615 official OCG archetypes
     ├── series.jsonl            # 369 thematic series
-    ├── card_archetypes.jsonl   # 10,077 Master card <-> archetype links
+    ├── card_archetypes.jsonl   # 10,095 Master card <-> archetype links
     ├── card_series.jsonl       # 2,049 Master card <-> series links
     ├── rush_card_series.jsonl  # 1,943 Rush card <-> series links
     ├── characters.jsonl        # 1,548 characters

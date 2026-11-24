@@ -9,10 +9,10 @@
 {"term_id": "dual_subtype", "category": "monster_subtype", "ja_base": null, "ja_kana": "デュアル", "ocg_name": "Dual", "tcg_en": "Gemini", "en_legacy_terms": null}
 {"term_id": "exclusion", "category": "zone", "ja_base": "除外", "ja_kana": "じょがい", "ocg_name": "Exclude", "tcg_en": "Banish", "en_legacy_terms": "Remove from play"}
 {"term_id": "fire_attr", "category": "attribute", "ja_base": "炎", "ja_kana": "ほのお", "ocg_name": "FLAME", "tcg_en": "FIRE", "en_legacy_terms": null}
-{"term_id": "heaven_warrior", "category": "monster_type", "ja_base": "天界戦士", "ja_kana": "てんかいせんし", "ocg_name": "Heaven Warrior", "tcg_en": "Celestial Warrior", "en_legacy_terms": null}
-{"term_id": "illusion", "category": "monster_type", "ja_base": "幻想魔", "ja_kana": "げんそうま", "ocg_name": "Illusion Demon", "tcg_en": "Illusion", "en_legacy_terms": null}
+{"term_id": "heaven_warrior", "category": "monster_type", "ja_base": "天界戦士族", "ja_kana": "てんかいせんしぞく", "ocg_name": "Heaven Warrior", "tcg_en": "Celestial Warrior", "en_legacy_terms": null}
+{"term_id": "illusion", "category": "monster_type", "ja_base": "幻想魔族", "ja_kana": "げんそうまぞく", "ocg_name": "Illusion Demon", "tcg_en": "Illusion", "en_legacy_terms": null}
 {"term_id": "magic", "category": "card_type", "ja_base": "魔法", "ja_kana": "まほう", "ocg_name": "Magic", "tcg_en": "Spell", "en_legacy_terms": null}
-{"term_id": "old_god", "category": "monster_type", "ja_base": "旧神", "ja_kana": "きゅうしん", "ocg_name": "Old God", "tcg_en": "Immortal", "en_legacy_terms": null}
+{"term_id": "old_god", "category": "monster_type", "ja_base": "旧神族", "ja_kana": "きゅうしんぞく", "ocg_name": "Old God", "tcg_en": "Immortal", "en_legacy_terms": null}
 {"term_id": "phantom_dragon", "category": "monster_type", "ja_base": "幻竜族", "ja_kana": "げんりゅうぞく", "ocg_name": "Phantom Dragon", "tcg_en": "Wyrm", "en_legacy_terms": null}
 {"term_id": "pyro", "category": "monster_type", "ja_base": "炎族", "ja_kana": "ほのおぞく", "ocg_name": "Flame", "tcg_en": "Pyro", "en_legacy_terms": null}
 {"term_id": "race", "category": "monster_type", "ja_base": "種族", "ja_kana": "しゅぞく", "ocg_name": "Race", "tcg_en": "Type", "en_legacy_terms": null}
