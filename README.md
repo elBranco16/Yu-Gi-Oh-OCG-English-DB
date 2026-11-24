@@ -10,7 +10,7 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 
 ```text
 .
-├── sync_db.py                  # Export/import/validate between SQLite and dump/
+├── sync_db.py                  # Export/import/validate between SQLite and dump/, plus Yugipedia overriden_check verification
 ├── apply_text_mod.py           # Populate/update ocg_text & en_legacy_names (erratas, numbering, PSCT shortening, OCG localization)
 ├── audit_archetypes.py         # Bidirectional archetype exclusivity & false-negative auditor
 └── dump/
@@ -91,9 +91,33 @@ git push
 
 | Command | Description |
 | :--- | :--- |
-| `python sync_db.py check` | Validates all `dump/*.jsonl` files in a temporary SQLite DB (JSON syntax, primary keys, foreign keys, and integrity) without touching any local `.db`. |
+| `python sync_db.py check` | Checks `cards.jsonl` and `rush_cards.jsonl` against Yugipedia's Japanese name translations (marking `ocg_name` mismatches with `overriden_check = 1`, cached in `.cache/yugipedia_translations_cache.json`), and validates all `dump/*.jsonl` files in a temporary SQLite DB (JSON syntax, primary keys, foreign keys, and integrity). |
 | `python sync_db.py import` | Rebuilds `./ocg_standard.db` from `dump/`. Supports `--db <path>`. |
 | `python sync_db.py export` | Exports `./ocg_standard.db` back into sorted, UTF-8/LF `dump/*.jsonl` files and `dump/schema.sql`. Supports `--db <path>`. |
+
+### `sync_db.py check` Options
+
+```bash
+python sync_db.py check --dry-run            # Preview overriden_check changes without modifying dump/*.jsonl
+python sync_db.py check --sync-db            # Also rebuild ocg_standard.db if dump/*.jsonl was updated
+python sync_db.py check --skip-yugipedia     # Run offline JSONL/SQLite validation only
+```
+
+| Flag | Description |
+| :--- | :--- |
+| `--dry-run` | Preview `overriden_check` changes without modifying `dump/*.jsonl`. |
+| `--sync-db` | Rebuild `--db` via `import` automatically if `dump/*.jsonl` was updated. |
+| `--skip-yugipedia` | Skip the Yugipedia lookup pass and run offline JSONL/SQLite validation only. |
+| `--tables` | Card tables to check (`cards`, `rush_cards`; default: both). |
+| `--ids` | Only check specific card IDs against Yugipedia. |
+| `--dump-dir` | Path to dump directory (default: `./dump`). |
+| `--refresh-cache` | Ignore `.cache/yugipedia_translations_cache.json` and re-fetch from Yugipedia. |
+| `--cache-path` | Custom path for the Yugipedia lookup cache JSON. |
+| `--only-explicit-translated` | Only compare against Yugipedia's explicit `Translated Japanese name` (skip `English name` fallback). |
+| `--ignore-case` | Perform case-insensitive name comparison. |
+| `--reset-matching` | Reset `overriden_check` from `1` to `0` when `ocg_name` matches Yugipedia's translation. |
+| `--report` | Write a full `.json` or `.csv` report of checked cards and statuses. |
+| `--limit-preview` | Maximum sample updates to print in console output (default: `25`). |
 
 ---
 
