@@ -82,7 +82,7 @@
 {"series_id": "dark_lucius", "ja_base": "漆黒の魔王", "ja_kana": "ダーク・ルシアス", "ocg_name": "Dark Lucius", "tcg_name": null}
 {"series_id": "dark_magician_rush_duel_series_rush", "ja_base": null, "ja_kana": "ブラック・マジシャン", "ocg_name": "Black Magician (Rush Duel series)", "tcg_name": "Dark Magician (Rush Duel series)"}
 {"series_id": "dark_matter", "ja_base": null, "ja_kana": "ダークマター", "ocg_name": "Dark Matter", "tcg_name": null}
-{"series_id": "dark_time_wizard", "ja_base": "時の黒魔術師", "ja_kana": "ときのくろまじゅつし", "ocg_name": "Black Time Spellcaster", "tcg_name": "Dark Time Wizard"}
+{"series_id": "dark_time_wizard", "ja_base": "時の黒魔術師", "ja_kana": "ときのくろまじゅつし", "ocg_name": "Black Time Arcanist", "tcg_name": "Dark Time Wizard"}
 {"series_id": "darkness_rush_duel_series_rush", "ja_base": null, "ja_kana": "ダークネス", "ocg_name": "Darkness (Rush Duel series)", "tcg_name": null}
 {"series_id": "death", "ja_base": "死", "ja_kana": "デス", "ocg_name": "Death", "tcg_name": null}
 {"series_id": "deep_sea", "ja_base": "深海", "ja_kana": "しんかい", "ocg_name": "Deep-Sea", "tcg_name": "Deep Sea"}
@@ -94,7 +94,7 @@
 {"series_id": "dimension", "ja_base": null, "ja_kana": "ディメンション", "ocg_name": "Dimension", "tcg_name": null}
 {"series_id": "dimension_linker", "ja_base": null, "ja_kana": "ディメンション・リンカー", "ocg_name": "Dimension Linker", "tcg_name": null}
 {"series_id": "divine_dragon", "ja_base": "神竜", "ja_kana": "しんりゅう", "ocg_name": "Divine Dragon", "tcg_name": null}
-{"series_id": "djinn_of_rituals", "ja_base": "儀式魔人", "ja_kana": "ぎしきまじん", "ocg_name": "Ceremony Djinn", "tcg_name": "Djinn of Rituals"}
+{"series_id": "djinn_of_rituals", "ja_base": "儀式魔人", "ja_kana": "ぎしきまじん", "ocg_name": "Rite Majin", "tcg_name": "Djinn of Rituals"}
 {"series_id": "dna", "ja_base": null, "ja_kana": "ＤＮＡ", "ocg_name": "DNA", "tcg_name": null}
 {"series_id": "dog_marron", "ja_base": "犬マロン", "ja_kana": "いぬマロン", "ocg_name": "Dog Marron", "tcg_name": null}
 {"series_id": "dolphin", "ja_base": null, "ja_kana": "イルカ", "ocg_name": "Dolphin", "tcg_name": null}
@@ -191,7 +191,7 @@
 {"series_id": "legendary_planet", "ja_base": "Ｐシリーズ", "ja_kana": "プラネットシリーズ", "ocg_name": "Planet Series", "tcg_name": "Legendary Planet"}
 {"series_id": "legendary_six_samurai", "ja_base": "真六武衆", "ja_kana": "しんろくぶしゅう", "ocg_name": "True Rokubushu", "tcg_name": "Legendary Six Samurai"}
 {"series_id": "light_and_darkness_dragon", "ja_base": "光と闇の竜", "ja_kana": "ライトアンドダークネス・ドラゴン", "ocg_name": "Light and Darkness Dragon", "tcg_name": null}
-{"series_id": "light_and_darkness_ritual", "ja_base": "光と闇の儀式", "ja_kana": "ひかりとやみのぎしき", "ocg_name": "Light and Darkness Ceremony", "tcg_name": "Light and Darkness Ritual"}
+{"series_id": "light_and_darkness_ritual", "ja_base": "光と闇の儀式", "ja_kana": "ひかりとやみのぎしき", "ocg_name": "Light and Darkness Rite", "tcg_name": "Light and Darkness Ritual"}
 {"series_id": "lightning_bringer", "ja_base": "恵雷", "ja_kana": "けいらい", "ocg_name": "Lightning Bringer", "tcg_name": null}
 {"series_id": "lightning_voltcondor", "ja_base": null, "ja_kana": "ライトニング・ボルコンドル", "ocg_name": "Lightning Volcondor", "tcg_name": "Lightning Voltcondor"}
 {"series_id": "lightray", "ja_base": null, "ja_kana": "ライトレイ", "ocg_name": "Lightray", "tcg_name": null}
@@ -279,7 +279,7 @@
 {"series_id": "signer_dragon", "ja_base": "シグナーの竜", "ja_kana": "シグナーのりゅう", "ocg_name": "Signer Dragon", "tcg_name": null}
 {"series_id": "skilled_magician", "ja_base": "熟練の", "ja_kana": "じゅくれんの", "ocg_name": "Skilled", "tcg_name": "Skilled Magician"}
 {"series_id": "skull_archfiend", "ja_base": null, "ja_kana": "デーモンの", "ocg_name": "Daemon's", "tcg_name": "Skull Archfiend"}
-{"series_id": "sky_scourge", "ja_base": "天魔神", "ja_kana": "てんましん", "ocg_name": "Sky Demon God", "tcg_name": "Sky Scourge"}
+{"series_id": "sky_scourge", "ja_base": "天魔神", "ja_kana": "てんましん", "ocg_name": "Sky Devil", "tcg_name": "Sky Scourge"}
 {"series_id": "skysavior", "ja_base": "蒼救", "ja_kana": "そうきゅう", "ocg_name": "Skysavior", "tcg_name": null}
 {"series_id": "slime", "ja_base": null, "ja_kana": "スライム", "ocg_name": "Slime", "tcg_name": null}
 {"series_id": "snow", "ja_base": null, "ja_kana": null, "ocg_name": "Snow", "tcg_name": null}
@@ -339,7 +339,7 @@
 {"series_id": "type_destroyer", "ja_base": null, "ja_kana": null, "ocg_name": "Race Destroyer", "tcg_name": "Type Destroyer"}
 {"series_id": "ultimate_flag", "ja_base": "最強旗", "ja_kana": "サイキョーキ", "ocg_name": "Strongest Flag", "tcg_name": "Ultimate Flag"}
 {"series_id": "ultimate_insect", "ja_base": null, "ja_kana": "アルティメット・インセクト", "ocg_name": "Ultimate Insect", "tcg_name": null}
-{"series_id": "ultimate_magical", "ja_base": "超魔導", "ja_kana": "ちょうまどう", "ocg_name": "Super Magus", "tcg_name": "Ultimate Magical"}
+{"series_id": "ultimate_magical", "ja_base": "超魔導", "ja_kana": "ちょうまどう", "ocg_name": "Super Spellcraft", "tcg_name": "Ultimate Magical"}
 {"series_id": "umi", "ja_base": "海", "ja_kana": "うみ", "ocg_name": "Sea", "tcg_name": "Umi"}
 {"series_id": "underworld", "ja_base": "劫火", "ja_kana": "ごうか", "ocg_name": "Hellfire", "tcg_name": "Underworld"}
 {"series_id": "unicorn", "ja_base": null, "ja_kana": null, "ocg_name": "Unicorn", "tcg_name": null}

@@ -4811,6 +4811,7 @@
 {"card_id": 12665, "archetype_id": "graydle", "is_rule_override": 0}
 {"card_id": 12666, "archetype_id": "qli", "is_rule_override": 0}
 {"card_id": 12667, "archetype_id": "yang_zing", "is_rule_override": 0}
+{"card_id": 12672, "archetype_id": "prophecy", "is_rule_override": 0}
 {"card_id": 12673, "archetype_id": "performapal", "is_rule_override": 0}
 {"card_id": 12674, "archetype_id": "fluffal", "is_rule_override": 0}
 {"card_id": 12675, "archetype_id": "ancient_gear", "is_rule_override": 0}
@@ -6530,6 +6531,7 @@
 {"card_id": 14902, "archetype_id": "dream_mirror", "is_rule_override": 0}
 {"card_id": 14903, "archetype_id": "valkyrie", "is_rule_override": 0}
 {"card_id": 14905, "archetype_id": "black_magician", "is_rule_override": 0}
+{"card_id": 14905, "archetype_id": "prophecy", "is_rule_override": 0}
 {"card_id": 14910, "archetype_id": "elemental_hero", "is_rule_override": 0}
 {"card_id": 14910, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 14911, "archetype_id": "elemental_hero", "is_rule_override": 0}

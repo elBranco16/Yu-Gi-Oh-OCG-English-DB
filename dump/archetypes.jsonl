@@ -120,7 +120,7 @@
 {"archetype_id": "dinomist", "ja_base": null, "ja_kana": "ダイナミスト", "ocg_name": "Dynamist", "tcg_name": "Dinomist"}
 {"archetype_id": "dinomorphia", "ja_base": null, "ja_kana": "ダイノルフィア", "ocg_name": "Dinorphia", "tcg_name": "Dinomorphia"}
 {"archetype_id": "dinowrestler", "ja_base": null, "ja_kana": "ダイナレスラー", "ocg_name": "Dinowrestler", "tcg_name": null}
-{"archetype_id": "djinn", "ja_base": "魔人", "ja_kana": "まじん", "ocg_name": "Djinn", "tcg_name": null}
+{"archetype_id": "djinn", "ja_base": "魔人", "ja_kana": "まじん", "ocg_name": "Majin", "tcg_name": "Djinn"}
 {"archetype_id": "dododo", "ja_base": null, "ja_kana": "ドドド", "ocg_name": "Dododo", "tcg_name": null}
 {"archetype_id": "dogmatika", "ja_base": null, "ja_kana": "ドラグマ", "ocg_name": "dragma", "tcg_name": "Dogmatika"}
 {"archetype_id": "doll_monster", "ja_base": null, "ja_kana": "ドール・モンスター", "ocg_name": "Doll Monster", "tcg_name": null}
@@ -393,7 +393,7 @@
 {"archetype_id": "patissciel", "ja_base": "聖菓使", "ja_kana": "パティシエル", "ocg_name": "Patissciel", "tcg_name": null}
 {"archetype_id": "pendulum", "ja_base": null, "ja_kana": "ペンデュラム", "ocg_name": "Pendulum", "tcg_name": null}
 {"archetype_id": "pendulum_dragon", "ja_base": null, "ja_kana": "ペンデュラム・ドラゴン", "ocg_name": "Pendulum Dragon", "tcg_name": null}
-{"archetype_id": "pendulum_magician", "ja_base": "魔術師", "ja_kana": "まじゅつし", "ocg_name": "Spellcaster", "tcg_name": "Magician"}
+{"archetype_id": "pendulum_magician", "ja_base": "魔術師", "ja_kana": "まじゅつし", "ocg_name": "Arcanist", "tcg_name": "Magician"}
 {"archetype_id": "pendulumgraph", "ja_base": null, "ja_kana": "ペンデュラムグラフ", "ocg_name": "Pendulumgraph", "tcg_name": null}
 {"archetype_id": "penguin", "ja_base": null, "ja_kana": "ペンギン", "ocg_name": "Penguin", "tcg_name": null}
 {"archetype_id": "performage", "ja_base": "Ｅｍ", "ja_kana": "エンタメイジ", "ocg_name": "Entermage", "tcg_name": "Performage"}
@@ -413,7 +413,7 @@
 {"archetype_id": "predaplant", "ja_base": "捕食植物", "ja_kana": "プレデター・プランツ", "ocg_name": "Predator Plants", "tcg_name": "Predaplant"}
 {"archetype_id": "prediction_princess", "ja_base": "占術姫", "ja_kana": "せんじゅつき", "ocg_name": "Prediction Princess", "tcg_name": null}
 {"archetype_id": "primite", "ja_base": "原石", "ja_kana": "げんせき", "ocg_name": "Primal Ore", "tcg_name": "Primite"}
-{"archetype_id": "prophecy", "ja_base": "魔導", "ja_kana": "まどう", "ocg_name": "Magus", "tcg_name": "Prophecy"}
+{"archetype_id": "prophecy", "ja_base": "魔導", "ja_kana": "まどう", "ocg_name": "Spellcraft", "tcg_name": "Prophecy"}
 {"archetype_id": "psy_frame", "ja_base": "ＰＳＹフレーム", "ja_kana": "サイフレーム", "ocg_name": "PSY-Frame", "tcg_name": null}
 {"archetype_id": "psy_framegear", "ja_base": "ＰＳＹフレームギア", "ja_kana": "サイフレームギア", "ocg_name": "PSY-Framegear", "tcg_name": null}
 {"archetype_id": "puppet", "ja_base": null, "ja_kana": "パペット", "ocg_name": "Puppet", "tcg_name": null}
@@ -485,7 +485,7 @@
 {"archetype_id": "snake_eye", "ja_base": null, "ja_kana": "スネークアイ", "ocg_name": "Snake-Eye", "tcg_name": null}
 {"archetype_id": "solfachord", "ja_base": null, "ja_kana": "ドレミコード", "ocg_name": "Doremichord", "tcg_name": "Solfachord"}
 {"archetype_id": "speedroid", "ja_base": null, "ja_kana": "スピードロイド", "ocg_name": "Speedroid", "tcg_name": null}
-{"archetype_id": "spellbook", "ja_base": "魔導書", "ja_kana": "まどうしょ", "ocg_name": "Magus Tome", "tcg_name": "Spellbook"}
+{"archetype_id": "spellbook", "ja_base": "魔導書", "ja_kana": "まどうしょ", "ocg_name": "Spellcraft Tome", "tcg_name": "Spellbook"}
 {"archetype_id": "sphinx", "ja_base": null, "ja_kana": "スフィンクス", "ocg_name": "sphinx", "tcg_name": "Sphinx"}
 {"archetype_id": "spirit_message", "ja_base": "死のメッセージ", "ja_kana": "しのメッセージ", "ocg_name": "Death Message", "tcg_name": "Spirit Message"}
 {"archetype_id": "spiritual_beast", "ja_base": "精霊獣", "ja_kana": "せいれいじゅう", "ocg_name": "Elemental Spirit Beast", "tcg_name": "Spiritual Beast"}
