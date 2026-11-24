@@ -170,6 +170,7 @@
 {"archetype_id": "exodia", "ja_base": null, "ja_kana": "エクゾディア", "ocg_name": "Exodia", "tcg_name": "Exodia"}
 {"archetype_id": "exosister", "ja_base": null, "ja_kana": "エクソシスター", "ocg_name": "Exosister", "tcg_name": "Exosister"}
 {"archetype_id": "eyes_restrict", "ja_base": null, "ja_kana": "アイズ・サクリファイス", "ocg_name": "Eyes Sacrifice", "tcg_name": "Eyes Restrict"}
+{"archetype_id": "f_a", "ja_base": "Ｆ．Ａ．", "ja_kana": "フォーミュラアスリート", "ocg_name": "Formula Athlete", "tcg_name": "F.A."}
 {"archetype_id": "fabled", "ja_base": "魔轟神", "ja_kana": "まごうしん", "ocg_name": "Demon Roar God", "tcg_name": "Fabled"}
 {"archetype_id": "fairy_tail", "ja_base": "妖精伝姫", "ja_kana": "フェアリーテイル", "ocg_name": "Fairy Tail", "tcg_name": "Fairy Tail"}
 {"archetype_id": "familiar_possessed", "ja_base": "憑依装着", "ja_kana": "ひょういそうちゃく", "ocg_name": "Possession-Clad", "tcg_name": "Familiar-Possessed"}

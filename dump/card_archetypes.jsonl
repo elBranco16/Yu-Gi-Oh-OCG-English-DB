@@ -5303,6 +5303,10 @@
 {"card_id": 13210, "archetype_id": "vendread", "is_rule_override": 0}
 {"card_id": 13211, "archetype_id": "vendread", "is_rule_override": 0}
 {"card_id": 13212, "archetype_id": "vendread", "is_rule_override": 0}
+{"card_id": 13213, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13214, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13215, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13216, "archetype_id": "f_a", "is_rule_override": 0}
 {"card_id": 13220, "archetype_id": "trickstar", "is_rule_override": 0}
 {"card_id": 13222, "archetype_id": "gouki", "is_rule_override": 0}
 {"card_id": 13225, "archetype_id": "rokket", "is_rule_override": 0}
@@ -5410,6 +5414,10 @@
 {"card_id": 13363, "archetype_id": "vendread", "is_rule_override": 0}
 {"card_id": 13364, "archetype_id": "vendread", "is_rule_override": 0}
 {"card_id": 13365, "archetype_id": "vendread", "is_rule_override": 0}
+{"card_id": 13366, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13367, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13368, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13369, "archetype_id": "f_a", "is_rule_override": 0}
 {"card_id": 13370, "archetype_id": "subterror", "is_rule_override": 0}
 {"card_id": 13370, "archetype_id": "subterror_behemoth", "is_rule_override": 0}
 {"card_id": 13371, "archetype_id": "spyral", "is_rule_override": 0}
@@ -5517,6 +5525,10 @@
 {"card_id": 13535, "archetype_id": "vendread", "is_rule_override": 0}
 {"card_id": 13536, "archetype_id": "vendread", "is_rule_override": 0}
 {"card_id": 13537, "archetype_id": "vendread", "is_rule_override": 0}
+{"card_id": 13538, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13539, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13540, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13541, "archetype_id": "f_a", "is_rule_override": 0}
 {"card_id": 13543, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 13544, "archetype_id": "junk", "is_rule_override": 0}
 {"card_id": 13545, "archetype_id": "white_aura", "is_rule_override": 0}
@@ -5641,6 +5653,11 @@
 {"card_id": 13706, "archetype_id": "vendread", "is_rule_override": 0}
 {"card_id": 13707, "archetype_id": "vendread", "is_rule_override": 0}
 {"card_id": 13708, "archetype_id": "vendread", "is_rule_override": 0}
+{"card_id": 13709, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13710, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13711, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13712, "archetype_id": "f_a", "is_rule_override": 0}
+{"card_id": 13713, "archetype_id": "f_a", "is_rule_override": 0}
 {"card_id": 13715, "archetype_id": "daemon", "is_rule_override": 0}
 {"card_id": 13719, "archetype_id": "gouki", "is_rule_override": 0}
 {"card_id": 13720, "archetype_id": "gouki", "is_rule_override": 0}
@@ -5867,6 +5884,7 @@
 {"card_id": 14047, "archetype_id": "cyber_dragon", "is_rule_override": 0}
 {"card_id": 14050, "archetype_id": "majestic", "is_rule_override": 0}
 {"card_id": 14050, "archetype_id": "vendread", "is_rule_override": 0}
+{"card_id": 14051, "archetype_id": "f_a", "is_rule_override": 0}
 {"card_id": 14052, "archetype_id": "hero", "is_rule_override": 0}
 {"card_id": 14053, "archetype_id": "nordic", "is_rule_override": 0}
 {"card_id": 14053, "archetype_id": "nordic_ascendant", "is_rule_override": 0}
