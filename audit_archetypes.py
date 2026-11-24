@@ -19,6 +19,10 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent
 DUMP_DIR = ROOT / "dump"
 
+ALLOWED_ARCH_OVERLAPS: set[tuple[str, str]] = {
+    ("battlin_boxing", "battlin_boxer"),
+}
+
 
 def load_jsonl(path: Path) -> list[dict[str, Any]]:
     with path.open("r", encoding="utf-8") as f:
@@ -50,10 +54,14 @@ def match_archetype(arch_name: str, card_name: str, archetype_id: str | None = N
     """
     Canonical Smart First-Letter Case-Sensitive Rule:
     - `number_10x` / `number_c10x` ("Numbers 10X" / "Chaos Numbers 10X"): match 10[1-7]\\b.
+    - `attraction`: normalize turned-A (`Ɐ`, U+2C6F) to `A`.
     - Lowercase-initial archetype names ("roid", "tellarknight", "verz", "code Talker"):
       match both lowercase and uppercase first letters.
     - All other Title-Case / ALL-CAPS names: strict exact case-sensitive substring.
     """
+    if archetype_id == "attraction":
+        card_name = card_name.replace("\u2c6f", "A")
+
     if archetype_id in ("number_10x", "number_c10x") and arch_name.endswith("10X"):
         prefix = re.escape(arch_name[:-3])
         return bool(re.search(rf"{prefix}10[1-7]\b", card_name))
@@ -102,9 +110,13 @@ def run_audit(
         mems = arch_members.get(aid, set())
         overrides = arch_overrides.get(aid, set())
 
+        allowed_inner_mems: set[int] = set().union(
+            *(arch_members.get(bid, set()) for oid, bid in ALLOWED_ARCH_OVERLAPS if oid == aid)
+        )
+
         fps: list[dict[str, Any]] = []
         for c in cards:
-            if c["id"] in mems:
+            if c["id"] in mems or c["id"] in allowed_inner_mems:
                 continue
             if match_archetype(aname, c["ocg_name"], aid):
                 fps.append(
@@ -200,7 +212,7 @@ def run_audit(
         a_mems = arch_members.get(aid, set())
         for b in archetypes:
             bid = b["archetype_id"]
-            if aid == bid:
+            if aid == bid or (aid, bid) in ALLOWED_ARCH_OVERLAPS:
                 continue
             if not match_archetype(aname, b["ocg_name"], aid):
                 continue

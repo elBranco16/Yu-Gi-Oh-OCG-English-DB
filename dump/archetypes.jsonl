@@ -57,7 +57,7 @@
 {"archetype_id": "blue_eyes", "ja_base": "青眼", "ja_kana": "ブルーアイズ", "ocg_name": "Blue-Eyes", "tcg_name": "Blue-Eyes", "strict_negative_check": 1}
 {"archetype_id": "blue_tears", "ja_base": "青い涙", "ja_kana": "あおいなみだ", "ocg_name": "Blue Tears", "tcg_name": "Blue Tears", "strict_negative_check": 1}
 {"archetype_id": "bonding", "ja_base": null, "ja_kana": "ボンディング", "ocg_name": "Bonding", "tcg_name": "Bonding", "strict_negative_check": 1}
-{"archetype_id": "borrel", "ja_base": null, "ja_kana": "ヴァレル", "ocg_name": "Varrel", "tcg_name": "Borrel", "strict_negative_check": 1}
+{"archetype_id": "borrel", "ja_base": null, "ja_kana": "ヴァレル", "ocg_name": "varrel", "tcg_name": "Borrel", "strict_negative_check": 1}
 {"archetype_id": "bounzer", "ja_base": null, "ja_kana": "バウンサー", "ocg_name": "Bouncer", "tcg_name": "Bounzer", "strict_negative_check": 0}
 {"archetype_id": "branded", "ja_base": "烙印", "ja_kana": "らくいん", "ocg_name": "Branded", "tcg_name": "Branded", "strict_negative_check": 1}
 {"archetype_id": "bujin", "ja_base": "武神", "ja_kana": "ぶじん", "ocg_name": "Bujin", "tcg_name": "Bujin", "strict_negative_check": 1}
@@ -82,7 +82,7 @@
 {"archetype_id": "clear_wing", "ja_base": null, "ja_kana": "クリアウィング", "ocg_name": "Clear Wing", "tcg_name": "Clear Wing", "strict_negative_check": 1}
 {"archetype_id": "cloudian", "ja_base": "雲魔物", "ja_kana": "クラウディアン", "ocg_name": "Cloudian", "tcg_name": "Cloudian", "strict_negative_check": 1}
 {"archetype_id": "clown_crew", "ja_base": "道化の一座", "ja_kana": "クラウン・クラン", "ocg_name": "Clown Clan", "tcg_name": "Clown Crew", "strict_negative_check": 1}
-{"archetype_id": "code_talker", "ja_base": null, "ja_kana": "コード・トーカー", "ocg_name": "Code Talker", "tcg_name": "Code Talker", "strict_negative_check": 1}
+{"archetype_id": "code_talker", "ja_base": null, "ja_kana": "コード・トーカー", "ocg_name": "code Talker", "tcg_name": "Code Talker", "strict_negative_check": 1}
 {"archetype_id": "codebreaker", "ja_base": null, "ja_kana": "コードブレイカー", "ocg_name": "Codebreaker", "tcg_name": "Codebreaker", "strict_negative_check": 1}
 {"archetype_id": "constellar", "ja_base": null, "ja_kana": "セイクリッド", "ocg_name": "Sacred", "tcg_name": "Constellar", "strict_negative_check": 0}
 {"archetype_id": "counter", "ja_base": null, "ja_kana": "カウンター", "ocg_name": "Counter", "tcg_name": "Counter", "strict_negative_check": 0}
@@ -92,7 +92,7 @@
 {"archetype_id": "crystron", "ja_base": null, "ja_kana": "クリストロン", "ocg_name": "Crystron", "tcg_name": "Crystron", "strict_negative_check": 1}
 {"archetype_id": "cubic", "ja_base": "方界", "ja_kana": "ほうかい", "ocg_name": "Direction World", "tcg_name": "Cubic", "strict_negative_check": 1}
 {"archetype_id": "cxyz", "ja_base": "ＣＸ", "ja_kana": "カオスエクシーズ", "ocg_name": "Chaos Xyz", "tcg_name": "CXyz", "strict_negative_check": 1}
-{"archetype_id": "cyber", "ja_base": null, "ja_kana": "サイバー", "ocg_name": "Cyber", "tcg_name": "Cyber", "strict_negative_check": 0}
+{"archetype_id": "cyber", "ja_base": null, "ja_kana": "サイバー", "ocg_name": "cyber", "tcg_name": "Cyber", "strict_negative_check": 0}
 {"archetype_id": "cyber_angel", "ja_base": null, "ja_kana": "サイバー・エンジェル", "ocg_name": "Cyber Angel", "tcg_name": "Cyber Angel", "strict_negative_check": 1}
 {"archetype_id": "cyber_dragon", "ja_base": null, "ja_kana": "サイバー・ドラゴン", "ocg_name": "Cyber Dragon", "tcg_name": "Cyber Dragon", "strict_negative_check": 1}
 {"archetype_id": "cyberdark", "ja_base": null, "ja_kana": "サイバー・ダーク", "ocg_name": "Cyber Dark", "tcg_name": "Cyberdark", "strict_negative_check": 1}
@@ -123,7 +123,7 @@
 {"archetype_id": "dinowrestler", "ja_base": null, "ja_kana": "ダイナレスラー", "ocg_name": "Dinowrestler", "tcg_name": "Dinowrestler", "strict_negative_check": 1}
 {"archetype_id": "djinn", "ja_base": "魔人", "ja_kana": "まじん", "ocg_name": "Djinn", "tcg_name": "Djinn", "strict_negative_check": 0}
 {"archetype_id": "dododo", "ja_base": null, "ja_kana": "ドドド", "ocg_name": "Dododo", "tcg_name": "Dododo", "strict_negative_check": 1}
-{"archetype_id": "dogmatika", "ja_base": null, "ja_kana": "ドラグマ", "ocg_name": "Dragma", "tcg_name": "Dogmatika", "strict_negative_check": 1}
+{"archetype_id": "dogmatika", "ja_base": null, "ja_kana": "ドラグマ", "ocg_name": "dragma", "tcg_name": "Dogmatika", "strict_negative_check": 1}
 {"archetype_id": "doll_monster", "ja_base": null, "ja_kana": "ドール・モンスター", "ocg_name": "Doll Monster", "tcg_name": "Doll Monster", "strict_negative_check": 1}
 {"archetype_id": "dominators", "ja_base": "列王", "ja_kana": "れつおう", "ocg_name": "Kings", "tcg_name": "Dominators", "strict_negative_check": 0}
 {"archetype_id": "dominus", "ja_base": null, "ja_kana": "ドミナス", "ocg_name": "Dominus", "tcg_name": "Dominus", "strict_negative_check": 1}
@@ -143,7 +143,7 @@
 {"archetype_id": "drytron", "ja_base": null, "ja_kana": "ドライトロン", "ocg_name": "Drytron", "tcg_name": "Drytron", "strict_negative_check": 1}
 {"archetype_id": "dual_avatar", "ja_base": "双天", "ja_kana": "そうてん", "ocg_name": "Dual Sky", "tcg_name": "Dual Avatar", "strict_negative_check": 1}
 {"archetype_id": "dueling_equipment", "ja_base": "闘器", "ja_kana": "とうき", "ocg_name": "Dueling Equipment", "tcg_name": "Dueling Equipment", "strict_negative_check": 1}
-{"archetype_id": "duston", "ja_base": null, "ja_kana": "ダストン", "ocg_name": "Duston", "tcg_name": "Duston", "strict_negative_check": 1}
+{"archetype_id": "duston", "ja_base": null, "ja_kana": "ダストン", "ocg_name": "duston", "tcg_name": "Duston", "strict_negative_check": 1}
 {"archetype_id": "earthbound", "ja_base": "地縛", "ja_kana": "じばく", "ocg_name": "Earthbound", "tcg_name": "Earthbound", "strict_negative_check": 1}
 {"archetype_id": "earthbound_immortal", "ja_base": "地縛神", "ja_kana": "じばくしん", "ocg_name": "Earthbound God", "tcg_name": "Earthbound Immortal", "strict_negative_check": 1}
 {"archetype_id": "ecclesia", "ja_base": null, "ja_kana": "エクレシア", "ocg_name": "Ecclesia", "tcg_name": "Ecclesia", "strict_negative_check": 1}
@@ -163,7 +163,7 @@
 {"archetype_id": "evil_eye", "ja_base": "呪眼", "ja_kana": "じゅがん", "ocg_name": "Cursed Eye", "tcg_name": "Evil Eye", "strict_negative_check": 1}
 {"archetype_id": "evil_hero", "ja_base": "Ｅ－ＨＥＲＯ", "ja_kana": "イービルヒーロー", "ocg_name": "Evil HERO", "tcg_name": "Evil HERO", "strict_negative_check": 1}
 {"archetype_id": "evil_twin", "ja_base": null, "ja_kana": "イビルツイン", "ocg_name": "Evil★Twin", "tcg_name": "Evil★Twin", "strict_negative_check": 1}
-{"archetype_id": "evolsaur", "ja_base": null, "ja_kana": "エヴォルダー", "ocg_name": "Evolder", "tcg_name": "Evolsaur", "strict_negative_check": 1}
+{"archetype_id": "evolsaur", "ja_base": null, "ja_kana": "エヴォルダー", "ocg_name": "Evoluder", "tcg_name": "Evolsaur", "strict_negative_check": 1}
 {"archetype_id": "evoltile", "ja_base": null, "ja_kana": "エヴォルド", "ocg_name": "Evold", "tcg_name": "Evoltile", "strict_negative_check": 1}
 {"archetype_id": "evolution_pill", "ja_base": "進化薬", "ja_kana": "しんかやく", "ocg_name": "Evolution Pill", "tcg_name": "Evolution Pill", "strict_negative_check": 1}
 {"archetype_id": "evolzar", "ja_base": null, "ja_kana": "エヴォルカイザー", "ocg_name": "Evolkaiser", "tcg_name": "Evolzar", "strict_negative_check": 1}
@@ -199,7 +199,7 @@
 {"archetype_id": "g_golem", "ja_base": "Ｇゴーレム", "ja_kana": "ジーゴーレム", "ocg_name": "G Golem", "tcg_name": "G Golem", "strict_negative_check": 1}
 {"archetype_id": "gadget", "ja_base": null, "ja_kana": "ガジェット", "ocg_name": "Gadget", "tcg_name": "Gadget", "strict_negative_check": 1}
 {"archetype_id": "gagaga", "ja_base": null, "ja_kana": "ガガガ", "ocg_name": "Gagaga", "tcg_name": "Gagaga", "strict_negative_check": 0}
-{"archetype_id": "gaia_the_fierce_knight", "ja_base": "暗黒騎士ガイア", "ja_kana": "あんこくきしガイア", "ocg_name": "Dark Knight", "tcg_name": "Gaia The Fierce Knight", "strict_negative_check": 1}
+{"archetype_id": "gaia_the_fierce_knight", "ja_base": "暗黒騎士ガイア", "ja_kana": "あんこくきしガイア", "ocg_name": "Dark Knight - Gaia", "tcg_name": "Gaia The Fierce Knight", "strict_negative_check": 1}
 {"archetype_id": "galaxy", "ja_base": null, "ja_kana": "ギャラクシー", "ocg_name": "Galaxy", "tcg_name": "Galaxy", "strict_negative_check": 0}
 {"archetype_id": "galaxy_eyes", "ja_base": null, "ja_kana": "ギャラクシーアイズ", "ocg_name": "Galaxy-Eyes", "tcg_name": "Galaxy-Eyes", "strict_negative_check": 1}
 {"archetype_id": "galaxy_eyes_tachyon_dragon", "ja_base": null, "ja_kana": "ギャラクシーアイズ・タキオン・ドラゴン", "ocg_name": "Galaxy-Eyes Tachyon Dragon", "tcg_name": "Galaxy-Eyes Tachyon Dragon", "strict_negative_check": 1}
@@ -214,7 +214,7 @@
 {"archetype_id": "ghostrick", "ja_base": null, "ja_kana": "ゴーストリック", "ocg_name": "Ghostrick", "tcg_name": "Ghostrick", "strict_negative_check": 1}
 {"archetype_id": "ghoti", "ja_base": null, "ja_kana": "ゴーティス", "ocg_name": "Ghotis", "tcg_name": "Ghoti", "strict_negative_check": 1}
 {"archetype_id": "gimmick_puppet", "ja_base": null, "ja_kana": "ギミック・パペット", "ocg_name": "Gimmick Puppet", "tcg_name": "Gimmick Puppet", "strict_negative_check": 1}
-{"archetype_id": "gishki", "ja_base": null, "ja_kana": "リチュア", "ocg_name": "Ritua", "tcg_name": "Gishki", "strict_negative_check": 1}
+{"archetype_id": "gishki", "ja_base": null, "ja_kana": "リチュア", "ocg_name": "ritua", "tcg_name": "Gishki", "strict_negative_check": 1}
 {"archetype_id": "gladiator", "ja_base": null, "ja_kana": "グラディアル", "ocg_name": "Gladial", "tcg_name": "Gladiator", "strict_negative_check": 1}
 {"archetype_id": "gladiator_beast", "ja_base": "剣闘獣", "ja_kana": "グラディアルビースト", "ocg_name": "Gladial Beast", "tcg_name": "Gladiator Beast", "strict_negative_check": 1}
 {"archetype_id": "gmx", "ja_base": "ＧＭＸ", "ja_kana": "ジェノミクス", "ocg_name": "Genomix", "tcg_name": "GMX", "strict_negative_check": 0}
@@ -230,12 +230,12 @@
 {"archetype_id": "graydle", "ja_base": null, "ja_kana": "グレイドル", "ocg_name": "Graydle", "tcg_name": "Graydle", "strict_negative_check": 1}
 {"archetype_id": "guardian", "ja_base": null, "ja_kana": "ガーディアン", "ocg_name": "Guardian", "tcg_name": "Guardian", "strict_negative_check": 0}
 {"archetype_id": "gunkan", "ja_base": "軍貫", "ja_kana": "ぐんかん", "ocg_name": "Gunkan", "tcg_name": "Gunkan", "strict_negative_check": 1}
-{"archetype_id": "gusto", "ja_base": null, "ja_kana": "ガスタ", "ocg_name": "Gusta", "tcg_name": "Gusto", "strict_negative_check": 1}
+{"archetype_id": "gusto", "ja_base": null, "ja_kana": "ガスタ", "ocg_name": "gusta", "tcg_name": "Gusto", "strict_negative_check": 1}
 {"archetype_id": "harpie_lady", "ja_base": null, "ja_kana": "ハーピィ・レディ", "ocg_name": "Harpy Lady", "tcg_name": "Harpie Lady", "strict_negative_check": 1}
 {"archetype_id": "harpy", "ja_base": null, "ja_kana": "ハーピィ", "ocg_name": "Harpy", "tcg_name": "Harpie", "strict_negative_check": 1}
 {"archetype_id": "hazy", "ja_base": null, "ja_kana": "ヘイズ", "ocg_name": "Haze", "tcg_name": "Hazy", "strict_negative_check": 0}
 {"archetype_id": "hazy_flame", "ja_base": "陽炎獣", "ja_kana": "ヘイズビースト", "ocg_name": "Haze Beast", "tcg_name": "Hazy Flame", "strict_negative_check": 1}
-{"archetype_id": "heart", "ja_base": null, "ja_kana": "ハート", "ocg_name": "Heart", "tcg_name": "Heart", "strict_negative_check": 0}
+{"archetype_id": "heart", "ja_base": null, "ja_kana": "ハート", "ocg_name": "heart", "tcg_name": "Heart", "strict_negative_check": 0}
 {"archetype_id": "heavy_metal", "ja_base": null, "ja_kana": "ヘビー・メタル", "ocg_name": "Heavy Metal", "tcg_name": "Heavy Metal", "strict_negative_check": 0}
 {"archetype_id": "hecahands", "ja_base": null, "ja_kana": "ヘカトンケイル", "ocg_name": "Hecatoncheir", "tcg_name": "Hecahands", "strict_negative_check": 0}
 {"archetype_id": "heraldic_beast", "ja_base": "紋章獣", "ja_kana": "もんしょうじゅう", "ocg_name": "Heraldic Beast", "tcg_name": "Heraldic Beast", "strict_negative_check": 1}
@@ -253,7 +253,7 @@
 {"archetype_id": "icejade", "ja_base": "氷水", "ja_kana": "ヒスイ", "ocg_name": "Hisui", "tcg_name": "Icejade", "strict_negative_check": 1}
 {"archetype_id": "igknight", "ja_base": null, "ja_kana": "イグナイト", "ocg_name": "Igknight", "tcg_name": "Igknight", "strict_negative_check": 1}
 {"archetype_id": "ignister", "ja_base": "＠イグニスター", "ja_kana": "アットイグニスター", "ocg_name": "@Ignister", "tcg_name": "@Ignister", "strict_negative_check": 1}
-{"archetype_id": "impcantation", "ja_base": "魔神儀", "ja_kana": "デビリチャル", "ocg_name": "Deviritual", "tcg_name": "Impcantation", "strict_negative_check": 1}
+{"archetype_id": "impcantation", "ja_base": "魔神儀", "ja_kana": "デビリチャル", "ocg_name": "Devilitual", "tcg_name": "Impcantation", "strict_negative_check": 1}
 {"archetype_id": "infernity", "ja_base": null, "ja_kana": "インフェルニティ", "ocg_name": "Infernity", "tcg_name": "Infernity", "strict_negative_check": 1}
 {"archetype_id": "infernoble_arms", "ja_base": "焔聖剣", "ja_kana": "えんせいけん", "ocg_name": "Flame Holy Sword", "tcg_name": "Infernoble Arms", "strict_negative_check": 1}
 {"archetype_id": "infernoble_knight", "ja_base": "焔聖騎士", "ja_kana": "えんせいきし", "ocg_name": "Flame Holy Knight", "tcg_name": "Infernoble Knight", "strict_negative_check": 1}
@@ -265,7 +265,7 @@
 {"archetype_id": "invoked", "ja_base": "召喚獣", "ja_kana": "しょうかんじゅう", "ocg_name": "Invoked Beast", "tcg_name": "Invoked", "strict_negative_check": 1}
 {"archetype_id": "inzektor", "ja_base": "甲虫装機", "ja_kana": "インゼクター", "ocg_name": "Inzektor", "tcg_name": "Inzektor", "strict_negative_check": 1}
 {"archetype_id": "iron_chain", "ja_base": "Ｃ", "ja_kana": "チェーン", "ocg_name": "Chain", "tcg_name": "Iron Chain", "strict_negative_check": 0}
-{"archetype_id": "jinzo", "ja_base": "人造人間", "ja_kana": "じんぞうにんげん", "ocg_name": "Android", "tcg_name": "Jinzo", "strict_negative_check": 1}
+{"archetype_id": "jinzo", "ja_base": "人造人間", "ja_kana": "じんぞうにんげん", "ocg_name": "Artificial Human", "tcg_name": "Jinzo", "strict_negative_check": 1}
 {"archetype_id": "junk", "ja_base": null, "ja_kana": "ジャンク", "ocg_name": "Junk", "tcg_name": "Junk", "strict_negative_check": 1}
 {"archetype_id": "jurrac", "ja_base": null, "ja_kana": "ジュラック", "ocg_name": "Jurrac", "tcg_name": "Jurrac", "strict_negative_check": 1}
 {"archetype_id": "k9", "ja_base": "Ｋ９", "ja_kana": "ケーナイン", "ocg_name": "K9", "tcg_name": "K9", "strict_negative_check": 0}
@@ -275,12 +275,12 @@
 {"archetype_id": "kashtira", "ja_base": null, "ja_kana": "クシャトリラ", "ocg_name": "Kshatrira", "tcg_name": "Kashtira", "strict_negative_check": 1}
 {"archetype_id": "kewl_tune", "ja_base": null, "ja_kana": "キラーチューン", "ocg_name": "Killer Tune", "tcg_name": "Kewl Tune", "strict_negative_check": 1}
 {"archetype_id": "ki_sikil", "ja_base": null, "ja_kana": "キスキル", "ocg_name": "Ki-sikil", "tcg_name": "Ki-sikil", "strict_negative_check": 1}
-{"archetype_id": "knightmare", "ja_base": null, "ja_kana": "トロイメア", "ocg_name": "Troymare", "tcg_name": "Knightmare", "strict_negative_check": 1}
+{"archetype_id": "knightmare", "ja_base": null, "ja_kana": "トロイメア", "ocg_name": "troymare", "tcg_name": "Knightmare", "strict_negative_check": 1}
 {"archetype_id": "koa_ki_meiru", "ja_base": null, "ja_kana": "コアキメイル", "ocg_name": "Core Chimail", "tcg_name": "Koa'ki Meiru", "strict_negative_check": 1}
 {"archetype_id": "koala", "ja_base": null, "ja_kana": "コアラ", "ocg_name": "Koala", "tcg_name": "Koala", "strict_negative_check": 1}
 {"archetype_id": "kozmo", "ja_base": "Ｋｏｚｍｏ", "ja_kana": "コズモ", "ocg_name": "Kozmo", "tcg_name": "Kozmo", "strict_negative_check": 1}
 {"archetype_id": "krawler", "ja_base": null, "ja_kana": "クローラー", "ocg_name": "Krawler", "tcg_name": "Krawler", "strict_negative_check": 1}
-{"archetype_id": "kuriboh", "ja_base": null, "ja_kana": "クリボー", "ocg_name": "Kuriboh", "tcg_name": "Kuriboh", "strict_negative_check": 0}
+{"archetype_id": "kuriboh", "ja_base": null, "ja_kana": "クリボー", "ocg_name": "kuriboh", "tcg_name": "Kuriboh", "strict_negative_check": 0}
 {"archetype_id": "labrynth", "ja_base": null, "ja_kana": "ラビュリンス", "ocg_name": "Labrynth", "tcg_name": "Labrynth", "strict_negative_check": 1}
 {"archetype_id": "labyrinth_wall", "ja_base": null, "ja_kana": "ラビリンス・ウォール", "ocg_name": "Labyrinth Wall", "tcg_name": "Labyrinth Wall", "strict_negative_check": 1}
 {"archetype_id": "lady_of_lament", "ja_base": "悪魔嬢", "ja_kana": "あくまじょう", "ocg_name": "Demon Lady", "tcg_name": "Lady of Lament", "strict_negative_check": 0}
@@ -289,10 +289,10 @@
 {"archetype_id": "legendary_dragon", "ja_base": "伝説の竜", "ja_kana": "でんせつのりゅう", "ocg_name": "Legendary Dragon", "tcg_name": "Legendary Dragon", "strict_negative_check": 0}
 {"archetype_id": "legendary_knight", "ja_base": "伝説の騎士", "ja_kana": "でんせつのきし", "ocg_name": "Legendary Knight", "tcg_name": "Legendary Knight", "strict_negative_check": 1}
 {"archetype_id": "libromancer", "ja_base": null, "ja_kana": "リブロマンサー", "ocg_name": "Libromancer", "tcg_name": "Libromancer", "strict_negative_check": 1}
-{"archetype_id": "lightsworn", "ja_base": null, "ja_kana": "ライトロード", "ocg_name": "Lightroad", "tcg_name": "Lightsworn", "strict_negative_check": 1}
+{"archetype_id": "lightsworn", "ja_base": null, "ja_kana": "ライトロード", "ocg_name": "lightroad", "tcg_name": "Lightsworn", "strict_negative_check": 1}
 {"archetype_id": "lil_la", "ja_base": null, "ja_kana": "リィラ", "ocg_name": "Lil-la", "tcg_name": "Lil-la", "strict_negative_check": 1}
 {"archetype_id": "live_twin", "ja_base": null, "ja_kana": "ライブツイン", "ocg_name": "Live☆Twin", "tcg_name": "Live☆Twin", "strict_negative_check": 1}
-{"archetype_id": "lswarm", "ja_base": null, "ja_kana": "ヴェルズ", "ocg_name": "Verz", "tcg_name": "Lswarm", "strict_negative_check": 1}
+{"archetype_id": "lswarm", "ja_base": null, "ja_kana": "ヴェルズ", "ocg_name": "verz", "tcg_name": "Lswarm", "strict_negative_check": 1}
 {"archetype_id": "lunalight", "ja_base": null, "ja_kana": "ムーンライト", "ocg_name": "Moonlight", "tcg_name": "Lunalight", "strict_negative_check": 0}
 {"archetype_id": "lv", "ja_base": "ＬＶ", "ja_kana": "レベル", "ocg_name": "LV", "tcg_name": "LV", "strict_negative_check": 0}
 {"archetype_id": "lyrilusc", "ja_base": "ＬＬ", "ja_kana": "リリカル・ルスキニア", "ocg_name": "Lyrical Luscinia", "tcg_name": "Lyrilusc", "strict_negative_check": 1}
@@ -315,9 +315,9 @@
 {"archetype_id": "mannadium", "ja_base": null, "ja_kana": "マナドゥム", "ocg_name": "Mannadium", "tcg_name": "Mannadium", "strict_negative_check": 1}
 {"archetype_id": "marincess", "ja_base": null, "ja_kana": "マリンセス", "ocg_name": "Marincess", "tcg_name": "Marincess", "strict_negative_check": 1}
 {"archetype_id": "masked_hero", "ja_base": "Ｍ・ＨＥＲＯ", "ja_kana": "マスクドヒーロー", "ocg_name": "Masked HERO", "tcg_name": "Masked HERO", "strict_negative_check": 1}
-{"archetype_id": "masquerade", "ja_base": "仮面魔踏士", "ja_kana": "マスカレード・マジシャン", "ocg_name": "Masquerade", "tcg_name": "Masquerade", "strict_negative_check": 1}
+{"archetype_id": "masquerade", "ja_base": "仮面魔踏士", "ja_kana": "マスカレード・マジシャン", "ocg_name": "Masquerade Magician", "tcg_name": "Masquerade", "strict_negative_check": 1}
 {"archetype_id": "materiactor", "ja_base": null, "ja_kana": "マテリアクトル", "ocg_name": "Materiactor", "tcg_name": "Materiactor", "strict_negative_check": 1}
-{"archetype_id": "mathmech", "ja_base": "斬機", "ja_kana": "ザンキ", "ocg_name": "Zanki", "tcg_name": "Mathmech", "strict_negative_check": 0}
+{"archetype_id": "mathmech", "ja_base": "斬機", "ja_kana": "ザンキ", "ocg_name": "zanki", "tcg_name": "Mathmech", "strict_negative_check": 0}
 {"archetype_id": "mayakashi", "ja_base": "魔妖", "ja_kana": "まやかし", "ocg_name": "Mayakashi", "tcg_name": "Mayakashi", "strict_negative_check": 1}
 {"archetype_id": "mecha_phantom_beast", "ja_base": "幻獣機", "ja_kana": "げんじゅうき", "ocg_name": "Mecha Phantom Beast", "tcg_name": "Mecha Phantom Beast", "strict_negative_check": 1}
 {"archetype_id": "medius", "ja_base": null, "ja_kana": "メディウス", "ocg_name": "Medius", "tcg_name": "Medius", "strict_negative_check": 1}
@@ -332,13 +332,12 @@
 {"archetype_id": "melodious_maestra", "ja_base": "幻奏の音姫", "ja_kana": "げんそうのおとひめ", "ocg_name": "Melodious Princess", "tcg_name": "Melodious Maestra", "strict_negative_check": 1}
 {"archetype_id": "memento", "ja_base": null, "ja_kana": "メメント", "ocg_name": "Memento", "tcg_name": "Memento", "strict_negative_check": 1}
 {"archetype_id": "mermail", "ja_base": "水精鱗", "ja_kana": "マーメイル", "ocg_name": "Mermail", "tcg_name": "Mermail", "strict_negative_check": 1}
-{"archetype_id": "metalfoes", "ja_base": null, "ja_kana": "メタルフォーゼ", "ocg_name": "Metalphosis", "tcg_name": "Metalfoes", "strict_negative_check": 1}
+{"archetype_id": "metalfoes", "ja_base": null, "ja_kana": "メタルフォーゼ", "ocg_name": "metalphosis", "tcg_name": "Metalfoes", "strict_negative_check": 1}
 {"archetype_id": "metalmorph", "ja_base": "メタル化", "ja_kana": "メタルか", "ocg_name": "Metallization", "tcg_name": "Metalmorph", "strict_negative_check": 1}
 {"archetype_id": "metaphys", "ja_base": null, "ja_kana": "メタファイズ", "ocg_name": "Metaphys", "tcg_name": "Metaphys", "strict_negative_check": 1}
 {"archetype_id": "mikanko", "ja_base": "御巫", "ja_kana": "みかんこ", "ocg_name": "Mikanko", "tcg_name": "Mikanko", "strict_negative_check": 1}
-{"archetype_id": "millennium", "ja_base": "千年", "ja_kana": "せんねん", "ocg_name": "Millennium", "tcg_name": "Millennium", "strict_negative_check": 0}
+{"archetype_id": "millennium", "ja_base": "千年", "ja_kana": "せんねん", "ocg_name": "Millennium", "tcg_name": "Millennium", "strict_negative_check": 1}
 {"archetype_id": "mimighoul", "ja_base": null, "ja_kana": "ミミグル", "ocg_name": "Mimigul", "tcg_name": "Mimighoul", "strict_negative_check": 1}
-{"archetype_id": "mireniamu", "ja_base": null, "ja_kana": "ミレニアム", "ocg_name": "Mireniamu", "tcg_name": "Mireniamu", "strict_negative_check": 1}
 {"archetype_id": "mist_valley", "ja_base": "霞の谷", "ja_kana": "ミスト・バレー", "ocg_name": "Mist Valley", "tcg_name": "Mist Valley", "strict_negative_check": 1}
 {"archetype_id": "mitsurugi", "ja_base": "巳剣", "ja_kana": "ミツルギ", "ocg_name": "Mitsurugi", "tcg_name": "Mitsurugi", "strict_negative_check": 1}
 {"archetype_id": "mokey_mokey", "ja_base": null, "ja_kana": "もけもけ", "ocg_name": "Mokemoke", "tcg_name": "Mokey Mokey", "strict_negative_check": 1}
@@ -353,9 +352,9 @@
 {"archetype_id": "naturia", "ja_base": null, "ja_kana": "ナチュル", "ocg_name": "Naturu", "tcg_name": "Naturia", "strict_negative_check": 1}
 {"archetype_id": "necrovalley", "ja_base": null, "ja_kana": "ネクロバレー", "ocg_name": "Necrovalley", "tcg_name": "Necrovalley", "strict_negative_check": 1}
 {"archetype_id": "nekroz", "ja_base": "影霊衣", "ja_kana": "ネクロス", "ocg_name": "Necroth", "tcg_name": "Nekroz", "strict_negative_check": 1}
-{"archetype_id": "nemeses", "ja_base": null, "ja_kana": "ネメシス", "ocg_name": "Nemeses", "tcg_name": "Nemeses", "strict_negative_check": 1}
+{"archetype_id": "nemeses", "ja_base": null, "ja_kana": "ネメシス", "ocg_name": "nemeses", "tcg_name": "Nemeses", "strict_negative_check": 1}
 {"archetype_id": "nemleria", "ja_base": null, "ja_kana": "ネムレリア", "ocg_name": "Nemleria", "tcg_name": "Nemleria", "strict_negative_check": 1}
-{"archetype_id": "neo_space", "ja_base": null, "ja_kana": "ネオスペース", "ocg_name": "Neo Space", "tcg_name": "Neo Space", "strict_negative_check": 1}
+{"archetype_id": "neo_space", "ja_base": null, "ja_kana": "ネオスペース", "ocg_name": "Neospace", "tcg_name": "Neo Space", "strict_negative_check": 1}
 {"archetype_id": "neo_spacian", "ja_base": "Ｎ", "ja_kana": "ネオスペーシアン", "ocg_name": "Neo-Spacian", "tcg_name": "Neo-Spacian", "strict_negative_check": 1}
 {"archetype_id": "neos", "ja_base": null, "ja_kana": "ネオス", "ocg_name": "Neos", "tcg_name": "Neos", "strict_negative_check": 1}
 {"archetype_id": "nephthys", "ja_base": null, "ja_kana": "ネフティス", "ocg_name": "Nephthys", "tcg_name": "Nephthys", "strict_negative_check": 1}
@@ -369,7 +368,7 @@
 {"archetype_id": "nordic_alfar", "ja_base": "極星霊", "ja_kana": "きょせいれい", "ocg_name": "Polar Star Spirit", "tcg_name": "Nordic Alfar", "strict_negative_check": 1}
 {"archetype_id": "nordic_ascendant", "ja_base": "極星天", "ja_kana": "きょくせいてん", "ocg_name": "Polar Star Angel", "tcg_name": "Nordic Ascendant", "strict_negative_check": 1}
 {"archetype_id": "nordic_beast", "ja_base": "極星獣", "ja_kana": "きょくせいじゅう", "ocg_name": "Polar Star Beast", "tcg_name": "Nordic Beast", "strict_negative_check": 1}
-{"archetype_id": "nordic_relic", "ja_base": "極星宝", "ja_kana": "きょくせいほう", "ocg_name": "Polar Star Relic", "tcg_name": "Nordic Relic", "strict_negative_check": 1}
+{"archetype_id": "nordic_relic", "ja_base": "極星宝", "ja_kana": "きょくせいほう", "ocg_name": "Polar Star Treasure", "tcg_name": "Nordic Relic", "strict_negative_check": 1}
 {"archetype_id": "nouvelles", "ja_base": null, "ja_kana": "ヌーベルズ", "ocg_name": "Nouvellez", "tcg_name": "Nouvelles", "strict_negative_check": 1}
 {"archetype_id": "number", "ja_base": "Ｎｏ．", "ja_kana": "ナンバーズ", "ocg_name": "Numbers", "tcg_name": "Number", "strict_negative_check": 0}
 {"archetype_id": "number_10x", "ja_base": "Ｎｏ．１０Ｘ", "ja_kana": "ナンバーズ１０Ｘ", "ocg_name": "Numbers 10X", "tcg_name": "Number 10X", "strict_negative_check": 1}
@@ -379,7 +378,7 @@
 {"archetype_id": "number_c39", "ja_base": "ＣＮｏ．３９", "ja_kana": "カオスナンバーズ３９", "ocg_name": "Chaos Numbers 39", "tcg_name": "Number C39", "strict_negative_check": 1}
 {"archetype_id": "numeron", "ja_base": null, "ja_kana": "ヌメロン", "ocg_name": "Numeron", "tcg_name": "Numeron", "strict_negative_check": 1}
 {"archetype_id": "numeron_gate", "ja_base": null, "ja_kana": "ゲート・オブ・ヌメロン", "ocg_name": "Gate of Numeron", "tcg_name": "Numeron Gate", "strict_negative_check": 1}
-{"archetype_id": "numerounius", "ja_base": null, "ja_kana": "ヌメロニアス", "ocg_name": "Numeronius", "tcg_name": "Numerounius", "strict_negative_check": 1}
+{"archetype_id": "numerounius", "ja_base": null, "ja_kana": "ヌメロニアス", "ocg_name": "Numerounius", "tcg_name": "Numerounius", "strict_negative_check": 1}
 {"archetype_id": "odd_eyes", "ja_base": null, "ja_kana": "オッドアイズ", "ocg_name": "Odd-Eyes", "tcg_name": "Odd-Eyes", "strict_negative_check": 1}
 {"archetype_id": "ogdoadic", "ja_base": "溟界", "ja_kana": "めいかい", "ocg_name": "Abyssal", "tcg_name": "Ogdoadic", "strict_negative_check": 0}
 {"archetype_id": "ojama", "ja_base": null, "ja_kana": "おジャマ", "ocg_name": "Ojama", "tcg_name": "Ojama", "strict_negative_check": 1}
@@ -418,8 +417,8 @@
 {"archetype_id": "psy_frame", "ja_base": "ＰＳＹフレーム", "ja_kana": "サイフレーム", "ocg_name": "PSY-Frame", "tcg_name": "PSY-Frame", "strict_negative_check": 1}
 {"archetype_id": "psy_framegear", "ja_base": "ＰＳＹフレームギア", "ja_kana": "サイフレームギア", "ocg_name": "PSY-Framegear", "tcg_name": "PSY-Framegear", "strict_negative_check": 1}
 {"archetype_id": "puppet", "ja_base": null, "ja_kana": "パペット", "ocg_name": "Puppet", "tcg_name": "Puppet", "strict_negative_check": 0}
-{"archetype_id": "purrely", "ja_base": null, "ja_kana": "ピュアリィ", "ocg_name": "Purrely", "tcg_name": "Purrely", "strict_negative_check": 1}
-{"archetype_id": "qli", "ja_base": null, "ja_kana": "クリフォート", "ocg_name": "Qliphort", "tcg_name": "Qli", "strict_negative_check": 1}
+{"archetype_id": "purrely", "ja_base": null, "ja_kana": "ピュアリィ", "ocg_name": "purrely", "tcg_name": "Purrely", "strict_negative_check": 1}
+{"archetype_id": "qli", "ja_base": null, "ja_kana": "クリフォート", "ocg_name": "qliphort", "tcg_name": "Qli", "strict_negative_check": 1}
 {"archetype_id": "r_b", "ja_base": "Ｒ．Ｂ．", "ja_kana": "リボルボット", "ocg_name": "Revol Bot", "tcg_name": "R.B.", "strict_negative_check": 1}
 {"archetype_id": "r_genex", "ja_base": null, "ja_kana": "レアル・ジェネクス", "ocg_name": "Real Genex", "tcg_name": "R-Genex", "strict_negative_check": 1}
 {"archetype_id": "radiant_typhoon", "ja_base": "絢嵐", "ja_kana": "けんらん", "ocg_name": "Radiant Typhoon", "tcg_name": "Radiant Typhoon", "strict_negative_check": 1}
@@ -444,16 +443,16 @@
 {"archetype_id": "ritual_beast", "ja_base": "霊獣", "ja_kana": "れいじゅう", "ocg_name": "Spirit Beast", "tcg_name": "Ritual Beast", "strict_negative_check": 1}
 {"archetype_id": "ritual_beast_tamer", "ja_base": "霊獣使い", "ja_kana": "れいじゅうつかい", "ocg_name": "Spirit Beast Tamer", "tcg_name": "Ritual Beast Tamer", "strict_negative_check": 1}
 {"archetype_id": "ritual_beast_ulti", "ja_base": "聖霊獣騎", "ja_kana": "せいれいじゅうき", "ocg_name": "Sacred Spirit Beast Steed", "tcg_name": "Ritual Beast Ulti", "strict_negative_check": 1}
-{"archetype_id": "roid", "ja_base": null, "ja_kana": "ロイド", "ocg_name": "Roid", "tcg_name": "Roid", "strict_negative_check": 1}
-{"archetype_id": "rokket", "ja_base": null, "ja_kana": "ヴァレット", "ocg_name": "Vullet", "tcg_name": "Rokket", "strict_negative_check": 1}
+{"archetype_id": "roid", "ja_base": null, "ja_kana": "ロイド", "ocg_name": "roid", "tcg_name": "Roid", "strict_negative_check": 1}
+{"archetype_id": "rokket", "ja_base": null, "ja_kana": "ヴァレット", "ocg_name": "vullet", "tcg_name": "Rokket", "strict_negative_check": 1}
 {"archetype_id": "roland", "ja_base": null, "ja_kana": "ローラン", "ocg_name": "Roland", "tcg_name": "Roland", "strict_negative_check": 1}
 {"archetype_id": "rose", "ja_base": null, "ja_kana": "ローズ", "ocg_name": "Rose", "tcg_name": "Rose", "strict_negative_check": 0}
 {"archetype_id": "rose_dragon", "ja_base": null, "ja_kana": "ローズ・ドラゴン", "ocg_name": "Rose Dragon", "tcg_name": "Rose Dragon", "strict_negative_check": 1}
-{"archetype_id": "runick", "ja_base": "神碑", "ja_kana": "ルーン", "ocg_name": "Rune", "tcg_name": "Runick", "strict_negative_check": 1}
+{"archetype_id": "runick", "ja_base": "神碑", "ja_kana": "ルーン", "ocg_name": "Rún", "tcg_name": "Runick", "strict_negative_check": 1}
 {"archetype_id": "ryu_ge", "ja_base": "竜華", "ja_kana": "りゅうげ", "ocg_name": "Ryuge", "tcg_name": "Ryu-Ge", "strict_negative_check": 1}
 {"archetype_id": "ryzeal", "ja_base": null, "ja_kana": "ライゼオル", "ocg_name": "Raizeol", "tcg_name": "Ryzeal", "strict_negative_check": 1}
 {"archetype_id": "s_force", "ja_base": "Ｓ－Ｆｏｒｃｅ", "ja_kana": "セキュリティ・フォース", "ocg_name": "Security Force", "tcg_name": "S-Force", "strict_negative_check": 1}
-{"archetype_id": "saber", "ja_base": null, "ja_kana": "セイバー", "ocg_name": "Saber", "tcg_name": "Saber", "strict_negative_check": 0}
+{"archetype_id": "saber", "ja_base": null, "ja_kana": "セイバー", "ocg_name": "saber", "tcg_name": "Saber", "strict_negative_check": 0}
 {"archetype_id": "sacred_beast", "ja_base": "三幻魔", "ja_kana": "さんげんま", "ocg_name": "Three Phantasms", "tcg_name": "Sacred Beast", "strict_negative_check": 1}
 {"archetype_id": "salamandra", "ja_base": null, "ja_kana": "サラマンドラ", "ocg_name": "Salamandra", "tcg_name": "Salamandra", "strict_negative_check": 0}
 {"archetype_id": "salamangreat", "ja_base": null, "ja_kana": "サラマングレイト", "ocg_name": "Salamangreat", "tcg_name": "Salamangreat", "strict_negative_check": 1}
@@ -463,10 +462,9 @@
 {"archetype_id": "scrap", "ja_base": null, "ja_kana": "スクラップ", "ocg_name": "Scrap", "tcg_name": "Scrap", "strict_negative_check": 0}
 {"archetype_id": "sea_stealth", "ja_base": null, "ja_kana": "シー・ステルス", "ocg_name": "Sea Stealth", "tcg_name": "Sea Stealth", "strict_negative_check": 1}
 {"archetype_id": "secret_six_samurai", "ja_base": "影六武衆", "ja_kana": "かげろくぶしゅう", "ocg_name": "Shadow Rokubushu", "tcg_name": "Secret Six Samurai", "strict_negative_check": 1}
-{"archetype_id": "sennen", "ja_base": "千年", "ja_kana": "せんねん", "ocg_name": "Sennen", "tcg_name": "Sennen", "strict_negative_check": 1}
 {"archetype_id": "serket", "ja_base": null, "ja_kana": "セルケト", "ocg_name": "Serket", "tcg_name": "Serket", "strict_negative_check": 1}
 {"archetype_id": "seventh", "ja_base": null, "ja_kana": "セブンス", "ocg_name": "Seventh", "tcg_name": "Seventh", "strict_negative_check": 1}
-{"archetype_id": "shaddoll", "ja_base": null, "ja_kana": "シャドール", "ocg_name": "Shaddoll", "tcg_name": "Shaddoll", "strict_negative_check": 1}
+{"archetype_id": "shaddoll", "ja_base": null, "ja_kana": "シャドール", "ocg_name": "shaddoll", "tcg_name": "Shaddoll", "strict_negative_check": 1}
 {"archetype_id": "shark", "ja_base": null, "ja_kana": "シャーク", "ocg_name": "Shark", "tcg_name": "Shark", "strict_negative_check": 0}
 {"archetype_id": "shark_drake", "ja_base": null, "ja_kana": "シャーク・ドレイク", "ocg_name": "Shark Drake", "tcg_name": "Shark Drake", "strict_negative_check": 1}
 {"archetype_id": "shien", "ja_base": "紫炎", "ja_kana": "シエン", "ocg_name": "Shien", "tcg_name": "Shien", "strict_negative_check": 0}
@@ -488,13 +486,13 @@
 {"archetype_id": "solfachord", "ja_base": null, "ja_kana": "ドレミコード", "ocg_name": "Doremichord", "tcg_name": "Solfachord", "strict_negative_check": 1}
 {"archetype_id": "speedroid", "ja_base": null, "ja_kana": "スピードロイド", "ocg_name": "Speedroid", "tcg_name": "Speedroid", "strict_negative_check": 1}
 {"archetype_id": "spellbook", "ja_base": "魔導書", "ja_kana": "まどうしょ", "ocg_name": "Spellbook", "tcg_name": "Spellbook", "strict_negative_check": 1}
-{"archetype_id": "sphinx", "ja_base": null, "ja_kana": "スフィンクス", "ocg_name": "Sphinx", "tcg_name": "Sphinx", "strict_negative_check": 1}
+{"archetype_id": "sphinx", "ja_base": null, "ja_kana": "スフィンクス", "ocg_name": "sphinx", "tcg_name": "Sphinx", "strict_negative_check": 1}
 {"archetype_id": "spirit_message", "ja_base": "死のメッセージ", "ja_kana": "しのメッセージ", "ocg_name": "Death Message", "tcg_name": "Spirit Message", "strict_negative_check": 1}
 {"archetype_id": "spiritual_beast", "ja_base": "精霊獣", "ja_kana": "せいれいじゅう", "ocg_name": "Elemental Spirit Beast", "tcg_name": "Spiritual Beast", "strict_negative_check": 1}
-{"archetype_id": "spiritual_earth_art", "ja_base": "地霊術", "ja_kana": "ちれいじゅつ", "ocg_name": "Spiritual Earth Art", "tcg_name": "Spiritual Earth Art", "strict_negative_check": 1}
-{"archetype_id": "spiritual_fire_art", "ja_base": "火霊術", "ja_kana": "かれいじゅつ", "ocg_name": "Spiritual Fire Art", "tcg_name": "Spiritual Fire Art", "strict_negative_check": 1}
-{"archetype_id": "spiritual_water_art", "ja_base": "水霊術", "ja_kana": "すいれいじゅつ", "ocg_name": "Spiritual Water Art", "tcg_name": "Spiritual Water Art", "strict_negative_check": 1}
-{"archetype_id": "spiritual_wind_art", "ja_base": "風霊術", "ja_kana": "ふうれいじゅつ", "ocg_name": "Spiritual Wind Art", "tcg_name": "Spiritual Wind Art", "strict_negative_check": 1}
+{"archetype_id": "spiritual_earth_art", "ja_base": "地霊術", "ja_kana": "ちれいじゅつ", "ocg_name": "Spirit Earth Art", "tcg_name": "Spiritual Earth Art", "strict_negative_check": 1}
+{"archetype_id": "spiritual_fire_art", "ja_base": "火霊術", "ja_kana": "かれいじゅつ", "ocg_name": "Spirit Fire Art", "tcg_name": "Spiritual Fire Art", "strict_negative_check": 1}
+{"archetype_id": "spiritual_water_art", "ja_base": "水霊術", "ja_kana": "すいれいじゅつ", "ocg_name": "Spirit Water Art", "tcg_name": "Spiritual Water Art", "strict_negative_check": 1}
+{"archetype_id": "spiritual_wind_art", "ja_base": "風霊術", "ja_kana": "ふうれいじゅつ", "ocg_name": "Spirit Wind Art", "tcg_name": "Spiritual Wind Art", "strict_negative_check": 1}
 {"archetype_id": "spright", "ja_base": null, "ja_kana": "スプライト", "ocg_name": "Spright", "tcg_name": "Spright", "strict_negative_check": 1}
 {"archetype_id": "springans", "ja_base": null, "ja_kana": "スプリガンズ", "ocg_name": "Sprigguns", "tcg_name": "Springans", "strict_negative_check": 1}
 {"archetype_id": "sprout", "ja_base": null, "ja_kana": "スプラウト", "ocg_name": "Sprout", "tcg_name": "Sprout", "strict_negative_check": 1}
@@ -532,7 +530,7 @@
 {"archetype_id": "tachyon", "ja_base": null, "ja_kana": "タキオン", "ocg_name": "Tachyon", "tcg_name": "Tachyon", "strict_negative_check": 1}
 {"archetype_id": "tearlaments", "ja_base": null, "ja_kana": "ティアラメンツ", "ocg_name": "Tearlaments", "tcg_name": "Tearlaments", "strict_negative_check": 1}
 {"archetype_id": "teleport", "ja_base": null, "ja_kana": "テレポート", "ocg_name": "Teleport", "tcg_name": "Teleport", "strict_negative_check": 1}
-{"archetype_id": "tellarknight", "ja_base": null, "ja_kana": "テラナイト", "ocg_name": "Tellarknight", "tcg_name": "Tellarknight", "strict_negative_check": 1}
+{"archetype_id": "tellarknight", "ja_base": null, "ja_kana": "テラナイト", "ocg_name": "tellarknight", "tcg_name": "Tellarknight", "strict_negative_check": 1}
 {"archetype_id": "tenpai_dragon", "ja_base": "天盃龍", "ja_kana": "てんぱいりゅう", "ocg_name": "Tenpai Dragon", "tcg_name": "Tenpai Dragon", "strict_negative_check": 1}
 {"archetype_id": "tenyi", "ja_base": "天威", "ja_kana": "てんい", "ocg_name": "Tenyi", "tcg_name": "Tenyi", "strict_negative_check": 1}
 {"archetype_id": "the_agent", "ja_base": "代行者", "ja_kana": "だいこうしゃ", "ocg_name": "Vicar", "tcg_name": "The Agent", "strict_negative_check": 1}
@@ -546,7 +544,7 @@
 {"archetype_id": "timelord", "ja_base": "時械神", "ja_kana": "じかいしん", "ocg_name": "Time Machine God", "tcg_name": "Timelord", "strict_negative_check": 1}
 {"archetype_id": "tindangle", "ja_base": null, "ja_kana": "ティンダングル", "ocg_name": "Tindangle", "tcg_name": "Tindangle", "strict_negative_check": 1}
 {"archetype_id": "tistina", "ja_base": null, "ja_kana": "ティスティナ", "ocg_name": "Tistina", "tcg_name": "Tistina", "strict_negative_check": 1}
-{"archetype_id": "toon", "ja_base": null, "ja_kana": "トゥーン", "ocg_name": "Toon", "tcg_name": "Toon", "strict_negative_check": 1}
+{"archetype_id": "toon", "ja_base": null, "ja_kana": "トゥーン", "ocg_name": "toon", "tcg_name": "Toon", "strict_negative_check": 1}
 {"archetype_id": "topologic", "ja_base": null, "ja_kana": "トポロジック", "ocg_name": "Topologic", "tcg_name": "Topologic", "strict_negative_check": 1}
 {"archetype_id": "toy", "ja_base": null, "ja_kana": "トイ", "ocg_name": "Toy", "tcg_name": "Toy", "strict_negative_check": 0}
 {"archetype_id": "trap_hole", "ja_base": "落とし穴", "ja_kana": "おとしあな", "ocg_name": "Pitfall", "tcg_name": "Trap Hole", "strict_negative_check": 0}
@@ -572,7 +570,7 @@
 {"archetype_id": "vaylantz", "ja_base": null, "ja_kana": "ヴァリアンツ", "ocg_name": "Valiants", "tcg_name": "Vaylantz", "strict_negative_check": 1}
 {"archetype_id": "veda", "ja_base": null, "ja_kana": "ヴェーダ", "ocg_name": "Veda", "tcg_name": "Veda", "strict_negative_check": 1}
 {"archetype_id": "vehicroid", "ja_base": null, "ja_kana": "ビークロイド", "ocg_name": "Vehicroid", "tcg_name": "Vehicroid", "strict_negative_check": 1}
-{"archetype_id": "vendread", "ja_base": null, "ja_kana": "ヴェンデット", "ocg_name": "Vendead", "tcg_name": "Vendread", "strict_negative_check": 1}
+{"archetype_id": "vendread", "ja_base": null, "ja_kana": "ヴェンデット", "ocg_name": "vendead", "tcg_name": "Vendread", "strict_negative_check": 1}
 {"archetype_id": "venom", "ja_base": null, "ja_kana": "ヴェノム", "ocg_name": "Venom", "tcg_name": "Venom", "strict_negative_check": 1}
 {"archetype_id": "vernusylph", "ja_base": "春化精", "ja_kana": "はるけしょう", "ocg_name": "Harukesho", "tcg_name": "Vernusylph", "strict_negative_check": 1}
 {"archetype_id": "virtual_world", "ja_base": "電脳堺", "ja_kana": "でんのうかい", "ocg_name": "Virtual World", "tcg_name": "Virtual World", "strict_negative_check": 1}
@@ -585,7 +583,7 @@
 {"archetype_id": "vylon", "ja_base": null, "ja_kana": "ヴァイロン", "ocg_name": "Vylon", "tcg_name": "Vylon", "strict_negative_check": 1}
 {"archetype_id": "war_rock", "ja_base": null, "ja_kana": "ウォークライ", "ocg_name": "Warcry", "tcg_name": "War Rock", "strict_negative_check": 1}
 {"archetype_id": "warrior", "ja_base": null, "ja_kana": "ウォリアー", "ocg_name": "Warrior", "tcg_name": "Warrior", "strict_negative_check": 0}
-{"archetype_id": "watt", "ja_base": null, "ja_kana": "エレキ", "ocg_name": "Elec", "tcg_name": "Watt", "strict_negative_check": 1}
+{"archetype_id": "watt", "ja_base": null, "ja_kana": "エレキ", "ocg_name": "Eleck", "tcg_name": "Watt", "strict_negative_check": 1}
 {"archetype_id": "wedju", "ja_base": null, "ja_kana": "ウェジュ", "ocg_name": "Wedj", "tcg_name": "Wedju", "strict_negative_check": 1}
 {"archetype_id": "welcome_labrynth", "ja_base": null, "ja_kana": "ウェルカム・ラビュリンス", "ocg_name": "Welcome Labrynth", "tcg_name": "Welcome Labrynth", "strict_negative_check": 1}
 {"archetype_id": "white_aura", "ja_base": null, "ja_kana": "ホワイト・オーラ", "ocg_name": "White Aura", "tcg_name": "White Aura", "strict_negative_check": 1}
@@ -605,11 +603,11 @@
 {"archetype_id": "xyz", "ja_base": null, "ja_kana": "エクシーズ", "ocg_name": "Xyz", "tcg_name": "Xyz", "strict_negative_check": 0}
 {"archetype_id": "xyz_dragon", "ja_base": null, "ja_kana": "エクシーズ・ドラゴン", "ocg_name": "Xyz Dragon", "tcg_name": "Xyz Dragon", "strict_negative_check": 1}
 {"archetype_id": "yang_zing", "ja_base": "竜星", "ja_kana": "りゅうせい", "ocg_name": "Dragon Star", "tcg_name": "Yang Zing", "strict_negative_check": 1}
-{"archetype_id": "yosenju", "ja_base": "妖仙獣", "ja_kana": "ようせんじゅう", "ocg_name": "Yosenju", "tcg_name": "Yosenju", "strict_negative_check": 1}
+{"archetype_id": "yosenju", "ja_base": "妖仙獣", "ja_kana": "ようせんじゅう", "ocg_name": "yosenju", "tcg_name": "Yosenju", "strict_negative_check": 1}
 {"archetype_id": "yubel", "ja_base": null, "ja_kana": "ユベル", "ocg_name": "Yubel", "tcg_name": "Yubel", "strict_negative_check": 1}
 {"archetype_id": "yummy", "ja_base": null, "ja_kana": "ヤミー", "ocg_name": "Yummy", "tcg_name": "Yummy", "strict_negative_check": 1}
 {"archetype_id": "zefra", "ja_base": null, "ja_kana": "セフィラ", "ocg_name": "Sefirah", "tcg_name": "Zefra", "strict_negative_check": 1}
-{"archetype_id": "zenet", "ja_base": null, "ja_kana": "セネト", "ocg_name": "Senet", "tcg_name": "Zenet", "strict_negative_check": 1}
+{"archetype_id": "zenet", "ja_base": null, "ja_kana": "セネト", "ocg_name": "senet", "tcg_name": "Zenet", "strict_negative_check": 1}
 {"archetype_id": "zexal", "ja_base": null, "ja_kana": "ゼアル", "ocg_name": "Zexal", "tcg_name": "Zexal", "strict_negative_check": 1}
 {"archetype_id": "zoodiac", "ja_base": "十二獣", "ja_kana": "じゅうにしし", "ocg_name": "Junishishi", "tcg_name": "Zoodiac", "strict_negative_check": 1}
 {"archetype_id": "zs", "ja_base": "ＺＳ", "ja_kana": "ゼアル・サーバス", "ocg_name": "Zexal Servers", "tcg_name": "ZS -", "strict_negative_check": 1}
