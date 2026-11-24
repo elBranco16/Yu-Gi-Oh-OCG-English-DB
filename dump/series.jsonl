@@ -43,6 +43,7 @@
 {"series_id": "bugroth", "ja_base": null, "ja_kana": "バグロス", "ocg_name": "Bugroth", "tcg_name": "Bugroth"}
 {"series_id": "burning_skull", "ja_base": null, "ja_kana": "バーニング・スカル", "ocg_name": "Burning Skull", "tcg_name": "Burning Skull"}
 {"series_id": "buster_blader_rush_duel_series_rush", "ja_base": null, "ja_kana": "バスター・ブレイダー", "ocg_name": "Buster Blader (Rush Duel series)", "tcg_name": "Buster Blader (Rush Duel series)"}
+{"series_id": "c", "ja_base": "Ｇ", "ja_kana": "ジー", "ocg_name": "G", "tcg_name": "C"}
 {"series_id": "call_of_the_haunted", "ja_base": "リビングデッドの呼び声", "ja_kana": "リビングデッドのよびごえ", "ocg_name": "Call of the Living Dead", "tcg_name": "Call of the Haunted"}
 {"series_id": "captain", "ja_base": "隊長", "ja_kana": "たいちょう", "ocg_name": "Captain", "tcg_name": "Captain"}
 {"series_id": "cat", "ja_base": null, "ja_kana": "キャット", "ocg_name": "Cat", "tcg_name": "Cat"}
@@ -215,7 +216,7 @@
 {"series_id": "mirror_trap", "ja_base": null, "ja_kana": null, "ocg_name": "Mirror Trap", "tcg_name": "Mirror Trap"}
 {"series_id": "mischief", "ja_base": null, "ja_kana": "いたずら", "ocg_name": "Mischief", "tcg_name": "Mischief"}
 {"series_id": "molten_martial_machine", "ja_base": "湧軍機", "ja_kana": "ゆうぐんき", "ocg_name": "Molten Martial Machine", "tcg_name": "Molten Martial Machine"}
-{"series_id": "monarch", "ja_base": "帝", "ja_kana": "てい", "ocg_name": "Monarch", "tcg_name": "Monarch"}
+{"series_id": "monarch", "ja_base": "帝", "ja_kana": "てい", "ocg_name": "Emperor", "tcg_name": "Monarch"}
 {"series_id": "monarch_rush_duel_series_rush", "ja_base": "帝", "ja_kana": "てい", "ocg_name": "Monarch (Rush Duel series)", "tcg_name": "Monarch (Rush Duel series)"}
 {"series_id": "monk", "ja_base": null, "ja_kana": "モンク", "ocg_name": "Monk", "tcg_name": "Monk"}
 {"series_id": "monumenthes", "ja_base": "冥跡", "ja_kana": "めいせき", "ocg_name": "Monumenthes", "tcg_name": "Monumenthes"}
