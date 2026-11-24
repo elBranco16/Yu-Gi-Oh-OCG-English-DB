@@ -305,8 +305,8 @@ def run_audit(
     }
 
 
-def _md_escape(text: str) -> str:
-    return text.replace("|", "\\|")
+def _md_escape(text: str | None) -> str:
+    return (text or "").replace("|", "\\|")
 
 
 def format_summary(report: dict[str, Any], category: str) -> str:

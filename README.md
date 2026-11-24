@@ -20,7 +20,7 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
     ├── gba_cards.jsonl         # 28 GBA-exclusive DM7/DM8 non-OCG cards
     ├── archetypes.jsonl        # 615 official OCG archetypes
     ├── series.jsonl            # 369 thematic series
-    ├── card_archetypes.jsonl   # 10,095 Master card <-> archetype links
+    ├── card_archetypes.jsonl   # 10,097 Master card <-> archetype links
     ├── card_series.jsonl       # 2,049 Master card <-> series links
     ├── rush_card_series.jsonl  # 1,943 Rush card <-> series links
     ├── characters.jsonl        # 1,474 characters
@@ -47,7 +47,7 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 ### Key Conventions
 - **Card IDs (`cards.id` / `gba_cards.id`):** Uses the official Konami Card Database ID (`cid`, e.g., `4007` for *Blue-Eyes White Dragon*, `15150` for *Sevens Road Magician*) as well as `< 4007` retro/video-game IDs. Cards without a Konami `cid` or whose `< 4007` slot is occupied (such as Tokens or older game variants) use sequential IDs starting at `900001`. Standalone `gba_cards.id` uses the official in-game DM7 card number with DM8 fallback (`110`–`898`).
 - **Japanese Names (`ja_base` / `ja_kana`):** `ja_kana` stores the reading/kana; `ja_base` is `null` whenever the name has no kanji and would be identical to `ja_kana`. `gba_cards` preserves verbatim GBA in-game Japanese spelling in `ja_base` (`null` when pure kana).
-- **TCG Divergence (`tcg_name` / `tcg_dub_name`):** Populated only when the TCG card name or dub character name differs from `ocg_name`; otherwise `null`. Alternate official/game name variants (e.g., `#1` punctuation differences) are merged into `en_legacy_names` (`; `-separated).
+- **TCG Divergence (`tcg_name` / `tcg_dub_name`):** Populated only when the TCG card, archetype, series, or dub character name differs from `ocg_name`; otherwise `null`. Alternate official/game name variants (e.g., `#1` punctuation differences) are merged into `en_legacy_names` (`; `-separated).
 - **Card Text Formatting (`ocg_text`):** Combines official/community effect erratas, `① ② ③` effect numbering, standard PSCT shortenings, and full OCG card/archetype/terminology localization (`terms.jsonl`). Rush Duel cards preserve `[Requirement]` / `[Effect]` blocks.
 - **Manual Overrides (`overriden_check`):** `1` marks a curated/overridden card entry; `0` is default.
 

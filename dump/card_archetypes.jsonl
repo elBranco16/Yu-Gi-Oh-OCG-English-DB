@@ -274,6 +274,7 @@
 {"card_id": 5153, "archetype_id": "prophecy", "is_rule_override": 0}
 {"card_id": 5161, "archetype_id": "chaos", "is_rule_override": 0}
 {"card_id": 5182, "archetype_id": "amazoness", "is_rule_override": 0}
+{"card_id": 5183, "archetype_id": "dark_scorpion", "is_rule_override": 0}
 {"card_id": 5184, "archetype_id": "dark_scorpion", "is_rule_override": 0}
 {"card_id": 5195, "archetype_id": "amazoness", "is_rule_override": 0}
 {"card_id": 5202, "archetype_id": "guardian", "is_rule_override": 0}
@@ -6666,6 +6667,7 @@
 {"card_id": 15062, "archetype_id": "madolche", "is_rule_override": 0}
 {"card_id": 15063, "archetype_id": "witchcrafter", "is_rule_override": 0}
 {"card_id": 15064, "archetype_id": "hole", "is_rule_override": 0}
+{"card_id": 15068, "archetype_id": "evil_eye", "is_rule_override": 0}
 {"card_id": 15070, "archetype_id": "daemon", "is_rule_override": 0}
 {"card_id": 15075, "archetype_id": "plunder_patroll", "is_rule_override": 0}
 {"card_id": 15076, "archetype_id": "plunder_patroll", "is_rule_override": 0}
