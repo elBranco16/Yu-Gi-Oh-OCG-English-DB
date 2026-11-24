@@ -1,7 +1,6 @@
 {"character_id": "a_d_fujita", "series": "Manga", "ja_base": "ＡＤ 藤田", "ja_kana": null, "ocg_name": "A.D. Fujita", "tcg_dub_name": "A.D. Fujita"}
 {"character_id": "aaron", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Aaron", "tcg_dub_name": "Aaron"}
 {"character_id": "abe_the_monkey_man", "series": "DM", "ja_base": null, "ja_kana": "エイプ", "ocg_name": "Abe the Monkey Man", "tcg_dub_name": "Abe the Monkey Man"}
-{"character_id": "acrobat_monkey", "series": "GX", "ja_base": null, "ja_kana": "アクロバットモンキー", "ocg_name": "Acrobat Monkey", "tcg_dub_name": "Acrobat Monkey"}
 {"character_id": "adelaide", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ホッテンマイヤさん", "ocg_name": "Adelaide", "tcg_dub_name": "Adelaide"}
 {"character_id": "admire_derby", "series": "5D's", "ja_base": null, "ja_kana": "アドマイヤ・ダービー", "ocg_name": "Admire Derby", "tcg_dub_name": "Admire Derby"}
 {"character_id": "adolf_mueller", "series": "5D's", "ja_base": null, "ja_kana": "アドルフ・ミューラー", "ocg_name": "Adolf Mueller", "tcg_dub_name": "Adolf Mueller"}
@@ -18,7 +17,6 @@
 {"character_id": "aiichiro_mokota", "series": "ARC-V", "ja_base": "茂古田 愛一郎", "ja_kana": "もこた あいいちろう", "ocg_name": "Aiichiro Mokota", "tcg_dub_name": "Sansho Pepper"}
 {"character_id": "aika_hanazoe", "series": "ZEXAL", "ja_base": "花添愛華", "ja_kana": "はなぞえあいか", "ocg_name": "Aika Hanazoe", "tcg_dub_name": "Lotus Hanazoe"}
 {"character_id": "aileen_rao", "series": "DM", "ja_base": null, "ja_kana": "アイリーン・ラオ", "ocg_name": "Aileen Rao", "tcg_dub_name": "Aileen Rao"}
-{"character_id": "aiwass_the_magistus_saint", "series": "Manga", "ja_base": "法典の守護者アイワス", "ja_kana": "マギストス・セイントアイワス", "ocg_name": "Magistus Saint - Aiwass", "tcg_dub_name": "Aiwass, the Magistus Spell Spirit"}
 {"character_id": "akari_tsukumo", "series": "ZEXAL", "ja_base": "九十九明里", "ja_kana": "つくもあかり", "ocg_name": "Akari Tsukumo", "tcg_dub_name": "Akari Tsukumo"}
 {"character_id": "akhenaden", "series": "GX", "ja_base": null, "ja_kana": "アクナディン", "ocg_name": "Akhenaden", "tcg_dub_name": "Akhenaden"}
 {"character_id": "akhnamkanon", "series": "DM", "ja_base": null, "ja_kana": "アクナムカノン", "ocg_name": "Akhnamkanon", "tcg_dub_name": "Akhnamkanon"}
@@ -48,14 +46,9 @@
 {"character_id": "alpha", "series": "ZEXAL", "ja_base": "α", "ja_kana": "アルファ", "ocg_name": "Alpha", "tcg_dub_name": "Alpha"}
 {"character_id": "amanda", "series": "ARC-V", "ja_base": null, "ja_kana": "アマンダ", "ocg_name": "Amanda", "tcg_dub_name": "Amanda"}
 {"character_id": "amane_bakura", "series": "Manga", "ja_base": "獏良 天音", "ja_kana": null, "ocg_name": "Amane Bakura", "tcg_dub_name": "Amane Bakura"}
-{"character_id": "amazoness_blowgun_soldier", "series": "GX", "ja_base": "アマゾネスの吹き矢兵", "ja_kana": "アマゾネスのふきやへい", "ocg_name": "Amazoness Blowgun Soldier", "tcg_dub_name": "Amazoness Blowpiper"}
-{"character_id": "amazoness_holy_warrior", "series": "GX", "ja_base": "アマゾネスの聖戦士", "ja_kana": "アマゾネスのせいせんし", "ocg_name": "Amazoness Holy Warrior", "tcg_dub_name": "Amazoness Paladin"}
 {"character_id": "ammit", "series": "DM", "ja_base": null, "ja_kana": "アメミット", "ocg_name": "Ammit", "tcg_dub_name": "Ammit"}
 {"character_id": "amnael", "series": "Game", "ja_base": null, "ja_kana": "アムナエル", "ocg_name": "Amnael", "tcg_dub_name": "Amnael"}
-{"character_id": "ancient_fairy_dragon", "series": "5D's", "ja_base": null, "ja_kana": "エンシェント・フェアリー・ドラゴン", "ocg_name": "Ancient Fairy Dragon", "tcg_dub_name": "Ancient Fairy Dragon"}
-{"character_id": "ancient_holy_wyvern", "series": "Game", "ja_base": null, "ja_kana": "エンシェント・ホーリー・ワイバーン", "ocg_name": "Ancient Holy Wyvern", "tcg_dub_name": "Ancient Sacred Wyvern"}
 {"character_id": "andre", "series": "5D's", "ja_base": null, "ja_kana": "アンドレ", "ocg_name": "Andre", "tcg_dub_name": "Andre"}
-{"character_id": "android_psycho_shocker", "series": "GX", "ja_base": "人造人間－サイコ・ショッカー", "ja_kana": "じんぞうにんげん －サイコ・ショッカー", "ocg_name": "Android - Psycho Shocker", "tcg_dub_name": "Jinzo"}
 {"character_id": "angela_cooke", "series": "ZEXAL", "ja_base": null, "ja_kana": "エンジェラ・カラット", "ocg_name": "Angela Cooke", "tcg_dub_name": "Angela Cooke"}
 {"character_id": "angela_raines", "series": "5D's", "ja_base": null, "ja_kana": "アンジェラ", "ocg_name": "Angela Raines", "tcg_dub_name": "Angela Raines"}
 {"character_id": "angie", "series": "5D's", "ja_base": null, "ja_kana": "ヒデ", "ocg_name": "Angie", "tcg_dub_name": "Angie"}
@@ -68,7 +61,6 @@
 {"character_id": "antinomy", "series": "Game", "ja_base": null, "ja_kana": "アンチノミー", "ocg_name": "Antinomy", "tcg_dub_name": "Antinomy"}
 {"character_id": "antinomy_s_crew", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Antinomy's crew", "tcg_dub_name": "Antinomy's crew"}
 {"character_id": "antinomy_s_manager", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Antinomy's manager", "tcg_dub_name": "Antinomy's manager"}
-{"character_id": "antique_gear_golem", "series": "Game", "ja_base": "古代の機械巨人", "ja_kana": "アンティーク・ギアゴーレム", "ocg_name": "Antique Gear Golem", "tcg_dub_name": "Ancient Gear Golem"}
 {"character_id": "anubis", "series": "DM", "ja_base": null, "ja_kana": "アヌビス", "ocg_name": "Anubis", "tcg_dub_name": "Anubis"}
 {"character_id": "anzu", "series": "DM", "ja_base": null, "ja_kana": "まざき あんず", "ocg_name": "Anzu", "tcg_dub_name": "Anzu"}
 {"character_id": "anzu_mazaki", "series": "DM", "ja_base": "真崎 杏子", "ja_kana": "まざき あんず", "ocg_name": "Anzu Mazaki", "tcg_dub_name": "Tea Gardner"}
@@ -76,20 +68,13 @@
 {"character_id": "aoi_zaizen", "series": "VRAINS", "ja_base": "財前 葵", "ja_kana": "ざいぜん あおい", "ocg_name": "Aoi Zaizen", "tcg_dub_name": "Skye Zaizen"}
 {"character_id": "aoto", "series": "Manga", "ja_base": "青戸", "ja_kana": "あおと", "ocg_name": "Aoto", "tcg_dub_name": "Aoto"}
 {"character_id": "apollo", "series": "ARC-V", "ja_base": null, "ja_kana": "アポロ", "ocg_name": "Apollo", "tcg_dub_name": "Apollo"}
-{"character_id": "apoqliphort_killer", "series": "Game", "ja_base": null, "ja_kana": "アポクリフォート・キラー", "ocg_name": "Apoqliphort Killer", "tcg_dub_name": "Apoqliphort Towers"}
 {"character_id": "aporia", "series": "5D's", "ja_base": null, "ja_kana": "アポリア", "ocg_name": "Aporia", "tcg_dub_name": "Aporia"}
 {"character_id": "aporia_s_father", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Aporia's father", "tcg_dub_name": "Aporia's father"}
 {"character_id": "aporia_s_mother", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Aporia's mother", "tcg_dub_name": "Aporia's mother"}
 {"character_id": "aqua", "series": "VRAINS", "ja_base": null, "ja_kana": "アクア", "ocg_name": "Aqua", "tcg_dub_name": "Aqua"}
-{"character_id": "aqua_dragon", "series": "DM", "ja_base": null, "ja_kana": "アクア・ドラゴン", "ocg_name": "Aqua Dragon", "tcg_dub_name": "Aqua Dragon"}
-{"character_id": "aquaria_the_water_spirit", "series": "DM", "ja_base": "水の精霊 アクエリア", "ja_kana": "みずのせいれい アクエリア", "ocg_name": "Water Spirit - Aquaria", "tcg_dub_name": "Aqua Spirit"}
 {"character_id": "arata_arai", "series": "SEVENS", "ja_base": "洗井 新太", "ja_kana": "あらい あらた", "ocg_name": "Arata Arai", "tcg_dub_name": "Buff Grimes"}
-{"character_id": "arcana_knight_joker", "series": "Game", "ja_base": null, "ja_kana": "アルカナ ナイトジョーカー", "ocg_name": "Arcana Knight Joker", "tcg_dub_name": "Arcana Knight Joker"}
 {"character_id": "aria", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Aria", "tcg_dub_name": "Aria"}
 {"character_id": "arkana", "series": "DM", "ja_base": null, "ja_kana": "パンドラ", "ocg_name": "Pandora", "tcg_dub_name": "Arkana"}
-{"character_id": "armed_dragon_lv10", "series": "Game", "ja_base": "アームド・ドラゴン ＬＶ１０", "ja_kana": "アームド・ドラゴン レベル１０", "ocg_name": "Armed Dragon LV10", "tcg_dub_name": "Armed Dragon LV10"}
-{"character_id": "arms_of_the_dead", "series": "DM", "ja_base": "死者の腕", "ja_kana": "ししゃのうで", "ocg_name": "Arms of the Dead", "tcg_dub_name": "Fiend's Hand"}
-{"character_id": "artemis_the_magistus_maiden", "series": "Manga", "ja_base": "聖魔の乙女アルテミス", "ja_kana": "マギストス・メイデンアルテミス", "ocg_name": "Magistus Maiden - Artemis", "tcg_dub_name": "Artemis, the Magistus Moon Maiden"}
 {"character_id": "arthur_hawkins", "series": "DM", "ja_base": null, "ja_kana": "アーサー・ホプキンス", "ocg_name": "Arthur Hawkins", "tcg_dub_name": "Arthur Hawkins"}
 {"character_id": "asaka_mutsuba", "series": "GO RUSH!!", "ja_base": "六葉 アサカ", "ja_kana": "むつば アサカ", "ocg_name": "Asaka Mutsuba", "tcg_dub_name": "Asaka Mutsuba"}
 {"character_id": "asana", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "アサナ", "ocg_name": "Asana", "tcg_dub_name": "Asana"}
@@ -110,8 +95,6 @@
 {"character_id": "azul", "series": "ARC-V", "ja_base": null, "ja_kana": "アスール", "ocg_name": "Azul", "tcg_dub_name": "Azul"}
 {"character_id": "b_sec_hologuard", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "B!-Sec Hologuard", "tcg_dub_name": "B!-Sec Hologuard"}
 {"character_id": "b_t_officer", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "B!-T officer", "tcg_dub_name": "B!-T officer"}
-{"character_id": "baby_dragon", "series": "DM", "ja_base": null, "ja_kana": "ベビードラゴン", "ocg_name": "Baby Dragon", "tcg_dub_name": "Baby Dragon"}
-{"character_id": "babycerasaurus", "series": "GX", "ja_base": null, "ja_kana": "ベビケラサウルス", "ocg_name": "Babycerasaurus", "tcg_dub_name": "Babycerasaurus"}
 {"character_id": "badlove_kayama", "series": "GO RUSH!!", "ja_base": "加山 バッドラブ", "ja_kana": "かやま バッドラブ", "ocg_name": "Badlove Kayama", "tcg_dub_name": "Pigeflap Quill"}
 {"character_id": "bakura", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Bakura", "tcg_dub_name": "Bakura"}
 {"character_id": "bakura_no_chichi", "series": "DM", "ja_base": "獏良の父", "ja_kana": "ばくらのちち", "ocg_name": "Bakura no chichi", "tcg_dub_name": "Bakura's father"}
@@ -128,12 +111,8 @@
 {"character_id": "barrett", "series": "ARC-V", "ja_base": null, "ja_kana": "バレット", "ocg_name": "Barrett", "tcg_dub_name": "Barrett"}
 {"character_id": "bass", "series": "GX", "ja_base": null, "ja_kana": null, "ocg_name": "Bass", "tcg_dub_name": "Bass"}
 {"character_id": "bastet", "series": "DM", "ja_base": null, "ja_kana": "バステト", "ocg_name": "Bastet", "tcg_dub_name": "Bastet"}
-{"character_id": "batteryman_c", "series": "GX", "ja_base": "電池メン－単二型", "ja_kana": "でんちメン－たんにがた", "ocg_name": "Batteryman - C", "tcg_dub_name": "Batteryman C"}
-{"character_id": "batteryman_d", "series": "GX", "ja_base": "電池メン－単一型", "ja_kana": "でんちメン－たんいちがた", "ocg_name": "Batteryman - D", "tcg_dub_name": "Batteryman D"}
 {"character_id": "battle_beast", "series": "ARC-V", "ja_base": null, "ja_kana": "バトル・ビースト", "ocg_name": "Battle Beast", "tcg_dub_name": "Battle Beast"}
-{"character_id": "battle_footballer", "series": "GX", "ja_base": null, "ja_kana": "バトルフットボーラー", "ocg_name": "Battle Footballer", "tcg_dub_name": "Battle Footballer"}
 {"character_id": "bayern_governer_fravz", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Bayern Governer Fravz", "tcg_dub_name": "Bayern Governer Fravz"}
-{"character_id": "bean_soldier", "series": "DM", "ja_base": null, "ja_kana": "ビーン・ソルジャー", "ocg_name": "Bean Soldier", "tcg_dub_name": "Bean Soldier"}
 {"character_id": "bernie", "series": "ARC-V", "ja_base": null, "ja_kana": "バーニー", "ocg_name": "Bernie", "tcg_dub_name": "Bernie"}
 {"character_id": "bi_gijutsu_sha", "series": "DM", "ja_base": "技術者Ｂ", "ja_kana": null, "ocg_name": "Bi Gijutsu-sha", "tcg_dub_name": "Engineer B"}
 {"character_id": "big_1", "series": "DM", "ja_base": null, "ja_kana": "ビッグ１", "ocg_name": "Big 1", "tcg_dub_name": "Big 1"}
@@ -141,30 +120,15 @@
 {"character_id": "big_3", "series": "DM", "ja_base": null, "ja_kana": "ビッグ3", "ocg_name": "Big 3", "tcg_dub_name": "Big 3"}
 {"character_id": "big_4", "series": "DM", "ja_base": null, "ja_kana": "ビッグ4", "ocg_name": "Big 4", "tcg_dub_name": "Big 4"}
 {"character_id": "big_5", "series": "DM", "ja_base": null, "ja_kana": "ビッグ5", "ocg_name": "Big 5", "tcg_dub_name": "Big 5"}
-{"character_id": "birdman", "series": "GX", "ja_base": null, "ja_kana": "バードマン", "ocg_name": "Birdman", "tcg_dub_name": "Sky Scout"}
 {"character_id": "bishop", "series": "VRAINS", "ja_base": null, "ja_kana": "ビショップ", "ocg_name": "Bishop", "tcg_dub_name": "Bishop"}
 {"character_id": "bit", "series": "VRAINS", "ja_base": null, "ja_kana": "ビット", "ocg_name": "Bit", "tcg_dub_name": "Bit"}
 {"character_id": "black", "series": "DM", "ja_base": null, "ja_kana": "ブラック", "ocg_name": "Black", "tcg_dub_name": "Black"}
-{"character_id": "black_feather_armored_wing", "series": "Game", "ja_base": "ＢＦ－アーマード・ウィング", "ja_kana": "ブラックフェザー－アーマード・ウィング", "ocg_name": "Black Feather - Armored Wing", "tcg_dub_name": "Blackwing Armor Master"}
-{"character_id": "black_feather_dragon", "series": "Game", "ja_base": null, "ja_kana": "ブラックフェザー・ドラゴン", "ocg_name": "Black-Feather Dragon", "tcg_dub_name": "Black-Winged Dragon"}
 {"character_id": "black_haired_the_get_the_million_game_bunny", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Black-haired The Get the Million Game bunny", "tcg_dub_name": "Black-haired The Get the Million Game bunny"}
-{"character_id": "black_magician", "series": "DM", "ja_base": null, "ja_kana": "ブラック・マジシャン", "ocg_name": "Black Magician", "tcg_dub_name": "Dark Magician"}
-{"character_id": "black_magician_curran", "series": "GX", "ja_base": "黒魔導師クラン", "ja_kana": "くろまどうしクラン", "ocg_name": "Ebon Magician - Curran", "tcg_dub_name": "Ebon Magician Curran"}
-{"character_id": "black_magician_girl", "series": "DM", "ja_base": null, "ja_kana": "ブラック・マジシャン・ガール", "ocg_name": "Black Magician Girl", "tcg_dub_name": "Dark Magician Girl"}
-{"character_id": "black_rose_dragon", "series": "5D's", "ja_base": null, "ja_kana": "ブラック・ローズ・ドラゴン", "ocg_name": "Black Rose Dragon", "tcg_dub_name": "Black Rose Dragon"}
-{"character_id": "black_rose_witch", "series": "Game", "ja_base": "黒薔薇の魔女", "ja_kana": "ブラックローズウィッチ", "ocg_name": "Black Rose Witch", "tcg_dub_name": "Witch of the Black Rose"}
-{"character_id": "black_scorpion_chick_the_escaper", "series": "GX", "ja_base": "黒蠍－逃げ足のチック", "ja_kana": "くろさそり－にげあしのチック", "ocg_name": "Black Scorpion - Escaper Chick", "tcg_dub_name": "Dark Scorpion - Chick the Yellow"}
-{"character_id": "black_scorpion_cliff_the_trap_remover", "series": "GX", "ja_base": "黒蠍－罠はずしのクリフ", "ja_kana": "くろさそり－わなはずしのクリフ", "ocg_name": "Black Scorpion - Trap Remover Cliff", "tcg_dub_name": "Dark Scorpion - Cliff the Trap Remover"}
-{"character_id": "black_scorpion_gorg_the_strong", "series": "GX", "ja_base": "黒蠍－強力のゴーグ", "ja_kana": "くろさそり－ごうりきのゴーグ", "ocg_name": "Black Scorpion - Strong Gorg", "tcg_dub_name": "Dark Scorpion - Gorg the Strong"}
-{"character_id": "black_scorpion_graverobbers", "series": "GX", "ja_base": "黒蠍盗掘団", "ja_kana": "くろさそりとうくつだん", "ocg_name": "Black Scorpion Graverobbers", "tcg_dub_name": "Dark Scorpion Burglars"}
-{"character_id": "black_scorpion_meane_the_thorn", "series": "GX", "ja_base": "黒蠍－棘のミーネ", "ja_kana": "くろさそり－いばらのミーネ", "ocg_name": "Black Scorpion - Thorn Meane", "tcg_dub_name": "Dark Scorpion - Meanae the Thorn"}
 {"character_id": "blankey", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Blankey", "tcg_dub_name": "Blankey"}
-{"character_id": "blast_devil", "series": "GX", "ja_base": "連爆魔人", "ja_kana": "ブラスト・デビル", "ocg_name": "Blast Devil", "tcg_dub_name": "Blast Asmodian"}
 {"character_id": "blitz", "series": "5D's", "ja_base": null, "ja_kana": "ナーヴ", "ocg_name": "Blitz", "tcg_dub_name": "Blitz"}
 {"character_id": "blonde_the_get_the_million_game_bunny", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Blonde The Get the Million Game bunny", "tcg_dub_name": "Blonde The Get the Million Game bunny"}
 {"character_id": "blue", "series": "DM", "ja_base": null, "ja_kana": "ブルー", "ocg_name": "Blue", "tcg_dub_name": "Blue"}
 {"character_id": "blue_angel", "series": "Game", "ja_base": null, "ja_kana": "ブルーエンジェル", "ocg_name": "Blue Angel", "tcg_dub_name": "Blue Angel"}
-{"character_id": "blue_eyes_white_dragon", "series": "DM", "ja_base": "青眼の白龍", "ja_kana": "ブルーアイズ・ホワイト・ドラゴン", "ocg_name": "Blue-Eyes White Dragon", "tcg_dub_name": "Blue-Eyes White Dragon"}
 {"character_id": "blue_maiden", "series": "Game", "ja_base": null, "ja_kana": "ブルーメイデン", "ocg_name": "Blue Maiden", "tcg_dub_name": "Blue Maiden"}
 {"character_id": "bob_mcguire", "series": "Manga", "ja_base": null, "ja_kana": "ボブ・マクガイア", "ocg_name": "Bob McGuire", "tcg_dub_name": "Bob McGuire"}
 {"character_id": "bobasa", "series": "DM", "ja_base": null, "ja_kana": "ボバサ", "ocg_name": "Bobasa", "tcg_dub_name": "Bobasa"}
@@ -181,16 +145,12 @@
 {"character_id": "braun_honya", "series": "SEVENS", "ja_base": "本屋 ブラウン", "ja_kana": "ほんや ブラウン", "ocg_name": "Braun Honya", "tcg_dub_name": "Booster Page"}
 {"character_id": "brave_battler", "series": "Game", "ja_base": null, "ja_kana": "ブレイヴ・マックス", "ocg_name": "Brave Battler", "tcg_dub_name": "Brave Battler"}
 {"character_id": "breo", "series": "5D's", "ja_base": null, "ja_kana": "ブレオ", "ocg_name": "Breo", "tcg_dub_name": "Breo"}
-{"character_id": "brightness_dragon_star_gongfu", "series": "Game", "ja_base": "輝竜星－ショウフク", "ja_kana": "きりゅうせい－ショウフク", "ocg_name": "Brightness Dragon Star - Gongfu", "tcg_dub_name": "Baxia, Brightness of the Yang Zing"}
 {"character_id": "broder", "series": "5D's", "ja_base": null, "ja_kana": "ブレイブ", "ocg_name": "Broder", "tcg_dub_name": "Broder"}
-{"character_id": "brron_mad_king_of_dark_world", "series": "GX", "ja_base": "暗黒界の狂王 ブロン", "ja_kana": "あんこくかいのきょうおう ブロン", "ocg_name": "Mad King of Dark World - Brron", "tcg_dub_name": "Brron, Mad King of Dark World"}
 {"character_id": "bruce_ryu", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Bruce Ryu", "tcg_dub_name": "Bruce Ryu"}
 {"character_id": "bruno", "series": "5D's", "ja_base": null, "ja_kana": "ブルーノ", "ocg_name": "Bruno", "tcg_dub_name": "Bruno"}
 {"character_id": "bruyea", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ブリュエア", "ocg_name": "Bruyea", "tcg_dub_name": "Bruyea"}
-{"character_id": "bujintei_susanowo", "series": "Game", "ja_base": "武神帝－スサノヲ", "ja_kana": "ぶじんてい－スサノヲ", "ocg_name": "Bujintei - Susanowo", "tcg_dub_name": "Bujintei Susanowo"}
 {"character_id": "burgundy", "series": "GX", "ja_base": null, "ja_kana": "バーガンディ", "ocg_name": "Burgundy", "tcg_dub_name": "Burgundy"}
 {"character_id": "burning_toramaru", "series": "ZEXAL", "ja_base": "バーニング虎丸", "ja_kana": null, "ocg_name": "Burning Toramaru", "tcg_dub_name": "Tricky Tommy Noble"}
-{"character_id": "buster_blader", "series": "Game", "ja_base": null, "ja_kana": "バスター・ブレイダー", "ocg_name": "Buster Blader", "tcg_dub_name": "Buster Blader"}
 {"character_id": "butai_yoyo", "series": "Manga", "ja_base": "ヨーヨー部隊", "ja_kana": "ヨーヨーぶたい", "ocg_name": "butai Yoyo", "tcg_dub_name": "Yo-yo trooper"}
 {"character_id": "camellia", "series": "Manga", "ja_base": null, "ja_kana": "カメリア", "ocg_name": "Camellia", "tcg_dub_name": "Camellia"}
 {"character_id": "camula", "series": "GX", "ja_base": null, "ja_kana": "カミューラ", "ocg_name": "Camula", "tcg_dub_name": "Camula"}
@@ -198,8 +158,6 @@
 {"character_id": "captain_corn", "series": "ZEXAL", "ja_base": null, "ja_kana": "キャプテン・コーン", "ocg_name": "Captain Corn", "tcg_dub_name": "Captain Corn"}
 {"character_id": "captain_cutter", "series": "ARC-V", "ja_base": null, "ja_kana": "キャプテン・ソロ", "ocg_name": "Captain Cutter", "tcg_dub_name": "Captain Cutter"}
 {"character_id": "car_salesman", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Car salesman", "tcg_dub_name": "Car salesman"}
-{"character_id": "card_hunting_grim_reaper", "series": "DM", "ja_base": "カードを狩る死神", "ja_kana": "カードをかるしにがみ", "ocg_name": "Card-Hunting Grim Reaper", "tcg_dub_name": "Reaper of the Cards"}
-{"character_id": "card_trader", "series": "Game", "ja_base": null, "ja_kana": "カードトレーダー", "ocg_name": "Card Trader", "tcg_dub_name": "Card Trader"}
 {"character_id": "carefree_academy_student", "series": "Game", "ja_base": "のんびり学園生", "ja_kana": null, "ocg_name": "Carefree Academy Student", "tcg_dub_name": "Mia"}
 {"character_id": "carl", "series": "ARC-V", "ja_base": null, "ja_kana": "カール", "ocg_name": "Carl", "tcg_dub_name": "Carl"}
 {"character_id": "carly_carmen", "series": "5D's", "ja_base": null, "ja_kana": "カーリー なのさ", "ocg_name": "Carly Carmen", "tcg_dub_name": "Carly Carmen"}
@@ -209,17 +167,12 @@
 {"character_id": "catherine", "series": "DM", "ja_base": null, "ja_kana": "カトリーヌ", "ocg_name": "Catherine", "tcg_dub_name": "Catherine"}
 {"character_id": "cathy", "series": "ZEXAL", "ja_base": null, "ja_kana": "キャッシー", "ocg_name": "Cathy", "tcg_dub_name": "Cathy"}
 {"character_id": "cathy_katherine", "series": "Game", "ja_base": null, "ja_kana": "キャッシー", "ocg_name": "Cathy Katherine", "tcg_dub_name": "Cathy Katherine"}
-{"character_id": "catnipped_kitty", "series": "GX", "ja_base": null, "ja_kana": "またたびキャット", "ocg_name": "Matatabi Kitty", "tcg_dub_name": "Catnipped Kitty"}
 {"character_id": "cecelia_pegasus", "series": "DM", "ja_base": null, "ja_kana": "シンディア", "ocg_name": "Cecelia Pegasus", "tcg_dub_name": "Cecelia Pegasus"}
 {"character_id": "cedar_mill", "series": "Manga", "ja_base": null, "ja_kana": "シーダー・ミール", "ocg_name": "Cedar Mill", "tcg_dub_name": "Cedar Mill"}
 {"character_id": "celina", "series": "ARC-V", "ja_base": null, "ja_kana": "セレナ", "ocg_name": "Celina", "tcg_dub_name": "Celina"}
-{"character_id": "cendrillon_the_magistus_verre", "series": "Manga", "ja_base": "結晶の大賢者サンドリヨン", "ja_kana": "マギストス・ヴェールサンドリヨン", "ocg_name": "Magistus Verre - Cendrillon", "tcg_dub_name": "Rilliona, the Magistus of Verre"}
-{"character_id": "centaur", "series": "DM", "ja_base": null, "ja_kana": "ケンタウロス", "ocg_name": "Centaur", "tcg_dub_name": "Mystic Horseman"}
 {"character_id": "chairman", "series": "GX", "ja_base": null, "ja_kana": null, "ocg_name": "Chairman", "tcg_dub_name": "Chairman"}
 {"character_id": "chairman_white_taki", "series": "ARC-V", "ja_base": "ホワイト・タキ議長", "ja_kana": "ホワイト・タキぎちょう", "ocg_name": "Chairman White Taki", "tcg_dub_name": "White Taki"}
 {"character_id": "chalac", "series": "ARC-V", "ja_base": null, "ja_kana": "シャルル", "ocg_name": "Chalac", "tcg_dub_name": "Chalac"}
-{"character_id": "chaos_soldier", "series": "Game", "ja_base": null, "ja_kana": "カオス・ソルジャー", "ocg_name": "Chaos Soldier", "tcg_dub_name": "Black Luster Soldier"}
-{"character_id": "chaos_sorcerer", "series": "GX", "ja_base": null, "ja_kana": "カオス・ソーサラー", "ocg_name": "Chaos Sorcerer", "tcg_dub_name": "Chaos Sorcerer"}
 {"character_id": "charlie_mccay", "series": "ZEXAL", "ja_base": null, "ja_kana": "チャーリー・マッコイ", "ocg_name": "Charlie McCay", "tcg_dub_name": "Charlie McCay"}
 {"character_id": "charlie_s_opponent", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Charlie's opponent", "tcg_dub_name": "Charlie's opponent"}
 {"character_id": "cheerful_academia_student", "series": "Game", "ja_base": "明るいアカデミア生徒", "ja_kana": null, "ocg_name": "Cheerful Academia Student", "tcg_dub_name": "Alyssa"}
@@ -244,11 +197,9 @@
 {"character_id": "claire", "series": "5D's", "ja_base": null, "ja_kana": "クレア", "ocg_name": "Claire", "tcg_dub_name": "Claire"}
 {"character_id": "claret", "series": "GX", "ja_base": null, "ja_kana": null, "ocg_name": "Claret", "tcg_dub_name": "Claret"}
 {"character_id": "clark_smith", "series": "5D's", "ja_base": null, "ja_kana": "クラーク・スミス", "ocg_name": "Clark Smith", "tcg_dub_name": "Clark Smith"}
-{"character_id": "claw_of_hermos", "series": "DM", "ja_base": null, "ja_kana": "ヘルモス", "ocg_name": "Claw of Hermos", "tcg_dub_name": "Claw of Hermos"}
 {"character_id": "cologne", "series": "ZEXAL", "ja_base": null, "ja_kana": "コロン", "ocg_name": "Cologne", "tcg_dub_name": "Cologne"}
 {"character_id": "conical_hat_duelist", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Conical Hat Duelist", "tcg_dub_name": "Conical Hat Duelist"}
 {"character_id": "continuous_bomber", "series": "DM", "ja_base": "連続爆弾魔", "ja_kana": null, "ocg_name": "Continuous Bomber", "tcg_dub_name": "Continuous Bomber"}
-{"character_id": "contrast_hero_chaos", "series": "Game", "ja_base": "Ｃ・ＨＥＲＯ カオス", "ja_kana": "コントラストヒーロー カオス", "ocg_name": "Contrast HERO - Chaos", "tcg_dub_name": "Contrast HERO Chaos"}
 {"character_id": "cool_student", "series": "Game", "ja_base": "クールな学生", "ja_kana": null, "ocg_name": "Cool Student", "tcg_dub_name": "Andrew"}
 {"character_id": "copernicus", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Copernicus", "tcg_dub_name": "Copernicus"}
 {"character_id": "copyko", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "エナジー こぴこ", "ocg_name": "Copyko", "tcg_dub_name": "Copyko"}
@@ -257,21 +208,15 @@
 {"character_id": "corrupted_aigami", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Corrupted Aigami", "tcg_dub_name": "Corrupted Aigami"}
 {"character_id": "cowboy_duelist", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Cowboy Duelist", "tcg_dub_name": "Cowboy Duelist"}
 {"character_id": "coyote", "series": "ZEXAL", "ja_base": null, "ja_kana": "コヨーテ", "ocg_name": "Coyote", "tcg_dub_name": "Coyote"}
-{"character_id": "crimson_dragon_quetzacoatl", "series": "5D's", "ja_base": "赤き竜 ケッツァーコアトル", "ja_kana": "あかきりゅう ケッツァーコアトル", "ocg_name": "Crimson Dragon - Quetzacoatl", "tcg_dub_name": "Crimson Dragon Quetzalcoatl"}
 {"character_id": "croquet", "series": "DM", "ja_base": null, "ja_kana": "クロケッツ", "ocg_name": "Croquet", "tcg_dub_name": "Croquet"}
 {"character_id": "crow_hogan", "series": "5D's", "ja_base": null, "ja_kana": "クロウ・ホーガン", "ocg_name": "Crow Hogan", "tcg_dub_name": "Crow Hogan"}
 {"character_id": "crowley_s_grandfather", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Crowley's grandfather", "tcg_dub_name": "Crowley's grandfather"}
 {"character_id": "cup_ramen_man", "series": "5D's", "ja_base": null, "ja_kana": "カップラーメンマン", "ocg_name": "Cup Ramen Man", "tcg_dub_name": "Cup Ramen Man"}
-{"character_id": "curse_of_dragon", "series": "DM", "ja_base": null, "ja_kana": "カース・オブ・ドラゴン", "ocg_name": "Curse of Dragon", "tcg_dub_name": "Curse of Dragon"}
 {"character_id": "cyanos", "series": "Manga", "ja_base": null, "ja_kana": "キアノス", "ocg_name": "Cyanos", "tcg_dub_name": "Cyanos"}
-{"character_id": "cyber_dragon", "series": "Game", "ja_base": null, "ja_kana": "サイバー・ドラゴン", "ocg_name": "Cyber Dragon", "tcg_dub_name": "Cyber Dragon"}
-{"character_id": "cyclops", "series": "DM", "ja_base": null, "ja_kana": "サイクロプス", "ocg_name": "Cyclops", "tcg_dub_name": "Hitotsu-Me Giant"}
-{"character_id": "d_d_crow", "series": "Game", "ja_base": "Ｄ．Ｄ．クロウ", "ja_kana": "ディー．ディー．クロウ", "ocg_name": "D.D. Crow", "tcg_dub_name": "D.D. Crow"}
 {"character_id": "d_horse", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "D-Horse", "tcg_dub_name": "D-Horse"}
 {"character_id": "d_wheel_longing_academia_student", "series": "Game", "ja_base": "ＤＷに憧れるアカデミア生徒", "ja_kana": null, "ocg_name": "D-Wheel-Longing Academia Student", "tcg_dub_name": "Erika"}
 {"character_id": "daaku_amudo", "series": "Manga", "ja_base": "安夢童 舵亜久", "ja_kana": "あむどう だあく", "ocg_name": "Daaku Amudo", "tcg_dub_name": "Daaku Amudo"}
 {"character_id": "dabingo_arisugawa", "series": "GO RUSH!!", "ja_base": "有栖川 ダビンゴ", "ja_kana": "ありすがわ ダビンゴ", "ocg_name": "Dabingo Arisugawa", "tcg_dub_name": "Danko Entant"}
-{"character_id": "daemon_s_summon", "series": "DM", "ja_base": "デーモンの召喚", "ja_kana": "デーモンのしょうかん", "ocg_name": "Daemon's Summon", "tcg_dub_name": "Summoned Skull"}
 {"character_id": "daichi", "series": "5D's", "ja_base": null, "ja_kana": "ダイチ", "ocg_name": "Daichi", "tcg_dub_name": "Daichi"}
 {"character_id": "daichi_misawa", "series": "GX", "ja_base": "三沢大地", "ja_kana": "みさわだいち", "ocg_name": "Daichi Misawa", "tcg_dub_name": "Bastion Misawa"}
 {"character_id": "daichi_s_father", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Daichi's father", "tcg_dub_name": "Daichi's father"}
@@ -280,49 +225,26 @@
 {"character_id": "daimon", "series": "DM", "ja_base": "大門", "ja_kana": null, "ocg_name": "Daimon", "tcg_dub_name": "Hobson"}
 {"character_id": "daisuke_katagiri", "series": "ZEXAL", "ja_base": "片桐 大輔", "ja_kana": "かたぎリ だいすけ", "ocg_name": "Daisuke Katagiri", "tcg_dub_name": "Devon Knox"}
 {"character_id": "daitokuji", "series": "GX", "ja_base": "大徳寺", "ja_kana": "だいとくじ", "ocg_name": "Daitokuji", "tcg_dub_name": "Lyman Banner"}
-{"character_id": "daku_masuta_zoku", "series": "DM", "ja_base": "闇の支配者 ゾーク", "ja_kana": "ダーク・マスター ゾーク", "ocg_name": "Daku Masuta Zoku", "tcg_dub_name": "Dark Master Zorc"}
 {"character_id": "damamu", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ダマムー", "ocg_name": "Damamu", "tcg_dub_name": "Damamu"}
 {"character_id": "damon_lopez", "series": "ARC-V", "ja_base": null, "ja_kana": "デイモン・ロペス", "ocg_name": "Damon Lopez", "tcg_dub_name": "Damon Lopez"}
-{"character_id": "dancing_fairy", "series": "DM", "ja_base": "踊る妖精", "ja_kana": "ダンシングフェアリー", "ocg_name": "Dancing Fairy", "tcg_dub_name": "Dancing Fairy"}
-{"character_id": "dandylion", "series": "Game", "ja_base": null, "ja_kana": "ダンディライオン", "ocg_name": "Dandylion", "tcg_dub_name": "Dandylion"}
-{"character_id": "dark_familiar", "series": "GX", "ja_base": null, "ja_kana": "ダークファミリア", "ocg_name": "Dark Familiar", "tcg_dub_name": "Spear Cretin"}
-{"character_id": "dark_gray", "series": "DM", "ja_base": null, "ja_kana": "ダーク・グレイ", "ocg_name": "Dark Gray", "tcg_dub_name": "Dark Gray"}
-{"character_id": "dark_master_zorc", "series": "Game", "ja_base": "闇の支配者－ゾーク", "ja_kana": "ダーク・マスター－ゾーク", "ocg_name": "Dark Master - Zorc", "tcg_dub_name": "Dark Master - Zorc"}
-{"character_id": "dark_napoleon", "series": "DM", "ja_base": "Ｄ・ナポレオン", "ja_kana": "ダーク・ナポレオン", "ocg_name": "Dark Napoleon", "tcg_dub_name": "Meda Bat"}
-{"character_id": "dark_resonator", "series": "Game", "ja_base": null, "ja_kana": "ダーク・リゾネーター", "ocg_name": "Dark Resonator", "tcg_dub_name": "Dark Resonator"}
 {"character_id": "dark_signer_rex_goodwin", "series": "Game", "ja_base": null, "ja_kana": "ＤＳレクス・ゴドウィン", "ocg_name": "Dark Signer Rex Goodwin", "tcg_dub_name": "Dark Signer Rex Goodwin"}
-{"character_id": "dark_simorgh", "series": "Game", "ja_base": null, "ja_kana": "ダーク・シムルグ", "ocg_name": "Dark Simorgh", "tcg_dub_name": "Dark Simorgh"}
 {"character_id": "dark_spirit_of_chaos", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Dark Spirit of Chaos", "tcg_dub_name": "Dark Spirit of Chaos"}
 {"character_id": "dark_spirit_of_chaos_host", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Dark Spirit of Chaos' host", "tcg_dub_name": "Dark Spirit of Chaos' host"}
 {"character_id": "dark_ushebti", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Dark Ushebti", "tcg_dub_name": "Dark Ushebti"}
 {"character_id": "dartz", "series": "DM", "ja_base": null, "ja_kana": "ダーツ", "ocg_name": "Dartz", "tcg_dub_name": "Dartz"}
 {"character_id": "datsugoku_shu", "series": "Manga", "ja_base": "脱獄囚", "ja_kana": null, "ocg_name": "Datsugoku-shu", "tcg_dub_name": "Escaped prisoner"}
 {"character_id": "david_rabb", "series": "GX", "ja_base": null, "ja_kana": "デイビッド・ラブ", "ocg_name": "David Rabb", "tcg_dub_name": "David Rabb"}
-{"character_id": "death_frog", "series": "GX", "ja_base": null, "ja_kana": "デスガエル", "ocg_name": "Death Gaeru", "tcg_dub_name": "Des Frog"}
-{"character_id": "death_guide_departing_the_demon_world_bound_for_the_living_world", "series": "Game", "ja_base": "魔界発現世行きデスガイド", "ja_kana": "まかいはつげんせゆきデスガイド", "ocg_name": "Death Guide from the Demon World to the Living World", "tcg_dub_name": "Tour Guide From the Underworld"}
-{"character_id": "death_koala", "series": "GX", "ja_base": null, "ja_kana": "デス・コアラ", "ocg_name": "Death Koala", "tcg_dub_name": "Des Koala"}
-{"character_id": "death_satan_the_djinn", "series": "DM", "ja_base": "魔人デスサタン", "ja_kana": "まじんデスサタン", "ocg_name": "Djinn Death Satan", "tcg_dub_name": "Witty Phantom"}
-{"character_id": "debris_dragon", "series": "Game", "ja_base": null, "ja_kana": "デブリ・ドラゴン", "ocg_name": "Debris Dragon", "tcg_dub_name": "Debris Dragon"}
 {"character_id": "deceptus", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ダマス", "ocg_name": "Deceptus", "tcg_dub_name": "Deceptus"}
-{"character_id": "deepsea_warrior", "series": "Game", "ja_base": "深海の戦士", "ja_kana": "しんかいのせんし", "ocg_name": "Deepsea Warrior", "tcg_dub_name": "Deepsea Warrior"}
-{"character_id": "deformer_mobahon", "series": "Game", "ja_base": "Ｄ・モバホン", "ja_kana": "ディフォーマー・モバホン", "ocg_name": "Deformer - Mobahon", "tcg_dub_name": "Morphtronic Celfon"}
-{"character_id": "deformer_remocon", "series": "Game", "ja_base": "Ｄ・リモコン", "ja_kana": "ディフォーマー・リモコン", "ocg_name": "Deformer - Remocon", "tcg_dub_name": "Morphtronic Remoten"}
-{"character_id": "demise_king_of_armageddon", "series": "GX", "ja_base": "終焉の王デミス", "ja_kana": "しゅうえんのおうデミス", "ocg_name": "King of Armageddon - Demise", "tcg_dub_name": "Demise, King of Armageddon"}
 {"character_id": "demon", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Demon", "tcg_dub_name": "Demon"}
 {"character_id": "den_city_high_school_student", "series": "Game", "ja_base": "デンシティ・ハイスクール生", "ja_kana": null, "ocg_name": "Den City High School Student", "tcg_dub_name": "Vega"}
 {"character_id": "dennis_mcfield", "series": "ARC-V", "ja_base": null, "ja_kana": "デニス・マックフィールド", "ocg_name": "Dennis McField", "tcg_dub_name": "Dennis McField"}
 {"character_id": "depre_scott", "series": "Manga", "ja_base": null, "ja_kana": "デプレ・スコット", "ocg_name": "Depre Scott", "tcg_dub_name": "Depre Scott"}
-{"character_id": "desert_twister", "series": "Game", "ja_base": null, "ja_kana": "デザート・ツイスター", "ocg_name": "Desert Twister", "tcg_dub_name": "Desert Twister"}
 {"character_id": "deshutes_lew", "series": "Manga", "ja_base": null, "ja_kana": "デシェーツ・ルー", "ocg_name": "Deshutes Lew", "tcg_dub_name": "Deshutes Lew"}
 {"character_id": "devack", "series": "5D's", "ja_base": null, "ja_kana": "ディマク", "ocg_name": "Devack", "tcg_dub_name": "Devack"}
-{"character_id": "devil_dozer", "series": "GX", "ja_base": null, "ja_kana": "デビルドーザー", "ocg_name": "Devil Dozer", "tcg_dub_name": "Doom Dozer"}
-{"character_id": "devil_frog", "series": "GX", "ja_base": "悪魔ガエル", "ja_kana": "あまガエル", "ocg_name": "Devil Gaeru", "tcg_dub_name": "Beelze Frog"}
 {"character_id": "devil_master", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Devil Master", "tcg_dub_name": "Devil Master"}
 {"character_id": "dextra", "series": "ZEXAL", "ja_base": null, "ja_kana": "ドロワ", "ocg_name": "Dextra", "tcg_dub_name": "Dextra"}
 {"character_id": "diabound", "series": "Manga", "ja_base": null, "ja_kana": "ディアバウンド", "ocg_name": "Diabound", "tcg_dub_name": "Diabound"}
 {"character_id": "diana", "series": "ARC-V", "ja_base": null, "ja_kana": "ディアナ", "ocg_name": "Diana", "tcg_dub_name": "Diana"}
-{"character_id": "different_dimension_guide", "series": "Game", "ja_base": "異次元への案内人", "ja_kana": "いじげんへのあんないにん", "ocg_name": "Different Dimension Guide", "tcg_dub_name": "D.D. Guide"}
-{"character_id": "different_dimension_trainer", "series": "Game", "ja_base": "異次元トレーナー", "ja_kana": "いじげんトレーナー", "ocg_name": "Different Dimension Trainer", "tcg_dub_name": "D.D. Trainer"}
 {"character_id": "diggs_grandfather", "series": "SEVENS", "ja_base": null, "ja_kana": null, "ocg_name": "Diggs' grandfather", "tcg_dub_name": "Diggs' grandfather"}
 {"character_id": "diligent_academia_student", "series": "Game", "ja_base": "まじめなアカデミア生徒", "ja_kana": null, "ocg_name": "Diligent Academia Student", "tcg_dub_name": "Liam"}
 {"character_id": "dinosaur_hakozaki", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Dinosaur Hakozaki", "tcg_dub_name": "Dinosaur Hakozaki"}
@@ -337,7 +259,6 @@
 {"character_id": "dojima", "series": "5D's", "ja_base": "堂島", "ja_kana": "どうじま", "ocg_name": "Dojima", "tcg_dub_name": "Lug"}
 {"character_id": "don_piero", "series": "5D's", "ja_base": null, "ja_kana": "ガロメ", "ocg_name": "Don Piero", "tcg_dub_name": "Don Piero"}
 {"character_id": "don_thousand", "series": "ZEXAL", "ja_base": null, "ja_kana": "ドン・サウザンド", "ocg_name": "Don Thousand", "tcg_dub_name": "Don Thousand"}
-{"character_id": "don_zaloog", "series": "GX", "ja_base": "首領・ザルーグ", "ja_kana": "ドン・ザルーグ", "ocg_name": "Don Zaloog", "tcg_dub_name": "Don Zaloog"}
 {"character_id": "dorei_shonin_fu_no_otoko", "series": "DM", "ja_base": "奴隷商人風の男", "ja_kana": "どれいしょうにんふうのおとこ", "ocg_name": "Dorei shonin-fu no otoko", "tcg_dub_name": "Slave merchant"}
 {"character_id": "doron_shacho", "series": "Game", "ja_base": "社長ドローン", "ja_kana": "しゃちょうドローン", "ocg_name": "Doron Shacho", "tcg_dub_name": "President Drone"}
 {"character_id": "doruo_ai", "series": "GX", "ja_base": "愛 怒瑠夫", "ja_kana": "あい どるお", "ocg_name": "Doruo Ai", "tcg_dub_name": "Colin"}
@@ -353,7 +274,6 @@
 {"character_id": "dr_zeta", "series": "SEVENS", "ja_base": "Ｄｒ．ゼータ", "ja_kana": "ドクターゼータ", "ocg_name": "Dr. Zeta", "tcg_dub_name": "Dr. Zeta"}
 {"character_id": "dragan", "series": "5D's", "ja_base": null, "ja_kana": "ドラガン", "ocg_name": "Dragan", "tcg_dub_name": "Dragan"}
 {"character_id": "dragon", "series": "DM", "ja_base": null, "ja_kana": "ドラゴン", "ocg_name": "Dragon", "tcg_dub_name": "Dragon"}
-{"character_id": "drake", "series": "DM", "ja_base": null, "ja_kana": "ドレイク", "ocg_name": "Drake", "tcg_dub_name": "Kurama"}
 {"character_id": "ds_carly_nagisa", "series": "Game", "ja_base": "ＤＳカーリー渚", "ja_kana": "ＤＳカーリーなぎさ", "ocg_name": "DS Carly Nagisa", "tcg_dub_name": "Dark Signer Carly Carmine"}
 {"character_id": "ds_kyosuke_kiryu", "series": "Game", "ja_base": "ＤＳ鬼柳京介", "ja_kana": null, "ocg_name": "DS Kyosuke Kiryu", "tcg_dub_name": "Dark Signer Kalin Kessler"}
 {"character_id": "duel_academy_examiner", "series": "GX", "ja_base": null, "ja_kana": null, "ocg_name": "Duel Academy examiner", "tcg_dub_name": "Duel Academy examiner"}
@@ -373,23 +293,12 @@
 {"character_id": "earthdama", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "アースダマー", "ocg_name": "Earthdama", "tcg_dub_name": "Earthdama"}
 {"character_id": "earu", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Earu", "tcg_dub_name": "Earu"}
 {"character_id": "echo", "series": "GX", "ja_base": null, "ja_kana": "エコー", "ocg_name": "Echo", "tcg_dub_name": "Echo"}
-{"character_id": "eclipse_wyvern", "series": "Game", "ja_base": null, "ja_kana": "エクリプス・ワイバーン", "ocg_name": "Eclipse Wyvern", "tcg_dub_name": "Eclipse Wyvern"}
 {"character_id": "editor_in_chief", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Editor-in-chief", "tcg_dub_name": "Editor-in-chief"}
 {"character_id": "edo_phoenix", "series": "GX", "ja_base": null, "ja_kana": "エド・フェニックス", "ocg_name": "Edo Phoenix", "tcg_dub_name": "Aster Phoenix"}
 {"character_id": "ehoko_kamijo", "series": "GO RUSH!!", "ja_base": "上城 慧方子", "ja_kana": "かみじょう えほこ", "ocg_name": "Ehoko Kamijo", "tcg_dub_name": "Epolonia Kallister"}
 {"character_id": "eiji_tsukinami", "series": "Manga", "ja_base": "附並 英二", "ja_kana": "つきなみ えいじ", "ocg_name": "Eiji Tsukinami", "tcg_dub_name": "Eiji Tsukinami"}
 {"character_id": "eiji_yotsuhoshi", "series": "ZEXAL", "ja_base": "四星 焔児", "ja_kana": "よつほし えいじ", "ocg_name": "Eiji Yotsuhoshi", "tcg_dub_name": "David Jones"}
 {"character_id": "eita_kyuando", "series": "ARC-V", "ja_base": "九庵堂 栄太", "ja_kana": "きゅうあんどう えいた", "ocg_name": "Eita Kyuando", "tcg_dub_name": "Pierre L'Supérieure"}
-{"character_id": "el_shaddoll_nephilim", "series": "Game", "ja_base": null, "ja_kana": "エルシャドール・ネフィリム", "ocg_name": "El Shaddoll Nephilim", "tcg_dub_name": "El Shaddoll Construct"}
-{"character_id": "elemental_hero_bubbleman", "series": "Game", "ja_base": "Ｅ・ＨＥＲＯ バブルマン", "ja_kana": "エレメンタルヒーロー バブルマン", "ocg_name": "Elemental HERO - Bubbleman", "tcg_dub_name": "Elemental HERO Bubbleman"}
-{"character_id": "elemental_hero_burst_lady", "series": "GX", "ja_base": "Ｅ・ＨＥＲＯ バーストレディ", "ja_kana": "エレメンタルヒーロー バーストレディ", "ocg_name": "Elemental HERO - Burst Lady", "tcg_dub_name": "Elemental HERO Burstinatrix"}
-{"character_id": "elemental_hero_featherman", "series": "GX", "ja_base": "Ｅ・ＨＥＲＯ フェザーマン", "ja_kana": "エレメンタルヒーロー フェザーマン", "ocg_name": "Elemental HERO - Featherman", "tcg_dub_name": "Elemental HERO Avian"}
-{"character_id": "elemental_hero_flame_wingman", "series": "GX", "ja_base": "Ｅ・ＨＥＲＯ フレイム・ウィングマン", "ja_kana": "エレメンタルヒーロー フレイム・ウィングマン", "ocg_name": "Elemental HERO - Flame Wingman", "tcg_dub_name": "Elemental HERO Flame Wingman"}
-{"character_id": "elemental_hero_glow_neos", "series": "GX", "ja_base": "Ｅ・ＨＥＲＯ グロー・ネオス", "ja_kana": "エレメンタルヒーロー グロー・ネオス", "ocg_name": "Elemental HERO - Glow Neos", "tcg_dub_name": "Elemental HERO Glow Neos"}
-{"character_id": "elemental_hero_neos", "series": "GX", "ja_base": "Ｅ・ＨＥＲＯ ネオス", "ja_kana": "エレメンタルヒーロー ネオス", "ocg_name": "Elemental HERO - Neos", "tcg_dub_name": "Elemental HERO Neos"}
-{"character_id": "elemental_hero_shining_flare_wingman", "series": "Game", "ja_base": "Ｅ・ＨＥＲＯ シャイニング・フレア・ウィングマン", "ja_kana": "エレメンタルヒーロー シャイニング・フレア・ウィングマン", "ocg_name": "Elemental HERO - Shining Flare Wingman", "tcg_dub_name": "Elemental HERO Shining Flare Wingman"}
-{"character_id": "elemental_hero_sparkman", "series": "GX", "ja_base": "Ｅ・ＨＥＲＯ スパークマン", "ja_kana": "エレメンタルヒーロー スパークマン", "ocg_name": "Elemental HERO - Sparkman", "tcg_dub_name": "Elemental HERO Sparkman"}
-{"character_id": "elf_swordsman", "series": "DM", "ja_base": "エルフの剣士", "ja_kana": "エルフのけんし", "ocg_name": "Elf Swordsman", "tcg_dub_name": "Celtic Guardian"}
 {"character_id": "eliphas", "series": "ZEXAL", "ja_base": null, "ja_kana": "エリファス", "ocg_name": "Eliphas", "tcg_dub_name": "Eliphas"}
 {"character_id": "eloquent_young_man", "series": "Game", "ja_base": "さわやかなお兄さん", "ja_kana": null, "ocg_name": "Eloquent Young Man", "tcg_dub_name": "Jay"}
 {"character_id": "elroy_prescot", "series": "GX", "ja_base": null, "ja_kana": "サンブレ・ゲレロ", "ocg_name": "Elroy Prescot", "tcg_dub_name": "Elroy Prescot"}
@@ -400,7 +309,6 @@
 {"character_id": "emma", "series": "ARC-V", "ja_base": null, "ja_kana": "エマ", "ocg_name": "Emma", "tcg_dub_name": "Emma"}
 {"character_id": "en", "series": "ARC-V", "ja_base": null, "ja_kana": "アン", "ocg_name": "En", "tcg_dub_name": "En"}
 {"character_id": "endymion_s_brother", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Endymion's brother", "tcg_dub_name": "Endymion's brother"}
-{"character_id": "endymion_the_magistus_master", "series": "Manga", "ja_base": "聖魔の大賢者エンディミオン", "ja_kana": "マギストス・マスターエンディミオン", "ocg_name": "Magistus Master - Endymion", "tcg_dub_name": "Endymion, the Magistus of Mastery"}
 {"character_id": "energetic_academy_student", "series": "Game", "ja_base": "元気な学園生", "ja_kana": null, "ocg_name": "Energetic Academy Student", "tcg_dub_name": "Oliver"}
 {"character_id": "energetic_boy", "series": "Game", "ja_base": "元気な男の子", "ja_kana": null, "ocg_name": "Energetic Boy", "tcg_dub_name": "Mickey"}
 {"character_id": "enna", "series": "ZEXAL", "ja_base": null, "ja_kana": "エナ", "ocg_name": "Enna", "tcg_dub_name": "Enna"}
@@ -413,9 +321,6 @@
 {"character_id": "eve", "series": "ARC-V", "ja_base": "ＥＶＥ", "ja_kana": "イヴ", "ocg_name": "Eve", "tcg_dub_name": "Eve"}
 {"character_id": "eviluder", "series": "ZEXAL", "ja_base": null, "ja_kana": "イビルーダー", "ocg_name": "Eviluder", "tcg_dub_name": "Eviluder"}
 {"character_id": "excited_academia_student", "series": "Game", "ja_base": "ハイテンションなアカデミア生徒", "ja_kana": null, "ocg_name": "Excited Academia Student", "tcg_dub_name": "Kylie"}
-{"character_id": "exodia_necross", "series": "Game", "ja_base": null, "ja_kana": "エクゾディア・ネクロス", "ocg_name": "Exodia Necross", "tcg_dub_name": "Exodia Necross"}
-{"character_id": "fairy_dragon", "series": "DM", "ja_base": null, "ja_kana": "フェアリー・ドラゴン", "ocg_name": "Fairy Dragon", "tcg_dub_name": "Fairy Dragon"}
-{"character_id": "fairy_s_gift", "series": "DM", "ja_base": "妖精の贈りもの", "ja_kana": "ようせいのおくりもの", "ocg_name": "Fairy's Gift", "tcg_dub_name": "Fairy's Gift"}
 {"character_id": "fang_of_critias", "series": "DM", "ja_base": null, "ja_kana": "クリティウス", "ocg_name": "Fang of Critias", "tcg_dub_name": "Fang of Critias"}
 {"character_id": "fangirl", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Fangirl", "tcg_dub_name": "Fangirl"}
 {"character_id": "fazu_ryugu", "series": "GO RUSH!!", "ja_base": "竜宮 不破厨", "ja_kana": "りゅうぐう ファズ", "ocg_name": "Fazu Ryugu", "tcg_dub_name": "Fazu Ryugu"}
@@ -426,20 +331,13 @@
 {"character_id": "finger_chikako", "series": "SEVENS", "ja_base": "フィンガー 地下子", "ja_kana": "フィンガー ちかこ", "ocg_name": "Finger Chikako", "tcg_dub_name": "Terra Kneadalina"}
 {"character_id": "fisher_sukai", "series": "GO RUSH!!", "ja_base": "フィッシャー・須海", "ja_kana": "フィッシャー・スカイ", "ocg_name": "Fisher Sukai", "tcg_dub_name": "Fisher Sky"}
 {"character_id": "five_eyed_horned_ogre", "series": "DM", "ja_base": "五眼の角鬼", "ja_kana": null, "ocg_name": "Five-Eyed Horned Ogre", "tcg_dub_name": "Five-Eyed Horned Ogre"}
-{"character_id": "five_god_dragon", "series": "DM", "ja_base": "Ｆ・Ｇ・Ｄ", "ja_kana": "ファイブ・ゴッド・ドラゴン", "ocg_name": "Five God Dragon", "tcg_dub_name": "Five-Headed Dragon"}
 {"character_id": "fizdis", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Fizdis", "tcg_dub_name": "Fizdis"}
-{"character_id": "flame_swordsman", "series": "DM", "ja_base": "炎の剣士", "ja_kana": "ほのおのけんし", "ocg_name": "Flame Swordsman", "tcg_dub_name": "Flame Swordsman"}
-{"character_id": "flash_sword_princess_raye", "series": "Manga", "ja_base": "閃刀姫－レイ", "ja_kana": "せんとうき－レイ", "ocg_name": "Flash Sword Princess - Raye", "tcg_dub_name": "Sky Striker Ace - Raye"}
-{"character_id": "flash_sword_princess_roze", "series": "Manga", "ja_base": "閃刀姫－ロゼ", "ja_kana": "せんとうき－ロゼ", "ocg_name": "Flash Sword Princess - Roze", "tcg_dub_name": "Sky Striker Ace - Roze"}
 {"character_id": "flash_umiko", "series": "SEVENS", "ja_base": "フラッシュ 海深子", "ja_kana": "フラッシュ うみこ", "ocg_name": "Flash Umiko", "tcg_dub_name": "Oceania Illumilina"}
 {"character_id": "flight_attendant", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Flight attendant", "tcg_dub_name": "Flight attendant"}
 {"character_id": "flip_turner", "series": "Game", "ja_base": null, "ja_kana": "おもてうら とくのすけ", "ocg_name": "Flip Turner", "tcg_dub_name": "Flip Turner"}
-{"character_id": "flower_wolf", "series": "DM", "ja_base": null, "ja_kana": "フラワー・ウルフ", "ocg_name": "Flower Wolf", "tcg_dub_name": "Flower Wolf"}
-{"character_id": "forest_corpse", "series": "DM", "ja_base": "森の屍", "ja_kana": "もりのしかばね", "ocg_name": "Forest Corpse", "tcg_dub_name": "Wood Remains"}
 {"character_id": "fortune_salim", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Fortune Salim", "tcg_dub_name": "Fortune Salim"}
 {"character_id": "fortuno", "series": "ZEXAL", "ja_base": null, "ja_kana": "ジン", "ocg_name": "Fortuno", "tcg_dub_name": "Fortuno"}
 {"character_id": "franz", "series": "GX", "ja_base": null, "ja_kana": "フランツ", "ocg_name": "Franz", "tcg_dub_name": "Franz"}
-{"character_id": "freed_the_brave_wanderer", "series": "GX", "ja_base": "放浪の勇者 フリード", "ja_kana": "ほうろうのゆうしゃ フリード", "ocg_name": "Brave Wanderer - Freed", "tcg_dub_name": "Freed the Brave Wanderer"}
 {"character_id": "freki", "series": "5D's", "ja_base": null, "ja_kana": "フレキ", "ocg_name": "Freki", "tcg_dub_name": "Freki"}
 {"character_id": "frog", "series": "VRAINS", "ja_base": null, "ja_kana": "カエル", "ocg_name": "Frog", "tcg_dub_name": "Frog"}
 {"character_id": "fubuki_tenjoin", "series": "GX", "ja_base": "天上院 吹雪", "ja_kana": "てんじょういん ふぶき", "ocg_name": "Fubuki Tenjoin", "tcg_dub_name": "Atticus Rhodes"}
@@ -456,32 +354,19 @@
 {"character_id": "fuya_s_mother", "series": "ZEXAL", "ja_base": "風也の母", "ja_kana": null, "ocg_name": "Fuya's Mother", "tcg_dub_name": "Mrs. Andrews"}
 {"character_id": "gadius", "series": "DM", "ja_base": null, "ja_kana": "ガディウス", "ocg_name": "Gadius", "tcg_dub_name": "Gadius"}
 {"character_id": "gael", "series": "ARC-V", "ja_base": null, "ja_kana": "ゲール", "ocg_name": "Gael", "tcg_dub_name": "Gael"}
-{"character_id": "gagaga_girl", "series": "Game", "ja_base": null, "ja_kana": "ガガガガール", "ocg_name": "Gagaga Girl", "tcg_dub_name": "Gagaga Girl"}
-{"character_id": "gagaga_magician", "series": "Game", "ja_base": null, "ja_kana": "ガガガマジシャン", "ocg_name": "Gagaga Magician", "tcg_dub_name": "Gagaga Magician"}
-{"character_id": "gagagigo", "series": "Manga", "ja_base": null, "ja_kana": "ガガギゴ", "ocg_name": "Gagagigo", "tcg_dub_name": "Gagagigo"}
-{"character_id": "gaia_soul_the_combustible_collective", "series": "Game", "ja_base": "爆炎集合体 ガイヤ・ソウル", "ja_kana": "ばくえんしゅうごうたい ガイヤ・ソウル", "ocg_name": "Combustible Collective - Gaia Soul", "tcg_dub_name": "Gaia Soul the Combustible Collective"}
-{"character_id": "gaia_the_dark_knight", "series": "Game", "ja_base": "暗黒騎士ガイア", "ja_kana": "あんこくきしガイア", "ocg_name": "Dark Knight - Gaia", "tcg_dub_name": "Gaia The Fierce Knight"}
 {"character_id": "gaikokujin", "series": "DM", "ja_base": "外国人", "ja_kana": "がいこくじん", "ocg_name": "Gaikokujin", "tcg_dub_name": "Foreigner"}
 {"character_id": "gakugen_sogetsu", "series": "SEVENS", "ja_base": "蒼月 学玄", "ja_kana": "そうげつ がくげん", "ocg_name": "Gakugen Sogetsu", "tcg_dub_name": "Gakugen Sogetsu"}
 {"character_id": "gakuto_sogetsu", "series": "SEVENS", "ja_base": "蒼月 学人", "ja_kana": "そうげつ がくと", "ocg_name": "Gakuto Sogetsu", "tcg_dub_name": "Gavin Sogetsu"}
-{"character_id": "galaxy_eyes_photon_dragon", "series": "Game", "ja_base": "銀河眼の光子竜", "ja_kana": "ギャラクシーアイズ・フォトン・ドラゴン", "ocg_name": "Galaxy-Eyes Photon Dragon", "tcg_dub_name": "Galaxy-Eyes Photon Dragon"}
 {"character_id": "gale_taira", "series": "GO RUSH!!", "ja_base": "平 ゲイル", "ja_kana": "たいら ゲイル", "ocg_name": "Gale Taira", "tcg_dub_name": "Tyson Getz"}
 {"character_id": "galestgoras", "series": "DM", "ja_base": null, "ja_kana": "ガレストゴラス", "ocg_name": "Galestgoras", "tcg_dub_name": "Galestgoras"}
 {"character_id": "galian", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ギャリアン", "ocg_name": "Galian", "tcg_dub_name": "Galian"}
 {"character_id": "galian_tazaki", "series": "SEVENS", "ja_base": "田崎 ギャリアン", "ja_kana": "たざき ギャリアン", "ocg_name": "Galian Tazaki", "tcg_dub_name": "Galian Townsend"}
 {"character_id": "galixon_tazaki", "series": "GO RUSH!!", "ja_base": "田崎 ギャリクソン", "ja_kana": "たざき ギャリクソン", "ocg_name": "Galixon Tazaki", "tcg_dub_name": "Galixon Townsend"}
-{"character_id": "garuda_the_wind_spirit", "series": "DM", "ja_base": "風の精霊 ガルーダ", "ja_kana": "かぜのせいれい ガルーダ", "ocg_name": "Wind Spirit - Garuda", "tcg_dub_name": "Garuda the Wind Spirit"}
 {"character_id": "gauche", "series": "ZEXAL", "ja_base": null, "ja_kana": "ゴーシュ", "ocg_name": "Gauche", "tcg_dub_name": "Gauche"}
 {"character_id": "gavin", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ガクト", "ocg_name": "Gavin", "tcg_dub_name": "Gavin"}
-{"character_id": "gearfried_the_iron_knight", "series": "Game", "ja_base": "鉄の騎士 ギア・フリード", "ja_kana": "てつのきし ギア・フリード", "ocg_name": "Iron Knight - Gearfried", "tcg_dub_name": "Gearfried the Iron Knight"}
 {"character_id": "gebelk", "series": "DM", "ja_base": null, "ja_kana": "ゲベルク", "ocg_name": "Gebelk", "tcg_dub_name": "Gebelk"}
 {"character_id": "gekko_tenma", "series": "Manga", "ja_base": "天馬月行", "ja_kana": null, "ocg_name": "Gekko Tenma", "tcg_dub_name": "Gekko Tenma"}
 {"character_id": "gelgo", "series": "GX", "ja_base": null, "ja_kana": "ゲルゴ", "ocg_name": "Gelgo", "tcg_dub_name": "Gelgo"}
-{"character_id": "gem_beast_cobalt_eagle", "series": "GX", "ja_base": "宝玉獣 コバルト・イーグル", "ja_kana": "ほうぎょくじゅう コバルト・イーグル", "ocg_name": "Gem Beast - Cobalt Eagle", "tcg_dub_name": "Crystal Beast Cobalt Eagle"}
-{"character_id": "gem_beast_emerald_turtle", "series": "GX", "ja_base": "宝玉獣 エメラルド・タートル", "ja_kana": "ほうぎょくじゅう エメラルド・タートル", "ocg_name": "Gem Beast - Emerald Turtle", "tcg_dub_name": "Crystal Beast Emerald Tortoise"}
-{"character_id": "gem_beast_ruby_carbuncle", "series": "GX", "ja_base": "宝玉獣 ルビー・カーバンクル", "ja_kana": "ほうぎょくじゅう ルビー・カーバンクル", "ocg_name": "Gem Beast - Ruby Carbuncle", "tcg_dub_name": "Crystal Beast Ruby Carbuncle"}
-{"character_id": "gem_beast_sapphire_pegasus", "series": "GX", "ja_base": "宝玉獣 サファイア・ペガサス", "ja_kana": "ほうぎょくじゅう サファイア・ペガサス", "ocg_name": "Gem Beast - Sapphire Pegasus", "tcg_dub_name": "Crystal Beast Sapphire Pegasus"}
-{"character_id": "gem_beast_topaz_tiger", "series": "GX", "ja_base": "宝玉獣 トパーズ・タイガー", "ja_kana": "ほうぎょくじゅう トパーズ・タイガー", "ocg_name": "Gem Beast - Topaz Tiger", "tcg_dub_name": "Crystal Beast Topaz Tiger"}
 {"character_id": "gen_ankokuji", "series": "ARC-V", "ja_base": "暗黒寺 ゲン", "ja_kana": "あんこくじ ゲン", "ocg_name": "Gen Ankokuji", "tcg_dub_name": "Grizzlepike Jones"}
 {"character_id": "genso_no_majutsushi", "series": "DM", "ja_base": "幻想の魔術師", "ja_kana": "げんそうのまじゅつし", "ocg_name": "Genso no Majutsushi", "tcg_dub_name": "Illusion Magician"}
 {"character_id": "gentaro_kono", "series": "ZEXAL", "ja_base": "鋼乃 幻太郎", "ja_kana": "こうの げんたろう", "ocg_name": "Gentaro Kono", "tcg_dub_name": "Archer Pombo"}
@@ -491,51 +376,37 @@
 {"character_id": "getta_taira", "series": "SEVENS", "ja_base": "平 月太", "ja_kana": "たいら げった", "ocg_name": "Getta Taira", "tcg_dub_name": "Tyler Getz"}
 {"character_id": "ghost", "series": "5D's", "ja_base": null, "ja_kana": "ゴースト", "ocg_name": "Ghost", "tcg_dub_name": "Phantom Ghost"}
 {"character_id": "ghost_gal", "series": "Game", "ja_base": null, "ja_kana": "ゴーストガール", "ocg_name": "Ghost Gal", "tcg_dub_name": "Ghost Gal"}
-{"character_id": "ghost_king_pumpking", "series": "Game", "ja_base": "ゴースト王－パンプキング－", "ja_kana": "ゴーストおう－パンプキング－", "ocg_name": "Ghost Monarch - Pumpking -", "tcg_dub_name": "Pumpking the King of Ghosts"}
 {"character_id": "ghost_kotsuzuka", "series": "DM", "ja_base": "ゴースト骨塚", "ja_kana": null, "ocg_name": "Ghost Kotsuzuka", "tcg_dub_name": "Bonz"}
 {"character_id": "ghost_takarazuka", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Ghost Takarazuka", "tcg_dub_name": "Ghost Takarazuka"}
-{"character_id": "ghoul_with_an_appetite", "series": "ARC-V", "ja_base": "大食いグール", "ja_kana": "おおぐいグール", "ocg_name": "Ghoul with an Appetite", "tcg_dub_name": "Ghoul with an Appetite"}
 {"character_id": "gibumi_purisaki", "series": "SEVENS", "ja_base": "プリ崎 ギブ美", "ja_kana": "プリさき ギブみ", "ocg_name": "Gibumi Purisaki", "tcg_dub_name": "Gwendoline Purdy"}
-{"character_id": "gilford_the_lightning", "series": "Game", "ja_base": null, "ja_kana": "ギルフォード・ザ・ライトニング", "ocg_name": "Gilford the Lightning", "tcg_dub_name": "Gilford the Lightning"}
 {"character_id": "gina", "series": "GX", "ja_base": null, "ja_kana": "ジーナ", "ocg_name": "Gina", "tcg_dub_name": "Gina"}
 {"character_id": "ginga", "series": "5D's", "ja_base": null, "ja_kana": "ギンガ", "ocg_name": "Ginga", "tcg_dub_name": "Ginga"}
 {"character_id": "ginga_s_mother", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Ginga's mother", "tcg_dub_name": "Ginga's mother"}
 {"character_id": "girag", "series": "ZEXAL", "ja_base": null, "ja_kana": "ギラグ", "ocg_name": "Girag", "tcg_dub_name": "Girag"}
-{"character_id": "gladial_beast_andal", "series": "Game", "ja_base": "剣闘獣アンダル", "ja_kana": "グラディアルビーストアンダル", "ocg_name": "Gladial Beast - Andal", "tcg_dub_name": "Gladiator Beast Andal"}
 {"character_id": "gloria_tyler", "series": "ARC-V", "ja_base": null, "ja_kana": "グロリア・タイラー", "ocg_name": "Gloria Tyler", "tcg_dub_name": "Gloria Tyler"}
 {"character_id": "go_onizuka", "series": "VRAINS", "ja_base": "鬼塚 豪", "ja_kana": "おにづか ごう", "ocg_name": "Go Onizuka", "tcg_dub_name": "George Gore"}
 {"character_id": "go_onizuka_no_maneja", "series": "VRAINS", "ja_base": "Ｇｏ鬼塚のマネージャー", "ja_kana": null, "ocg_name": "Go Onizuka no Maneja", "tcg_dub_name": "Gore's manager"}
-{"character_id": "goblin_elite_force", "series": "GX", "ja_base": "ゴブリンエリート部隊", "ja_kana": "ゴブリンエリートぶたい", "ocg_name": "Goblin Elite Force", "tcg_dub_name": "Goblin Elite Attack Force"}
 {"character_id": "god_card_thief", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "God Card thief", "tcg_dub_name": "God Card thief"}
 {"character_id": "god_of_death", "series": "GX", "ja_base": "死神", "ja_kana": "しにがみ", "ocg_name": "God of Death", "tcg_dub_name": "Grim Reaper"}
-{"character_id": "god_of_zemia", "series": "DM", "ja_base": "ゼミアの神", "ja_kana": "ゼミアのかみ", "ocg_name": "God of Zemia", "tcg_dub_name": "Lord of Zemia"}
 {"character_id": "goda", "series": "ZEXAL", "ja_base": "郷田", "ja_kana": null, "ocg_name": "Goda", "tcg_dub_name": "Goda"}
-{"character_id": "gogogo_golem", "series": "Game", "ja_base": null, "ja_kana": "ゴゴゴゴーレム", "ocg_name": "Gogogo Golem", "tcg_dub_name": "Gogogo Golem"}
 {"character_id": "goha_66", "series": "SEVENS", "ja_base": null, "ja_kana": "ゴーハ６６", "ocg_name": "Goha 66", "tcg_dub_name": "Goha 66"}
 {"character_id": "goha_enterprises_drone", "series": "SEVENS", "ja_base": null, "ja_kana": null, "ocg_name": "Goha Enterprises Drone", "tcg_dub_name": "Goha Enterprises Drone"}
 {"character_id": "goha_s_secretary", "series": "SEVENS", "ja_base": null, "ja_kana": null, "ocg_name": "Goha's secretary", "tcg_dub_name": "Goha's secretary"}
 {"character_id": "goha_soldier", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "Goha Soldier", "tcg_dub_name": "Goha Soldier"}
-{"character_id": "goldd_war_god_of_dark_world", "series": "GX", "ja_base": "暗黒界の武神 ゴルド", "ja_kana": "あんこくかいのぶしん ゴルド", "ocg_name": "War God of Dark World - Goldd", "tcg_dub_name": "Goldd, Wu-Lord of Dark World"}
 {"character_id": "golden_hen", "series": "GX", "ja_base": null, "ja_kana": null, "ocg_name": "Golden Hen", "tcg_dub_name": "Golden Hen"}
 {"character_id": "gorisuke", "series": "GX", "ja_base": "ゴリ介", "ja_kana": null, "ocg_name": "Gorisuke", "tcg_dub_name": "Gorisuke"}
 {"character_id": "goro_inogashira", "series": "Manga", "ja_base": "猪頭吾郎", "ja_kana": "いのがしらごろう", "ocg_name": "Goro Inogashira", "tcg_dub_name": "Goro Inogashira"}
 {"character_id": "gorou_inogasira", "series": "GX", "ja_base": null, "ja_kana": "いのがしらごろう", "ocg_name": "Gorou Inogasira", "tcg_dub_name": "Gorou Inogasira"}
-{"character_id": "gorz_the_emissary_of_the_underworld", "series": "Game", "ja_base": "冥府の使者ゴーズ", "ja_kana": "めいふのししゃゴーズ", "ocg_name": "Emissary of the Underworld - Gorz", "tcg_dub_name": "Gorz the Emissary of Darkness"}
-{"character_id": "goyo_guardian", "series": "Game", "ja_base": null, "ja_kana": "ゴヨウ・ガーディアン", "ocg_name": "Goyo Guardian", "tcg_dub_name": "Goyo Guardian"}
 {"character_id": "gozaburo_kaiba", "series": "DM", "ja_base": "海馬剛三郎", "ja_kana": "かいばごうざぶろう", "ocg_name": "Gozaburo Kaiba", "tcg_dub_name": "Gozaburo Kaiba"}
 {"character_id": "gozaburo_no_fukushin", "series": "Manga", "ja_base": "剛三郎の腹心", "ja_kana": "ごうざぶろうのふくしん", "ocg_name": "Gozaburo no fukushin", "tcg_dub_name": "Gozaburo's right-hand man"}
 {"character_id": "grace_tyler", "series": "ARC-V", "ja_base": null, "ja_kana": "グレース・タイラー", "ocg_name": "Grace Tyler", "tcg_dub_name": "Grace Tyler"}
 {"character_id": "grady", "series": "5D's", "ja_base": null, "ja_kana": "ディック・ピット", "ocg_name": "Grady", "tcg_dub_name": "Grady"}
 {"character_id": "grandpa", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Grandpa", "tcg_dub_name": "Grandpa"}
-{"character_id": "gravekeeper_s_chief", "series": "GX", "ja_base": "墓守の長", "ja_kana": "はかもりのおさ", "ocg_name": "Gravekeeper's Chief", "tcg_dub_name": "Gravekeeper's Chief"}
 {"character_id": "graves", "series": "SEVENS", "ja_base": null, "ja_kana": "ボチ", "ocg_name": "Graves", "tcg_dub_name": "Graves"}
 {"character_id": "gray", "series": "ARC-V", "ja_base": null, "ja_kana": "グレイ", "ocg_name": "Gray", "tcg_dub_name": "Gray"}
 {"character_id": "green_coat_duelist", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Green Coat Duelist", "tcg_dub_name": "Green Coat Duelist"}
-{"character_id": "green_gadget", "series": "Game", "ja_base": null, "ja_kana": "グリーン・ガジェット", "ocg_name": "Green Gadget", "tcg_dub_name": "Green Gadget"}
 {"character_id": "greiger", "series": "5D's", "ja_base": null, "ja_kana": "ボマー", "ocg_name": "Greiger", "tcg_dub_name": "Greiger"}
 {"character_id": "guard_robot", "series": "5D's", "ja_base": null, "ja_kana": "ガードロボ", "ocg_name": "Guard Robot", "tcg_dub_name": "Guard Robot"}
-{"character_id": "guardian_baou", "series": "GX", "ja_base": null, "ja_kana": "ガーディアン・バオウ", "ocg_name": "Guardian Baou", "tcg_dub_name": "Guardian Baou"}
-{"character_id": "guardian_of_the_underworld", "series": "GX", "ja_base": "冥界の番人", "ja_kana": "めいかいのばんじん", "ocg_name": "Guardian of the Underworld", "tcg_dub_name": "Guardian of the Labyrinth"}
 {"character_id": "gudoul", "series": "DM", "ja_base": null, "ja_kana": "グドゥル", "ocg_name": "Gudoul", "tcg_dub_name": "Gudoul"}
 {"character_id": "gurimo", "series": "DM", "ja_base": null, "ja_kana": "グリモ", "ocg_name": "Gurimo", "tcg_dub_name": "Gurimo"}
 {"character_id": "gurumi_purisaki", "series": "GO RUSH!!", "ja_base": "プリ崎 グル美", "ja_kana": "プリさき グルみ", "ocg_name": "Gurumi Purisaki", "tcg_dub_name": "Gwyneth Purdy"}
@@ -556,17 +427,12 @@
 {"character_id": "haluna", "series": "5D's", "ja_base": null, "ja_kana": "ハルカ", "ocg_name": "Haluna", "tcg_dub_name": "Haluna"}
 {"character_id": "haluna_s_doctor", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Haluna's doctor", "tcg_dub_name": "Haluna's doctor"}
 {"character_id": "hametsu_no_hikari", "series": "GX", "ja_base": "破滅の光", "ja_kana": "はめつのひかり", "ocg_name": "Hametsu no Hikari", "tcg_dub_name": "Light of Destruction"}
-{"character_id": "hamon_lord_of_striking_thunder", "series": "GX", "ja_base": "降雷皇ハモン", "ja_kana": "こうらいおうハモン", "ocg_name": "Lord of Striking Thunder - Hamon", "tcg_dub_name": "Hamon, Lord of Striking Thunder"}
 {"character_id": "hanako_mitarai", "series": "Manga", "ja_base": "御手洗 花子", "ja_kana": "みたらい はなこ", "ocg_name": "Hanako Mitarai", "tcg_dub_name": "Hanako Mitarai"}
 {"character_id": "handsome_stan", "series": "Game", "ja_base": null, "ja_kana": "イケてるＤ・ホイーラー", "ocg_name": "Handsome Stan", "tcg_dub_name": "Handsome Stan"}
-{"character_id": "hane_hane", "series": "GX", "ja_base": null, "ja_kana": "ハネハネ", "ocg_name": "Hane-Hane", "tcg_dub_name": "Hane-Hane"}
-{"character_id": "haniwa", "series": "GX", "ja_base": null, "ja_kana": "はにわ", "ocg_name": "Haniwa", "tcg_dub_name": "Haniwa"}
 {"character_id": "hans", "series": "5D's", "ja_base": null, "ja_kana": "ハンス", "ocg_name": "Hans", "tcg_dub_name": "Hans"}
 {"character_id": "hanson", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Hanson", "tcg_dub_name": "Hanson"}
 {"character_id": "hao", "series": "GX", "ja_base": "覇王", "ja_kana": null, "ocg_name": "Hao", "tcg_dub_name": "Supreme King"}
-{"character_id": "happy_lover", "series": "DM", "ja_base": null, "ja_kana": "ハッピー・ラヴァー", "ocg_name": "Happy Lover", "tcg_dub_name": "Happy Lover"}
 {"character_id": "harlin", "series": "VRAINS", "ja_base": null, "ja_kana": "ハル", "ocg_name": "Harlin", "tcg_dub_name": "Harlin"}
-{"character_id": "harpie_girl", "series": "Game", "ja_base": null, "ja_kana": "ハーピィ・ガール", "ocg_name": "Harpy Girl", "tcg_dub_name": "Harpie Girl"}
 {"character_id": "haru_tsukumo", "series": "ZEXAL", "ja_base": "九十九 春", "ja_kana": "つくも はる", "ocg_name": "Haru Tsukumo", "tcg_dub_name": "Haru Tsukumo"}
 {"character_id": "haruka_hasebe", "series": "5D's", "ja_base": "長谷部 遥", "ja_kana": "はせべ はるか", "ocg_name": "Haruka Hasebe", "tcg_dub_name": "Hana"}
 {"character_id": "haruka_kamijo", "series": "SEVENS", "ja_base": "上城 大華", "ja_kana": "かみじょう はるか", "ocg_name": "Haruka Kamijo", "tcg_dub_name": "Tiadosia Kallister"}
@@ -593,8 +459,6 @@
 {"character_id": "hideki_sumi", "series": "GX", "ja_base": "須見 英樹", "ja_kana": "すみ ひでき", "ocg_name": "Hideki Sumi", "tcg_dub_name": "Khadim"}
 {"character_id": "hideo_izayoi", "series": "5D's", "ja_base": "十六夜英雄", "ja_kana": null, "ocg_name": "Hideo Izayoi", "tcg_dub_name": "Mr. Izinski"}
 {"character_id": "hideyuki_takahashi", "series": "GX", "ja_base": "高橋 秀行", "ja_kana": "たかはし ひでゆき", "ocg_name": "Hideyuki Takahashi", "tcg_dub_name": "Jaime"}
-{"character_id": "hieroglyphic_divine_dragon_ennead", "series": "Game", "ja_base": "聖刻神龍－エネアード", "ja_kana": "せいこくしんりゅう－エネアード", "ocg_name": "Hieroglyphic Divine Dragon - Ennead", "tcg_dub_name": "Hieratic Sun Dragon Overlord of Heliopolis"}
-{"character_id": "high_tide_merman", "series": "DM", "ja_base": "満ち潮のマーマン", "ja_kana": "みちしおのマーマン", "ocg_name": "High Tide Merman", "tcg_dub_name": "High Tide Gyojin"}
 {"character_id": "hikari", "series": "5D's", "ja_base": null, "ja_kana": "ヒカリ", "ocg_name": "Hikari", "tcg_dub_name": "Hikari"}
 {"character_id": "hikari_no_uchujin", "series": "GX", "ja_base": "光の宇宙人", "ja_kana": null, "ocg_name": "Hikari no Uchujin", "tcg_dub_name": "Alien of Light"}
 {"character_id": "himika_akaba", "series": "ARC-V", "ja_base": "赤馬 日美香", "ja_kana": "あかば ひみか", "ocg_name": "Himika Akaba", "tcg_dub_name": "Henrietta Akaba"}
@@ -608,13 +472,10 @@
 {"character_id": "hirutani_no_kobun", "series": "DM", "ja_base": "蛭谷の子分", "ja_kana": null, "ocg_name": "Hirutani no kobun", "tcg_dub_name": "Hirutani henchman"}
 {"character_id": "hishakaku", "series": "ZEXAL", "ja_base": "飛車角", "ja_kana": null, "ocg_name": "Hishakaku", "tcg_dub_name": "Hishakaku"}
 {"character_id": "hokuto_shijima", "series": "ARC-V", "ja_base": "志島 北斗", "ja_kana": "しじま ほくと", "ocg_name": "Hokuto Shijima", "tcg_dub_name": "Dipper O'rion"}
-{"character_id": "holy_knight_artorius", "series": "Game", "ja_base": "聖騎士アルトリウス", "ja_kana": "せいきしアルトリウス", "ocg_name": "Holy Knight - Artorius", "tcg_dub_name": "Noble Knight Artorigus"}
-{"character_id": "holy_night_dragon", "series": "DM", "ja_base": null, "ja_kana": "ホーリー・ナイト・ドラゴン", "ocg_name": "Holy Night Dragon", "tcg_dub_name": "Seiyaryu"}
 {"character_id": "honbucho", "series": "Manga", "ja_base": "本部長", "ja_kana": null, "ocg_name": "Honbucho", "tcg_dub_name": "Chief"}
 {"character_id": "honda_hiroto", "series": "Game", "ja_base": "本田ヒロト", "ja_kana": "ほんだ ヒロト", "ocg_name": "Honda Hiroto", "tcg_dub_name": "Tristan Taylor"}
 {"character_id": "honda_no_haha", "series": "DM", "ja_base": "本田の母", "ja_kana": null, "ocg_name": "Honda no haha", "tcg_dub_name": "Honda's mother"}
 {"character_id": "honda_s_sister", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Honda's sister", "tcg_dub_name": "Honda's sister"}
-{"character_id": "honest", "series": "GX", "ja_base": null, "ja_kana": "オネスト", "ocg_name": "Honest", "tcg_dub_name": "Honest"}
 {"character_id": "honomaru", "series": "GX", "ja_base": "炎丸", "ja_kana": null, "ocg_name": "Honomaru", "tcg_dub_name": "Blaze"}
 {"character_id": "horakhty_the_creator_god_of_light", "series": "DM", "ja_base": "光の創造神 ホルアクティ", "ja_kana": "ひかりのそうぞうしんホルアクティ", "ocg_name": "Horakhty the Creator God of Light", "tcg_dub_name": "Holactie the Creator of Light"}
 {"character_id": "hosaku_yasai", "series": "ZEXAL", "ja_base": "矢最 豊作", "ja_kana": "やさい ほうさく", "ocg_name": "Hosaku Yasai", "tcg_dub_name": "Tombo Tillbitty"}
@@ -626,31 +487,23 @@
 {"character_id": "humanoid_giant", "series": "DM", "ja_base": "人型の巨人", "ja_kana": null, "ocg_name": "Humanoid Giant", "tcg_dub_name": "Humanoid Giant"}
 {"character_id": "hunt_goto", "series": "SEVENS", "ja_base": "後藤 ハント", "ja_kana": "ごとう ハント", "ocg_name": "Hunt Goto", "tcg_dub_name": "Tracker"}
 {"character_id": "ibuki_sumizu", "series": "Manga", "ja_base": "栖頭 遺武輝", "ja_kana": "すみず イブキ", "ocg_name": "Ibuki Sumizu", "tcg_dub_name": "Ibuki Sumizu"}
-{"character_id": "ifrit_the_spirit_of_flames", "series": "DM", "ja_base": "炎の精霊 イフリート", "ja_kana": "ほのおのせいれい イフリート", "ocg_name": "Spirit of Flames - Ifrit", "tcg_dub_name": "Spirit of Flames"}
 {"character_id": "iii", "series": "ZEXAL", "ja_base": "Ⅲ", "ja_kana": "スリー", "ocg_name": "III", "tcg_dub_name": "III"}
 {"character_id": "ikazuchimaru", "series": "GX", "ja_base": "雷丸", "ja_kana": null, "ocg_name": "Ikazuchimaru", "tcg_dub_name": "Thunder"}
 {"character_id": "ikkaku_tachibana", "series": "GX", "ja_base": "橘一角", "ja_kana": null, "ocg_name": "Ikkaku Tachibana", "tcg_dub_name": "Lucien Grimley"}
 {"character_id": "ikuo_kiyokuni", "series": "GX", "ja_base": "清国 郁夫", "ja_kana": "きよくに いくお", "ocg_name": "Ikuo Kiyokuni", "tcg_dub_name": "Sigthor"}
 {"character_id": "illushu", "series": "DM", "ja_base": null, "ja_kana": "イル・シュウ", "ocg_name": "Illushu", "tcg_dub_name": "Illushu"}
-{"character_id": "illusion_sprite", "series": "DM", "ja_base": "幻影の妖精", "ja_kana": "げんえいのようせい", "ocg_name": "Illusion Sprite", "tcg_dub_name": "Dreamsprite"}
-{"character_id": "imairuka", "series": "Game", "ja_base": null, "ja_kana": "イマイルカ", "ocg_name": "Imairuka", "tcg_dub_name": "Imairuka"}
 {"character_id": "imori", "series": "DM", "ja_base": "井守", "ja_kana": "いもり", "ocg_name": "Imori", "tcg_dub_name": "Imori"}
 {"character_id": "impertinent_academia_student", "series": "Game", "ja_base": "なまいきなアカデミア生徒", "ja_kana": null, "ocg_name": "Impertinent Academia Student", "tcg_dub_name": "Chloe"}
 {"character_id": "industrial_illusions_photographer", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Industrial Illusions photographer", "tcg_dub_name": "Industrial Illusions photographer"}
 {"character_id": "inf_m8", "series": "Game", "ja_base": null, "ja_kana": "ＩＮＦ－Ｍ８", "ocg_name": "INF-M8", "tcg_dub_name": "INF-M8"}
 {"character_id": "inf_n8", "series": "Game", "ja_base": null, "ja_kana": "ＩＮＦ－Ｎ８", "ocg_name": "INF-N8", "tcg_dub_name": "INF-N8"}
 {"character_id": "inoso", "series": "GX", "ja_base": null, "ja_kana": "イノソ", "ocg_name": "Inoso", "tcg_dub_name": "Inoso"}
-{"character_id": "insect_queen", "series": "Game", "ja_base": "インセクト女王", "ja_kana": "インセクトクイーン", "ocg_name": "Insect Queen", "tcg_dub_name": "Insect Queen"}
 {"character_id": "insector_haga", "series": "DM", "ja_base": "インセクター羽蛾", "ja_kana": "インセクターはが", "ocg_name": "Insector Haga", "tcg_dub_name": "Weevil Underwood"}
 {"character_id": "inspector_hakata", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Inspector Hakata", "tcg_dub_name": "Inspector Hakata"}
-{"character_id": "instant_adhesive_bomber", "series": "GX", "ja_base": "瞬着ボマー", "ja_kana": "しゅんちゃくボマー", "ocg_name": "Instant Adhesive Bomber", "tcg_dub_name": "Adhesive Explosive"}
 {"character_id": "inukai", "series": "GX", "ja_base": "犬飼", "ja_kana": null, "ocg_name": "Inukai", "tcg_dub_name": "Mad Dog"}
-{"character_id": "invoked_beast_cocytus", "series": "Manga", "ja_base": "召喚獣コキュートス", "ja_kana": "しょうかんじゅうコキュートス", "ocg_name": "Invoked Beast - Cocytus", "tcg_dub_name": "Invoked Cocytus"}
-{"character_id": "inzektor_giga_mantis", "series": "Game", "ja_base": "甲虫装機 ギガマンティス", "ja_kana": "インゼクター ギガマンティス", "ocg_name": "Inzektor Giga-Mantis", "tcg_dub_name": "Inzektor Giga-Mantis"}
 {"character_id": "iona", "series": "DM", "ja_base": null, "ja_kana": "イオレ", "ocg_name": "Iona", "tcg_dub_name": "Iona"}
 {"character_id": "iriasuteru_no_sankotei", "series": "5D's", "ja_base": "イリアステルの三皇帝", "ja_kana": "イリアステルのさんこうてい", "ocg_name": "Iriasuteru no Sankotei", "tcg_dub_name": "Three Pure Nobles"}
 {"character_id": "iris", "series": "ZEXAL", "ja_base": null, "ja_kana": "イリス", "ocg_name": "Iris", "tcg_dub_name": "Iris"}
-{"character_id": "ironheart", "series": "DM", "ja_base": null, "ja_kana": "アイアンハート", "ocg_name": "Ironheart", "tcg_dub_name": "Ironheart"}
 {"character_id": "iruman", "series": "SEVENS", "ja_base": "イル男", "ja_kana": "イルお", "ocg_name": "Iruman", "tcg_dub_name": "Finn"}
 {"character_id": "isaac", "series": "ARC-V", "ja_base": null, "ja_kana": "アイザック", "ocg_name": "Isaac", "tcg_dub_name": "Isaac"}
 {"character_id": "isao_kachidoki", "series": "ARC-V", "ja_base": "勝鬨 勇雄", "ja_kana": "かちどき いさお", "ocg_name": "Isao Kachidoki", "tcg_dub_name": "Iggy Arlo"}
@@ -659,7 +512,6 @@
 {"character_id": "ishiki_eri_ito", "series": "GX", "ja_base": "江里糸石輝", "ja_kana": null, "ocg_name": "Ishiki Eri'ito", "tcg_dub_name": "Ishiki Erishi"}
 {"character_id": "ishizu_ishtar", "series": "DM", "ja_base": null, "ja_kana": "イシズ・イシュタール", "ocg_name": "Ishizu Ishtar", "tcg_dub_name": "Ishizu Ishtar"}
 {"character_id": "isis", "series": "DM", "ja_base": null, "ja_kana": "アイシス", "ocg_name": "Isis", "tcg_dub_name": "Isis"}
-{"character_id": "island_turtle", "series": "DM", "ja_base": "島亀", "ja_kana": "しまガメ", "ocg_name": "Island Turtle", "tcg_dub_name": "Island Turtle"}
 {"character_id": "isomaki", "series": "VRAINS", "ja_base": "磯巻", "ja_kana": "いそまき", "ocg_name": "Isomaki", "tcg_dub_name": "Nathaniel"}
 {"character_id": "isono", "series": "DM", "ja_base": "磯野", "ja_kana": "いその", "ocg_name": "Isono", "tcg_dub_name": "Roland"}
 {"character_id": "ivan", "series": "5D's", "ja_base": null, "ja_kana": "マーク・フリーダム", "ocg_name": "Ivan", "tcg_dub_name": "Ivan"}
@@ -674,14 +526,12 @@
 {"character_id": "jane_honya", "series": "GO RUSH!!", "ja_base": "本屋 ジェーン", "ja_kana": "ほんや ジェーン", "ocg_name": "Jane Honya", "tcg_dub_name": "Jane Page"}
 {"character_id": "jango_arisugawa", "series": "SEVENS", "ja_base": "有栖川 ジャンゴ", "ja_kana": "ありすがわ ジャンゴ", "ocg_name": "Jango Arisugawa", "tcg_dub_name": "Janko Entant"}
 {"character_id": "janko", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ジャンゴ", "ocg_name": "Janko", "tcg_dub_name": "Janko"}
-{"character_id": "jar_djinn", "series": "GX", "ja_base": "壺魔人", "ja_kana": "つぼまじん", "ocg_name": "Jar Djinn", "tcg_dub_name": "Dragon Piper"}
 {"character_id": "jean", "series": "5D's", "ja_base": null, "ja_kana": "ジャン", "ocg_name": "Jean", "tcg_dub_name": "Jean"}
 {"character_id": "jean_claude_magnum", "series": "DM", "ja_base": null, "ja_kana": "ジョン・クロード・マグナム", "ocg_name": "Jean-Claude Magnum", "tcg_dub_name": "Jean-Claude Magnum"}
 {"character_id": "jean_louis_bonaparte", "series": "GX", "ja_base": null, "ja_kana": "ナポレオン", "ocg_name": "Jean-Louis Bonaparte", "tcg_dub_name": "Jean-Louis Bonaparte"}
 {"character_id": "jean_michel_roget", "series": "ARC-V", "ja_base": null, "ja_kana": "ジャン・ミシェル・ロジェ", "ocg_name": "Jean Michel Roget", "tcg_dub_name": "Jean Michel Roget"}
 {"character_id": "jean_rock", "series": "SEVENS", "ja_base": null, "ja_kana": "ジャン・ロック", "ocg_name": "Jean Rock", "tcg_dub_name": "Jean Rock"}
 {"character_id": "jen", "series": "ZEXAL", "ja_base": null, "ja_kana": "セイ", "ocg_name": "Jen", "tcg_dub_name": "Jen"}
-{"character_id": "jerry_beans_man", "series": "GX", "ja_base": null, "ja_kana": "ジェリービーンズマン", "ocg_name": "Jerry Beans Man", "tcg_dub_name": "Jerry Beans Man"}
 {"character_id": "jerry_jersey", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ジョウゲ・ジャージ", "ocg_name": "Jerry Jersey", "tcg_dub_name": "Jerry Jersey"}
 {"character_id": "jersey_brother", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ジャージアニキ", "ocg_name": "Jersey Brother", "tcg_dub_name": "Jersey Brother"}
 {"character_id": "jesse_andersen", "series": "Game", "ja_base": null, "ja_kana": "ヨハン・アンデルセン", "ocg_name": "Jesse Andersen", "tcg_dub_name": "Jesse Andersen"}
@@ -713,7 +563,6 @@
 {"character_id": "joy_jeever", "series": "ARC-V", "ja_base": null, "ja_kana": null, "ocg_name": "Joy Jeever", "tcg_dub_name": "Joy Jeever"}
 {"character_id": "judai_yuki", "series": "GX", "ja_base": "遊城 十代", "ja_kana": "ゆうき じゅうだい", "ocg_name": "Judai Yuki", "tcg_dub_name": "Jaden Yuki"}
 {"character_id": "judai_yuki_yubel", "series": "Game", "ja_base": "遊城十代／ユベル", "ja_kana": null, "ocg_name": "Judai Yuki/Yubel", "tcg_dub_name": "Jaden/Yubel"}
-{"character_id": "judge_man", "series": "Game", "ja_base": null, "ja_kana": "ジャッジ・マン", "ocg_name": "Judge Man", "tcg_dub_name": "Judge Man"}
 {"character_id": "juji", "series": "SEVENS", "ja_base": null, "ja_kana": "ジュウジ", "ocg_name": "Juji", "tcg_dub_name": "Juji"}
 {"character_id": "jukyu_goriki", "series": "Manga", "ja_base": "剛力 十九", "ja_kana": "ごうりき じゅうきゅう", "ocg_name": "Jukyu Goriki", "tcg_dub_name": "Jukyu Goriki"}
 {"character_id": "jukyu_sutorongu", "series": "Game", "ja_base": "ストロング 十九", "ja_kana": null, "ocg_name": "Jukyu Sutorongu", "tcg_dub_name": "Strong Jukyu"}
@@ -724,12 +573,9 @@
 {"character_id": "jun_ya_kakizoe", "series": "Manga", "ja_base": "垣副 準矢", "ja_kana": "かきぞえ じゅんや", "ocg_name": "Jun'ya Kakizoe", "tcg_dub_name": "Junya Kakizoe"}
 {"character_id": "junjiro_takada", "series": "GX", "ja_base": "高田 純二朗", "ja_kana": "たかだ じゅんじろう", "ocg_name": "Junjiro Takada", "tcg_dub_name": "Pablo"}
 {"character_id": "junk_dealer", "series": "5D's", "ja_base": "ジャンク屋", "ja_kana": "ジャンクや", "ocg_name": "Junk Dealer", "tcg_dub_name": "Hoodlum"}
-{"character_id": "junk_synchron", "series": "Game", "ja_base": null, "ja_kana": "ジャンク・シンクロン", "ocg_name": "Junk Synchron", "tcg_dub_name": "Junk Synchron"}
-{"character_id": "junk_warrior", "series": "Game", "ja_base": null, "ja_kana": "ジャンク・ウォリアー", "ocg_name": "Junk Warrior", "tcg_dub_name": "Junk Warrior"}
 {"character_id": "junko_makurada", "series": "GX", "ja_base": "枕田ジュンコ", "ja_kana": "まくらだ ジュンコ", "ocg_name": "Junko Makurada", "tcg_dub_name": "Jasmine"}
 {"character_id": "junky_scorpion_owner", "series": "Manga", "ja_base": null, "ja_kana": "ジャンキースコーピオンのオーナー", "ocg_name": "Junky Scorpion owner", "tcg_dub_name": "Junky Scorpion owner"}
 {"character_id": "junky_scorpion_owner_s_scorpion", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Junky Scorpion owner's scorpion", "tcg_dub_name": "Junky Scorpion owner's scorpion"}
-{"character_id": "junon_the_magical_high_priestess", "series": "Game", "ja_base": "魔導法士 ジュノン", "ja_kana": "まどうほうし ジュノン", "ocg_name": "Magical High Priestess - Junon", "tcg_dub_name": "High Priestess of Prophecy"}
 {"character_id": "kabayama", "series": "GX", "ja_base": "樺山", "ja_kana": "かばやま", "ocg_name": "Kabayama", "tcg_dub_name": "Sartyr"}
 {"character_id": "kabuto_bito", "series": "SEVENS", "ja_base": "美藤 カブト", "ja_kana": "びとう カブト", "ocg_name": "Kabuto Bito", "tcg_dub_name": "Kabuto Bito"}
 {"character_id": "kado_ya_no_tencho", "series": "DM", "ja_base": "カード屋の店長", "ja_kana": null, "ocg_name": "Kado ya no tencho", "tcg_dub_name": "Card shop manager"}
@@ -738,15 +584,12 @@
 {"character_id": "kageyama_shimai_bi", "series": "DM", "ja_base": "影山姉妹Ⓑ", "ja_kana": null, "ocg_name": "Kageyama shimai Bi", "tcg_dub_name": "Kageyama sister B"}
 {"character_id": "kageyama_shimai_shi", "series": "DM", "ja_base": "影山姉妹Ⓒ", "ja_kana": null, "ocg_name": "Kageyama shimai shi", "tcg_dub_name": "Kageyama sister C"}
 {"character_id": "kagurazaka", "series": "GX", "ja_base": "神楽坂", "ja_kana": "かぐらざか", "ocg_name": "Kagurazaka", "tcg_dub_name": "Dimitri"}
-{"character_id": "kahkki_assassin_of_dark_world", "series": "GX", "ja_base": "暗黒界の刺客 カーキ", "ja_kana": "あんこくかいのしかく カーキ", "ocg_name": "Assassin of Dark World - Kahkki", "tcg_dub_name": "Kahkki, Guerilla of Dark World"}
 {"character_id": "kai_kurahashi", "series": "ARC-V", "ja_base": null, "ja_kana": null, "ocg_name": "Kai Kurahashi", "tcg_dub_name": "Kai Kurahashi"}
 {"character_id": "kaia", "series": "5D's", "ja_base": null, "ja_kana": "ケイト・モヘア", "ocg_name": "Kaia", "tcg_dub_name": "Kaia"}
 {"character_id": "kaiba_manor_butler", "series": "DM", "ja_base": null, "ja_kana": "かいばていしつじ", "ocg_name": "Kaiba Manor butler", "tcg_dub_name": "Kaiba Manor butler"}
 {"character_id": "kaiba_s_chauffeur", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Kaiba's chauffeur", "tcg_dub_name": "Kaiba's chauffeur"}
 {"character_id": "kaiba_s_maid", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Kaiba's maid", "tcg_dub_name": "Kaiba's maid"}
 {"character_id": "kaibacorp_guard", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "KaibaCorp guard", "tcg_dub_name": "KaibaCorp guard"}
-{"character_id": "kaibaman_the_ally_of_justice", "series": "DM", "ja_base": "正義の味方 カイバーマン", "ja_kana": "せいぎのみかた カイバーマン", "ocg_name": "Champion of Justice - Kaibaman", "tcg_dub_name": "Kaibaman"}
-{"character_id": "kaiser_dragon", "series": "DM", "ja_base": null, "ja_kana": "カイザー・ドラゴン", "ocg_name": "Kaiser Dragon", "tcg_dub_name": "Kaiser Dragon"}
 {"character_id": "kaiser_umiuma", "series": "GX", "ja_base": "カイザー海馬", "ja_kana": "カイザーウミウマ", "ocg_name": "Kaiser Umiuma", "tcg_dub_name": "Kaiser Umiuma"}
 {"character_id": "kaito_tenjo", "series": "ZEXAL", "ja_base": "天城 カイト", "ja_kana": "てんじょう カイト", "ocg_name": "Kaito Tenjo", "tcg_dub_name": "Kite Tenjo"}
 {"character_id": "kaizo", "series": "SEVENS", "ja_base": null, "ja_kana": "カイゾー", "ocg_name": "Kaizo", "tcg_dub_name": "Kaizo"}
@@ -767,7 +610,6 @@
 {"character_id": "kaoru", "series": "5D's", "ja_base": null, "ja_kana": "カオル", "ocg_name": "Kaoru", "tcg_dub_name": "Kaoru"}
 {"character_id": "kaoruko_himekoji", "series": "DM", "ja_base": "姫小路 薫子", "ja_kana": null, "ocg_name": "Kaoruko Himekoji", "tcg_dub_name": "Kaoruko Himekoji"}
 {"character_id": "kaoruko_himekouji", "series": "GX", "ja_base": null, "ja_kana": null, "ocg_name": "Kaoruko Himekouji", "tcg_dub_name": "Kaoruko Himekouji"}
-{"character_id": "karate_man", "series": "Game", "ja_base": null, "ja_kana": "カラテマン", "ocg_name": "Karate Man", "tcg_dub_name": "Karate Man"}
 {"character_id": "karen", "series": "GX", "ja_base": "カレン語", "ja_kana": null, "ocg_name": "Karen", "tcg_dub_name": "Shirley"}
 {"character_id": "karen_choha", "series": "GO RUSH!!", "ja_base": "超波 カレン", "ja_kana": "ちょうは カレン", "ocg_name": "Karen Choha", "tcg_dub_name": "Karen Choha"}
 {"character_id": "karim", "series": "DM", "ja_base": null, "ja_kana": "カリム", "ocg_name": "Karim", "tcg_dub_name": "Karim"}
@@ -799,7 +641,6 @@
 {"character_id": "kilo", "series": "ARC-V", "ja_base": null, "ja_kana": null, "ocg_name": "Kilo", "tcg_dub_name": "Kilo"}
 {"character_id": "king", "series": "GX", "ja_base": "前世の世界王", "ja_kana": null, "ocg_name": "King", "tcg_dub_name": "King"}
 {"character_id": "king_jyaku", "series": "5D's", "ja_base": null, "ja_kana": "キング・ジャアク", "ocg_name": "King Jyaku", "tcg_dub_name": "King Jyaku"}
-{"character_id": "king_mokey_mokey", "series": "Game", "ja_base": null, "ja_kana": "キング・もけもけ", "ocg_name": "King Mokemoke", "tcg_dub_name": "Mokey Mokey King"}
 {"character_id": "kirigakure", "series": "ARC-V", "ja_base": "霧隠", "ja_kana": "きりがくれ", "ocg_name": "Kirigakure", "tcg_dub_name": "German Fauder"}
 {"character_id": "kirihito_kamagaya", "series": "SEVENS", "ja_base": "鎌ヶ谷 キリヒト", "ja_kana": "かまがや キリヒト", "ocg_name": "Kirihito Kamagaya", "tcg_dub_name": "Kirihito Kamagaya"}
 {"character_id": "kirk_dixon", "series": "Manga", "ja_base": null, "ja_kana": "カーク・ディクソン", "ocg_name": "Kirk Dixon", "tcg_dub_name": "Kirk Dixon"}
@@ -835,7 +676,6 @@
 {"character_id": "kotetsuki_mendo", "series": "SEVENS", "ja_base": "面胴 虎徹鬼", "ja_kana": "めんどう こてつき", "ocg_name": "Kotetsuki Mendo", "tcg_dub_name": "Kotetsuki Mendo"}
 {"character_id": "kotori_mizuki", "series": "ZEXAL", "ja_base": "観月 小鳥", "ja_kana": "みづきことり", "ocg_name": "Kotori Mizuki", "tcg_dub_name": "Tori Meadows"}
 {"character_id": "koyo_hibiki", "series": "GX", "ja_base": "響紅葉", "ja_kana": null, "ocg_name": "Koyo Hibiki", "tcg_dub_name": "Koyo Hibiki"}
-{"character_id": "kozaky", "series": "GX", "ja_base": null, "ja_kana": "コザッキー", "ocg_name": "Kozaky", "tcg_dub_name": "Kozaky"}
 {"character_id": "kozo_kiba", "series": "GX", "ja_base": "木葉 孝三", "ja_kana": "きば こうぞう", "ocg_name": "Kozo Kiba", "tcg_dub_name": "Lioside"}
 {"character_id": "kozo_nishino", "series": "5D's", "ja_base": "西野 浩三", "ja_kana": "にしの こうぞう", "ocg_name": "Kozo Nishino", "tcg_dub_name": "Rio"}
 {"character_id": "kuaidul_velgear", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "クァイドゥール・ベルギャー", "ocg_name": "Kuaidul Velgear", "tcg_dub_name": "Kuaidul Velgear"}
@@ -844,9 +684,6 @@
 {"character_id": "kujirada_s_digital_pet", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Kujirada's Digital Pet", "tcg_dub_name": "Kujirada's Digital Pet"}
 {"character_id": "kumazo_maeda", "series": "GX", "ja_base": "前田 熊蔵", "ja_kana": "まえだ くまぞう", "ocg_name": "Kumazo Maeda", "tcg_dub_name": "Mr. Huffington"}
 {"character_id": "kunimasa_sawanaka", "series": "GX", "ja_base": "沢中 国正", "ja_kana": "さわなか くにまさ", "ocg_name": "Kunimasa Sawanaka", "tcg_dub_name": "Dean"}
-{"character_id": "kuriboh", "series": "DM", "ja_base": null, "ja_kana": "クリボー", "ocg_name": "Kuriboh", "tcg_dub_name": "Kuriboh"}
-{"character_id": "kuribon", "series": "5D's", "ja_base": null, "ja_kana": "クリボン", "ocg_name": "Kuribon", "tcg_dub_name": "Kuribon"}
-{"character_id": "kurivolt", "series": "Game", "ja_base": null, "ja_kana": "クリボルト", "ocg_name": "Kurivolt", "tcg_dub_name": "Kurivolt"}
 {"character_id": "kuroda_daku", "series": "Game", "ja_base": "ダーク黒田", "ja_kana": null, "ocg_name": "Kuroda Daku", "tcg_dub_name": "Dark Kuroda"}
 {"character_id": "kurono", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Kurono", "tcg_dub_name": "Kurono"}
 {"character_id": "kurumi_kobayashi", "series": "ARC-V", "ja_base": null, "ja_kana": null, "ocg_name": "Kurumi Kobayashi", "tcg_dub_name": "Kurumi Kobayashi"}
@@ -860,13 +697,9 @@
 {"character_id": "kyosuke_kiryu", "series": "5D's", "ja_base": "鬼柳 京介", "ja_kana": "きりゅう きょうすけ", "ocg_name": "Kyosuke Kiryu", "tcg_dub_name": "Kalin Kessler"}
 {"character_id": "kyoto", "series": "DM", "ja_base": "教頭", "ja_kana": "きょうとう", "ocg_name": "Kyoto", "tcg_dub_name": "Vice-principal"}
 {"character_id": "kyu", "series": "DM", "ja_base": "宮", "ja_kana": null, "ocg_name": "Kyu", "tcg_dub_name": "Dox"}
-{"character_id": "la_jinn_the_magical_genie_of_the_lamp", "series": "DM", "ja_base": "ランプの魔精・ラ・ジーン", "ja_kana": "ランプのませい・ラ・ジーン", "ocg_name": "Magical Genie of the Lamp - La Jinn", "tcg_dub_name": "La Jinn the Mystical Genie of the Lamp"}
 {"character_id": "labyrinth_brothers", "series": "Game", "ja_base": "迷宮兄弟", "ja_kana": null, "ocg_name": "Labyrinth Brothers", "tcg_dub_name": "Paradox Brothers"}
-{"character_id": "landmine_spider", "series": "DM", "ja_base": "地雷蜘蛛", "ja_kana": "じらいグモ", "ocg_name": "Landmine Spider", "tcg_dub_name": "Jirai Gumo"}
 {"character_id": "langly", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Langly", "tcg_dub_name": "Langly"}
 {"character_id": "larz", "series": "GX", "ja_base": null, "ja_kana": "ラーズ", "ocg_name": "Larz", "tcg_dub_name": "Larz"}
-{"character_id": "laval_flaming_forest_vamp", "series": "Game", "ja_base": "ラヴァル炎樹海の妖女", "ja_kana": "ラヴァルえんじゅかいのようじょ", "ocg_name": "Laval Flaming Forest Vamp", "tcg_dub_name": "Laval Forest Sprite"}
-{"character_id": "law_guardian", "series": "DM", "ja_base": null, "ja_kana": "ローガーディアン", "ocg_name": "Law Guardian", "tcg_dub_name": "Skull Guardian"}
 {"character_id": "lawton", "series": "5D's", "ja_base": null, "ja_kana": "ロットン", "ocg_name": "Lawton", "tcg_dub_name": "Lawton"}
 {"character_id": "layra_akaba", "series": "ARC-V", "ja_base": "赤馬 零羅", "ja_kana": "あかば れいら", "ocg_name": "Layra Akaba", "tcg_dub_name": "Riley Akaba"}
 {"character_id": "lazar", "series": "5D's", "ja_base": null, "ja_kana": "イェーガー", "ocg_name": "Lazar", "tcg_dub_name": "Lazar"}
@@ -875,21 +708,13 @@
 {"character_id": "lazar_s_mother", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Lazar's mother", "tcg_dub_name": "Lazar's mother"}
 {"character_id": "lazar_s_sister", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Lazar's sister", "tcg_dub_name": "Lazar's sister"}
 {"character_id": "lds_student", "series": "Game", "ja_base": "ＬＤＳ生", "ja_kana": null, "ocg_name": "LDS Student", "tcg_dub_name": "Henry"}
-{"character_id": "leading_flame_star_king_song_hu", "series": "Game", "ja_base": "魁炎星王－ソウコ", "ja_kana": "かいえんせいおう－ソウコ", "ocg_name": "Leading Flame Star King - Song Hu", "tcg_dub_name": "Brotherhood of the Fire Fist - Tiger King"}
-{"character_id": "leaf_fairy", "series": "DM", "ja_base": null, "ja_kana": "リーフ・フェアリー", "ocg_name": "Leaf Fairy", "tcg_dub_name": "Woodland Sprite"}
 {"character_id": "legendary_duelist", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "Legendary Duelist", "tcg_dub_name": "Legendary Duelist"}
 {"character_id": "legendary_signer", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Legendary Signer", "tcg_dub_name": "Legendary Signer"}
 {"character_id": "leo_alec", "series": "SEVENS", "ja_base": "亜鈴区 レオ", "ja_kana": "あれく レオ", "ocg_name": "Leo Alec", "tcg_dub_name": "Lionel Alec"}
 {"character_id": "leon_von_schroeder", "series": "DM", "ja_base": null, "ja_kana": "レオンハルト・フォン・シュレイダー", "ocg_name": "Leon von Schroeder", "tcg_dub_name": "Leon von Schroeder"}
 {"character_id": "lester", "series": "5D's", "ja_base": null, "ja_kana": "ルチアーノ", "ocg_name": "Lester", "tcg_dub_name": "Lester"}
-{"character_id": "levia_dragon_daedalus", "series": "Game", "ja_base": "海竜－ダイダロス", "ja_kana": "リバイアドラゴン－ダイダロス", "ocg_name": "Levia-Dragon - Daedalus", "tcg_dub_name": "Levia-Dragon - Daedalus"}
-{"character_id": "life_stream_dragon", "series": "5D's", "ja_base": null, "ja_kana": "ライフ・ストリーム・ドラゴン", "ocg_name": "Life Stream Dragon", "tcg_dub_name": "Life Stream Dragon"}
-{"character_id": "light_and_darkness_dragon", "series": "GX", "ja_base": "光と闇の竜", "ja_kana": "ライトアンドダークネス・ドラゴン", "ocg_name": "Light and Darkness Dragon", "tcg_dub_name": "Light and Darkness Dragon"}
 {"character_id": "lightning", "series": "VRAINS", "ja_base": null, "ja_kana": "ライトニング", "ocg_name": "Lightning", "tcg_dub_name": "Lightning"}
-{"character_id": "lightroad_hunter_ryko", "series": "Game", "ja_base": null, "ja_kana": "ライトロード・ハンター ライコウ", "ocg_name": "Lightroad Hunter Ryko", "tcg_dub_name": "Ryko, Lightsworn Hunter"}
-{"character_id": "lillybot", "series": "ZEXAL", "ja_base": null, "ja_kana": "オボミ", "ocg_name": "Lillybot", "tcg_dub_name": "Lillybot"}
 {"character_id": "linda", "series": "GX", "ja_base": null, "ja_kana": "リンド", "ocg_name": "Linda", "tcg_dub_name": "Linda"}
-{"character_id": "linkuriboh", "series": "VRAINS", "ja_base": null, "ja_kana": "リンクリボー", "ocg_name": "Linkuriboh", "tcg_dub_name": "Linkuriboh"}
 {"character_id": "lively_student", "series": "Game", "ja_base": "元気な学生", "ja_kana": null, "ocg_name": "Lively Student", "tcg_dub_name": "Josh"}
 {"character_id": "london", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ロンドン", "ocg_name": "London", "tcg_dub_name": "London"}
 {"character_id": "london_kirishima", "series": "GO RUSH!!", "ja_base": "霧島 ロンドン", "ja_kana": "きりしま ロンドン", "ocg_name": "London Kirishima", "tcg_dub_name": "London Kassidy"}
@@ -900,16 +725,9 @@
 {"character_id": "luke", "series": "DM", "ja_base": null, "ja_kana": "かみじょう たつひさ", "ocg_name": "Luke", "tcg_dub_name": "Luke"}
 {"character_id": "lumis_and_umbra", "series": "DM", "ja_base": "光の仮面", "ja_kana": null, "ocg_name": "Masks of Light and Darkness", "tcg_dub_name": "Lumis and Umbra"}
 {"character_id": "lyndon", "series": "5D's", "ja_base": null, "ja_kana": "レオ", "ocg_name": "Lyndon", "tcg_dub_name": "Lyndon"}
-{"character_id": "m_bius_the_ice_monarch", "series": "Game", "ja_base": "氷帝メビウス", "ja_kana": "ひょうていメビウス", "ocg_name": "Ice Monarch - Möbius", "tcg_dub_name": "Mobius the Frost Monarch"}
 {"character_id": "mach", "series": "ZEXAL", "ja_base": null, "ja_kana": "マッハ", "ocg_name": "Mach", "tcg_dub_name": "Mach"}
-{"character_id": "machine_sergeant", "series": "Game", "ja_base": "機械軍曹", "ja_kana": "きかいぐんそう", "ocg_name": "Machine Sergeant", "tcg_dub_name": "Robotic Knight"}
 {"character_id": "maci", "series": "5D's", "ja_base": null, "ja_kana": "マー・ムー", "ocg_name": "Maci", "tcg_dub_name": "Maci"}
 {"character_id": "madam_ishtar", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Madam Ishtar", "tcg_dub_name": "Madam Ishtar"}
-{"character_id": "madolche_puddincess", "series": "Game", "ja_base": null, "ja_kana": "マドルチェ・プディンセス", "ocg_name": "Madolche Puddincess", "tcg_dub_name": "Madolche Puddingcess"}
-{"character_id": "magical_sheep_girl_meeeg_chan", "series": "GO RUSH!!", "ja_base": "魔法羊女メェ～グちゃん", "ja_kana": "まほうようじょメェ～グちゃん", "ocg_name": "Magical Sheep Girl Meeeg-chan", "tcg_dub_name": "Princess of the Flock - Miss Mutton"}
-{"character_id": "magicat", "series": "Game", "ja_base": null, "ja_kana": "マジキャット", "ocg_name": "Magicat", "tcg_dub_name": "Magicat"}
-{"character_id": "magician_of_black_chaos", "series": "DM", "ja_base": null, "ja_kana": "マジシャン・オブ・ブラックカオス", "ocg_name": "Magician of Black Chaos", "tcg_dub_name": "Magician of Black Chaos"}
-{"character_id": "magistus_chorozo", "series": "Manga", "ja_base": "精霊コロゾ", "ja_kana": "マギストスコロゾ", "ocg_name": "Magistus Chorozo", "tcg_dub_name": "Magistus Chorozo"}
 {"character_id": "maguto_sogetsu", "series": "GO RUSH!!", "ja_base": "蒼月 マグト", "ja_kana": "そうげつ マグト", "ocg_name": "Maguto Sogetsu", "tcg_dub_name": "Albacore Sogetsu"}
 {"character_id": "mahad", "series": "DM", "ja_base": null, "ja_kana": "マハード", "ocg_name": "Mahad", "tcg_dub_name": "Mahad"}
 {"character_id": "mahoro_tsukamoto", "series": "GX", "ja_base": "塚本 真歩路", "ja_kana": "つかもと まほろ", "ocg_name": "Mahoro Tsukamoto", "tcg_dub_name": "Deloge"}
@@ -920,7 +738,6 @@
 {"character_id": "maia", "series": "5D's", "ja_base": null, "ja_kana": "マリア・アン", "ocg_name": "Maia", "tcg_dub_name": "Maia"}
 {"character_id": "maiami_second_middle_school_student", "series": "Game", "ja_base": "舞網第二中学生", "ja_kana": null, "ocg_name": "Maiami Second Middle School Student", "tcg_dub_name": "Emmeline"}
 {"character_id": "maico_kato", "series": "Manga", "ja_base": null, "ja_kana": "マイコ・カトウ", "ocg_name": "Maico Kato", "tcg_dub_name": "Maico Kato"}
-{"character_id": "maiden_in_love", "series": "GX", "ja_base": "恋する乙女", "ja_kana": "こいするおとめ", "ocg_name": "Maiden in Love", "tcg_dub_name": "Maiden in Love"}
 {"character_id": "maiko_mokota", "series": "ARC-V", "ja_base": "茂古田 麻衣子", "ja_kana": "もこた まいこ", "ocg_name": "Maiko Mokota", "tcg_dub_name": "Mrs. Pepper"}
 {"character_id": "maitre_d", "series": "GX", "ja_base": null, "ja_kana": "ソムリエ・パーカー", "ocg_name": "Maitre'D", "tcg_dub_name": "Maitre'D"}
 {"character_id": "maizuru_kujyaku", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Maizuru Kujyaku", "tcg_dub_name": "Maizuru Kujyaku"}
@@ -949,12 +766,10 @@
 {"character_id": "manupillio_zomyoji", "series": "GO RUSH!!", "ja_base": "象明寺 マニュピリオ", "ja_kana": null, "ocg_name": "Manupillio Zomyoji", "tcg_dub_name": "Manipilio Elephantus"}
 {"character_id": "manya", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "マニャ", "ocg_name": "Manya", "tcg_dub_name": "Manya"}
 {"character_id": "manya_atachi", "series": "GO RUSH!!", "ja_base": "安立 マニャ", "ja_kana": "あたち マニャ", "ocg_name": "Manya Atachi", "tcg_dub_name": "Immi Imimi"}
-{"character_id": "marauding_captain", "series": "GX", "ja_base": "切り込み隊長", "ja_kana": "きりこみたいちょう", "ocg_name": "Marauding Captain", "tcg_dub_name": "Marauding Captain"}
 {"character_id": "marco", "series": "5D's", "ja_base": null, "ja_kana": "マルコ", "ocg_name": "Marco", "tcg_dub_name": "Marco"}
 {"character_id": "marik_ishtar", "series": "DM", "ja_base": null, "ja_kana": "マリク・イシュタール", "ocg_name": "Marik Ishtar", "tcg_dub_name": "Marik Ishtar"}
 {"character_id": "marin", "series": "Game", "ja_base": null, "ja_kana": "メラグ", "ocg_name": "Marin", "tcg_dub_name": "Marin"}
 {"character_id": "mark", "series": "5D's", "ja_base": null, "ja_kana": "マーク", "ocg_name": "Mark", "tcg_dub_name": "Mark"}
-{"character_id": "marshmallon", "series": "Game", "ja_base": null, "ja_kana": "マシュマロン", "ocg_name": "Marshmallon", "tcg_dub_name": "Marshmallon"}
 {"character_id": "martha", "series": "5D's", "ja_base": null, "ja_kana": "マーサ", "ocg_name": "Martha", "tcg_dub_name": "Martha"}
 {"character_id": "marthis", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Marthis", "tcg_dub_name": "Marthis"}
 {"character_id": "martin_kanou", "series": "GX", "ja_base": "加納マルタン", "ja_kana": null, "ocg_name": "Martin Kanou", "tcg_dub_name": "Marcel Bonaparte"}
@@ -978,20 +793,16 @@
 {"character_id": "mayumi", "series": "DM", "ja_base": null, "ja_kana": "まゆみ", "ocg_name": "Mayumi", "tcg_dub_name": "Mayumi"}
 {"character_id": "mc", "series": "5D's", "ja_base": "ＭＣ", "ja_kana": "エムシー", "ocg_name": "MC", "tcg_dub_name": "MC"}
 {"character_id": "mc_vrains", "series": "VRAINS", "ja_base": null, "ja_kana": "エムシー", "ocg_name": "MC (VRAINS)", "tcg_dub_name": "MC (VRAINS)"}
-{"character_id": "medusa_worm", "series": "DM", "ja_base": null, "ja_kana": "メデューサ・ワーム", "ocg_name": "Medusa Worm", "tcg_dub_name": "Medusa Worm"}
-{"character_id": "megarock_dragon", "series": "Game", "ja_base": null, "ja_kana": "メガロック・ドラゴン", "ocg_name": "Megarock Dragon", "tcg_dub_name": "Megarock Dragon"}
 {"character_id": "mei", "series": "DM", "ja_base": "迷", "ja_kana": null, "ocg_name": "Mei", "tcg_dub_name": "Para"}
 {"character_id": "mei_kitaki", "series": "5D's", "ja_base": "メイ 喜多嬉", "ja_kana": "メイ きたき", "ocg_name": "Mei Kitaki", "tcg_dub_name": "Maggie"}
 {"character_id": "mei_s_father", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Mei's father", "tcg_dub_name": "Mei's father"}
 {"character_id": "meikai_no_o", "series": "5D's", "ja_base": "冥界の王", "ja_kana": null, "ocg_name": "Meikai no O", "tcg_dub_name": "King of the Netherworld"}
 {"character_id": "melissa_trail", "series": "ARC-V", "ja_base": null, "ja_kana": "メリッサ・クレール", "ocg_name": "Melissa Trail", "tcg_dub_name": "Melissa Trail"}
-{"character_id": "melomelomelody_the_brass_djinn", "series": "Game", "ja_base": "管魔人メロメロメロディ", "ja_kana": "かんまじんメロメロメロディ", "ocg_name": "Brass Djinn - Melomelomelody", "tcg_dub_name": "Melomelody the Brass Djinn"}
 {"character_id": "mendo_cino", "series": "Manga", "ja_base": null, "ja_kana": "メンド・シーノ", "ocg_name": "Mendo Cino", "tcg_dub_name": "Mendo Cino"}
 {"character_id": "menjaburo_omori", "series": "GO RUSH!!", "ja_base": "大森 麺ジャブ郎", "ja_kana": "おおもり めんジャブろう", "ocg_name": "Menjaburo Omori", "tcg_dub_name": "Jaburamen"}
 {"character_id": "menzaburo", "series": "GO RUSH!!", "ja_base": "麺三郎", "ja_kana": null, "ocg_name": "Menzaburo", "tcg_dub_name": "Saburamen"}
 {"character_id": "menzaburo_omori", "series": "SEVENS", "ja_base": "大森 麺三郎", "ja_kana": "おおもり めんざぶろう", "ocg_name": "Menzaburo Omori", "tcg_dub_name": "Saburamen"}
 {"character_id": "meowdestar", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ニャンデスター", "ocg_name": "Meowdestar", "tcg_dub_name": "Meowdestar"}
-{"character_id": "mermail_abysslinde", "series": "Game", "ja_base": "水精鱗－アビスリンデ", "ja_kana": "マーメイル－アビスリンデ", "ocg_name": "Mermail - Abysslinde", "tcg_dub_name": "Mermail Abysslinde"}
 {"character_id": "michio_mokota", "series": "ARC-V", "ja_base": "茂古田 未知夫", "ja_kana": "もこた みちお", "ocg_name": "Michio Mokota", "tcg_dub_name": "Reed Pepper"}
 {"character_id": "mid_level_duel_school_student", "series": "Game", "ja_base": "中堅デュエルスクール生", "ja_kana": null, "ocg_name": "Mid-Level Duel School Student", "tcg_dub_name": "Margaret"}
 {"character_id": "midori_hibiki", "series": "GX", "ja_base": "響みどり", "ja_kana": null, "ocg_name": "Midori Hibiki", "tcg_dub_name": "Midori Hibiki"}
@@ -1007,8 +818,6 @@
 {"character_id": "mimi", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ミミ", "ocg_name": "Mimi", "tcg_dub_name": "Mimi"}
 {"character_id": "mimi_atachi", "series": "SEVENS", "ja_base": "安立 ミミ", "ja_kana": "あたち ミミ", "ocg_name": "Mimi Atachi", "tcg_dub_name": "Mimi Imimi"}
 {"character_id": "mimi_kemohono", "series": "Manga", "ja_base": "外喪恍 美味", "ja_kana": "けもほの ミミ", "ocg_name": "Mimi Kemohono", "tcg_dub_name": "Mimi Kemohono"}
-{"character_id": "minocentaur", "series": "DM", "ja_base": null, "ja_kana": "ミノケンタウロス", "ocg_name": "Minocentaur", "tcg_dub_name": "Rabid Horseman"}
-{"character_id": "minotaur", "series": "DM", "ja_base": null, "ja_kana": "ミノタウルス", "ocg_name": "Minotaur", "tcg_dub_name": "Battle Ox"}
 {"character_id": "mint", "series": "5D's", "ja_base": null, "ja_kana": "ミント・ロケット", "ocg_name": "Mint", "tcg_dub_name": "Mint"}
 {"character_id": "mio_tojyo", "series": "ARC-V", "ja_base": null, "ja_kana": null, "ocg_name": "Mio Tojyo", "tcg_dub_name": "Mio Tojyo"}
 {"character_id": "mirai_tsukumo", "series": "ZEXAL", "ja_base": "九十九未来", "ja_kana": "つくもみらい", "ocg_name": "Mirai Tsukumo", "tcg_dub_name": "Mira Tsukumo"}
@@ -1030,7 +839,6 @@
 {"character_id": "mizuchi_saio", "series": "GX", "ja_base": "斎王 美寿知", "ja_kana": "さいおう みずち", "ocg_name": "Mizuchi Saio", "tcg_dub_name": "Sarina"}
 {"character_id": "mobuko", "series": "GO RUSH!!", "ja_base": "モブ子", "ja_kana": null, "ocg_name": "Mobuko", "tcg_dub_name": "Mobuko"}
 {"character_id": "mokeo_motegi", "series": "GX", "ja_base": "茂木もけ夫", "ja_kana": null, "ocg_name": "Mokeo Motegi", "tcg_dub_name": "Belowski"}
-{"character_id": "mokey_mokey", "series": "Game", "ja_base": null, "ja_kana": "もけもけ", "ocg_name": "Mokemoke", "tcg_dub_name": "Mokey Mokey"}
 {"character_id": "mokuba_kaiba", "series": "DM", "ja_base": "海馬 モクバ", "ja_kana": "かいばモクバ", "ocg_name": "Mokuba Kaiba", "tcg_dub_name": "Mokuba Kaiba"}
 {"character_id": "mokuma", "series": "GX", "ja_base": null, "ja_kana": "モクマ", "ocg_name": "Mokuma", "tcg_dub_name": "Mokuma"}
 {"character_id": "momoe_hamaguchi", "series": "GX", "ja_base": "浜口ももえ", "ja_kana": "はまぐち ももえ", "ocg_name": "Momoe Hamaguchi", "tcg_dub_name": "Mindy"}
@@ -1080,16 +888,10 @@
 {"character_id": "nash", "series": "Game", "ja_base": null, "ja_kana": "ナッシュ", "ocg_name": "Nash", "tcg_dub_name": "Nash"}
 {"character_id": "natsuo_tanaka", "series": "GX", "ja_base": "田中夏雄", "ja_kana": null, "ocg_name": "Natsuo Tanaka", "tcg_dub_name": "Natsuo Tanaka"}
 {"character_id": "natsuyo_tanaka", "series": "GX", "ja_base": "田中 奈津代", "ja_kana": "たなか なつよ", "ocg_name": "Natsuyo Tanaka", "tcg_dub_name": "Jewels"}
-{"character_id": "naturu_beetle", "series": "Game", "ja_base": null, "ja_kana": "ナチュル・ビートル", "ocg_name": "Naturu Beetle", "tcg_dub_name": "Naturia Beetle"}
 {"character_id": "nazo_no_barian", "series": "ARC-V", "ja_base": "謎のバリアン", "ja_kana": "なぞのバリアン", "ocg_name": "Nazo no Barian", "tcg_dub_name": "Mysterious Barian"}
 {"character_id": "neiru_saionji", "series": "SEVENS", "ja_base": "西園寺 ネイル", "ja_kana": "さいおんじ ネイル", "ocg_name": "Neiru Saionji", "tcg_dub_name": "Nail Saionji"}
 {"character_id": "nene_koen", "series": "ZEXAL", "ja_base": "光焔 ねね", "ja_kana": "こうえん ねね", "ocg_name": "Nene Koen", "tcg_dub_name": "Nina Kowalski"}
-{"character_id": "neo_aqua_madoor", "series": "DM", "ja_base": null, "ja_kana": "ネオアクア・マドール", "ocg_name": "Neo Aqua Madoor", "tcg_dub_name": "Neo Aqua Madoor"}
 {"character_id": "neo_monoma", "series": "GX", "ja_base": "茂野間 ネオ", "ja_kana": "ものま ネオ", "ocg_name": "Neo Monoma", "tcg_dub_name": "Mimicry"}
-{"character_id": "neo_spacian_air_hummingbird", "series": "GX", "ja_base": "Ｎ・エア・ハミングバード", "ja_kana": "ネオスペーシアン・エア・ハミングバード", "ocg_name": "Neo-Spacian - Air Hummingbird", "tcg_dub_name": "Neo-Spacian Air Hummingbird"}
-{"character_id": "neo_spacian_aqua_dolphin", "series": "GX", "ja_base": "Ｎ・アクア・ドルフィン", "ja_kana": "ネオスペーシアン・アクア・ドルフィン", "ocg_name": "Neo-Spacian - Aqua Dolphin", "tcg_dub_name": "Neo-Spacian Aqua Dolphin"}
-{"character_id": "neo_spacian_black_panther", "series": "GX", "ja_base": "Ｎ・ブラック・パンサー", "ja_kana": "ネオスペーシアン・ブラック・パンサー", "ocg_name": "Neo-Spacian - Black Panther", "tcg_dub_name": "Neo-Spacian Dark Panther"}
-{"character_id": "neo_spacian_grand_mole", "series": "GX", "ja_base": "Ｎ・グラン・モール", "ja_kana": "ネオスペーシアン・グラン・モール", "ocg_name": "Neo-Spacian - Grand Mole", "tcg_dub_name": "Neo-Spacian Grand Mole"}
 {"character_id": "nero", "series": "GX", "ja_base": null, "ja_kana": null, "ocg_name": "Nero", "tcg_dub_name": "Nero"}
 {"character_id": "nero_s_grandfather", "series": "GX", "ja_base": null, "ja_kana": null, "ocg_name": "Nero's grandfather", "tcg_dub_name": "Nero's grandfather"}
 {"character_id": "nervin", "series": "5D's", "ja_base": null, "ja_kana": "ブリッツ", "ocg_name": "Nervin", "tcg_dub_name": "Nervin"}
@@ -1100,7 +902,6 @@
 {"character_id": "nico_smiley", "series": "ARC-V", "ja_base": null, "ja_kana": "ニコ・スマイリー", "ocg_name": "Nico Smiley", "tcg_dub_name": "Nico Smiley"}
 {"character_id": "nicolas", "series": "5D's", "ja_base": null, "ja_kana": "ニコラス", "ocg_name": "Nicolas", "tcg_dub_name": "Nicolas"}
 {"character_id": "nightshroud", "series": "GX", "ja_base": null, "ja_kana": "ダークネス", "ocg_name": "Nightshroud", "tcg_dub_name": "Nightshroud"}
-{"character_id": "ninaruru_the_magistus_goddess", "series": "Manga", "ja_base": "結晶の女神ニンアルル", "ja_kana": "マギストス・ゴッデスニンアルル", "ocg_name": "Magistus Goddess - Ninaruru", "tcg_dub_name": "Ninaruru, the Magistus Glass Goddess"}
 {"character_id": "ningyo", "series": "Manga", "ja_base": "人形", "ja_kana": "にんぎょう", "ocg_name": "Ningyo", "tcg_dub_name": "Doll"}
 {"character_id": "nisho_dukas", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "デュッディ・ニーショウ", "ocg_name": "Nisho Dukas", "tcg_dub_name": "Nisho Dukas"}
 {"character_id": "nistro", "series": "Game", "ja_base": null, "ja_kana": "ゴーシュ", "ocg_name": "Nistro", "tcg_dub_name": "Nistro"}
@@ -1121,15 +922,6 @@
 {"character_id": "number_63_s_holder", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Number 63's holder", "tcg_dub_name": "Number 63's holder"}
 {"character_id": "number_96", "series": "Game", "ja_base": "Ｎｏ．９６", "ja_kana": "ナンバーズ９６", "ocg_name": "Number 96", "tcg_dub_name": "Number 96"}
 {"character_id": "number_96_s_holder", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Number 96's holder", "tcg_dub_name": "Number 96's holder"}
-{"character_id": "numbers_100_numeron_dragon", "series": "ZEXAL", "ja_base": "Ｎｏ．１００ ヌメロン・ドラゴン", "ja_kana": "ナンバーズ１００ ヌメロン・ドラゴン", "ocg_name": "Numbers 100: Numeron Dragon", "tcg_dub_name": "Number 100: Numeron Dragon"}
-{"character_id": "numbers_107_galaxy_eyes_tachyon_dragon", "series": "ZEXAL", "ja_base": "Ｎｏ．１０７ 銀河眼の時空竜", "ja_kana": "ナンバーズ１０７ ギャラクシーアイズ・タキオン・ドラゴン", "ocg_name": "Numbers 107: Galaxy-Eyes Tachyon Dragon", "tcg_dub_name": "Number 107: Galaxy-Eyes Tachyon Dragon"}
-{"character_id": "numbers_11_big_eye", "series": "Game", "ja_base": "Ｎｏ．１１ ビッグ・アイ", "ja_kana": "ナンバーズ１１ ビッグ・アイ", "ocg_name": "Numbers 11: Big Eye", "tcg_dub_name": "Number 11: Big Eye"}
-{"character_id": "numbers_12_armor_ninja_crimson_shadow", "series": "Game", "ja_base": "Ｎｏ．１２ 機甲忍者クリムゾン・シャドー", "ja_kana": "ナンバーズ１２ きこうにんじゃクリムゾン・シャドー", "ocg_name": "Numbers 12: Armor Ninja - Crimson Shadow", "tcg_dub_name": "Number 12: Crimson Shadow Armor Ninja"}
-{"character_id": "numbers_17_levice_dragon", "series": "Game", "ja_base": "Ｎｏ．１７ リバイス・ドラゴン", "ja_kana": "ナンバーズ１７ リバイス・ドラゴン", "ocg_name": "Numbers 17: LeVice Dragon", "tcg_dub_name": "Number 17: Leviathan Dragon"}
-{"character_id": "numbers_32_marine_biting_dragon_shark_drake", "series": "ZEXAL", "ja_base": "Ｎｏ．３２ 海咬龍シャーク・ドレイク", "ja_kana": "ナンバーズ３２ かいこうりゅうシャーク・ドレイク", "ocg_name": "Numbers 32: Marine Biting Dragon - Shark Drake", "tcg_dub_name": "Number 32: Shark Drake"}
-{"character_id": "numbers_39_king_of_wishes_hope", "series": "ZEXAL", "ja_base": "Ｎｏ．３９ 希望皇ホープ", "ja_kana": "ナンバーズ３９ きぼうおうホープ", "ocg_name": "Numbers 39: King of Wishes - Hope", "tcg_dub_name": "Number 39: Utopia"}
-{"character_id": "numbers_73_roaring_waterfall_god_abyss_splash", "series": "ZEXAL", "ja_base": "Ｎｏ．７３ 激瀧神アビス・スプラッシュ", "ja_kana": "ナンバーズ７３ げきろうしんアビス・スプラッシュ", "ocg_name": "Numbers 73: Roaring Waterfall God - Abyss Splash", "tcg_dub_name": "Number 73: Abyss Splash"}
-{"character_id": "numbers_96_black_mist", "series": "ZEXAL", "ja_base": "Ｎｏ．９６ ブラック・ミスト", "ja_kana": "ナンバーズ９６ ブラック・ミスト", "ocg_name": "Numbers 96: Black Mist", "tcg_dub_name": "Number 96: Dark Mist"}
 {"character_id": "obelisk_blue_male_student", "series": "Game", "ja_base": "オベリスク・ブルーの男子生徒", "ja_kana": null, "ocg_name": "Obelisk Blue Male Student", "tcg_dub_name": "Zachary"}
 {"character_id": "obelisk_force", "series": "Game", "ja_base": null, "ja_kana": "オベリスク・フォース", "ocg_name": "Obelisk Force", "tcg_dub_name": "Obelisk Force"}
 {"character_id": "obot_unit_1", "series": "ZEXAL", "ja_base": "オボット１号", "ja_kana": "オボット１ごう", "ocg_name": "Obot Unit 1", "tcg_dub_name": "Litter Bot #1"}
@@ -1137,17 +929,12 @@
 {"character_id": "obot_unit_39", "series": "ZEXAL", "ja_base": "オボット３９号", "ja_kana": "オボット３９ごう", "ocg_name": "Obot Unit 39", "tcg_dub_name": "Litter Bot #39"}
 {"character_id": "obot_unit_4", "series": "ZEXAL", "ja_base": "オボット４号", "ja_kana": "オボット４ごう", "ocg_name": "Obot Unit 4", "tcg_dub_name": "Litter Bot #4"}
 {"character_id": "obot_unit_573", "series": "ZEXAL", "ja_base": "オボット５７３号", "ja_kana": "オボット５７３ごう", "ocg_name": "Obot Unit 573", "tcg_dub_name": "Litter Bot #573"}
-{"character_id": "odd_eyes_pendulum_dragon", "series": "Game", "ja_base": null, "ja_kana": "オッドアイズ・ペンデュラム・ドラゴン", "ocg_name": "Odd-Eyes Pendulum Dragon", "tcg_dub_name": "Odd-Eyes Pendulum Dragon"}
 {"character_id": "odin", "series": "5D's", "ja_base": null, "ja_kana": "オーディン", "ocg_name": "Odin", "tcg_dub_name": "Odin"}
 {"character_id": "odion", "series": "DM", "ja_base": null, "ja_kana": "リシド", "ocg_name": "Odion", "tcg_dub_name": "Odion"}
 {"character_id": "officer_227", "series": "ARC-V", "ja_base": null, "ja_kana": "デュエルチェイサー２２７", "ocg_name": "Officer 227", "tcg_dub_name": "Officer 227"}
 {"character_id": "officer_tetsu_trudge", "series": "Game", "ja_base": null, "ja_kana": "うしおてつ", "ocg_name": "Officer Tetsu Trudge", "tcg_dub_name": "Officer Tetsu Trudge"}
 {"character_id": "oh_hira", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Oh Hira", "tcg_dub_name": "Oh Hira"}
 {"character_id": "ohara", "series": "GX", "ja_base": "大原進", "ja_kana": null, "ocg_name": "Ohara", "tcg_dub_name": "Beauregard"}
-{"character_id": "ojama_black", "series": "GX", "ja_base": null, "ja_kana": "おジャマ・ブラック", "ocg_name": "Ojama Black", "tcg_dub_name": "Ojama Black"}
-{"character_id": "ojama_green", "series": "GX", "ja_base": null, "ja_kana": "おジャマ・グリーン", "ocg_name": "Ojama Green", "tcg_dub_name": "Ojama Green"}
-{"character_id": "ojama_trio", "series": "GX", "ja_base": null, "ja_kana": "おジャマトリオ", "ocg_name": "Ojama Trio", "tcg_dub_name": "Ojama Trio"}
-{"character_id": "ojama_yellow", "series": "GX", "ja_base": null, "ja_kana": "おジャマ・イエロー", "ocg_name": "Ojama Yellow", "tcg_dub_name": "Ojama Yellow"}
 {"character_id": "oji_ojin", "series": "GX", "ja_base": "オージーン王子", "ja_kana": null, "ocg_name": "Oji Ojin", "tcg_dub_name": "Prince Ojin"}
 {"character_id": "oka_sa_fako", "series": "GO RUSH!!", "ja_base": "丘・サー・ファー子", "ja_kana": "おか・サー・ファーこ", "ocg_name": "Oka Sa Fako", "tcg_dub_name": "Ferko Oka Sur"}
 {"character_id": "old_man_dentures", "series": "DM", "ja_base": null, "ja_kana": "イレバージ", "ocg_name": "Old Man Dentures", "tcg_dub_name": "Old Man Dentures"}
@@ -1159,7 +946,6 @@
 {"character_id": "osamu", "series": "GX", "ja_base": "修", "ja_kana": null, "ocg_name": "Osamu", "tcg_dub_name": "Osamu"}
 {"character_id": "osamu_rojihara", "series": "SEVENS", "ja_base": "路地原 理", "ja_kana": "ろじはら おさむ", "ocg_name": "Osamu Rojihara", "tcg_dub_name": "Osamu Rojihara"}
 {"character_id": "oscar", "series": "5D's", "ja_base": null, "ja_kana": "ヒロ", "ocg_name": "Oscar", "tcg_dub_name": "Oscar"}
-{"character_id": "oscillo_hero_2", "series": "GX", "ja_base": null, "ja_kana": "エレキッズ", "ocg_name": "Oscillo Hero #2", "tcg_dub_name": "Oscillo Hero #2"}
 {"character_id": "osiris_red_male_student", "series": "Game", "ja_base": "オシリス・レッドの男子生徒", "ja_kana": null, "ocg_name": "Osiris Red Male Student", "tcg_dub_name": "Evan"}
 {"character_id": "otes", "series": "SEVENS", "ja_base": null, "ja_kana": "オーティス", "ocg_name": "Otes", "tcg_dub_name": "Otes"}
 {"character_id": "otes_road_mark_8_version", "series": "GO RUSH!!", "ja_base": "オーティスロード・マーク８Ｖｅｒ．", "ja_kana": "オーティスロード・マークエイトバージョン", "ocg_name": "Otes Road Mark 8 Version", "tcg_dub_name": "Otes Road Mark 8 Version"}
@@ -1176,27 +962,18 @@
 {"character_id": "paul_mcgregor", "series": "DM", "ja_base": null, "ja_kana": "ポール・マクレガー", "ocg_name": "Paul McGregor", "tcg_dub_name": "Paul McGregor"}
 {"character_id": "pavlov_inukawa", "series": "SEVENS", "ja_base": "犬河 パブロフ", "ja_kana": "いぬかわ パブロフ", "ocg_name": "Pavlov Inukawa", "tcg_dub_name": "Muttsy Pavlov"}
 {"character_id": "pegasus_j_crawford", "series": "DM", "ja_base": "ペガサス・J・クロフォード", "ja_kana": "ペガサス・ジェー・クロフォード", "ocg_name": "Pegasus J. Crawford", "tcg_dub_name": "Maximillion Pegasus"}
-{"character_id": "penguin_nightmare", "series": "Game", "ja_base": null, "ja_kana": "ペンギン・ナイトメア", "ocg_name": "Penguin Nightmare", "tcg_dub_name": "Nightmare Penguin"}
-{"character_id": "penguin_soldier", "series": "Game", "ja_base": null, "ja_kana": "ペンギン・ソルジャー", "ocg_name": "Penguin Soldier", "tcg_dub_name": "Penguin Soldier"}
 {"character_id": "pepe_the_panther_perez", "series": "ZEXAL", "ja_base": null, "ja_kana": "ガルシアパンサー", "ocg_name": "Pepe \"The Panther\" Perez", "tcg_dub_name": "Pepe \"The Panther\" Perez"}
 {"character_id": "pete_coppermine", "series": "Manga", "ja_base": null, "ja_kana": "ピート・コパーマイン", "ocg_name": "Pete Coppermine", "tcg_dub_name": "Pete Coppermine"}
 {"character_id": "peter_honya", "series": "GO RUSH!!", "ja_base": "本屋 ピーター", "ja_kana": "ほんや ピーター", "ocg_name": "Peter Honya", "tcg_dub_name": "Preston Page"}
-{"character_id": "petit_angel", "series": "GX", "ja_base": null, "ja_kana": "プチテンシ", "ocg_name": "Petit Angel", "tcg_dub_name": "Petit Angel"}
-{"character_id": "phantom_beast_wild_horn", "series": "Game", "ja_base": "幻獣ワイルドホーン", "ja_kana": "げんじゅうワイルドホーン", "ocg_name": "Phantom Beast - Wild-Horn", "tcg_dub_name": "Phantom Beast Wild-Horn"}
-{"character_id": "phantom_gryphon", "series": "DM", "ja_base": "幻のグリフォン", "ja_kana": "まぼろしのグリフォン", "ocg_name": "Phantom Gryphon", "tcg_dub_name": "Phantom Gryphon"}
 {"character_id": "pharaoh", "series": "GX", "ja_base": null, "ja_kana": "ファラオ", "ocg_name": "Pharaoh", "tcg_dub_name": "Pharaoh"}
-{"character_id": "phoenixian_cluster_amaryllis", "series": "Game", "ja_base": null, "ja_kana": "フェニキシアン・クラスター・アマリリス", "ocg_name": "Phoenixian Cluster Amaryllis", "tcg_dub_name": "Phoenixian Cluster Amaryllis"}
 {"character_id": "pierre", "series": "GX", "ja_base": null, "ja_kana": "ミツオ", "ocg_name": "Pierre", "tcg_dub_name": "Pierre"}
 {"character_id": "pirates_keith", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Pirates Keith", "tcg_dub_name": "Pirates Keith"}
-{"character_id": "pixie_guardian", "series": "DM", "ja_base": null, "ja_kana": "ピクシーガーディアン", "ocg_name": "Pixie Guardian", "tcg_dub_name": "Fairy Guardian"}
-{"character_id": "pixie_knight", "series": "DM", "ja_base": null, "ja_kana": "ピクシーナイト", "ocg_name": "Pixie Knight", "tcg_dub_name": "Pixie Knight"}
 {"character_id": "plana", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "Plana", "tcg_dub_name": "Plana"}
 {"character_id": "player", "series": "GX", "ja_base": null, "ja_kana": null, "ocg_name": "Player", "tcg_dub_name": "Player"}
 {"character_id": "player_killer_of_darkness", "series": "DM", "ja_base": "「闇」のプレイヤーキラー", "ja_kana": null, "ocg_name": "Player Killer of Darkness", "tcg_dub_name": "PaniK"}
 {"character_id": "player_world_duel_carnival", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Player (World Duel Carnival)", "tcg_dub_name": "Player (World Duel Carnival)"}
 {"character_id": "playmaker", "series": "Game", "ja_base": null, "ja_kana": "プレイメーカー", "ocg_name": "Playmaker", "tcg_dub_name": "Playmaker"}
 {"character_id": "playmaker_and_ai", "series": "Game", "ja_base": null, "ja_kana": "プレイメーカー＆Ai", "ocg_name": "Playmaker and Ai", "tcg_dub_name": "Playmaker and Ai"}
-{"character_id": "poke_dora", "series": "Game", "ja_base": null, "ja_kana": "ポケ・ドラ", "ocg_name": "Poke Dora", "tcg_dub_name": "Poki Draco"}
 {"character_id": "pokii", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Pokii", "tcg_dub_name": "Pokii"}
 {"character_id": "polite_young_man", "series": "Game", "ja_base": "礼儀正しいお兄さん", "ja_kana": null, "ocg_name": "Polite Young Man", "tcg_dub_name": "David"}
 {"character_id": "ponta", "series": "ZEXAL", "ja_base": "ポン太", "ja_kana": null, "ocg_name": "Ponta", "tcg_dub_name": "Ponta"}
@@ -1204,7 +981,6 @@
 {"character_id": "possessed_duelist", "series": "Game", "ja_base": null, "ja_kana": "ナンバーズにとりつかれたデュエリスト", "ocg_name": "Possessed Duelist", "tcg_dub_name": "Possessed Duelist"}
 {"character_id": "postman", "series": "DM", "ja_base": "郵便屋", "ja_kana": null, "ocg_name": "Postman", "tcg_dub_name": "Postman"}
 {"character_id": "prepared_academy_student", "series": "Game", "ja_base": "デキる学園生", "ja_kana": null, "ocg_name": "Prepared Academy Student", "tcg_dub_name": "Ruby"}
-{"character_id": "priestess_of_the_sea_god", "series": "GX", "ja_base": "海神の巫女", "ja_kana": "うながみのみこ", "ocg_name": "Priestess of the Sea God", "tcg_dub_name": "Maiden of the Aqua"}
 {"character_id": "primo", "series": "5D's", "ja_base": null, "ja_kana": "プラシド", "ocg_name": "Primo", "tcg_dub_name": "Primo"}
 {"character_id": "princess_mary", "series": "DM", "ja_base": "メアリー姫", "ja_kana": null, "ocg_name": "Princess Mary", "tcg_dub_name": "Princess Adena"}
 {"character_id": "princess_rose", "series": "GX", "ja_base": null, "ja_kana": "プリンセス・ローズ", "ocg_name": "Princess Rose", "tcg_dub_name": "Princess Rose"}
@@ -1212,7 +988,6 @@
 {"character_id": "principal_mackenzie", "series": "GX", "ja_base": null, "ja_kana": "Mr.マッケンジー", "ocg_name": "Principal MacKenzie", "tcg_dub_name": "Principal MacKenzie"}
 {"character_id": "principal_samejima", "series": "GX", "ja_base": "鮫島校長", "ja_kana": null, "ocg_name": "Principal Samejima", "tcg_dub_name": "Chancellor Sheppard"}
 {"character_id": "principal_teacher", "series": "5D's", "ja_base": "校長先生", "ja_kana": null, "ocg_name": "Principal Teacher", "tcg_dub_name": "Chancellor (5D's)"}
-{"character_id": "prisman", "series": "DM", "ja_base": null, "ja_kana": "プリズマン", "ocg_name": "Prisman", "tcg_dub_name": "Prisman"}
 {"character_id": "professor_frank", "series": "5D's", "ja_base": null, "ja_kana": "フランク", "ocg_name": "Professor Frank", "tcg_dub_name": "Professor Frank"}
 {"character_id": "professor_like_man", "series": "DM", "ja_base": "教授風の男", "ja_kana": null, "ocg_name": "Professor-like man", "tcg_dub_name": "Professor-like man"}
 {"character_id": "professor_thelonious_viper", "series": "GX", "ja_base": null, "ja_kana": "プロフェッサー・コブラ", "ocg_name": "Professor Thelonious Viper", "tcg_dub_name": "Professor Thelonious Viper"}
@@ -1232,8 +1007,6 @@
 {"character_id": "ra_yellow_male_student", "series": "Game", "ja_base": "ラー・イエローの男子生徒", "ja_kana": null, "ocg_name": "Ra Yellow Male Student", "tcg_dub_name": "Logan"}
 {"character_id": "radley", "series": "5D's", "ja_base": null, "ja_kana": "ラモン", "ocg_name": "Radley", "tcg_dub_name": "Radley"}
 {"character_id": "rafael", "series": "DM", "ja_base": null, "ja_kana": "ラフェール", "ocg_name": "Rafael", "tcg_dub_name": "Rafael"}
-{"character_id": "rainbow_kuriboh", "series": "ZEXAL", "ja_base": "虹クリボー", "ja_kana": "にじクリボー", "ocg_name": "Rainbow Kuriboh", "tcg_dub_name": "Rainbow Kuriboh"}
-{"character_id": "rainbow_marine_mermaid", "series": "DM", "ja_base": null, "ja_kana": "レインボー・マリン・マーメイド", "ocg_name": "Rainbow Marine Mermaid", "tcg_dub_name": "Rainbow Marine Mermaid"}
 {"character_id": "raizo_akuma", "series": "ZEXAL", "ja_base": "亜隈雷蔵", "ja_kana": null, "ocg_name": "Raizo Akuma", "tcg_dub_name": "Raizo Akuma"}
 {"character_id": "raizo_mototani", "series": "GX", "ja_base": "慕谷雷蔵", "ja_kana": null, "ocg_name": "Raizo Mototani", "tcg_dub_name": "Raizou Mototani"}
 {"character_id": "rally_dawson", "series": "5D's", "ja_base": null, "ja_kana": "ラリー・ドーソン", "ocg_name": "Rally Dawson", "tcg_dub_name": "Rally Dawson"}
@@ -1249,19 +1022,14 @@
 {"character_id": "rare_hunter", "series": "DM", "ja_base": null, "ja_kana": "レアハンター", "ocg_name": "Rare Hunter", "tcg_dub_name": "Rare Hunter"}
 {"character_id": "rare_hunter_5", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Rare Hunter 5", "tcg_dub_name": "Rare Hunter 5"}
 {"character_id": "rare_hunters", "series": "Game", "ja_base": null, "ja_kana": "グールズ", "ocg_name": "Rare Hunters", "tcg_dub_name": "Rare Hunters"}
-{"character_id": "raviel_lord_of_phantasms", "series": "GX", "ja_base": "幻魔皇ラビエル", "ja_kana": "げんまおうラビエル", "ocg_name": "Lord of Phantasms - Raviel", "tcg_dub_name": "Raviel, Lord of Phantasms"}
 {"character_id": "rebecca_hawkins", "series": "DM", "ja_base": null, "ja_kana": "レベッカ・ホプキンス", "ocg_name": "Rebecca Hawkins", "tcg_dub_name": "Rebecca Hawkins"}
 {"character_id": "red", "series": "DM", "ja_base": null, "ja_kana": "レッド", "ocg_name": "Red", "tcg_dub_name": "Red"}
-{"character_id": "red_daemon_s_dragon", "series": "Game", "ja_base": null, "ja_kana": "レッド・デーモンズ・ドラゴン", "ocg_name": "Red Daemon's Dragon", "tcg_dub_name": "Red Dragon Archfiend"}
-{"character_id": "red_eyes_black_dragon", "series": "DM", "ja_base": "真紅眼の黒竜", "ja_kana": "レッドアイズ・ブラックドラゴン", "ocg_name": "Red-Eyes Black Dragon", "tcg_dub_name": "Red-Eyes Black Dragon"}
 {"character_id": "red_nova", "series": "5D's", "ja_base": null, "ja_kana": "スカーレッド・ノヴァ", "ocg_name": "Red Nova", "tcg_dub_name": "Red Nova"}
 {"character_id": "reggie_mackenzie", "series": "GX", "ja_base": null, "ja_kana": "レジー・マッケンジー", "ocg_name": "Reggie MacKenzie", "tcg_dub_name": "Reggie MacKenzie"}
 {"character_id": "reginald_kastle", "series": "Game", "ja_base": null, "ja_kana": "かみしろ りょうが", "ocg_name": "Reginald Kastle", "tcg_dub_name": "Reginald Kastle"}
-{"character_id": "regulus", "series": "5D's", "ja_base": null, "ja_kana": "レグルス", "ocg_name": "Regulus", "tcg_dub_name": "Regulus"}
 {"character_id": "rei_jibaku", "series": "Manga", "ja_base": "自場区 伶", "ja_kana": "じばく れい", "ocg_name": "Rei Jibaku", "tcg_dub_name": "Rei Jibaku"}
 {"character_id": "rei_saotome", "series": "GX", "ja_base": "早乙女 レイ", "ja_kana": "さおとめ レイ", "ocg_name": "Rei Saotome", "tcg_dub_name": "Blair Flannigan"}
 {"character_id": "rei_shingetsu", "series": "ZEXAL", "ja_base": "真月 零", "ja_kana": "しんげつ れい", "ocg_name": "Rei Shingetsu", "tcg_dub_name": "Rei Shingestu"}
-{"character_id": "reign_devil_of_dark_world", "series": "Game", "ja_base": "暗黒界の魔神 レイン", "ja_kana": "あんこくかいのましん レイン", "ocg_name": "Devil of Dark World - Reign", "tcg_dub_name": "Reign-Beaux, Overlord of Dark World"}
 {"character_id": "reiji_akaba", "series": "ARC-V", "ja_base": "赤馬 零児", "ja_kana": "あかば れいじ", "ocg_name": "Reiji Akaba", "tcg_dub_name": "Declan Akaba"}
 {"character_id": "reiji_hazama", "series": "GX", "ja_base": "間 礼二", "ja_kana": "はざま れいじ", "ocg_name": "Reiji Hazama", "tcg_dub_name": "Rei"}
 {"character_id": "reika_hara", "series": "GX", "ja_base": "原 麗華", "ja_kana": "はら れいか", "ocg_name": "Reika Hara", "tcg_dub_name": "Bright"}
@@ -1270,7 +1038,6 @@
 {"character_id": "ren", "series": "ARC-V", "ja_base": "蓮", "ja_kana": "れん", "ocg_name": "Ren", "tcg_dub_name": "Ren"}
 {"character_id": "reo_akaba", "series": "ARC-V", "ja_base": "赤馬 零王", "ja_kana": "あかば れお", "ocg_name": "Reo Akaba", "tcg_dub_name": "Leo Akaba"}
 {"character_id": "reo_tsuboshiji", "series": "Manga", "ja_base": "壺獅寺 玲央", "ja_kana": "つぼしじ れお", "ocg_name": "Reo Tsuboshiji", "tcg_dub_name": "Reo Tsuboshiji"}
-{"character_id": "rescue_rabbit", "series": "Game", "ja_base": null, "ja_kana": "レスキューラビット", "ocg_name": "Rescue Rabbit", "tcg_dub_name": "Rescue Rabbit"}
 {"character_id": "restaurant_a_i", "series": "SEVENS", "ja_base": null, "ja_kana": null, "ocg_name": "Restaurant A.I.", "tcg_dub_name": "Restaurant A.I."}
 {"character_id": "rex_goodwin", "series": "5D's", "ja_base": null, "ja_kana": "レクス・ゴドウィン", "ocg_name": "Rex Goodwin", "tcg_dub_name": "Rex Goodwin"}
 {"character_id": "rex_raptor", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Rex Raptor", "tcg_dub_name": "Rex Raptor"}
@@ -1297,12 +1064,9 @@
 {"character_id": "ritua_ibi", "series": "ZEXAL", "ja_base": "揖斐 リチュア", "ja_kana": "いび リチュア", "ocg_name": "Ritua Ibi", "tcg_dub_name": "Rita Harker"}
 {"character_id": "roa", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ロア", "ocg_name": "Roa", "tcg_dub_name": "Roa"}
 {"character_id": "roa_kirishima", "series": "SEVENS", "ja_base": "霧島 ロア", "ja_kana": "きりしま ロア", "ocg_name": "Roa Kirishima", "tcg_dub_name": "Roa Kassidy"}
-{"character_id": "roachball", "series": "DM", "ja_base": null, "ja_kana": "ゴキボール", "ocg_name": "Roachball", "tcg_dub_name": "Gokibore"}
-{"character_id": "road_warrior", "series": "Game", "ja_base": null, "ja_kana": "ロード・ウォリアー", "ocg_name": "Road Warrior", "tcg_dub_name": "Road Warrior"}
 {"character_id": "roba", "series": "5D's", "ja_base": "老婆", "ja_kana": null, "ocg_name": "Roba", "tcg_dub_name": "Old lady"}
 {"character_id": "robert_pearson", "series": "5D's", "ja_base": null, "ja_kana": "ロバート・ピアスン", "ocg_name": "Robert Pearson", "tcg_dub_name": "Robert Pearson"}
 {"character_id": "roboppi", "series": "VRAINS", "ja_base": null, "ja_kana": "ロボッピ", "ocg_name": "Roboppi", "tcg_dub_name": "Roboppi"}
-{"character_id": "rocket_warrior", "series": "Game", "ja_base": "ロケット戦士", "ja_kana": "ロケットせんし", "ocg_name": "Rocket Warrior", "tcg_dub_name": "Rocket Warrior"}
 {"character_id": "rojin", "series": "DM", "ja_base": "老人", "ja_kana": null, "ocg_name": "Rojin", "tcg_dub_name": "Old man"}
 {"character_id": "rokujuro_misawa", "series": "ZEXAL", "ja_base": "三沢 六十郎", "ja_kana": "みさわ ろくじゅうろう", "ocg_name": "Rokujuro Misawa", "tcg_dub_name": "Roku"}
 {"character_id": "roman", "series": "Game", "ja_base": null, "ja_kana": "ルドガー・ゴドウィン", "ocg_name": "Roman", "tcg_dub_name": "Roman"}
@@ -1345,11 +1109,8 @@
 {"character_id": "s_z_shu", "series": "GO RUSH!!", "ja_base": "創造主", "ja_kana": null, "ocg_name": "Sozoshu", "tcg_dub_name": "The Creator"}
 {"character_id": "sabyuas", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "サビュアス", "ocg_name": "Sabyuas", "tcg_dub_name": "Sabyuas"}
 {"character_id": "sachiko", "series": "DM", "ja_base": "幸子", "ja_kana": null, "ocg_name": "Sachiko", "tcg_dub_name": "Sachiko"}
-{"character_id": "sacred_ptolemy_s_messier_7", "series": "Game", "ja_base": "セイクリッド・トレミスＭ７", "ja_kana": "セイクリッド・トレミスメシエセブン", "ocg_name": "Sacred Ptolemy's Messier 7", "tcg_dub_name": "Constellar Ptolemy M7"}
 {"character_id": "sadie", "series": "GX", "ja_base": null, "ja_kana": "セイコ", "ocg_name": "Sadie", "tcg_dub_name": "Sadie"}
-{"character_id": "saffira_princess_deity_of_dragons", "series": "Game", "ja_base": "竜姫神サフィラ", "ja_kana": "りゅうきしんサフィラ", "ocg_name": "Princess Deity of Dragons - Saffira", "tcg_dub_name": "Saffira, Queen of Dragons"}
 {"character_id": "sagawa_konboi", "series": "SEVENS", "ja_base": "コンボイ 佐川", "ja_kana": "コンボイ さがわ", "ocg_name": "Sagawa Konboi", "tcg_dub_name": "Konvoy Sagawa"}
-{"character_id": "saggi_the_dark_clown", "series": "Game", "ja_base": "闇・道化師のサギー", "ja_kana": "やみ・どうけしのサギー", "ocg_name": "Dark Clown - Saggi", "tcg_dub_name": "Saggi the Dark Clown"}
 {"character_id": "saiga", "series": "5D's", "ja_base": "雑賀", "ja_kana": "さいが", "ocg_name": "Saiga", "tcg_dub_name": "Blister"}
 {"character_id": "saiko_tendo", "series": "Manga", "ja_base": "天道 才狐", "ja_kana": "てんどう さいこ", "ocg_name": "Saiko Tendo", "tcg_dub_name": "Saiko Tendo"}
 {"character_id": "saito", "series": "VRAINS", "ja_base": "斉藤", "ja_kana": null, "ocg_name": "Saito", "tcg_dub_name": "Pigeon"}
@@ -1359,8 +1120,6 @@
 {"character_id": "sam", "series": "DM", "ja_base": null, "ja_kana": "トム", "ocg_name": "Sam", "tcg_dub_name": "Sam"}
 {"character_id": "samejima", "series": "GX", "ja_base": "鮫島", "ja_kana": null, "ocg_name": "Samejima", "tcg_dub_name": "Sheppard"}
 {"character_id": "sanagi_chono", "series": "ZEXAL", "ja_base": "蝶野 さなぎ", "ja_kana": "ちょうの さなぎ", "ocg_name": "Sanagi Chono", "tcg_dub_name": "Scarlett Starling"}
-{"character_id": "sand_moth", "series": "GX", "ja_base": null, "ja_kana": "サンドモス", "ocg_name": "Sand Moth", "tcg_dub_name": "Sand Moth"}
-{"character_id": "sand_witch", "series": "DM", "ja_base": "砂の魔女", "ja_kana": "サンド・ウィッチ", "ocg_name": "Sand Witch", "tcg_dub_name": "Mystical Sand"}
 {"character_id": "sanders", "series": "ARC-V", "ja_base": null, "ja_kana": "サンダース", "ocg_name": "Sanders", "tcg_dub_name": "Sanders"}
 {"character_id": "sanjudai_yuki", "series": "GX", "ja_base": "勇気 三十代", "ja_kana": "ゆうき さんじゅうだい", "ocg_name": "Sanjudai Yuki", "tcg_dub_name": "Sanzyudai Yuki"}
 {"character_id": "sansei_abidosu", "series": "GX", "ja_base": "アビドス３世", "ja_kana": "アビドス３せい", "ocg_name": "Sansei Abidosu", "tcg_dub_name": "Abidos the Third"}
@@ -1371,8 +1130,6 @@
 {"character_id": "sawatari_no_chichioya", "series": "ARC-V", "ja_base": "沢渡の父親", "ja_kana": "さわたりのちちおや", "ocg_name": "Sawatari no Chichioya", "tcg_dub_name": "Furio Sawatari"}
 {"character_id": "sayaka_sasayama", "series": "ARC-V", "ja_base": "笹山 サヤカ", "ja_kana": "ささやま サヤカ", "ocg_name": "Sayaka Sasayama", "tcg_dub_name": "Saya Sasayama"}
 {"character_id": "sayer", "series": "5D's", "ja_base": null, "ja_kana": "ディヴァイン", "ocg_name": "Sayer", "tcg_dub_name": "Sayer"}
-{"character_id": "scar_red_familiar", "series": "5D's", "ja_base": null, "ja_kana": "スカーレッド・ファミリア", "ocg_name": "Scar-Red Familiar", "tcg_dub_name": "Red Familiar"}
-{"character_id": "scarr_scout_of_dark_world", "series": "GX", "ja_base": "暗黒界の斥候 スカー", "ja_kana": "あんこくかいのせっこう スカー", "ocg_name": "Scout of Dark World - Scarr", "tcg_dub_name": "Scarr, Scout of Dark World"}
 {"character_id": "scarred_duelist", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Scarred Duelist", "tcg_dub_name": "Scarred Duelist"}
 {"character_id": "school_nurse", "series": "DM", "ja_base": "保健医", "ja_kana": null, "ocg_name": "School nurse", "tcg_dub_name": "School nurse"}
 {"character_id": "schrodinger_nekoyama", "series": "SEVENS", "ja_base": "猫山 シュレディンガー", "ja_kana": "ねこやま シュレディンガー", "ocg_name": "Schrodinger Nekoyama", "tcg_dub_name": "Kit Schrödinger"}
@@ -1385,8 +1142,6 @@
 {"character_id": "scud_gang_b", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "Scud Gang B", "tcg_dub_name": "Scud Gang B"}
 {"character_id": "scud_gang_c", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "Scud Gang C", "tcg_dub_name": "Scud Gang C"}
 {"character_id": "scud_gang_d", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "Scud Gang D", "tcg_dub_name": "Scud Gang D"}
-{"character_id": "sea_dragon_god_neo_daedalus", "series": "Game", "ja_base": "海竜神－ネオダイダロス", "ja_kana": "かいりゅうしん－ネオダイダロス", "ocg_name": "Sea Dragon God - Neo-Daedalus", "tcg_dub_name": "Ocean Dragon Lord - Neo-Daedalus"}
-{"character_id": "sea_minotaurus", "series": "Game", "ja_base": null, "ja_kana": "ウミノタウルス", "ocg_name": "Sea Minotaurus", "tcg_dub_name": "Uminotaurus"}
 {"character_id": "seaside_muramoto", "series": "5D's", "ja_base": "シーサイド 村本", "ja_kana": "シーサイド むらもと", "ocg_name": "Seaside Muramoto", "tcg_dub_name": "Maki"}
 {"character_id": "sebastian", "series": "5D's", "ja_base": null, "ja_kana": "セバスチャン", "ocg_name": "Sebastian", "tcg_dub_name": "Sebastian"}
 {"character_id": "secrecy_agent", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "Secrecy Agent", "tcg_dub_name": "Secrecy Agent"}
@@ -1410,7 +1165,6 @@
 {"character_id": "sergei_ivanoff", "series": "DM", "ja_base": null, "ja_kana": "セルゲイ・イヴァノフ", "ocg_name": "Sergei Ivanoff", "tcg_dub_name": "Sergei Ivanoff"}
 {"character_id": "sergey_volkov", "series": "ARC-V", "ja_base": null, "ja_kana": "セルゲイ・ヴォルコフ", "ocg_name": "Sergey Volkov", "tcg_dub_name": "Sergey Volkov"}
 {"character_id": "sergio", "series": "5D's", "ja_base": null, "ja_kana": "セルジオ", "ocg_name": "Sergio", "tcg_dub_name": "Sergio"}
-{"character_id": "servant_of_endymion", "series": "Manga", "ja_base": null, "ja_kana": "サーヴァント・オブ・エンディミオン", "ocg_name": "Servant of Endymion", "tcg_dub_name": "Servant of Endymion"}
 {"character_id": "seto", "series": "DM", "ja_base": null, "ja_kana": "セト", "ocg_name": "Seto", "tcg_dub_name": "Seto"}
 {"character_id": "seto_kaiba", "series": "DM", "ja_base": "海馬 瀬人", "ja_kana": "かいばせと", "ocg_name": "Seto Kaiba", "tcg_dub_name": "Seto Kaiba"}
 {"character_id": "seto_s_mother", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Seto's mother", "tcg_dub_name": "Seto's mother"}
@@ -1456,7 +1210,6 @@
 {"character_id": "shoruta", "series": "GO RUSH!!", "ja_base": "しょる太", "ja_kana": "しょるた", "ocg_name": "Shoruta", "tcg_dub_name": "Sholta"}
 {"character_id": "shota_geki", "series": "ZEXAL", "ja_base": "激翔太", "ja_kana": null, "ocg_name": "Shota Geki", "tcg_dub_name": "Shota Geki"}
 {"character_id": "shotaro_akaboshi", "series": "DM", "ja_base": "赤星昇太郎", "ja_kana": "あかぼししょうたろう", "ocg_name": "Shotaro Akaboshi", "tcg_dub_name": "Shotaro Akaboshi"}
-{"character_id": "shovel_crusher", "series": "DM", "ja_base": null, "ja_kana": "シャベル・クラッシャー", "ocg_name": "Shovel Crusher", "tcg_dub_name": "Shovel Crusher"}
 {"character_id": "showgirl", "series": "5D's", "ja_base": null, "ja_kana": "レースクイーン", "ocg_name": "Showgirl", "tcg_dub_name": "Showgirl"}
 {"character_id": "shubaha", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "シューバッハ", "ocg_name": "Shubaha", "tcg_dub_name": "Shubaha"}
 {"character_id": "shufu", "series": "DM", "ja_base": "主婦", "ja_kana": "しゅふ", "ocg_name": "Shufu", "tcg_dub_name": "Housewife"}
@@ -1470,21 +1223,15 @@
 {"character_id": "shuto_go", "series": "ARC-V", "ja_base": "剛 秀斗", "ja_kana": "ごう しゅうと", "ocg_name": "Shuto Go", "tcg_dub_name": "Shuto Go"}
 {"character_id": "shuzo_hiragi", "series": "ARC-V", "ja_base": "柊 修造", "ja_kana": "ひいらぎ しゅうぞう", "ocg_name": "Shuzo Hiragi", "tcg_dub_name": "Skip Boyle"}
 {"character_id": "shuzo_otaki", "series": "DM", "ja_base": "大瀧 修三", "ja_kana": null, "ocg_name": "Shuzo Otaki", "tcg_dub_name": "Adrian Randolph Crump III"}
-{"character_id": "sickle_killer", "series": "DM", "ja_base": null, "ja_kana": "カマキラー", "ocg_name": "Sickle Killer", "tcg_dub_name": "Kamakiriman"}
-{"character_id": "sillva_army_god_of_dark_world", "series": "GX", "ja_base": "暗黒界の軍神 シルバ", "ja_kana": "あんこくかいのぐんしん シルバ", "ocg_name": "Army God of Dark World - Sillva", "tcg_dub_name": "Sillva, Warlord of Dark World"}
 {"character_id": "simon", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Simon", "tcg_dub_name": "Simon"}
 {"character_id": "sindy_cross", "series": "ZEXAL", "ja_base": null, "ja_kana": "シンディ・クロス", "ocg_name": "Sindy Cross", "tcg_dub_name": "Sindy Cross"}
 {"character_id": "sir_gill_de_randsborg", "series": "5D's", "ja_base": null, "ja_kana": "ジル・ド・ランスボウ", "ocg_name": "Sir Gill de Randsborg", "tcg_dub_name": "Sir Gill de Randsborg"}
-{"character_id": "skilled_black_magician", "series": "GX", "ja_base": "熟練の黒魔術師", "ja_kana": "じゅくれんのくろまじゅつし", "ocg_name": "Skilled Black Magician", "tcg_dub_name": "Skilled Dark Magician"}
-{"character_id": "skilled_white_magician", "series": "GX", "ja_base": "熟練の白魔導師", "ja_kana": "じゅくれんのしろまどうし", "ocg_name": "Skilled White Magician", "tcg_dub_name": "Skilled White Magician"}
-{"character_id": "skull_bishop", "series": "GX", "ja_base": null, "ja_kana": "スカルビショップ", "ocg_name": "Skull Bishop", "tcg_dub_name": "Skull Knight"}
 {"character_id": "skye", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Skye", "tcg_dub_name": "Skye"}
 {"character_id": "sly", "series": "5D's", "ja_base": null, "ja_kana": "スライ", "ocg_name": "Sly", "tcg_dub_name": "Sly"}
 {"character_id": "soichi_kazama", "series": "5D's", "ja_base": "風馬走一", "ja_kana": "かざまそういち", "ocg_name": "Soichi Kazama", "tcg_dub_name": "Kaz"}
 {"character_id": "soichiro_ota", "series": "DM", "ja_base": "大田 宗一郎", "ja_kana": null, "ocg_name": "Soichiro Ota", "tcg_dub_name": "Nezbitt"}
 {"character_id": "soichiro_suzuki", "series": "GX", "ja_base": "鈴木 総一郎", "ja_kana": "すずき そういちろう", "ocg_name": "Soichiro Suzuki", "tcg_dub_name": "Loggy"}
 {"character_id": "sonia", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Sonia", "tcg_dub_name": "Sonia"}
-{"character_id": "sonic_duck", "series": "GX", "ja_base": "音速ダック", "ja_kana": "ソニックダック", "ocg_name": "Sonic Duck", "tcg_dub_name": "Sonic Duck"}
 {"character_id": "sophie_kirisaki", "series": "ZEXAL", "ja_base": "ゾフィー 霧崎", "ja_kana": "ゾフィー きりさき", "ocg_name": "Sophie Kirisaki", "tcg_dub_name": "Sophie Davison"}
 {"character_id": "sora_shiunin", "series": "ARC-V", "ja_base": "紫雲院 素良", "ja_kana": "しうんいん そら", "ocg_name": "Sora Shiunin", "tcg_dub_name": "Sora Perse"}
 {"character_id": "sorako", "series": "GO RUSH!!", "ja_base": "宇宙子", "ja_kana": null, "ocg_name": "Sorako", "tcg_dub_name": "Celestia"}
@@ -1493,17 +1240,10 @@
 {"character_id": "soulburner", "series": "Game", "ja_base": null, "ja_kana": "ソウルバーナー", "ocg_name": "Soulburner", "tcg_dub_name": "Soulburner"}
 {"character_id": "sozoji", "series": "Manga", "ja_base": "騒象寺", "ja_kana": "そうぞうじ", "ocg_name": "Sozoji", "tcg_dub_name": "Sozoji"}
 {"character_id": "spectre", "series": "VRAINS", "ja_base": null, "ja_kana": "スペクター", "ocg_name": "Spectre", "tcg_dub_name": "Spectre"}
-{"character_id": "spen_the_seal_of_magistus", "series": "Manga", "ja_base": "封印の魔導士スプーン", "ja_kana": "シール・オブ・マギストススプーン", "ocg_name": "Seal of Magistus - Spen", "tcg_dub_name": "Spenta, the Magistus Sealer"}
 {"character_id": "spiria", "series": "DM", "ja_base": null, "ja_kana": "スピリア", "ocg_name": "Spiria", "tcg_dub_name": "Spiria"}
 {"character_id": "standard_duelist", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "Standard Duelist", "tcg_dub_name": "Standard Duelist"}
-{"character_id": "star_boy", "series": "GX", "ja_base": null, "ja_kana": "スター・ボーイ", "ocg_name": "Star Boy", "tcg_dub_name": "Star Boy"}
-{"character_id": "stardust_dragon", "series": "5D's", "ja_base": null, "ja_kana": "スターダスト・ドラゴン", "ocg_name": "Stardust Dragon", "tcg_dub_name": "Stardust Dragon"}
-{"character_id": "stealth_bird", "series": "GX", "ja_base": null, "ja_kana": "ステルスバード", "ocg_name": "Stealth Bird", "tcg_dub_name": "Stealth Bird"}
-{"character_id": "stellarknight_deltatheros", "series": "Game", "ja_base": "星輝士 デルタテロス", "ja_kana": "ステラナイト デルタテロス", "ocg_name": "Stellarknight Deltatheros", "tcg_dub_name": "Stellarknight Delteros"}
 {"character_id": "stephanie", "series": "5D's", "ja_base": null, "ja_kana": "ステファニー", "ocg_name": "Stephanie", "tcg_dub_name": "Stephanie"}
-{"character_id": "sting", "series": "DM", "ja_base": null, "ja_kana": "スティング", "ocg_name": "Sting", "tcg_dub_name": "Hinotama Soul"}
 {"character_id": "stoic_academia_student", "series": "Game", "ja_base": "ストイックなアカデミア生徒", "ja_kana": null, "ocg_name": "Stoic Academia Student", "tcg_dub_name": "Madison"}
-{"character_id": "stray_devil", "series": "Game", "ja_base": "迷走悪魔", "ja_kana": "ストレイ・デビル", "ocg_name": "Stray Devil", "tcg_dub_name": "Stray Asmodian"}
 {"character_id": "street_fighter", "series": "Manga", "ja_base": null, "ja_kana": "ストリートファイター", "ocg_name": "Street Fighter", "tcg_dub_name": "Street Fighter"}
 {"character_id": "strings", "series": "DM", "ja_base": null, "ja_kana": "パントマイマー", "ocg_name": "Pantomimer", "tcg_dub_name": "Strings"}
 {"character_id": "strong_ishijima", "series": "ARC-V", "ja_base": "ストロング石島", "ja_kana": "ストロングいしじま", "ocg_name": "Strong Ishijima", "tcg_dub_name": "Sledgehammer"}
@@ -1517,10 +1257,7 @@
 {"character_id": "sultan_of_spells", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Sultan of Spells", "tcg_dub_name": "Sultan of Spells"}
 {"character_id": "summer", "series": "ZEXAL", "ja_base": "夏", "ja_kana": "なつ", "ocg_name": "Summer", "tcg_dub_name": "Summer"}
 {"character_id": "sumomo_chan", "series": "DM", "ja_base": "李ちゃん", "ja_kana": null, "ocg_name": "Sumomo-chan", "tcg_dub_name": "Sumomo-chan"}
-{"character_id": "sunny_pixie", "series": "Game", "ja_base": null, "ja_kana": "サニー・ピクシー", "ocg_name": "Sunny Pixie", "tcg_dub_name": "Sunny Pixie"}
-{"character_id": "super_magical_swordsman_black_paladin", "series": "Game", "ja_base": "超魔導剣士－ブラック・パラディン", "ja_kana": "ちょうまどうけんし－ブラック・パラディン", "ocg_name": "Super Magical Swordsman - Black Paladin", "tcg_dub_name": "Dark Paladin"}
 {"character_id": "super_strawberry", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Super Strawberry", "tcg_dub_name": "Super Strawberry"}
-{"character_id": "super_vehicroid_jumbo_drill", "series": "Game", "ja_base": null, "ja_kana": "スーパービークロイド－ジャンボドリル", "ocg_name": "Super Vehicroid - Jumbo Drill", "tcg_dub_name": "Super Vehicroid Jumbo Drill"}
 {"character_id": "supreme_king_judai", "series": "Game", "ja_base": "覇王十代", "ja_kana": null, "ocg_name": "Supreme King Judai", "tcg_dub_name": "Supreme King Jaden"}
 {"character_id": "surtr", "series": "5D's", "ja_base": null, "ja_kana": "スルト", "ocg_name": "Surtr", "tcg_dub_name": "Surtr"}
 {"character_id": "sushiko", "series": "GO RUSH!!", "ja_base": "寿司子", "ja_kana": null, "ocg_name": "Sushiko", "tcg_dub_name": "Sushiko"}
@@ -1575,10 +1312,8 @@
 {"character_id": "tatsuya_jyouchi", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Tatsuya Jyouchi", "tcg_dub_name": "Tatsuya Jyouchi"}
 {"character_id": "tatsuya_yamashiro", "series": "ARC-V", "ja_base": "山城 タツヤ", "ja_kana": "やましろ タツヤ", "ocg_name": "Tatsuya Yamashiro", "tcg_dub_name": "Tate"}
 {"character_id": "tea_gardner", "series": "DM", "ja_base": null, "ja_kana": "まざき あんず", "ocg_name": "Tea Gardner", "tcg_dub_name": "Tea Gardner"}
-{"character_id": "tech_genus_wonder_magician", "series": "Game", "ja_base": "ＴＧ ワンダー・マジシャン", "ja_kana": "テックジーナス ワンダー・マジシャン", "ocg_name": "Tech Genus - Wonder Magician", "tcg_dub_name": "T.G. Wonder Magician"}
 {"character_id": "ted", "series": "ARC-V", "ja_base": null, "ja_kana": "テッド", "ocg_name": "Ted", "tcg_dub_name": "Ted"}
 {"character_id": "ted_banias", "series": "Manga", "ja_base": null, "ja_kana": "テッド・バニアス", "ocg_name": "Ted Banias", "tcg_dub_name": "Ted Banias"}
-{"character_id": "tenderness", "series": "DM", "ja_base": null, "ja_kana": "テンダネス", "ocg_name": "Tenderness", "tcg_dub_name": "Tenderness"}
 {"character_id": "tendo_saikikku", "series": "Game", "ja_base": "サイキック天道", "ja_kana": null, "ocg_name": "Tendo Saikikku", "tcg_dub_name": "Psychic Tendo"}
 {"character_id": "tenma_tsukahara", "series": "Manga", "ja_base": "塚原 天魔", "ja_kana": "つかはら てんま", "ocg_name": "Tenma Tsukahara", "tcg_dub_name": "Tenma Tsukahara"}
 {"character_id": "tenpei_hayano", "series": "5D's", "ja_base": "早野天兵", "ja_kana": "はやのてんぺい", "ocg_name": "Tenpei Hayano", "tcg_dub_name": "Dexter"}
@@ -1595,18 +1330,13 @@
 {"character_id": "tetsuo_takeda", "series": "ZEXAL", "ja_base": "武田鉄男", "ja_kana": "たけだ てつお", "ocg_name": "Tetsuo Takeda", "tcg_dub_name": "Bronk Stone"}
 {"character_id": "tetsuro_yamaguchi", "series": "ARC-V", "ja_base": null, "ja_kana": null, "ocg_name": "Tetsuro Yamaguchi", "tcg_dub_name": "Tetsuro Yamaguchi"}
 {"character_id": "tetsuzo_kuzuyama", "series": "5D's", "ja_base": "屑山鉄蔵", "ja_kana": null, "ocg_name": "Tetsuzo Kuzuyama", "tcg_dub_name": "Bashford"}
-{"character_id": "that_guy", "series": "GX", "ja_base": null, "ja_kana": "ソイツ", "ocg_name": "Soitsu", "tcg_dub_name": "Soitsu"}
-{"character_id": "the_13th_buried", "series": "ARC-V", "ja_base": "１３人目の埋葬者", "ja_kana": "１３にんめのまいそうしゃ", "ocg_name": "The 13th Buried", "tcg_dub_name": "The 13th Grave"}
 {"character_id": "the_admiral", "series": "GX", "ja_base": null, "ja_kana": "アナシス", "ocg_name": "The Admiral", "tcg_dub_name": "The Admiral"}
-{"character_id": "the_agent_of_mystery_earth", "series": "Game", "ja_base": "神秘の代行者 アース", "ja_kana": "しんぴのだいこうしゃ アース", "ocg_name": "Vicar of Mystery - Earth", "tcg_dub_name": "The Agent of Mystery - Earth"}
 {"character_id": "the_big_five", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "The Big Five", "tcg_dub_name": "The Big Five"}
 {"character_id": "the_channelers", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "The Channelers", "tcg_dub_name": "The Channelers"}
 {"character_id": "the_d", "series": "GX", "ja_base": null, "ja_kana": "DD", "ocg_name": "The D", "tcg_dub_name": "The D"}
 {"character_id": "the_doktor", "series": "ARC-V", "ja_base": null, "ja_kana": "ドクトル", "ocg_name": "The Doktor", "tcg_dub_name": "The Doktor"}
-{"character_id": "the_eye_of_timaeus", "series": "DM", "ja_base": "ティマイオスの眼", "ja_kana": "ティマイオスのまなこ", "ocg_name": "Eye of Timaeus", "tcg_dub_name": "The Eye of Timaeus"}
 {"character_id": "the_gambler", "series": "GX", "ja_base": null, "ja_kana": "ボーイ", "ocg_name": "The Gambler", "tcg_dub_name": "The Gambler"}
 {"character_id": "the_giant", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "The Giant", "tcg_dub_name": "The Giant"}
-{"character_id": "the_giant_divine_soldier_of_obelisk", "series": "DM", "ja_base": "オベリスクの巨神兵", "ja_kana": "オベリスクのきょしんへい", "ocg_name": "The Giant Divine Soldier of Obelisk", "tcg_dub_name": "Obelisk the Tormentor"}
 {"character_id": "the_gore", "series": "Game", "ja_base": "Ｇｏ 鬼塚", "ja_kana": null, "ocg_name": "The Gore", "tcg_dub_name": "The Gore"}
 {"character_id": "the_great_leviathan", "series": "DM", "ja_base": "巨大竜・リヴァイアサン", "ja_kana": null, "ocg_name": "The Great Leviathan", "tcg_dub_name": "The Great Leviathan"}
 {"character_id": "the_lukeman", "series": "SEVENS", "ja_base": null, "ja_kana": "ザ☆ルークメン", "ocg_name": "The Lukeman", "tcg_dub_name": "The Lukeman"}
@@ -1614,27 +1344,15 @@
 {"character_id": "the_mokeida_mbembe", "series": "GO RUSH!!", "ja_base": "ザ☆模型田 ムベンベ", "ja_kana": "ザ☆もけいだ ムベンベ", "ocg_name": "The☆Mokeida Mbembe", "tcg_dub_name": "The Hobbysaurus"}
 {"character_id": "the_organizer", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "The Organizer", "tcg_dub_name": "The Organizer"}
 {"character_id": "the_providence", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ザ☆セツリ", "ocg_name": "The☆Providence", "tcg_dub_name": "The☆Providence"}
-{"character_id": "the_sealed_exodia", "series": "DM", "ja_base": "封印されしエクゾディア", "ja_kana": "ふういんされしエクゾディア", "ocg_name": "Sealed Exodia", "tcg_dub_name": "Exodia the Forbidden One"}
 {"character_id": "the_shepherd", "series": "Game", "ja_base": null, "ja_kana": "ブラッドシェパード", "ocg_name": "The Shepherd", "tcg_dub_name": "The Shepherd"}
-{"character_id": "the_six_warmen_nisashi", "series": "Game", "ja_base": "六武衆－ニサシ", "ja_kana": "ろくぶしゅう－ニサシ", "ocg_name": "Rokubushu - Nisashi", "tcg_dub_name": "The Six Samurai - Nisashi"}
-{"character_id": "the_six_warmen_yariza", "series": "Game", "ja_base": "六武衆－ヤリザ", "ja_kana": "ろくぶしゅう－ヤリザ", "ocg_name": "Rokubushu - Yariza", "tcg_dub_name": "The Six Samurai - Yariza"}
-{"character_id": "the_sky_dragon_of_osiris", "series": "DM", "ja_base": "オシリスの天空竜", "ja_kana": "オシリスのてんくうりゅう", "ocg_name": "The Sky Dragon of Osiris", "tcg_dub_name": "Slifer the Sky Dragon"}
 {"character_id": "the_sparrow", "series": "ARC-V", "ja_base": null, "ja_kana": "エスパー・ロビン", "ocg_name": "The Sparrow", "tcg_dub_name": "The Sparrow"}
 {"character_id": "the_vagabond", "series": "Game", "ja_base": "名もなき決闘者", "ja_kana": null, "ocg_name": "The Vagabond", "tcg_dub_name": "The Vagabond"}
-{"character_id": "the_wandering_dead", "series": "DM", "ja_base": "さまよえる亡者", "ja_kana": "さまよえるもうじゃ", "ocg_name": "Wandering Dead", "tcg_dub_name": "The Wandering Doomed"}
-{"character_id": "the_winged_divine_dragon_of_ra", "series": "DM", "ja_base": "ラーの翼神竜", "ja_kana": "ラーのよくしんりゅう", "ocg_name": "The Winged Divine Dragon of Ra", "tcg_dub_name": "The Winged Dragon of Ra"}
 {"character_id": "the_yeti_yukio", "series": "GO RUSH!!", "ja_base": "ザ☆イエティ 雪男", "ja_kana": "ザ☆イエティ ゆきお", "ocg_name": "The☆Yeti Yukio", "tcg_dub_name": "The Yeti"}
 {"character_id": "theodore_s_grandfather", "series": "VRAINS", "ja_base": null, "ja_kana": null, "ocg_name": "Theodore's grandfather", "tcg_dub_name": "Theodore's grandfather"}
 {"character_id": "theodore_s_grandmother", "series": "VRAINS", "ja_base": null, "ja_kana": null, "ocg_name": "Theodore's grandmother", "tcg_dub_name": "Theodore's grandmother"}
-{"character_id": "thunder_dragon", "series": "DM", "ja_base": null, "ja_kana": "サンダー・ドラゴン", "ocg_name": "Thunder Dragon", "tcg_dub_name": "Thunder Dragon"}
-{"character_id": "thunder_kids", "series": "DM", "ja_base": null, "ja_kana": "サンダー・キッズ", "ocg_name": "Thunder Kids", "tcg_dub_name": "Thunder Kid"}
-{"character_id": "thunder_spark", "series": "ZEXAL", "ja_base": null, "ja_kana": "サンダー・スパーク", "ocg_name": "Thunder Spark", "tcg_dub_name": "Thunder Spark"}
 {"character_id": "tilla_mook", "series": "Manga", "ja_base": null, "ja_kana": "ティラ・ムーク", "ocg_name": "Tilla Mook", "tcg_dub_name": "Tilla Mook"}
-{"character_id": "time_wizard", "series": "Game", "ja_base": "時の魔術師", "ja_kana": "ときのまじゅつし", "ocg_name": "Time Wizard", "tcg_dub_name": "Time Wizard"}
 {"character_id": "timid_girl", "series": "Game", "ja_base": "弱気な女の子", "ja_kana": null, "ocg_name": "Timid Girl", "tcg_dub_name": "Bella"}
-{"character_id": "tin_goldfish", "series": "Game", "ja_base": null, "ja_kana": "ブリキンギョ", "ocg_name": "Burikingyo", "tcg_dub_name": "Tin Goldfish"}
 {"character_id": "titan", "series": "GX", "ja_base": null, "ja_kana": "タイタン", "ocg_name": "Titan", "tcg_dub_name": "Titan"}
-{"character_id": "titan_the_rock_spirit", "series": "DM", "ja_base": "岩の精霊 タイタン", "ja_kana": "いわのせいれい タイタン", "ocg_name": "Rock Spirit - Titan", "tcg_dub_name": "The Rock Spirit"}
 {"character_id": "tobio_habara", "series": "ZEXAL", "ja_base": "羽原飛夫", "ja_kana": null, "ocg_name": "Tobio Habara", "tcg_dub_name": "Mayday Walker"}
 {"character_id": "toby_tredwell", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Toby Tredwell", "tcg_dub_name": "Toby Tredwell"}
 {"character_id": "tokunosuke_hyori", "series": "ZEXAL", "ja_base": "表裏 徳之助", "ja_kana": "おもてうら とくのすけ", "ocg_name": "Tokunosuke Hyori", "tcg_dub_name": "Tokunosuke Hyori"}
@@ -1647,24 +1365,18 @@
 {"character_id": "top_shape_student", "series": "Game", "ja_base": "絶好調な学生", "ja_kana": null, "ocg_name": "Top-Shape Student", "tcg_dub_name": "Christine"}
 {"character_id": "toremoro_ryugu", "series": "GO RUSH!!", "ja_base": "竜宮 トレモロ", "ja_kana": "りゅうぐう トレモロ", "ocg_name": "Toremoro Ryugu", "tcg_dub_name": "Tremolo Ryugu"}
 {"character_id": "torey_yagi", "series": "GO RUSH!!", "ja_base": "八木 トーリ", "ja_kana": "やぎ トーリ", "ocg_name": "Torey Yagi", "tcg_dub_name": "Bob Briscoe"}
-{"character_id": "toride_o_mamoru_yokuryu", "series": "DM", "ja_base": "砦を守る翼竜", "ja_kana": "とりでをまもるよくりゅう", "ocg_name": "Toride o Mamoru Yokuryu", "tcg_dub_name": "Winged Dragon, Guardian of the Fortress"}
 {"character_id": "torunka", "series": "5D's", "ja_base": null, "ja_kana": "トルンカ", "ocg_name": "Torunka", "tcg_dub_name": "Torunka"}
 {"character_id": "toshihisa_furusawa", "series": "GX", "ja_base": "古澤 利久", "ja_kana": "ふるさわ としひさ", "ocg_name": "Toshihisa Furusawa", "tcg_dub_name": "Faty"}
 {"character_id": "toshiya_shimizu", "series": "GX", "ja_base": "清水 季也", "ja_kana": "しみず としや", "ocg_name": "Toshiya Shimizu", "tcg_dub_name": "Craig"}
 {"character_id": "toshiyuki_kadoi", "series": "5D's", "ja_base": "角井 敏行", "ja_kana": "かどい としゆき", "ocg_name": "Toshiyuki Kadoi", "tcg_dub_name": "Hayden"}
 {"character_id": "toshiyuki_yagashiro", "series": "GX", "ja_base": "矢ヵ城 利之", "ja_kana": "やがしろ としゆき", "ocg_name": "Toshiyuki Yagashiro", "tcg_dub_name": "Wade"}
 {"character_id": "totani_ialos", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Totani Ialos", "tcg_dub_name": "Totani Ialos"}
-{"character_id": "tragoedia", "series": "GX", "ja_base": null, "ja_kana": "トラゴエディア", "ocg_name": "Tragoedia", "tcg_dub_name": "Tragoedia"}
 {"character_id": "transcender", "series": "5D's", "ja_base": null, "ja_kana": "トランサー", "ocg_name": "Transcender", "tcg_dub_name": "Transcender"}
-{"character_id": "transparent_angel", "series": "GX", "ja_base": null, "ja_kana": "スケルエンジェル", "ocg_name": "Skeluangel", "tcg_dub_name": "Skelengel"}
 {"character_id": "trapper", "series": "GX", "ja_base": null, "ja_kana": "ギース・ハント", "ocg_name": "Trapper", "tcg_dub_name": "Trapper"}
-{"character_id": "treant", "series": "DM", "ja_base": null, "ja_kana": "トレント", "ocg_name": "Treant", "tcg_dub_name": "Trent"}
 {"character_id": "trey", "series": "Game", "ja_base": null, "ja_kana": "スリー", "ocg_name": "Trey", "tcg_dub_name": "Trey"}
 {"character_id": "triad_of_terror", "series": "ZEXAL", "ja_base": null, "ja_kana": null, "ocg_name": "Triad of Terror", "tcg_dub_name": "Triad of Terror"}
-{"character_id": "trick_daemon", "series": "Game", "ja_base": null, "ja_kana": "トリック・デーモン", "ocg_name": "Trick Daemon", "tcg_dub_name": "Archfiend Heiress"}
 {"character_id": "tristan_taylor", "series": "DM", "ja_base": null, "ja_kana": "ほんだ ヒロト", "ocg_name": "Tristan Taylor", "tcg_dub_name": "Tristan Taylor"}
 {"character_id": "truck_driver", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Truck driver", "tcg_dub_name": "Truck driver"}
-{"character_id": "true_six_warmen_shien", "series": "Game", "ja_base": "真六武衆－シエン", "ja_kana": "しんろくぶしゅう－シエン", "ocg_name": "True Rokubushu - Shien", "tcg_dub_name": "Legendary Six Samurai - Shi En"}
 {"character_id": "trueman", "series": "GX", "ja_base": null, "ja_kana": "トゥルーマン", "ocg_name": "Trueman", "tcg_dub_name": "Trueman"}
 {"character_id": "trump_bomber", "series": "Manga", "ja_base": "トランプ爆弾魔", "ja_kana": null, "ocg_name": "Trump Bomber", "tcg_dub_name": "Playing Card Bomber"}
 {"character_id": "trusdale", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Trusdale", "tcg_dub_name": "Trusdale"}
@@ -1678,13 +1390,11 @@
 {"character_id": "tsutomu", "series": "GX", "ja_base": null, "ja_kana": "ツトム", "ocg_name": "Tsutomu", "tcg_dub_name": "Tsutomu"}
 {"character_id": "tsutomu_watanabe", "series": "GX", "ja_base": "渡邉 勉", "ja_kana": "わたなべ つとむ", "ocg_name": "Tsutomu Watanabe", "tcg_dub_name": "Pipin"}
 {"character_id": "tsuyoshi_shimizu", "series": "GX", "ja_base": "清水 剛", "ja_kana": "しみず つよし", "ocg_name": "Tsuyoshi Shimizu", "tcg_dub_name": "Mathew"}
-{"character_id": "turu_purun", "series": "Game", "ja_base": null, "ja_kana": "ツルプルン", "ocg_name": "Turu-Purun", "tcg_dub_name": "Turu-Purun"}
 {"character_id": "tv_announcer", "series": "DM", "ja_base": null, "ja_kana": "テレビアナ", "ocg_name": "TV announcer", "tcg_dub_name": "TV announcer"}
 {"character_id": "tyranno_kenzan", "series": "GX", "ja_base": "ティラノ剣山", "ja_kana": "ティラノけんざん", "ocg_name": "Tyranno Kenzan", "tcg_dub_name": "Tyranno Hassleberry"}
 {"character_id": "u2", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "U2", "tcg_dub_name": "U2"}
 {"character_id": "uba", "series": "DM", "ja_base": "乳母", "ja_kana": null, "ocg_name": "Uba", "tcg_dub_name": "Adena's nursemaid"}
 {"character_id": "ukyo_kitano", "series": "ZEXAL", "ja_base": "北野右京", "ja_kana": null, "ocg_name": "Ukyo Kitano", "tcg_dub_name": "Mr. Kay"}
-{"character_id": "ultimate_perfect_form_great_moth", "series": "DM", "ja_base": "究極完全態・グレート・モス", "ja_kana": "きゅうきょくかんぜんたい・グレート・モス", "ocg_name": "Ultimate Perfect Form - Great Moth", "tcg_dub_name": "Perfectly Ultimate Great Moth"}
 {"character_id": "umimi_habara", "series": "ZEXAL", "ja_base": "羽原 海美", "ja_kana": "はばら うみみ", "ocg_name": "Umimi Habara", "tcg_dub_name": "Brooke Walker"}
 {"character_id": "umpire_drone", "series": "SEVENS", "ja_base": null, "ja_kana": null, "ocg_name": "Umpire Drone", "tcg_dub_name": "Umpire Drone"}
 {"character_id": "unexcited_academy_student", "series": "Game", "ja_base": "ローテンションな学園生", "ja_kana": null, "ocg_name": "Unexcited Academy Student", "tcg_dub_name": "Theo"}
@@ -1696,18 +1406,12 @@
 {"character_id": "unknown_nationals_finalist", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Unknown Nationals Finalist", "tcg_dub_name": "Unknown Nationals Finalist"}
 {"character_id": "unknown_rare_hunter", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Unknown Rare Hunter", "tcg_dub_name": "Unknown Rare Hunter"}
 {"character_id": "unnamed_iliaster_member", "series": "5D's", "ja_base": null, "ja_kana": null, "ocg_name": "Unnamed Iliaster member", "tcg_dub_name": "Unnamed Iliaster member"}
-{"character_id": "uria_lord_of_divine_flames", "series": "GX", "ja_base": "神炎皇ウリア", "ja_kana": "しんえんおうウリア", "ocg_name": "Lord of Divine Flames - Uria", "tcg_dub_name": "Uria, Lord of Searing Flames"}
 {"character_id": "uryu", "series": "5D's", "ja_base": "瓜生", "ja_kana": "うりゅう", "ocg_name": "Uryu", "tcg_dub_name": "Lenny"}
 {"character_id": "ushio", "series": "DM", "ja_base": "牛尾", "ja_kana": null, "ocg_name": "Ushio", "tcg_dub_name": "Ushio"}
 {"character_id": "ushiro_omaeno", "series": "SEVENS", "ja_base": "御前乃 ウシロウ", "ja_kana": "おまえの ウシロウ", "ocg_name": "Ushiro Omaeno", "tcg_dub_name": "Toombs"}
 {"character_id": "usui", "series": "5D's", "ja_base": "烏水", "ja_kana": null, "ocg_name": "Usui", "tcg_dub_name": "Usui"}
 {"character_id": "vagrant", "series": "Game", "ja_base": null, "ja_kana": null, "ocg_name": "Vagrant", "tcg_dub_name": "Vagrant"}
-{"character_id": "vahram_the_magistus_dragon", "series": "Manga", "ja_base": "絶火の竜神ヴァフラム", "ja_kana": "マギストス・ドラゴンヴァフラム", "ocg_name": "Magistus Dragon - Vahram", "tcg_dub_name": "Vahram, the Magistus Divinity Dragon"}
-{"character_id": "valkyrie", "series": "DM", "ja_base": null, "ja_kana": "ヴァルキリー", "ocg_name": "Valkyrie", "tcg_dub_name": "Dark Witch"}
 {"character_id": "valon", "series": "DM", "ja_base": null, "ja_kana": "ヴァロン", "ocg_name": "Valon", "tcg_dub_name": "Valon"}
-{"character_id": "vampire_dragon", "series": "ARC-V", "ja_base": null, "ja_kana": "ヴァンパイア・ドラゴン", "ocg_name": "Vampire Dragon", "tcg_dub_name": "Vampire Dragon"}
-{"character_id": "vampire_lord", "series": "Game", "ja_base": null, "ja_kana": "ヴァンパイア・ロード", "ocg_name": "Vampire Lord", "tcg_dub_name": "Vampire Lord"}
-{"character_id": "vampire_sorcerer", "series": "ARC-V", "ja_base": null, "ja_kana": "ヴァンパイア・ソーサラー", "ocg_name": "Vampire Sorcerer", "tcg_dub_name": "Vampire Sorcerer"}
 {"character_id": "varivelgear", "series": "Game", "ja_base": null, "ja_kana": "バリベルギャー", "ocg_name": "Varivelgear", "tcg_dub_name": "Varivelgear"}
 {"character_id": "varivelgear_cpt", "series": "GO RUSH!!", "ja_base": "バリベルギャーＣＰＴ", "ja_kana": "バリベルギャーシーピーティー", "ocg_name": "Varivelgear CPT", "tcg_dub_name": "Varivelgear CPT"}
 {"character_id": "vector", "series": "ZEXAL", "ja_base": null, "ja_kana": "ベクター", "ocg_name": "Vector", "tcg_dub_name": "Vector"}
@@ -1716,13 +1420,10 @@
 {"character_id": "venus_ganie", "series": "GO RUSH!!", "ja_base": "ヴィーナス・ガニ江", "ja_kana": "ヴィーナス・ガニえ", "ocg_name": "Venus Ganie", "tcg_dub_name": "Crustacialla Venulina"}
 {"character_id": "venus_ganiko", "series": "GO RUSH!!", "ja_base": "ヴィーナス・ガニ子", "ja_kana": "ヴィーナス・ガニこ", "ocg_name": "Venus Ganiko", "tcg_dub_name": "Crustacia Venulina"}
 {"character_id": "venus_ganimi", "series": "GO RUSH!!", "ja_base": "ヴィーナス・ガニ美", "ja_kana": "ヴィーナス・ガニみ", "ocg_name": "Venus Ganimi", "tcg_dub_name": "Crustaciella Venulina"}
-{"character_id": "verz_ouroboros", "series": "Game", "ja_base": null, "ja_kana": "ヴェルズ・ウロボロス", "ocg_name": "Verz Ouroboros", "tcg_dub_name": "Evilswarm Ouroboros"}
 {"character_id": "vetrix", "series": "ZEXAL", "ja_base": null, "ja_kana": "トロン", "ocg_name": "Vetrix", "tcg_dub_name": "Vetrix"}
 {"character_id": "video_cameraman", "series": "DM", "ja_base": null, "ja_kana": "ビデオカメラマン", "ocg_name": "Video cameraman", "tcg_dub_name": "Video cameraman"}
 {"character_id": "vivian_wong", "series": "DM", "ja_base": null, "ja_kana": "ヴィヴィアン・ウォン", "ocg_name": "Vivian Wong", "tcg_dub_name": "Vivian Wong"}
-{"character_id": "vwxyz_dragon_catapult_cannon", "series": "Game", "ja_base": "ＶＷＸＹＺ－ドラゴン・カタパルトキャノン", "ja_kana": "ヴィトゥズィ－ドラゴン・カタパルトキャノン", "ocg_name": "VWXYZ-Dragon Catapult Cannon", "tcg_dub_name": "VWXYZ-Dragon Catapult Cannon"}
 {"character_id": "warashibe", "series": "DM", "ja_base": "童部", "ja_kana": null, "ocg_name": "Warashibe", "tcg_dub_name": "Warashibe"}
-{"character_id": "warrior_lady_of_the_wasteland", "series": "GX", "ja_base": "荒野の女戦士", "ja_kana": "こうやのおんなせんし", "ocg_name": "Warrior Lady of the Wasteland", "tcg_dub_name": "Warrior Lady of the Wasteland"}
 {"character_id": "washi", "series": "VRAINS", "ja_base": "鷲", "ja_kana": null, "ocg_name": "Washi", "tcg_dub_name": "Eagle"}
 {"character_id": "wataru_himukai", "series": "SEVENS", "ja_base": "日向 亘", "ja_kana": "ひむかい わたる", "ocg_name": "Wataru Himukai", "tcg_dub_name": "Wataru Himukai"}
 {"character_id": "watt", "series": "ARC-V", "ja_base": null, "ja_kana": null, "ocg_name": "Watt", "tcg_dub_name": "Watt"}
@@ -1731,26 +1432,15 @@
 {"character_id": "weevil_underwood", "series": "DM", "ja_base": null, "ja_kana": "インセクターはが", "ocg_name": "Weevil Underwood", "tcg_dub_name": "Weevil Underwood"}
 {"character_id": "west", "series": "5D's", "ja_base": null, "ja_kana": "ウェスト", "ocg_name": "West", "tcg_dub_name": "West"}
 {"character_id": "wheeler", "series": "GX", "ja_base": null, "ja_kana": "ＳＡＬ", "ocg_name": "Wheeler", "tcg_dub_name": "Wheeler"}
-{"character_id": "white_magician_pikeru", "series": "GX", "ja_base": "白魔導士ピケル", "ja_kana": "しろまどうしピケル", "ocg_name": "White Magician - Pikeru", "tcg_dub_name": "White Magician Pikeru"}
 {"character_id": "white_wind", "series": "5D's", "ja_base": null, "ja_kana": "ホワイトウィンド", "ocg_name": "White Wind", "tcg_dub_name": "White Wind"}
-{"character_id": "wicked_god_avatar", "series": "Manga", "ja_base": "邪神アバター", "ja_kana": "じゃしんアバター", "ocg_name": "Wicked God Avatar", "tcg_dub_name": "The Wicked Avatar"}
-{"character_id": "wicked_god_dread_root", "series": "Manga", "ja_base": "邪神ドレッド・ルート", "ja_kana": "じゃしんドレッド・ルート", "ocg_name": "Wicked God - Dread-Root", "tcg_dub_name": "The Wicked Dreadroot"}
-{"character_id": "wicked_god_eraser", "series": "Manga", "ja_base": "邪神イレイザー", "ja_kana": "じゃしんイレイザー", "ocg_name": "Wicked God Eraser", "tcg_dub_name": "The Wicked Eraser"}
-{"character_id": "wight", "series": "Game", "ja_base": null, "ja_kana": "ワイト", "ocg_name": "Wight", "tcg_dub_name": "Skull Servant"}
-{"character_id": "wight_king", "series": "Game", "ja_base": null, "ja_kana": "ワイトキング", "ocg_name": "Wight King", "tcg_dub_name": "King of the Skull Servants"}
 {"character_id": "wild_dan", "series": "Game", "ja_base": null, "ja_kana": "ワイルドなＤ・ホイーラー", "ocg_name": "Wild Dan", "tcg_dub_name": "Wild Dan"}
 {"character_id": "willa_mette", "series": "Manga", "ja_base": null, "ja_kana": "ウィラ・ミット", "ocg_name": "Willa Mette", "tcg_dub_name": "Willa Mette"}
-{"character_id": "wind_up_soldier", "series": "Game", "ja_base": null, "ja_kana": "ゼンマイソルジャー", "ocg_name": "Zenmai Soldier", "tcg_dub_name": "Wind-Up Soldier"}
 {"character_id": "windy", "series": "VRAINS", "ja_base": null, "ja_kana": "ウィンディ", "ocg_name": "Windy", "tcg_dub_name": "Windy"}
 {"character_id": "windy_s_partner", "series": "VRAINS", "ja_base": null, "ja_kana": null, "ocg_name": "Windy's partner", "tcg_dub_name": "Windy's partner"}
-{"character_id": "winged_kuriboh", "series": "GX", "ja_base": null, "ja_kana": "ハネクリボー", "ocg_name": "Winged Kuriboh", "tcg_dub_name": "Winged Kuriboh"}
-{"character_id": "winged_sage_falcos", "series": "DM", "ja_base": "有翼賢者ファルコス", "ja_kana": "ゆうよくけんじゃファルコス", "ocg_name": "Winged Sage - Falcos", "tcg_dub_name": "Winged Sage Falcos"}
 {"character_id": "wolfsbane", "series": "ZEXAL", "ja_base": null, "ja_kana": "ウルフ", "ocg_name": "Wolfsbane", "tcg_dub_name": "Wolfsbane"}
-{"character_id": "x_saber_urbellum", "series": "Game", "ja_base": "Ｘ－セイバー ウルベルム", "ja_kana": "エックス－セイバー ウルベルム", "ocg_name": "X-Saber Urbellum", "tcg_dub_name": "X-Saber Urbellum"}
 {"character_id": "yaiba_todo", "series": "ARC-V", "ja_base": "刀堂 刃", "ja_kana": "とうどう やいば", "ocg_name": "Yaiba Todo", "tcg_dub_name": "Kit Blade"}
 {"character_id": "yako_tenma", "series": "Manga", "ja_base": "天馬夜行", "ja_kana": null, "ocg_name": "Yako Tenma", "tcg_dub_name": "Yako Tenma"}
 {"character_id": "yamabe", "series": "ARC-V", "ja_base": "山部", "ja_kana": "やまべ", "ocg_name": "Yamabe", "tcg_dub_name": "Yamabe"}
-{"character_id": "yamata_dragon_picture_scroll", "series": "DM", "ja_base": "ヤマタノ竜絵巻", "ja_kana": "ヤマタノドラゴンえまき", "ocg_name": "Yamata Dragon Picture Scroll", "tcg_dub_name": "Yamatano Dragon Scroll"}
 {"character_id": "yami_alexander", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Yami Alexander", "tcg_dub_name": "Yami Alexander"}
 {"character_id": "yami_bakura", "series": "DM", "ja_base": "闇の獏良", "ja_kana": null, "ocg_name": "Dark Bakura", "tcg_dub_name": "Yami Bakura"}
 {"character_id": "yami_bakura_dm", "series": "DM", "ja_base": null, "ja_kana": null, "ocg_name": "Yami Bakura", "tcg_dub_name": "Yami Bakura"}
@@ -1770,9 +1460,7 @@
 {"character_id": "yasunobu_hamada", "series": "5D's", "ja_base": "濱田 康暢", "ja_kana": "はまだ やすのぶ", "ocg_name": "Yasunobu Hamada", "tcg_dub_name": "Gillian"}
 {"character_id": "yasuo_kawasaki", "series": "GX", "ja_base": "川崎 泰生", "ja_kana": "かわさき やすお", "ocg_name": "Yasuo Kawasaki", "tcg_dub_name": "Nathan"}
 {"character_id": "yasuto_suzuki", "series": "5D's", "ja_base": "鈴木 泰斗", "ja_kana": "すずき やすと", "ocg_name": "Yasuto Suzuki", "tcg_dub_name": "Hose"}
-{"character_id": "yata_garasu", "series": "ZEXAL", "ja_base": "八汰烏", "ja_kana": "ヤタガラス", "ocg_name": "Yata-Garasu", "tcg_dub_name": "Yata-Garasu"}
 {"character_id": "yoko_sakaki", "series": "ARC-V", "ja_base": "榊 洋子", "ja_kana": "さかき ようこ", "ocg_name": "Yoko Sakaki", "tcg_dub_name": "Yoko Sakaki"}
-{"character_id": "yomi_frog", "series": "GX", "ja_base": "黄泉ガエル", "ja_kana": "よみガエル", "ocg_name": "Yomi Gaeru", "tcg_dub_name": "Treeborn Frog"}
 {"character_id": "yone", "series": "ZEXAL", "ja_base": "米", "ja_kana": null, "ocg_name": "Yone", "tcg_dub_name": "Meredith"}
 {"character_id": "yonehito_uchimura", "series": "GX", "ja_base": "内村米人", "ja_kana": null, "ocg_name": "Yonehito Uchimura", "tcg_dub_name": "America Uchimura"}
 {"character_id": "yosh", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ヨシオ", "ocg_name": "Yosh", "tcg_dub_name": "Yosh"}
@@ -1786,7 +1474,6 @@
 {"character_id": "yozaka", "series": "VRAINS", "ja_base": null, "ja_kana": null, "ocg_name": "Yozaka", "tcg_dub_name": "Yozaka"}
 {"character_id": "yuamu", "series": "GO RUSH!!", "ja_base": "遊歩", "ja_kana": null, "ocg_name": "Yuamu", "tcg_dub_name": "Yuamu"}
 {"character_id": "yuamu_odo", "series": "GO RUSH!!", "ja_base": "王道 遊歩", "ja_kana": "おうどう ゆあむ", "ocg_name": "Yuamu Odo", "tcg_dub_name": "Yuamu Ohdo"}
-{"character_id": "yubel", "series": "GX", "ja_base": null, "ja_kana": "ユベル", "ocg_name": "Yubel", "tcg_dub_name": "Yubel"}
 {"character_id": "yudias", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ユウディアス", "ocg_name": "Yudias", "tcg_dub_name": "Yudias"}
 {"character_id": "yudias_velgear", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ユウディアス・ベルギャー", "ocg_name": "Yudias Velgear", "tcg_dub_name": "Yudias Velgear"}
 {"character_id": "yuga", "series": "GO RUSH!!", "ja_base": "遊我", "ja_kana": null, "ocg_name": "Yuga", "tcg_dub_name": "Yuga"}
@@ -1845,24 +1532,17 @@
 {"character_id": "zakota", "series": "GX", "ja_base": "雑魚田", "ja_kana": null, "ocg_name": "Zakota", "tcg_dub_name": "Zakota"}
 {"character_id": "zard", "series": "Manga", "ja_base": null, "ja_kana": "ザルド", "ocg_name": "Zard", "tcg_dub_name": "Zard"}
 {"character_id": "zelua", "series": "DM", "ja_base": null, "ja_kana": "ゼルア", "ocg_name": "Zelua", "tcg_dub_name": "Zelua"}
-{"character_id": "zeman_the_ape_demon_king", "series": "5D's", "ja_base": "猿魔王ゼーマン", "ja_kana": "えんまおうゼーマン", "ocg_name": "Ape Demon King - Zeman", "tcg_dub_name": "Zeman the Ape King"}
 {"character_id": "zexal", "series": "ZEXAL", "ja_base": null, "ja_kana": "ゼアル", "ocg_name": "Zexal", "tcg_dub_name": "Zexal"}
 {"character_id": "zexal_iii", "series": "Game", "ja_base": null, "ja_kana": "ゼアルⅢ", "ocg_name": "ZEXAL III", "tcg_dub_name": "ZEXAL III"}
 {"character_id": "zeyet", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ゼイエト", "ocg_name": "Zeyet", "tcg_dub_name": "Zeyet"}
 {"character_id": "zigfried_von_schroeder", "series": "DM", "ja_base": null, "ja_kana": "ジークフリード・フォン・シュレイダー", "ocg_name": "Zigfried von Schroeder", "tcg_dub_name": "Zigfried von Schroeder"}
 {"character_id": "zo_ikitenai", "series": "SEVENS", "ja_base": "行手内 造", "ja_kana": "いきてない ぞう", "ocg_name": "Zo Ikitenai", "tcg_dub_name": "D.K."}
-{"character_id": "zombie_master", "series": "ARC-V", "ja_base": null, "ja_kana": "ゾンビ・マスター", "ocg_name": "Zombie Master", "tcg_dub_name": "Zombie Master"}
-{"character_id": "zombire", "series": "Manga", "ja_base": null, "ja_kana": "ゾンバイア", "ocg_name": "Zombire", "tcg_dub_name": "Zombyra"}
-{"character_id": "zone", "series": "Game", "ja_base": "ＺＯＮＥ", "ja_kana": "ゾーン", "ocg_name": "Zone", "tcg_dub_name": "Zone"}
 {"character_id": "zora", "series": "5D's", "ja_base": null, "ja_kana": "ゾラ", "ocg_name": "Zora", "tcg_dub_name": "Zora"}
 {"character_id": "zoroa_s_mother", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "Zoroa's mother", "tcg_dub_name": "Zoroa's mother"}
-{"character_id": "zoroa_the_magistus_flame", "series": "Manga", "ja_base": "絶火の大賢者ゾロア", "ja_kana": "マギストス・フレイムゾロア", "ocg_name": "Magistus Flame - Zoroa", "tcg_dub_name": "Zoroa, the Magistus of Flame"}
 {"character_id": "ztv_announcer", "series": "Manga", "ja_base": null, "ja_kana": "ＺＴＶ アナウンサー", "ocg_name": "ZTV announcer", "tcg_dub_name": "ZTV announcer"}
 {"character_id": "ztv_director", "series": "Manga", "ja_base": null, "ja_kana": "ＺＴＶディレクター", "ocg_name": "ZTV director", "tcg_dub_name": "ZTV director"}
 {"character_id": "ztv_producer", "series": "Manga", "ja_base": null, "ja_kana": "ＺＴＶプロデューサー", "ocg_name": "ZTV producer", "tcg_dub_name": "ZTV producer"}
 {"character_id": "ztv_reporter", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "ZTV reporter", "tcg_dub_name": "ZTV reporter"}
 {"character_id": "ztv_technician", "series": "Manga", "ja_base": null, "ja_kana": null, "ocg_name": "ZTV technician", "tcg_dub_name": "ZTV technician"}
-{"character_id": "zubaba_knight", "series": "Game", "ja_base": null, "ja_kana": "ズババナイト", "ocg_name": "Zubaba Knight", "tcg_dub_name": "Zubaba Knight"}
-{"character_id": "zure_knight_of_dark_world", "series": "GX", "ja_base": "暗黒界の騎士 ズール", "ja_kana": "あんこくかいのきし ズール", "ocg_name": "Knight of Dark World - Zure", "tcg_dub_name": "Zure, Knight of Dark World"}
 {"character_id": "zuwijo", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ズウィージョウ", "ocg_name": "Zuwijo", "tcg_dub_name": "Zuwijo"}
 {"character_id": "zuwijo_zwil_velgear", "series": "GO RUSH!!", "ja_base": null, "ja_kana": "ズウィージョウ・ズィル・ベルギャー", "ocg_name": "Zuwijo Zwil Velgear", "tcg_dub_name": "Zuwijo Zwil Velgear"}

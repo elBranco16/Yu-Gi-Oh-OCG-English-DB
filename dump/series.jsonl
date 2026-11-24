@@ -27,8 +27,8 @@
 {"series_id": "backup", "ja_base": null, "ja_kana": "バックアップ", "ocg_name": "Backup", "tcg_name": "Backup"}
 {"series_id": "barian_number", "ja_base": "偽りのＮｏ．", "ja_kana": "いつわりのナンバーズ", "ocg_name": "Fake Numbers", "tcg_name": "Barian Number"}
 {"series_id": "barrier_statue", "ja_base": "結界像", "ja_kana": "けっかいぞう", "ocg_name": "Barrier Statue", "tcg_name": "Barrier Statue"}
+{"series_id": "baseball", "ja_base": "野球", "ja_kana": "やきゅう", "ocg_name": "Baseball", "tcg_name": "Baseball"}
 {"series_id": "beast_gear", "ja_base": "獣機界", "ja_kana": "じゅうきかい", "ocg_name": "Beast Machine World", "tcg_name": "Beast Gear"}
-{"series_id": "beautiful_bird", "ja_base": "麗鳥", "ja_kana": "れいちょう", "ocg_name": "Beautiful Bird", "tcg_name": "Beautiful Bird"}
 {"series_id": "black", "ja_base": "暗黒", "ja_kana": "ブラック", "ocg_name": "Black", "tcg_name": "Black"}
 {"series_id": "black_luster_soldier_rush_duel_series_rush", "ja_base": null, "ja_kana": "カオス・ソルジャー", "ocg_name": "Chaos Soldier", "tcg_name": "Black Luster Soldier (Rush Duel series)"}
 {"series_id": "blaze_fiend", "ja_base": "焔魔", "ja_kana": "えんま", "ocg_name": "Blaze Demon", "tcg_name": "Blaze Fiend"}
@@ -39,17 +39,17 @@
 {"series_id": "brassdes", "ja_base": null, "ja_kana": "ブラスデス", "ocg_name": "Brassdes", "tcg_name": "Brassdes"}
 {"series_id": "broken_world", "ja_base": "世壊", "ja_kana": "せかい", "ocg_name": "Broken World", "tcg_name": "Broken World"}
 {"series_id": "bubble_actress", "ja_base": null, "ja_kana": null, "ocg_name": "Bubble Actress", "tcg_name": "Bubble Actress"}
+{"series_id": "bubble_era", "ja_base": null, "ja_kana": "バブル", "ocg_name": "Bubble Era", "tcg_name": "Bubble Era"}
 {"series_id": "bugroth", "ja_base": null, "ja_kana": "バグロス", "ocg_name": "Bugroth", "tcg_name": "Bugroth"}
 {"series_id": "burning_skull", "ja_base": null, "ja_kana": "バーニング・スカル", "ocg_name": "Burning Skull", "tcg_name": "Burning Skull"}
 {"series_id": "buster_blader_rush_duel_series_rush", "ja_base": null, "ja_kana": "バスター・ブレイダー", "ocg_name": "Buster Blader (Rush Duel series)", "tcg_name": "Buster Blader (Rush Duel series)"}
 {"series_id": "call_of_the_haunted", "ja_base": "リビングデッドの呼び声", "ja_kana": "リビングデッドのよびごえ", "ocg_name": "Call of the Living Dead", "tcg_name": "Call of the Haunted"}
 {"series_id": "captain", "ja_base": "隊長", "ja_kana": "たいちょう", "ocg_name": "Captain", "tcg_name": "Captain"}
+{"series_id": "cat", "ja_base": null, "ja_kana": "キャット", "ocg_name": "Cat", "tcg_name": "Cat"}
 {"series_id": "cat_rush_duel_series_rush", "ja_base": null, "ja_kana": "キャット", "ocg_name": "Cat (Rush Duel series)", "tcg_name": "Cat (Rush Duel series)"}
 {"series_id": "cataclysmic", "ja_base": "天禍", "ja_kana": "てんか", "ocg_name": "Cataclysmic", "tcg_name": "Cataclysmic"}
 {"series_id": "cataclysmic_charmer", "ja_base": null, "ja_kana": null, "ocg_name": "Cataclysmic Charmer", "tcg_name": "Cataclysmic Charmer"}
 {"series_id": "celeb_rose", "ja_base": null, "ja_kana": "セレブローズ", "ocg_name": "Celeb Rose", "tcg_name": "Celeb Rose"}
-{"series_id": "celestigard", "ja_base": null, "ja_kana": null, "ocg_name": "Celestigard", "tcg_name": "Celestigard"}
-{"series_id": "cenozoic_fossil_knight", "ja_base": "新生代化石騎士", "ja_kana": "しんせいだいかせいきし", "ocg_name": "Cenozoic Fossil Knight", "tcg_name": "Cenozoic Fossil Knight"}
 {"series_id": "chair", "ja_base": null, "ja_kana": "チェア", "ocg_name": "Chair", "tcg_name": "Chair"}
 {"series_id": "chameleon", "ja_base": null, "ja_kana": "レオン", "ocg_name": "Chameleon", "tcg_name": "Chameleon"}
 {"series_id": "chaos_rush_duel_series_rush", "ja_base": null, "ja_kana": "カオス", "ocg_name": "Chaos (Rush Duel series)", "tcg_name": "Chaos (Rush Duel series)"}
@@ -59,6 +59,7 @@
 {"series_id": "chthonian", "ja_base": null, "ja_kana": "ヘル", "ocg_name": "Hell", "tcg_name": "Chthonian"}
 {"series_id": "circular", "ja_base": "円喚", "ja_kana": "えんかん", "ocg_name": "Circular", "tcg_name": "Circular"}
 {"series_id": "clad_dragon", "ja_base": "纏竜", "ja_kana": "てんりゅう", "ocg_name": "Clad Dragon", "tcg_name": "Clad Dragon"}
+{"series_id": "clear", "ja_base": null, "ja_kana": "クリアー", "ocg_name": "Clear", "tcg_name": "Clear"}
 {"series_id": "coach", "ja_base": "熱血", "ja_kana": "ねっけつ", "ocg_name": "Coach", "tcg_name": "Coach"}
 {"series_id": "constructor", "ja_base": "幻刃", "ja_kana": "げんば", "ocg_name": "Mythic Sword", "tcg_name": "Constructor"}
 {"series_id": "contact", "ja_base": null, "ja_kana": "コンタクト", "ocg_name": "Contact", "tcg_name": "Contact"}
@@ -77,7 +78,6 @@
 {"series_id": "cyclone", "ja_base": null, "ja_kana": "サイクロン", "ocg_name": "Cyclone", "tcg_name": "Cyclone"}
 {"series_id": "d_d", "ja_base": "異次元", "ja_kana": "いじげん", "ocg_name": "D.D.", "tcg_name": "D.D."}
 {"series_id": "dark_blade", "ja_base": null, "ja_kana": "ダークソード", "ocg_name": "Dark Sword", "tcg_name": "Dark Blade"}
-{"series_id": "dark_counterpart", "ja_base": null, "ja_kana": "ダーク", "ocg_name": "Dark", "tcg_name": "Dark"}
 {"series_id": "dark_lucius", "ja_base": "漆黒の魔王", "ja_kana": "ダーク・ルシアス", "ocg_name": "Dark Lucius", "tcg_name": "Dark Lucius"}
 {"series_id": "dark_magician_rush_duel_series_rush", "ja_base": null, "ja_kana": "ブラック・マジシャン", "ocg_name": "Black Magician", "tcg_name": "Dark Magician (Rush Duel series)"}
 {"series_id": "dark_matter", "ja_base": null, "ja_kana": "ダークマター", "ocg_name": "Dark Matter", "tcg_name": "Dark Matter"}
@@ -92,7 +92,6 @@
 {"series_id": "digital_bug", "ja_base": "電子光虫", "ja_kana": "デジタル・バグ", "ocg_name": "Digital Bug", "tcg_name": "Digital Bug"}
 {"series_id": "dimension", "ja_base": null, "ja_kana": "ディメンション", "ocg_name": "Dimension", "tcg_name": "Dimension"}
 {"series_id": "dimension_linker", "ja_base": null, "ja_kana": "ディメンション・リンカー", "ocg_name": "Dimension Linker", "tcg_name": "Dimension Linker"}
-{"series_id": "dinokit", "ja_base": null, "ja_kana": "ダイナキット", "ocg_name": "Dinokit", "tcg_name": "Dinokit"}
 {"series_id": "divine_dragon", "ja_base": "神竜", "ja_kana": "しんりゅう", "ocg_name": "Divine Dragon", "tcg_name": "Divine Dragon"}
 {"series_id": "djinn_of_rituals", "ja_base": "儀式魔人", "ja_kana": "ぎしきまじん", "ocg_name": "Ritual Djinn", "tcg_name": "Djinn of Rituals"}
 {"series_id": "dna", "ja_base": null, "ja_kana": "ＤＮＡ", "ocg_name": "DNA", "tcg_name": "DNA"}
@@ -104,14 +103,15 @@
 {"series_id": "dragon_mech", "ja_base": null, "ja_kana": "ドラッグ・オン", "ocg_name": "Drag-On", "tcg_name": "Dragon Mech"}
 {"series_id": "dragon_ninja", "ja_base": "竜の忍者", "ja_kana": "りゅうのにんじゃ", "ocg_name": "Dragon Ninja", "tcg_name": "Dragon Ninja"}
 {"series_id": "drain", "ja_base": null, "ja_kana": "ドレイン", "ocg_name": "Drain", "tcg_name": "Drain"}
+{"series_id": "duel_dragon", "ja_base": "決闘竜", "ja_kana": "デュエル・ドラゴン", "ocg_name": "Duel Dragon", "tcg_name": "Duel Dragon"}
 {"series_id": "duel_winner", "ja_base": null, "ja_kana": null, "ocg_name": "Duel winner", "tcg_name": "Duel winner"}
+{"series_id": "earthbound_servant", "ja_base": "地縛戒隷", "ja_kana": "じばくかいれい", "ocg_name": "Earthbound Servant", "tcg_name": "Earthbound Servant"}
 {"series_id": "effigy", "ja_base": null, "ja_kana": "フレーム", "ocg_name": "Frame", "tcg_name": "Effigy"}
 {"series_id": "egyptian_god", "ja_base": "三幻神", "ja_kana": "さんげんしん", "ocg_name": "Three Illusory Gods", "tcg_name": "Egyptian God"}
 {"series_id": "element", "ja_base": null, "ja_kana": "エレメント", "ocg_name": "Element", "tcg_name": "Element"}
 {"series_id": "empower", "ja_base": "魔装", "ja_kana": "まそう", "ocg_name": "Magic-Equip", "tcg_name": "Empower"}
 {"series_id": "entity", "ja_base": "神", "ja_kana": "シン", "ocg_name": "God", "tcg_name": "Entity"}
 {"series_id": "evasive_chaos_ninsect", "ja_base": "昆遁忍虫", "ja_kana": "こんとんにんちゅう", "ocg_name": "Evasive Chaos Ninsect", "tcg_name": "Evasive Chaos Ninsect"}
-{"series_id": "evigishki", "ja_base": null, "ja_kana": "イビリチュア", "ocg_name": "Eviritua", "tcg_name": "Evigishki"}
 {"series_id": "evo", "ja_base": "進化", "ja_kana": "しんか", "ocg_name": "Evo-", "tcg_name": "Evo-"}
 {"series_id": "evol", "ja_base": null, "ja_kana": "エヴォル", "ocg_name": "Evol", "tcg_name": "Evol"}
 {"series_id": "evolving_numbers", "ja_base": "進化するＮｏ．", "ja_kana": "しんかするナンバーズ", "ocg_name": "Evolving Numbers", "tcg_name": "Evolving Numbers"}
@@ -134,42 +134,45 @@
 {"series_id": "g_o_d", "ja_base": "Ｇ・Ｏ・Ｄ", "ja_kana": "ゴッド", "ocg_name": "G.O.D.", "tcg_name": "G.O.D."}
 {"series_id": "gaia", "ja_base": null, "ja_kana": "ガイア", "ocg_name": "Gaia", "tcg_name": "Gaia"}
 {"series_id": "gaia_knight", "ja_base": "騎士ガイア", "ja_kana": "きしガイア", "ocg_name": "Knight Gaia", "tcg_name": "Gaia Knight"}
+{"series_id": "gaia_the_dragon_champion", "ja_base": "竜騎士ガイア", "ja_kana": "りゅうきしガイア", "ocg_name": "Dragon Knight - Gaia", "tcg_name": "Gaia the Dragon Champion"}
 {"series_id": "galactica", "ja_base": null, "ja_kana": "ギャラクティカ", "ocg_name": "Galactica", "tcg_name": "Galactica"}
 {"series_id": "garbage", "ja_base": null, "ja_kana": "ガーベージ", "ocg_name": "Garbage", "tcg_name": "Garbage"}
 {"series_id": "gearfried", "ja_base": null, "ja_kana": "ギア・フリード", "ocg_name": "Gearfried", "tcg_name": "Gearfried"}
 {"series_id": "gearspring", "ja_base": null, "ja_kana": "ネジマキ", "ocg_name": "Clockwork", "tcg_name": "Gearspring"}
 {"series_id": "gem_dragon", "ja_base": "宝石ドラゴン", "ja_kana": "ほうせきドラゴン", "ocg_name": "Gem Dragon", "tcg_name": "Gem Dragon"}
-{"series_id": "genex_ally", "ja_base": "Ａ・ジェネクス", "ja_kana": "アーリー・ジェネクス", "ocg_name": "Ally Genex", "tcg_name": "Genex Ally"}
 {"series_id": "ghost_story", "ja_base": "怪談", "ja_kana": "かいだん", "ocg_name": "Ghost Story", "tcg_name": "Ghost Story"}
 {"series_id": "gi_ant_revolution", "ja_base": "ジャイアント革命", "ja_kana": "ジャイアントかくめい", "ocg_name": "Gi-ant Revolution", "tcg_name": "Gi-ant Revolution"}
 {"series_id": "gigo", "ja_base": null, "ja_kana": "ギゴ", "ocg_name": "Gigo", "tcg_name": "Gigo"}
 {"series_id": "gizmek", "ja_base": "機巧", "ja_kana": "きこう", "ocg_name": "Gizmek", "tcg_name": "Gizmek"}
 {"series_id": "glacial_beast", "ja_base": "極氷獣", "ja_kana": "きょくひょうじゅう", "ocg_name": "Glacial Beast", "tcg_name": "Glacial Beast"}
 {"series_id": "goe_goe", "ja_base": null, "ja_kana": "ゴエゴエ", "ocg_name": "Goe Goe", "tcg_name": "Goe Goe"}
+{"series_id": "gorgonic", "ja_base": null, "ja_kana": "ゴルゴニック", "ocg_name": "Gorgonic", "tcg_name": "Gorgonic"}
+{"series_id": "goyo", "ja_base": null, "ja_kana": "ゴヨウ", "ocg_name": "Goyo", "tcg_name": "Goyo"}
 {"series_id": "grace_princess", "ja_base": null, "ja_kana": "いとをかしひめ", "ocg_name": "Delight Princess", "tcg_name": "Grace Princess"}
 {"series_id": "gradius_rush_duel_series_rush", "ja_base": null, "ja_kana": "ビック・バイパー", "ocg_name": "Vic Viper", "tcg_name": "Gradius (Rush Duel series)"}
 {"series_id": "greed", "ja_base": "強欲", "ja_kana": "ごうよく", "ocg_name": "Greed", "tcg_name": "Greed"}
 {"series_id": "grepher", "ja_base": null, "ja_kana": "グレファー", "ocg_name": "Grepher", "tcg_name": "Grepher"}
 {"series_id": "guardragon", "ja_base": "守護竜", "ja_kana": "しゅごりゅう", "ocg_name": "Guardragon", "tcg_name": "Guardragon"}
 {"series_id": "gun_dragon", "ja_base": null, "ja_kana": null, "ocg_name": "Gun Dragon", "tcg_name": "Gun Dragon"}
+{"series_id": "hand", "ja_base": null, "ja_kana": "ハンド", "ocg_name": "Hand", "tcg_name": "Hand"}
 {"series_id": "handy", "ja_base": null, "ja_kana": "ハンディー", "ocg_name": "Handy", "tcg_name": "Handy"}
 {"series_id": "harpie_rush_duel_series_rush", "ja_base": null, "ja_kana": "ハーピィ", "ocg_name": "Harpy (Rush Duel series)", "tcg_name": "Harpie (Rush Duel series)"}
 {"series_id": "headhunters", "ja_base": "尖頭狩猟", "ja_kana": "ヘッドハンターズ", "ocg_name": "Headhunters", "tcg_name": "Headhunters"}
 {"series_id": "healthie", "ja_base": null, "ja_kana": "ヘルシィ", "ocg_name": "Healthie", "tcg_name": "Healthie"}
 {"series_id": "heavenly", "ja_base": "天の", "ja_kana": "てんの", "ocg_name": "Heavenly", "tcg_name": "Heavenly"}
-{"series_id": "hecate", "ja_base": null, "ja_kana": "ヘカテー", "ocg_name": "Hecate", "tcg_name": "Hecate"}
+{"series_id": "helios", "ja_base": null, "ja_kana": "ヘリオス", "ocg_name": "Helios", "tcg_name": "Helios"}
 {"series_id": "herald", "ja_base": "宣告者", "ja_kana": "デクレアラー", "ocg_name": "Declarer", "tcg_name": "Herald"}
 {"series_id": "hex_sealed_fusion", "ja_base": "融合呪印生物", "ja_kana": "ゆうごうじゅいんせいぶつ", "ocg_name": "Fusion Seal Organism", "tcg_name": "Hex-Sealed Fusion"}
 {"series_id": "high_tech_dragon", "ja_base": null, "ja_kana": "ハイテクドラゴン", "ocg_name": "High Tech Dragon", "tcg_name": "High Tech Dragon"}
 {"series_id": "hollowed_grounds", "ja_base": "黒刹", "ja_kana": "こくせつ", "ocg_name": "Black Realm", "tcg_name": "Hollowed Grounds"}
 {"series_id": "huge_revolution", "ja_base": "大革命", "ja_kana": "だいかくめい", "ocg_name": "Huge Revolution", "tcg_name": "Huge Revolution"}
+{"series_id": "hunder", "ja_base": null, "ja_kana": "サンダー", "ocg_name": "Thunder", "tcg_name": "Hunder"}
 {"series_id": "hungry", "ja_base": null, "ja_kana": "ハングリー", "ocg_name": "Hungry", "tcg_name": "Hungry"}
 {"series_id": "hunting_scout_of_the_deep_forest", "ja_base": "密林の狩猟者", "ja_kana": "ハンティング・スカウト", "ocg_name": "Hunting Scout", "tcg_name": "Hunting Scout of the Deep Forest"}
 {"series_id": "hybridrive", "ja_base": null, "ja_kana": "ハイブリッドライブ", "ocg_name": "Hybridrive", "tcg_name": "Hybridrive"}
 {"series_id": "hydro_sword", "ja_base": "波導", "ja_kana": "はどう", "ocg_name": "Surging-Wave", "tcg_name": "Hydro Sword"}
 {"series_id": "inca", "ja_base": null, "ja_kana": null, "ocg_name": "Inca", "tcg_name": "Inca"}
 {"series_id": "indestructible_insects", "ja_base": "無死虫団", "ja_kana": "むしムシだん", "ocg_name": "Immortal Insect Corps", "tcg_name": "Indestructible Insects"}
-{"series_id": "infection", "ja_base": null, "ja_kana": "インフェクション", "ocg_name": "Infection", "tcg_name": "Infection"}
 {"series_id": "inpachi", "ja_base": "１８", "ja_kana": "インパチ", "ocg_name": "Eighteen", "tcg_name": "Inpachi"}
 {"series_id": "itsu", "ja_base": null, "ja_kana": "イツ", "ocg_name": "Itsu", "tcg_name": "Itsu"}
 {"series_id": "jam", "ja_base": null, "ja_kana": "ジャム", "ocg_name": "JAM", "tcg_name": "JAM"}
@@ -192,7 +195,6 @@
 {"series_id": "lightning_voltcondor", "ja_base": null, "ja_kana": "ライトニング・ボルコンドル", "ocg_name": "Lightning Volcondor", "tcg_name": "Lightning Voltcondor"}
 {"series_id": "lightray", "ja_base": null, "ja_kana": "ライトレイ", "ocg_name": "Lightray", "tcg_name": "Lightray"}
 {"series_id": "lilliputian", "ja_base": "小人", "ja_kana": "こびと", "ocg_name": "Lilliputian", "tcg_name": "Lilliputian"}
-{"series_id": "loan", "ja_base": null, "ja_kana": "ローン", "ocg_name": "Loan", "tcg_name": "Loan"}
 {"series_id": "lostream", "ja_base": "雲海竜", "ja_kana": "ロストリーム", "ocg_name": "Lostream", "tcg_name": "Lostream"}
 {"series_id": "lovely", "ja_base": null, "ja_kana": "ラヴ", "ocg_name": "Love", "tcg_name": "Lovely"}
 {"series_id": "machine_king", "ja_base": "機械王", "ja_kana": "きかいおう", "ocg_name": "Machine King", "tcg_name": "Machine King"}
@@ -209,17 +211,17 @@
 {"series_id": "mask", "ja_base": "仮面", "ja_kana": "かめん", "ocg_name": "Mask", "tcg_name": "Mask"}
 {"series_id": "match_winner", "ja_base": null, "ja_kana": "マッチキル", "ocg_name": "Match kill", "tcg_name": "Match winner"}
 {"series_id": "mean_mutt", "ja_base": "邪犬", "ja_kana": "じゃけん", "ocg_name": "Mean Mutt", "tcg_name": "Mean Mutt"}
-{"series_id": "mesozoic_fossil_knight", "ja_base": "中生代化石騎士", "ja_kana": "ちゅうせいだいかせいきし", "ocg_name": "Mesozoic Fossil Knight", "tcg_name": "Mesozoic Fossil Knight"}
 {"series_id": "metarion", "ja_base": null, "ja_kana": "メタリオン", "ocg_name": "Metarion", "tcg_name": "Metarion"}
 {"series_id": "mirror_trap", "ja_base": null, "ja_kana": null, "ocg_name": "Mirror Trap", "tcg_name": "Mirror Trap"}
 {"series_id": "mischief", "ja_base": null, "ja_kana": "いたずら", "ocg_name": "Mischief", "tcg_name": "Mischief"}
 {"series_id": "molten_martial_machine", "ja_base": "湧軍機", "ja_kana": "ゆうぐんき", "ocg_name": "Molten Martial Machine", "tcg_name": "Molten Martial Machine"}
+{"series_id": "monarch", "ja_base": "帝", "ja_kana": "てい", "ocg_name": "Monarch", "tcg_name": "Monarch"}
 {"series_id": "monarch_rush_duel_series_rush", "ja_base": "帝", "ja_kana": "てい", "ocg_name": "Monarch (Rush Duel series)", "tcg_name": "Monarch (Rush Duel series)"}
 {"series_id": "monk", "ja_base": null, "ja_kana": "モンク", "ocg_name": "Monk", "tcg_name": "Monk"}
 {"series_id": "monumenthes", "ja_base": "冥跡", "ja_kana": "めいせき", "ocg_name": "Monumenthes", "tcg_name": "Monumenthes"}
 {"series_id": "moonforce", "ja_base": null, "ja_kana": "ムーンフォース", "ocg_name": "Moonforce", "tcg_name": "Moonforce"}
-{"series_id": "moth", "ja_base": null, "ja_kana": "モス", "ocg_name": "Moth", "tcg_name": "Moth"}
 {"series_id": "moth_rush", "ja_base": null, "ja_kana": "モス", "ocg_name": "Moth", "tcg_name": "Moth"}
+{"series_id": "motor", "ja_base": null, "ja_kana": "モーター", "ocg_name": "Motor", "tcg_name": "Motor"}
 {"series_id": "music_princess", "ja_base": "楽姫", "ja_kana": "がっき", "ocg_name": "Music Princess", "tcg_name": "Music Princess"}
 {"series_id": "mystic_swordsman", "ja_base": null, "ja_kana": "ミスティック・ソードマン", "ocg_name": "Mystic Swordsman", "tcg_name": "Mystic Swordsman"}
 {"series_id": "mythical_dragon", "ja_base": null, "ja_kana": null, "ocg_name": "Mythical Dragon", "tcg_name": "Mythical Dragon"}
@@ -227,7 +229,6 @@
 {"series_id": "name_inverted_spiritualist", "ja_base": null, "ja_kana": null, "ocg_name": "Name-Inverted Spiritualist", "tcg_name": "Name-Inverted Spiritualist"}
 {"series_id": "necromaid", "ja_base": null, "ja_kana": "ネクメイド", "ocg_name": "Necmaid", "tcg_name": "Necromaid"}
 {"series_id": "nightmare", "ja_base": "幻惑", "ja_kana": "ナイトメア", "ocg_name": "Nightmare", "tcg_name": "Nightmare"}
-{"series_id": "noodle_mask", "ja_base": "火麺", "ja_kana": "かめん", "ocg_name": "Masked Fiery Noodle", "tcg_name": "Noodle Mask"}
 {"series_id": "noodle_ninja", "ja_base": "火麺忍者", "ja_kana": "かめんにんじゃ", "ocg_name": "Masked Fiery Noodle Ninja", "tcg_name": "Noodle Ninja"}
 {"series_id": "nouveau_riche_dinosaur", "ja_base": null, "ja_kana": null, "ocg_name": "Nouveau Riche Dinosaur", "tcg_name": "Nouveau Riche Dinosaur"}
 {"series_id": "number_f", "ja_base": "ＦＮｏ．", "ja_kana": "フューチャーナンバーズ", "ocg_name": "Future Numbers", "tcg_name": "Number F"}
@@ -237,9 +238,7 @@
 {"series_id": "overlay", "ja_base": null, "ja_kana": "オーバーレイ", "ocg_name": "Overlay", "tcg_name": "Overlay"}
 {"series_id": "p", "ja_base": "：Ｐ", "ja_kana": "：ピー", "ocg_name": "P", "tcg_name": "P"}
 {"series_id": "paladins_of_dragons", "ja_base": "竜の聖騎士", "ja_kana": "ナイト・オブ・ドラゴン", "ocg_name": "Knight of Dragon", "tcg_name": "Paladins of Dragons"}
-{"series_id": "paleozoic_fossil_knight", "ja_base": "古生代化石騎士", "ja_kana": "こせいだいかせいきし", "ocg_name": "Paleozoic Fossil Knight", "tcg_name": "Paleozoic Fossil Knight"}
 {"series_id": "panik_s_monsters", "ja_base": null, "ja_kana": null, "ocg_name": "PaniK's monsters", "tcg_name": "PaniK's monsters"}
-{"series_id": "paranormal", "ja_base": null, "ja_kana": "パラノーマル", "ocg_name": "Paranormal", "tcg_name": "Paranormal"}
 {"series_id": "piece_golem", "ja_base": null, "ja_kana": "ピース・ゴーレム", "ocg_name": "Piece Golem", "tcg_name": "Piece Golem"}
 {"series_id": "plant_princess", "ja_base": "植物姫", "ja_kana": "しょくぶつひめ", "ocg_name": "Plant Princess", "tcg_name": "Plant Princess"}
 {"series_id": "plasmatic_model", "ja_base": "Ｐ・Ｍ", "ja_kana": "プラズマティックモデル", "ocg_name": "Plasmatic Model", "tcg_name": "Plasmatic Model"}
@@ -248,7 +247,6 @@
 {"series_id": "princess_cosmos", "ja_base": "コスモス姫", "ja_kana": "コスモスひめ", "ocg_name": "Princess Cosmos", "tcg_name": "Princess Cosmos"}
 {"series_id": "protective_seal", "ja_base": "護封", "ja_kana": "ごふう", "ocg_name": "Protective Seal", "tcg_name": "Protective Seal"}
 {"series_id": "psychic_musician", "ja_base": null, "ja_kana": null, "ocg_name": "Psychic Musician", "tcg_name": "Psychic Musician"}
-{"series_id": "puppet_chess", "ja_base": null, "ja_kana": null, "ocg_name": "Puppet Chess", "tcg_name": "Puppet Chess"}
 {"series_id": "ra", "ja_base": null, "ja_kana": "ラー", "ocg_name": "Ra", "tcg_name": "Ra"}
 {"series_id": "raider_s", "ja_base": null, "ja_kana": "レイダーズ", "ocg_name": "Raider's", "tcg_name": "Raider's"}
 {"series_id": "raigeki", "ja_base": null, "ja_kana": "サンダー・ボルト", "ocg_name": "Raigeki", "tcg_name": "Raigeki"}
@@ -276,11 +274,13 @@
 {"series_id": "shaman_bandit", "ja_base": "精霊義賊", "ja_kana": "シャーマンバンデット", "ocg_name": "Shaman Bandit", "tcg_name": "Shaman Bandit"}
 {"series_id": "shining_sarcophagus", "ja_base": "光の黄金櫃", "ja_kana": "ひかりのおうごんひつ", "ocg_name": "Gold Chest of Light", "tcg_name": "Shining Sarcophagus"}
 {"series_id": "shinobird", "ja_base": null, "ja_kana": "エスプリット", "ocg_name": "Esprit", "tcg_name": "Shinobird"}
+{"series_id": "signature_move", "ja_base": "必殺技", "ja_kana": "ひっさつわざ", "ocg_name": "Sure-kill move", "tcg_name": "Signature move"}
+{"series_id": "signer_dragon", "ja_base": "シグナーの竜", "ja_kana": "シグナーのりゅう", "ocg_name": "Signer Dragon", "tcg_name": "Signer Dragon"}
 {"series_id": "skilled_magician", "ja_base": "熟練の", "ja_kana": "じゅくれんの", "ocg_name": "Skilled", "tcg_name": "Skilled Magician"}
 {"series_id": "skull_archfiend", "ja_base": null, "ja_kana": "デーモンの", "ocg_name": "Skull Archfiend", "tcg_name": "Skull Archfiend"}
-{"series_id": "sky_fossil", "ja_base": null, "ja_kana": "スカイフォッシル", "ocg_name": "Sky Fossil", "tcg_name": "Sky Fossil"}
 {"series_id": "sky_scourge", "ja_base": "天魔神", "ja_kana": "てんましん", "ocg_name": "Sky Demon God", "tcg_name": "Sky Scourge"}
 {"series_id": "skysavior", "ja_base": "蒼救", "ja_kana": "そうきゅう", "ocg_name": "Skysavior", "tcg_name": "Skysavior"}
+{"series_id": "slime", "ja_base": null, "ja_kana": "スライム", "ocg_name": "Slime", "tcg_name": "Slime"}
 {"series_id": "snow", "ja_base": null, "ja_kana": null, "ocg_name": "Snow", "tcg_name": "Snow"}
 {"series_id": "solemn", "ja_base": "神の○告", "ja_kana": "かみの○こく", "ocg_name": "God's", "tcg_name": "Solemn"}
 {"series_id": "space", "ja_base": null, "ja_kana": "スペース", "ocg_name": "Space", "tcg_name": "Space"}
@@ -288,6 +288,7 @@
 {"series_id": "sparrow_family", "ja_base": null, "ja_kana": "ロビン・ファミリー", "ocg_name": "Robin Family", "tcg_name": "Sparrow Family"}
 {"series_id": "speed", "ja_base": null, "ja_kana": "スピード", "ocg_name": "Speed", "tcg_name": "Speed"}
 {"series_id": "spell_card", "ja_base": null, "ja_kana": "マジックカード", "ocg_name": "Magic Card", "tcg_name": "Spell Card"}
+{"series_id": "sphere", "ja_base": null, "ja_kana": "スフィア", "ocg_name": "Sphere", "tcg_name": "Sphere"}
 {"series_id": "spider", "ja_base": null, "ja_kana": "スパイダー", "ocg_name": "Spider", "tcg_name": "Spider"}
 {"series_id": "spiritual_art", "ja_base": "霊術", "ja_kana": "れいじゅつ", "ocg_name": "Spiritual Art", "tcg_name": "Spiritual Art"}
 {"series_id": "sportsdragon", "ja_base": null, "ja_kana": "ドラゴンズ", "ocg_name": "Dragon's", "tcg_name": "Sportsdragon"}
@@ -303,13 +304,13 @@
 {"series_id": "summoned_skull", "ja_base": "デーモンの召喚", "ja_kana": "デーモンのしょうかん", "ocg_name": "Summoned Daemon", "tcg_name": "Summoned Skull"}
 {"series_id": "summoner", "ja_base": "召喚士", "ja_kana": "しょうかんし", "ocg_name": "Summoner", "tcg_name": "Summoner"}
 {"series_id": "supercolossal", "ja_base": "超巨大", "ja_kana": "ちょうきょだい", "ocg_name": "Supercolossal", "tcg_name": "Supercolossal"}
+{"series_id": "supreme_king", "ja_base": "覇王", "ja_kana": "はおう", "ocg_name": "Supreme King", "tcg_name": "Supreme King"}
 {"series_id": "sushi_fairy", "ja_base": "寿司天使", "ja_kana": "すしてんし", "ocg_name": "Sushi Angel", "tcg_name": "Sushi Fairy"}
 {"series_id": "swamp", "ja_base": "沼地", "ja_kana": "ぬまち", "ocg_name": "Swamp", "tcg_name": "Swamp"}
 {"series_id": "swarm_of", "ja_base": null, "ja_kana": null, "ocg_name": "Swarm of", "tcg_name": "Swarm of"}
 {"series_id": "talismanic", "ja_base": "陰陽", "ja_kana": "おんみょう", "ocg_name": "Yin-Yang", "tcg_name": "Talismanic"}
 {"series_id": "tamabot", "ja_base": null, "ja_kana": "タマボット", "ocg_name": "Tamabot", "tcg_name": "Tamabot"}
 {"series_id": "temple_of_the_kings", "ja_base": "王家の神殿", "ja_kana": "おうけのしんでん", "ocg_name": "Temple of the Royal Family", "tcg_name": "Temple of the Kings"}
-{"series_id": "tennis", "ja_base": null, "ja_kana": null, "ocg_name": "Tennis", "tcg_name": "Tennis"}
 {"series_id": "test", "ja_base": null, "ja_kana": "スレイブ", "ocg_name": "Slave", "tcg_name": "Test"}
 {"series_id": "the", "ja_base": null, "ja_kana": "ザ☆", "ocg_name": "The☆", "tcg_name": "The"}
 {"series_id": "the_dragon_of", "ja_base": "伝説の竜", "ja_kana": "でんせつのりゅう", "ocg_name": "Legendary Dragons", "tcg_name": "The Dragon of"}
@@ -341,7 +342,6 @@
 {"series_id": "underworld", "ja_base": "劫火", "ja_kana": "ごうか", "ocg_name": "Hellfire", "tcg_name": "Underworld"}
 {"series_id": "unicorn", "ja_base": null, "ja_kana": null, "ocg_name": "Unicorn", "tcg_name": "Unicorn"}
 {"series_id": "uniform_nomenclature", "ja_base": "同姓同名同盟", "ja_kana": "どうせいどうめいどうめい", "ocg_name": "League of Uniform Nomenclature", "tcg_name": "Uniform Nomenclature"}
-{"series_id": "upstart_goblin", "ja_base": "成金ゴブリン", "ja_kana": "なりきんゴブリン", "ocg_name": "Upstart Goblin", "tcg_name": "Upstart Goblin"}
 {"series_id": "vanity_s", "ja_base": "虚無", "ja_kana": "ヴァニティー", "ocg_name": "Vanity", "tcg_name": "Vanity's"}
 {"series_id": "vassal", "ja_base": "家臣", "ja_kana": "かしん", "ocg_name": "Vassal", "tcg_name": "Vassal"}
 {"series_id": "virus", "ja_base": null, "ja_kana": "ウイルス", "ocg_name": "Virus", "tcg_name": "Virus"}
@@ -354,7 +354,6 @@
 {"series_id": "wight", "ja_base": null, "ja_kana": "ワイト", "ocg_name": "Wight", "tcg_name": "Wight"}
 {"series_id": "with_chain", "ja_base": "鎖付き", "ja_kana": "くさりつき", "ocg_name": "Chain-Attached", "tcg_name": "With Chain"}
 {"series_id": "with_eyes_of_blue", "ja_base": "青き眼の", "ja_kana": "あおきめの", "ocg_name": "With Eyes of Blue", "tcg_name": "With Eyes of Blue"}
-{"series_id": "without_white_tail", "ja_base": "尾も白くない", "ja_kana": "おもしろくない", "ocg_name": "With Non-White Tail", "tcg_name": "Without White Tail"}
 {"series_id": "wooly_wonderland", "ja_base": "羊界", "ja_kana": "ようかい", "ocg_name": "Sheep World", "tcg_name": "Wooly Wonderland"}
 {"series_id": "worker_warrior", "ja_base": null, "ja_kana": "シャイン", "ocg_name": "Employee", "tcg_name": "Worker Warrior"}
 {"series_id": "xtra_hero", "ja_base": "Ｘ・ＨＥＲＯ", "ja_kana": "エクストラヒーロー", "ocg_name": "Xtra HERO", "tcg_name": "Xtra HERO"}
@@ -363,7 +362,6 @@
 {"series_id": "yakiniku", "ja_base": "焼き肉", "ja_kana": "やきにぐ", "ocg_name": "Yakiniku", "tcg_name": "Yakiniku"}
 {"series_id": "yo_kai_girl", "ja_base": "妖怪少女", "ja_kana": "ようかいしょうじょ", "ocg_name": "Yo-kai Girl", "tcg_name": "Yo-kai Girl"}
 {"series_id": "yokai", "ja_base": "妖怪", "ja_kana": "ようかい", "ocg_name": "Yokai", "tcg_name": "Yokai"}
-{"series_id": "zera", "ja_base": null, "ja_kana": "ゼラ", "ocg_name": "Zera", "tcg_name": "Zera"}
 {"series_id": "zera_rush", "ja_base": null, "ja_kana": "ゼラ", "ocg_name": "Zera", "tcg_name": "Zera"}
 {"series_id": "zexal_shout", "ja_base": null, "ja_kana": null, "ocg_name": "ZEXAL shout", "tcg_name": "ZEXAL shout"}
 {"series_id": "zombie_counterpart", "ja_base": null, "ja_kana": "アンデット", "ocg_name": "Undead", "tcg_name": "Zombie counterpart"}

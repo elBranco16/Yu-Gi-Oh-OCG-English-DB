@@ -5,4 +5,7 @@ ocg_standard.db
 *.tmp
 *.bak
 .cache/
+__pycache__/
 undo.ps1
+undo_*.ps1
+STATUS.md

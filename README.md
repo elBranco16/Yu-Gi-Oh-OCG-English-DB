@@ -14,13 +14,13 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 ├── apply_text_mod.py           # Populate/update ocg_text & en_legacy_names (erratas, numbering, PSCT shortening, OCG localization)
 └── dump/
     ├── schema.sql              # Exact SQLite table & index definitions
-    ├── cards.jsonl             # 17,728 cards (OCG, Rush Duel, game-only)
-    ├── archetypes.jsonl        # 771 official OCG archetypes
-    ├── series.jsonl            # 369 thematic series
-    ├── card_archetypes.jsonl   # 10,622 card <-> archetype links
-    ├── card_series.jsonl       # 3,695 card <-> series links
-    ├── characters.jsonl        # 1,868 characters
-    └── terms.jsonl             # 88 core OCG terminology entries
+    ├── cards.jsonl             # 17,814 cards (OCG, Rush Duel, game-only)
+    ├── archetypes.jsonl        # 618 official OCG archetypes
+    ├── series.jsonl            # 367 thematic series
+    ├── card_archetypes.jsonl   # 10,109 card <-> archetype links
+    ├── card_series.jsonl       # 3,982 card <-> series links
+    ├── characters.jsonl        # 1,548 characters
+    └── terms.jsonl             # 24 core OCG terminology entries
 ```
 
 ---
@@ -38,7 +38,7 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 | `terms` | `term_id`, `category`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_en`, `en_legacy_terms` |
 
 ### Key Conventions
-- **Card IDs (`cards.id`):** Uses the official Konami Card Database ID (`cid`, e.g., `4007` for *Blue-Eyes White Dragon*, `15150` for *Sevens Road Magician*). Cards without a Konami `cid` (such as retro game-only cards, Tokens, or alternate variants) use sequential IDs starting at `900001`.
+- **Card IDs (`cards.id`):** Uses the official Konami Card Database ID (`cid`, e.g., `4007` for *Blue-Eyes White Dragon*, `15150` for *Sevens Road Magician*) as well as `< 4007` retro/video-game IDs. Cards without a Konami `cid` or whose `< 4007` slot is occupied (such as Tokens or older game variants) use sequential IDs starting at `900001`.
 - **Japanese Names (`ja_base` / `ja_kana`):** `ja_kana` stores the reading/kana; `ja_base` is `null` whenever the name has no kanji and would be identical to `ja_kana`.
 - **TCG Divergence (`tcg_name`):** Populated only when the TCG card name differs from `ocg_name`; otherwise `null`. Alternate official/game name variants (e.g., `#1` punctuation differences) are merged into `en_legacy_names` (`; `-separated).
 - **Card Text Formatting (`ocg_text`):** Combines official/community effect erratas, `① ② ③` effect numbering, standard PSCT shortenings, and full OCG card/archetype/terminology localization (`terms.jsonl`). Rush Duel cards preserve `[Requirement]` / `[Effect]` blocks.
