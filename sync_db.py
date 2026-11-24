@@ -28,6 +28,7 @@ INDEX_MARKER = "-- === INDEXES / TRIGGERS / VIEWS ==="
 DEFAULT_CACHE_PATH = ROOT / ".cache" / "yugipedia_translations_cache.json"
 USER_AGENT = "ocg-standard-db/1.0 (https://github.com/ocg-standard-db)"
 YUGIPEDIA_API = "https://yugipedia.com/api.php"
+DEFAULT_CARD_TABLES = ["cards", "rush_cards", "gba_cards"]
 
 CARD_COLUMNS = (
     "id",
@@ -440,25 +441,41 @@ def fetch_by_internal_nums(
     save_cache(cache_path, cache)
 
 
-def card_title_candidates(card: dict[str, Any]) -> list[str]:
-    candidates: list[str] = []
-    seen: set[str] = set()
+def card_title_candidates(card: dict[str, Any], table: str = "cards") -> list[str]:
+    base_candidates: list[str] = []
+    seen_base: set[str] = set()
 
     def _add(raw: str | None) -> None:
         if not raw:
             return
         cand = raw.strip()
-        if not cand or BAD_TITLE_CHARS_RE.search(cand) or cand in seen:
+        if not cand or BAD_TITLE_CHARS_RE.search(cand) or cand in seen_base:
             return
-        seen.add(cand)
-        candidates.append(cand)
+        seen_base.add(cand)
+        base_candidates.append(cand)
 
     _add(card.get("tcg_name"))
     _add(card.get("ocg_name"))
     legacy = card.get("en_legacy_names") or ""
     for part in legacy.split(";"):
         _add(part)
-    return candidates
+
+    if table != "gba_cards":
+        return base_candidates
+
+    expanded: list[str] = []
+    seen_expanded: set[str] = set()
+    for cand_group in (
+        [f"{c} (ROD)" for c in base_candidates],
+        [f"{c} (video games)" for c in base_candidates],
+        base_candidates,
+        [f"{c} (TSC)" for c in base_candidates],
+    ):
+        for cand in cand_group:
+            if cand not in seen_expanded:
+                seen_expanded.add(cand)
+                expanded.append(cand)
+    return expanded
 
 
 def _extract_template_param(wikitext: str, param: str) -> str:
@@ -532,7 +549,7 @@ def _fetch_wikitext_entries(canonical_titles: list[str]) -> dict[str, dict[str, 
 
 
 def fetch_by_titles(
-    cards: list[dict[str, Any]],
+    table_cards: list[tuple[str, dict[str, Any]]],
     cache: dict[str, dict[str, Any]],
     cache_path: Path,
     verbose: bool = True,
@@ -540,8 +557,8 @@ def fetch_by_titles(
     by_title = cache["by_title"]
     uncached_titles: list[str] = []
     seen: set[str] = set()
-    for card in cards:
-        for cand in card_title_candidates(card):
+    for table, card in table_cards:
+        for cand in card_title_candidates(card, table=table):
             if cand not in by_title and cand not in seen:
                 seen.add(cand)
                 uncached_titles.append(cand)
@@ -587,18 +604,23 @@ def fetch_by_titles(
     save_cache(cache_path, cache)
 
 
-def resolve_card_entry(card: dict[str, Any], cache: dict[str, dict[str, Any]]) -> dict[str, Any] | None:
-    cid = card["id"]
-    if 4007 <= cid < 900000:
-        entry = cache["by_db_id"].get(str(cid))
-        if entry is not None:
-            return entry
-    elif cid < 4007:
-        entry = cache["by_internal_num"].get(str(cid))
-        if entry is not None:
-            return entry
+def resolve_card_entry(
+    card: dict[str, Any],
+    cache: dict[str, dict[str, Any]],
+    table: str = "cards",
+) -> dict[str, Any] | None:
+    if table != "gba_cards":
+        cid = card["id"]
+        if 4007 <= cid < 900000:
+            entry = cache["by_db_id"].get(str(cid))
+            if entry is not None:
+                return entry
+        elif cid < 4007:
+            entry = cache["by_internal_num"].get(str(cid))
+            if entry is not None:
+                return entry
 
-    for cand in card_title_candidates(card):
+    for cand in card_title_candidates(card, table=table):
         entry = cache["by_title"].get(cand)
         if entry is not None:
             return entry
@@ -670,11 +692,11 @@ def check_overriden_names(
     limit_preview: int = 25,
 ) -> bool:
     """Compare `ocg_name` against Yugipedia translations and mark mismatches with `overriden_check=1`."""
-    selected_tables = tables or ["cards", "rush_cards"]
+    selected_tables = tables or list(DEFAULT_CARD_TABLES)
     id_filter = set(ids) if ids else None
 
     tables_data: dict[str, list[dict[str, Any]]] = {}
-    target_cards: list[dict[str, Any]] = []
+    target_cards: list[tuple[str, dict[str, Any]]] = []
     for table in selected_tables:
         jsonl_path = dump_dir / f"{table}.jsonl"
         if not jsonl_path.exists():
@@ -683,17 +705,19 @@ def check_overriden_names(
         tables_data[table] = rows
         for row in rows:
             if id_filter is None or row["id"] in id_filter:
-                target_cards.append(row)
+                target_cards.append((table, row))
 
     cache = load_cache(cache_path, refresh=refresh_cache)
 
-    std_ids = [c["id"] for c in target_cards if 4007 <= c["id"] < 900000]
-    vg_internal_ids = [c["id"] for c in target_cards if c["id"] < 4007]
+    std_ids = [c["id"] for tbl, c in target_cards if tbl != "gba_cards" and 4007 <= c["id"] < 900000]
+    vg_internal_ids = [c["id"] for tbl, c in target_cards if tbl != "gba_cards" and c["id"] < 4007]
 
     fetch_by_db_ids(std_ids, cache, cache_path)
     fetch_by_internal_nums(vg_internal_ids, cache, cache_path)
 
-    unresolved_cards = [c for c in target_cards if resolve_card_entry(c, cache) is None]
+    unresolved_cards = [
+        (tbl, c) for tbl, c in target_cards if resolve_card_entry(c, cache, table=tbl) is None
+    ]
     if unresolved_cards:
         fetch_by_titles(unresolved_cards, cache, cache_path)
 
@@ -722,7 +746,7 @@ def check_overriden_names(
             old_val = int(row.get("overriden_check") or 0)
             new_val = old_val
 
-            entry = resolve_card_entry(row, cache)
+            entry = resolve_card_entry(row, cache, table=table)
             if entry is None:
                 stats["not_found"] += 1
                 report_items.append(
@@ -888,9 +912,9 @@ def main() -> None:
     parser.add_argument(
         "--tables",
         nargs="+",
-        choices=["cards", "rush_cards"],
-        default=["cards", "rush_cards"],
-        help="[check] Card tables to check against Yugipedia (default: cards rush_cards).",
+        choices=list(DEFAULT_CARD_TABLES),
+        default=list(DEFAULT_CARD_TABLES),
+        help="[check] Card tables to check against Yugipedia (default: cards rush_cards gba_cards).",
     )
     parser.add_argument("--ids", nargs="+", type=int, help="[check] Only check specific card IDs against Yugipedia.")
     parser.add_argument("--refresh-cache", action="store_true", help="[check] Ignore cached Yugipedia lookups and re-fetch.")

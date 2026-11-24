@@ -43,6 +43,17 @@ CREATE TABLE characters (
                 tcg_dub_name TEXT
             );
 
+CREATE TABLE "gba_cards" (
+                        id INTEGER PRIMARY KEY,
+                        ja_base TEXT,
+                        ja_kana TEXT,
+                        ocg_name TEXT NOT NULL UNIQUE,
+                        tcg_name TEXT,
+                        en_legacy_names TEXT,
+                        ocg_text TEXT,
+                        overriden_check INTEGER NOT NULL DEFAULT 0
+                    );
+
 CREATE TABLE rush_card_series (
                 card_id INTEGER NOT NULL,
                 series_id TEXT NOT NULL,
@@ -99,6 +110,14 @@ CREATE INDEX idx_cards_tcg_name ON cards(tcg_name);
 CREATE INDEX idx_characters_ocg_name ON characters(ocg_name);
 
 CREATE INDEX idx_characters_series ON characters(series);
+
+CREATE INDEX idx_gba_cards_en_legacy ON gba_cards(en_legacy_names);
+
+CREATE INDEX idx_gba_cards_ja_base ON gba_cards(ja_base);
+
+CREATE INDEX idx_gba_cards_ocg_name ON gba_cards(ocg_name);
+
+CREATE INDEX idx_gba_cards_tcg_name ON gba_cards(tcg_name);
 
 CREATE INDEX idx_rush_card_series_card ON rush_card_series(card_id);
 

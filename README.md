@@ -17,6 +17,7 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
     ├── schema.sql              # Exact SQLite table & index definitions
     ├── cards.jsonl             # 14,975 Master-format cards (OCG, game-only, Tokens)
     ├── rush_cards.jsonl        # 2,839 Rush Duel cards
+    ├── gba_cards.jsonl         # 28 GBA-exclusive DM7/DM8 non-OCG cards
     ├── archetypes.jsonl        # 614 official OCG archetypes
     ├── series.jsonl            # 369 thematic series
     ├── card_archetypes.jsonl   # 10,077 Master card <-> archetype links
@@ -34,6 +35,7 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 | :--- | :--- |
 | `cards` | `id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `en_legacy_names`, `ocg_text`, `overriden_check` |
 | `rush_cards` | `id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `en_legacy_names`, `ocg_text`, `overriden_check` |
+| `gba_cards` | `id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `en_legacy_names`, `ocg_text`, `overriden_check` |
 | `archetypes` | `archetype_id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name` |
 | `series` | `series_id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name` |
 | `card_archetypes` | `card_id`, `archetype_id`, `is_rule_override` |
@@ -43,8 +45,8 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 | `terms` | `term_id`, `category`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_en`, `en_legacy_terms` |
 
 ### Key Conventions
-- **Card IDs (`cards.id`):** Uses the official Konami Card Database ID (`cid`, e.g., `4007` for *Blue-Eyes White Dragon*, `15150` for *Sevens Road Magician*) as well as `< 4007` retro/video-game IDs. Cards without a Konami `cid` or whose `< 4007` slot is occupied (such as Tokens or older game variants) use sequential IDs starting at `900001`.
-- **Japanese Names (`ja_base` / `ja_kana`):** `ja_kana` stores the reading/kana; `ja_base` is `null` whenever the name has no kanji and would be identical to `ja_kana`.
+- **Card IDs (`cards.id` / `gba_cards.id`):** Uses the official Konami Card Database ID (`cid`, e.g., `4007` for *Blue-Eyes White Dragon*, `15150` for *Sevens Road Magician*) as well as `< 4007` retro/video-game IDs. Cards without a Konami `cid` or whose `< 4007` slot is occupied (such as Tokens or older game variants) use sequential IDs starting at `900001`. Standalone `gba_cards.id` uses the official in-game DM7 card number with DM8 fallback (`110`–`898`).
+- **Japanese Names (`ja_base` / `ja_kana`):** `ja_kana` stores the reading/kana; `ja_base` is `null` whenever the name has no kanji and would be identical to `ja_kana`. `gba_cards` preserves verbatim GBA in-game Japanese spelling in `ja_base` (`null` when pure kana).
 - **TCG Divergence (`tcg_name`):** Populated only when the TCG card name differs from `ocg_name`; otherwise `null`. Alternate official/game name variants (e.g., `#1` punctuation differences) are merged into `en_legacy_names` (`; `-separated).
 - **Card Text Formatting (`ocg_text`):** Combines official/community effect erratas, `① ② ③` effect numbering, standard PSCT shortenings, and full OCG card/archetype/terminology localization (`terms.jsonl`). Rush Duel cards preserve `[Requirement]` / `[Effect]` blocks.
 - **Manual Overrides (`overriden_check`):** `1` marks a curated/overridden card entry; `0` is default.
@@ -91,7 +93,7 @@ git push
 
 | Command | Description |
 | :--- | :--- |
-| `python sync_db.py check` | Checks `cards.jsonl` and `rush_cards.jsonl` against Yugipedia's Japanese name translations (marking `ocg_name` mismatches with `overriden_check = 1`, cached in `.cache/yugipedia_translations_cache.json`), and validates all `dump/*.jsonl` files in a temporary SQLite DB (JSON syntax, primary keys, foreign keys, and integrity). |
+| `python sync_db.py check` | Checks `cards.jsonl`, `rush_cards.jsonl`, and `gba_cards.jsonl` against Yugipedia's Japanese name translations (marking `ocg_name` mismatches with `overriden_check = 1`, cached in `.cache/yugipedia_translations_cache.json`), and validates all `dump/*.jsonl` files in a temporary SQLite DB (JSON syntax, primary keys, foreign keys, and integrity). |
 | `python sync_db.py import` | Rebuilds `./ocg_standard.db` from `dump/`. Supports `--db <path>`. |
 | `python sync_db.py export` | Exports `./ocg_standard.db` back into sorted, UTF-8/LF `dump/*.jsonl` files and `dump/schema.sql`. Supports `--db <path>`. |
 
@@ -108,7 +110,7 @@ python sync_db.py check --skip-yugipedia     # Run offline JSONL/SQLite validati
 | `--dry-run` | Preview `overriden_check` changes without modifying `dump/*.jsonl`. |
 | `--sync-db` | Rebuild `--db` via `import` automatically if `dump/*.jsonl` was updated. |
 | `--skip-yugipedia` | Skip the Yugipedia lookup pass and run offline JSONL/SQLite validation only. |
-| `--tables` | Card tables to check (`cards`, `rush_cards`; default: both). |
+| `--tables` | Card tables to check (`cards`, `rush_cards`, `gba_cards`; default: all three). |
 | `--ids` | Only check specific card IDs against Yugipedia. |
 | `--dump-dir` | Path to dump directory (default: `./dump`). |
 | `--refresh-cache` | Ignore `.cache/yugipedia_translations_cache.json` and re-fetch from Yugipedia. |
