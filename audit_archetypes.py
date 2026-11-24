@@ -73,17 +73,10 @@ def match_archetype(arch_name: str, card_name: str, archetype_id: str | None = N
     return arch_name in card_name
 
 
-def _snc_matches_filter(snc_val: int, snc_filter: str) -> bool:
-    if snc_filter == "all":
-        return True
-    return snc_val == int(snc_filter)
-
-
 def run_audit(
     cards: list[dict[str, Any]],
     archetypes: list[dict[str, Any]],
     links: list[dict[str, Any]],
-    snc_filter: str = "all",
     min_fp: int = 0,
     max_fp: int | None = None,
 ) -> dict[str, Any]:
@@ -151,13 +144,9 @@ def run_audit(
         if fns:
             all_fns_by_arch[aid] = fns
 
-    # Filtered views for --snc / --min-fp / --max-fp
-    scoped_archs = [
-        a for a in archetypes if _snc_matches_filter(int(a.get("strict_negative_check") or 0), snc_filter)
-    ]
-
+    # Filtered views for --min-fp / --max-fp
     fps_report: list[dict[str, Any]] = []
-    for a in scoped_archs:
+    for a in archetypes:
         aid = a["archetype_id"]
         fps = all_fps_by_arch.get(aid, [])
         n_fp = len(fps)
@@ -171,7 +160,6 @@ def run_audit(
                 "ocg_name": a["ocg_name"],
                 "tcg_name": a["tcg_name"],
                 "ja": ja_display(a),
-                "strict_negative_check": int(a.get("strict_negative_check") or 0),
                 "member_count": len(arch_members.get(aid, set())),
                 "fp_count": n_fp,
                 "ocg_fp_count": sum(1 for x in fps if x["pool"] == "OCG"),
@@ -184,7 +172,7 @@ def run_audit(
     fps_report.sort(key=lambda x: (-x["fp_count"], x["archetype_id"]))
 
     fns_report: list[dict[str, Any]] = []
-    for a in scoped_archs:
+    for a in archetypes:
         aid = a["archetype_id"]
         fns = all_fns_by_arch.get(aid, [])
         if not fns:
@@ -195,7 +183,6 @@ def run_audit(
                 "ocg_name": a["ocg_name"],
                 "tcg_name": a["tcg_name"],
                 "ja": ja_display(a),
-                "strict_negative_check": int(a.get("strict_negative_check") or 0),
                 "member_count": len(arch_members.get(aid, set())),
                 "fn_count": len(fns),
                 "misses": fns,
@@ -205,7 +192,7 @@ def run_audit(
 
     # 3. Archetype-in-archetype overlaps (non-sub-archetype A-in-B)
     arch_overlaps: list[dict[str, Any]] = []
-    for a in scoped_archs:
+    for a in archetypes:
         aid = a["archetype_id"]
         aname = a["ocg_name"]
         a_ja = ja_display(a)
@@ -226,11 +213,9 @@ def run_audit(
                         "outer_id": aid,
                         "outer_ocg": aname,
                         "outer_ja": a_ja,
-                        "outer_snc": int(a.get("strict_negative_check") or 0),
                         "inner_id": bid,
                         "inner_ocg": b["ocg_name"],
                         "inner_ja": b_ja,
-                        "inner_snc": int(b.get("strict_negative_check") or 0),
                         "member_overlap": overlap,
                         "inner_member_count": len(b_mems),
                     }
@@ -239,7 +224,7 @@ def run_audit(
 
     # 4. Mixed-case candidates (Title-Case archetypes with lowercase mid-word members)
     mixed_case: list[dict[str, Any]] = []
-    for a in scoped_archs:
+    for a in archetypes:
         aid = a["archetype_id"]
         aname = a["ocg_name"]
         if not aname or not aname[0].isupper():
@@ -279,7 +264,6 @@ def run_audit(
                 "proposed_ocg_name": low_init,
                 "tcg_name": a["tcg_name"],
                 "ja": ja_display(a),
-                "strict_negative_check": int(a.get("strict_negative_check") or 0),
                 "exact_member_count": len(exact_mems),
                 "lower_member_count": len(lower_mems),
                 "extra_fp_count": len(extra_fps),
@@ -290,26 +274,9 @@ def run_audit(
         )
     mixed_case.sort(key=lambda x: (-x["lower_member_count"], x["extra_fp_count"], x["archetype_id"]))
 
-    # 5. Clean SNC=0 candidates (ready to flip to SNC=1)
-    clean_snc0: list[dict[str, Any]] = []
-    for a in archetypes:
-        if int(a.get("strict_negative_check") or 0) != 0:
-            continue
-        aid = a["archetype_id"]
-        if aid not in all_fps_by_arch and aid not in all_fns_by_arch:
-            clean_snc0.append(
-                {
-                    "archetype_id": aid,
-                    "ocg_name": a["ocg_name"],
-                    "tcg_name": a["tcg_name"],
-                    "ja": ja_display(a),
-                    "member_count": len(arch_members.get(aid, set())),
-                }
-            )
-
     strict_violations = sum(
         1
-        for a in scoped_archs
+        for a in archetypes
         if a["archetype_id"] in all_fps_by_arch or a["archetype_id"] in all_fns_by_arch
     )
 
@@ -317,7 +284,6 @@ def run_audit(
         "counts": {
             "master_cards": len(cards),
             "archetypes_total": len(archetypes),
-            "archetypes_scoped": len(scoped_archs),
             "card_archetypes_master": sum(len(v) for v in arch_members.values()),
             "fp_archetypes": len(fps_report),
             "fp_pairs_total": sum(r["fp_count"] for r in fps_report),
@@ -330,14 +296,12 @@ def run_audit(
             "arch_overlap_pairs": len(arch_overlaps),
             "mixed_case_candidates": len(mixed_case),
             "mixed_case_zero_extra_fp": sum(1 for m in mixed_case if m["extra_fp_count"] == 0),
-            "clean_snc0_candidates": len(clean_snc0),
             "strict_violations": strict_violations,
         },
         "false_positives": fps_report,
         "false_negatives": fns_report,
         "arch_overlaps": arch_overlaps,
         "mixed_case": mixed_case,
-        "clean_snc0": clean_snc0,
     }
 
 
@@ -345,15 +309,14 @@ def _md_escape(text: str) -> str:
     return text.replace("|", "\\|")
 
 
-def format_summary(report: dict[str, Any], category: str, snc_filter: str) -> str:
+def format_summary(report: dict[str, Any], category: str) -> str:
     c = report["counts"]
     lines = [
-        f"Audit Scope: snc={snc_filter} ({c['archetypes_scoped']}/{c['archetypes_total']} archetypes, {c['master_cards']:,} Master cards, {c['card_archetypes_master']:,} links)",
+        f"Audit Scope     : {c['archetypes_total']} archetypes, {c['master_cards']:,} Master cards, {c['card_archetypes_master']:,} links",
         f"False Positives : {c['fp_archetypes']} archetypes, {c['fp_pairs_total']:,} pairs (OCG={c['fp_pairs_ocg']:,}, VG={c['fp_pairs_vg']}, TOKEN={c['fp_pairs_token']}, JA_MATCH={c['fp_pairs_ja_match']})",
         f"False Negatives : {c['fn_archetypes']} archetypes, {c['fn_pairs_total']} unflagged (is_rule_override=0) pairs",
         f"Arch Overlaps   : {c['arch_overlap_pairs']} non-sub-archetype A-in-B pairs",
         f"Mixed-Case Cands: {c['mixed_case_candidates']} archetypes ({c['mixed_case_zero_extra_fp']} with 0 extra FPs)",
-        f"Clean SNC=0     : {c['clean_snc0_candidates']} archetypes with 0 FPs and 0 FNs",
     ]
 
     if category in ("fp", "all") and report["false_positives"]:
@@ -365,7 +328,7 @@ def format_summary(report: dict[str, Any], category: str, snc_filter: str) -> st
             )
             lines.append(
                 f"  {row['fp_count']:4d} (OCG={row['ocg_fp_count']:4d},VG={row['vg_fp_count']:2d},JA={row['ja_match_count']:2d}) "
-                f"| SNC={row['strict_negative_check']} | {row['archetype_id']:24s} | {row['ocg_name']!r:20s} | {ex}"
+                f"| {row['archetype_id']:24s} | {row['ocg_name']!r:20s} | {ex}"
             )
         if len(report["false_positives"]) > 30:
             lines.append(f"  ... +{len(report['false_positives']) - 30} more archetypes")
@@ -375,14 +338,14 @@ def format_summary(report: dict[str, Any], category: str, snc_filter: str) -> st
         for row in report["false_negatives"]:
             ex = ", ".join(f"{x['id']}:{x['ocg_name']}" for x in row["misses"][:3])
             lines.append(
-                f"  {row['fn_count']:3d} | SNC={row['strict_negative_check']} | {row['archetype_id']:24s} | {row['ocg_name']!r:20s} | {ex}"
+                f"  {row['fn_count']:3d} | {row['archetype_id']:24s} | {row['ocg_name']!r:20s} | {ex}"
             )
 
     if category in ("arch_overlap", "all") and report["arch_overlaps"]:
         lines.append("\n--- Archetype-in-Archetype Overlaps ---")
         for row in report["arch_overlaps"][:25]:
             lines.append(
-                f"  {row['outer_id']} ({row['outer_ocg']!r}, SNC={row['outer_snc']}) IN "
+                f"  {row['outer_id']} ({row['outer_ocg']!r}) IN "
                 f"{row['inner_id']} ({row['inner_ocg']!r}) [overlap {row['member_overlap']}/{row['inner_member_count']}]"
             )
         if len(report["arch_overlaps"]) > 25:
@@ -393,25 +356,21 @@ def format_summary(report: dict[str, Any], category: str, snc_filter: str) -> st
         for row in report["mixed_case"][:25]:
             lines.append(
                 f"  lo={row['lower_member_count']:2d} ex={row['exact_member_count']:3d} extraFP={row['extra_fp_count']:2d} "
-                f"| SNC={row['strict_negative_check']} | {row['archetype_id']:22s} | {row['ocg_name']!r} -> {row['proposed_ocg_name']!r}"
+                f"| {row['archetype_id']:22s} | {row['ocg_name']!r} -> {row['proposed_ocg_name']!r}"
             )
-
-    if category in ("clean_snc0", "all") and report["clean_snc0"]:
-        lines.append("\n--- Clean SNC=0 Archetypes (Ready for SNC=1) ---")
-        lines.append("  " + ", ".join(r["archetype_id"] for r in report["clean_snc0"]))
 
     return "\n".join(lines)
 
 
-def format_markdown(report: dict[str, Any], category: str, snc_filter: str) -> str:
+def format_markdown(report: dict[str, Any], category: str) -> str:
     c = report["counts"]
     lines = [
-        f"# Archetype Exclusivity Audit Report (`snc={snc_filter}`)",
+        "# Archetype Exclusivity Audit Report",
         "",
-        f"- **Master cards:** {c['master_cards']:,} | **Scoped archetypes:** {c['archetypes_scoped']}/{c['archetypes_total']} | **Links:** {c['card_archetypes_master']:,}",
+        f"- **Master cards:** {c['master_cards']:,} | **Archetypes:** {c['archetypes_total']} | **Links:** {c['card_archetypes_master']:,}",
         f"- **False positives:** {c['fp_archetypes']} archetypes, {c['fp_pairs_total']:,} pairs (OCG={c['fp_pairs_ocg']:,}, VG={c['fp_pairs_vg']}, TOKEN={c['fp_pairs_token']}, `JA_MATCH`={c['fp_pairs_ja_match']})",
         f"- **False negatives (`is_rule_override=0`):** {c['fn_archetypes']} archetypes, {c['fn_pairs_total']} pairs",
-        f"- **Archetype-in-archetype overlaps:** {c['arch_overlap_pairs']} | **Mixed-case candidates:** {c['mixed_case_candidates']} ({c['mixed_case_zero_extra_fp']} zero-extra-FP) | **Clean SNC=0:** {c['clean_snc0_candidates']}",
+        f"- **Archetype-in-archetype overlaps:** {c['arch_overlap_pairs']} | **Mixed-case candidates:** {c['mixed_case_candidates']} ({c['mixed_case_zero_extra_fp']} zero-extra-FP)",
         "",
     ]
 
@@ -420,8 +379,8 @@ def format_markdown(report: dict[str, Any], category: str, snc_filter: str) -> s
             [
                 "## False Positives (Non-Member Collisions)",
                 "",
-                "| `archetype_id` | SNC | `ocg_name` | `tcg_name` | JA | Members | FPs (OCG/VG/TOK) | `JA_MATCH` | Sample Colliding Cards |",
-                "| :--- | :---: | :--- | :--- | :--- | ---: | :--- | ---: | :--- |",
+                "| `archetype_id` | `ocg_name` | `tcg_name` | JA | Members | FPs (OCG/VG/TOK) | `JA_MATCH` | Sample Colliding Cards |",
+                "| :--- | :--- | :--- | :--- | ---: | :--- | ---: | :--- |",
             ]
         )
         for row in report["false_positives"]:
@@ -433,7 +392,7 @@ def format_markdown(report: dict[str, Any], category: str, snc_filter: str) -> s
                 sample += f"; ... (+{row['fp_count'] - 5})"
             counts_str = f"{row['fp_count']} ({row['ocg_fp_count']}/{row['vg_fp_count']}/{row['token_fp_count']})"
             lines.append(
-                f"| `{row['archetype_id']}` | {row['strict_negative_check']} | `{_md_escape(row['ocg_name'])}` | "
+                f"| `{row['archetype_id']}` | `{_md_escape(row['ocg_name'])}` | "
                 f"`{_md_escape(row['tcg_name'])}` | {_md_escape(row['ja'])} | {row['member_count']} | "
                 f"{counts_str} | {row['ja_match_count']} | {sample} |"
             )
@@ -444,8 +403,8 @@ def format_markdown(report: dict[str, Any], category: str, snc_filter: str) -> s
             [
                 "## False Negatives (`is_rule_override = 0`)",
                 "",
-                "| `archetype_id` | SNC | `ocg_name` | JA | FNs | Sample Unmatched Members |",
-                "| :--- | :---: | :--- | :--- | ---: | :--- |",
+                "| `archetype_id` | `ocg_name` | JA | FNs | Sample Unmatched Members |",
+                "| :--- | :--- | :--- | ---: | :--- |",
             ]
         )
         for row in report["false_negatives"]:
@@ -456,7 +415,7 @@ def format_markdown(report: dict[str, Any], category: str, snc_filter: str) -> s
             if row["fn_count"] > 5:
                 sample += f"; ... (+{row['fn_count'] - 5})"
             lines.append(
-                f"| `{row['archetype_id']}` | {row['strict_negative_check']} | `{_md_escape(row['ocg_name'])}` | "
+                f"| `{row['archetype_id']}` | `{_md_escape(row['ocg_name'])}` | "
                 f"{_md_escape(row['ja'])} | {row['fn_count']} | {sample} |"
             )
         lines.append("")
@@ -466,15 +425,15 @@ def format_markdown(report: dict[str, Any], category: str, snc_filter: str) -> s
             [
                 "## Mixed-Case Candidates (Lowercase Mid-Word Members)",
                 "",
-                "| `archetype_id` | SNC | Current | Proposed | JA | Exact | Lower | Extra FPs | Lower Example | Extra FP Examples |",
-                "| :--- | :---: | :--- | :--- | :--- | ---: | ---: | ---: | :--- | :--- |",
+                "| `archetype_id` | Current | Proposed | JA | Exact | Lower | Extra FPs | Lower Example | Extra FP Examples |",
+                "| :--- | :--- | :--- | :--- | ---: | ---: | ---: | :--- | :--- |",
             ]
         )
         for row in report["mixed_case"]:
             lo_ex = ", ".join(_md_escape(x) for x in row["lower_sample"][:2])
             fp_ex = ", ".join(f"`{x['id']}` {_md_escape(x['ocg_name'])}" for x in row["extra_fps"][:3])
             lines.append(
-                f"| `{row['archetype_id']}` | {row['strict_negative_check']} | `{_md_escape(row['ocg_name'])}` | "
+                f"| `{row['archetype_id']}` | `{_md_escape(row['ocg_name'])}` | "
                 f"`{_md_escape(row['proposed_ocg_name'])}` | {_md_escape(row['ja'])} | {row['exact_member_count']} | "
                 f"{row['lower_member_count']} | {row['extra_fp_count']} | {lo_ex} | {fp_ex} |"
             )
@@ -485,30 +444,14 @@ def format_markdown(report: dict[str, Any], category: str, snc_filter: str) -> s
             [
                 "## Archetype-in-Archetype Overlaps",
                 "",
-                "| Outer (`archetype_id`) | Outer `ocg_name` | SNC | Inner (`archetype_id`) | Inner `ocg_name` | Member Overlap |",
-                "| :--- | :--- | :---: | :--- | :--- | ---: |",
+                "| Outer (`archetype_id`) | Outer `ocg_name` | Inner (`archetype_id`) | Inner `ocg_name` | Member Overlap |",
+                "| :--- | :--- | :--- | :--- | ---: |",
             ]
         )
         for row in report["arch_overlaps"]:
             lines.append(
-                f"| `{row['outer_id']}` | `{_md_escape(row['outer_ocg'])}` | {row['outer_snc']} | "
+                f"| `{row['outer_id']}` | `{_md_escape(row['outer_ocg'])}` | "
                 f"`{row['inner_id']}` | `{_md_escape(row['inner_ocg'])}` | {row['member_overlap']}/{row['inner_member_count']} |"
-            )
-        lines.append("")
-
-    if category in ("clean_snc0", "all") and report["clean_snc0"]:
-        lines.extend(
-            [
-                "## Clean `SNC = 0` Archetypes (0 FPs, 0 FNs)",
-                "",
-                "| `archetype_id` | `ocg_name` | `tcg_name` | JA | Members |",
-                "| :--- | :--- | :--- | :--- | ---: |",
-            ]
-        )
-        for row in report["clean_snc0"]:
-            lines.append(
-                f"| `{row['archetype_id']}` | `{_md_escape(row['ocg_name'])}` | `{_md_escape(row['tcg_name'])}` | "
-                f"{_md_escape(row['ja'])} | {row['member_count']} |"
             )
         lines.append("")
 
@@ -517,10 +460,9 @@ def format_markdown(report: dict[str, Any], category: str, snc_filter: str) -> s
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Bidirectional Master-format archetype exclusivity auditor")
-    parser.add_argument("--snc", choices=["1", "0", "all"], default="all", help="Filter by strict_negative_check (default: all)")
     parser.add_argument(
         "--category",
-        choices=["fp", "fn", "arch_overlap", "mixed_case", "clean_snc0", "all"],
+        choices=["fp", "fn", "arch_overlap", "mixed_case", "all"],
         default="all",
         help="Audit category to display (default: all)",
     )
@@ -528,7 +470,7 @@ def main() -> None:
     parser.add_argument("--max-fp", type=int, default=None, help="Maximum FP count filter")
     parser.add_argument("--format", choices=["summary", "md", "json"], default="summary", help="Output format")
     parser.add_argument("--out", type=Path, default=None, help="Optional file path to write output")
-    parser.add_argument("--strict", action="store_true", help="Exit with code 1 if any FP or unflagged FN exists in scope")
+    parser.add_argument("--strict", action="store_true", help="Exit with code 1 if any FP or unflagged FN exists")
     args = parser.parse_args()
 
     cards = load_jsonl(DUMP_DIR / "cards.jsonl")
@@ -539,7 +481,6 @@ def main() -> None:
         cards,
         archetypes,
         links,
-        snc_filter=args.snc,
         min_fp=args.min_fp,
         max_fp=args.max_fp,
     )
@@ -547,9 +488,9 @@ def main() -> None:
     if args.format == "json":
         rendered = json.dumps(report, ensure_ascii=False, indent=2) + "\n"
     elif args.format == "md":
-        rendered = format_markdown(report, args.category, args.snc)
+        rendered = format_markdown(report, args.category)
     else:
-        rendered = format_summary(report, args.category, args.snc)
+        rendered = format_summary(report, args.category)
 
     if args.out is not None:
         args.out.parent.mkdir(parents=True, exist_ok=True)

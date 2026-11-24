@@ -3,8 +3,7 @@ CREATE TABLE "archetypes" (
                         ja_base TEXT,
                         ja_kana TEXT,
                         ocg_name TEXT NOT NULL,
-                        tcg_name TEXT NOT NULL,
-                        strict_negative_check INTEGER DEFAULT 0
+                        tcg_name TEXT NOT NULL
                     );
 
 CREATE TABLE card_archetypes (

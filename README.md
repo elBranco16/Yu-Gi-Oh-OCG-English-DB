@@ -17,10 +17,10 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
     ├── schema.sql              # Exact SQLite table & index definitions
     ├── cards.jsonl             # 14,975 Master-format cards (OCG, game-only, Tokens)
     ├── rush_cards.jsonl        # 2,839 Rush Duel cards
-    ├── archetypes.jsonl        # 617 official OCG archetypes
-    ├── series.jsonl            # 368 thematic series
-    ├── card_archetypes.jsonl   # 10,011 Master card <-> archetype links
-    ├── card_series.jsonl       # 2,040 Master card <-> series links
+    ├── archetypes.jsonl        # 614 official OCG archetypes
+    ├── series.jsonl            # 369 thematic series
+    ├── card_archetypes.jsonl   # 10,077 Master card <-> archetype links
+    ├── card_series.jsonl       # 2,049 Master card <-> series links
     ├── rush_card_series.jsonl  # 1,943 Rush card <-> series links
     ├── characters.jsonl        # 1,548 characters
     └── terms.jsonl             # 24 core OCG terminology entries
@@ -34,7 +34,7 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 | :--- | :--- |
 | `cards` | `id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `en_legacy_names`, `ocg_text`, `overriden_check` |
 | `rush_cards` | `id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `en_legacy_names`, `ocg_text`, `overriden_check` |
-| `archetypes` | `archetype_id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name`, `strict_negative_check` |
+| `archetypes` | `archetype_id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name` |
 | `series` | `series_id`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_name` |
 | `card_archetypes` | `card_id`, `archetype_id`, `is_rule_override` |
 | `card_series` | `card_id`, `series_id` |
@@ -100,14 +100,14 @@ git push
 ## `audit_archetypes.py` (Archetype Exclusivity)
 
 Validates bidirectional archetype exclusivity across Master-format `cards.jsonl` using the **Smart First-Letter Case-Sensitive Rule**:
-- Exact case-sensitive substring matching by default (`"HERO"` ≠ `"Hero"`, `"Ai"` ≠ `"Maid"`, `"Xyz"` ≠ `"XYZ"`).
+- Exact case-sensitive substring matching by default (`"HERO"` ≠ `"Hero"`, `"Xyz"` ≠ `"XYZ"`).
 - Lowercase-initial archetype names (e.g., `"roid"`, `"tellarknight"`, `"verz"`) match both lowercase and capitalized first letters (`[Rr]oid`, `[Tt]ellarknight`, `[Vv]erz`).
-- Wildcard numeric archetypes (`number_10x`, `number_c10x`) match `101`–`107`.
+- Turned-A (`Ɐ`, U+2C6F) normalizes to `A` for `attraction`, and wildcard numeric archetypes (`number_10x`, `number_c10x`) match `101`–`107`.
 
 ```bash
-python audit_archetypes.py --snc all --format summary
-python audit_archetypes.py --snc 1 --format md
-python audit_archetypes.py --snc 1 --strict
+python audit_archetypes.py --format summary
+python audit_archetypes.py --format md
+python audit_archetypes.py --strict
 ```
 
 ---
