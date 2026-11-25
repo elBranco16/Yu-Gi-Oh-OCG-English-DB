@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent
 DUMP_DIR = ROOT / "dump"
 
 ALLOWED_ARCH_OVERLAPS: set[tuple[str, str]] = {
-    ("battlin_boxing", "battlin_boxer"),
+    ("baaningunakkuru", "baaningunakkuraa"),
 }
 
 
@@ -70,16 +70,16 @@ def has_rule_exclusion(arch_name: str, ocg_text: str | None) -> bool:
 def match_archetype(arch_name: str, card_name: str, archetype_id: str | None = None) -> bool:
     """
     Canonical Smart First-Letter Case-Sensitive Rule:
-    - `number_10x` / `number_c10x` ("Numbers 10X" / "Chaos Numbers 10X"): match 10[1-7]\\b.
-    - `attraction`: normalize turned-A (`Ɐ`, U+2C6F) to `A`.
+    - `nanbaazu10x` / `kaosunanbaazu10x` ("Numbers 10X" / "Chaos Numbers 10X"): match 10[1-7]\\b.
+    - `atorakushon`: normalize turned-A (`Ɐ`, U+2C6F) to `A`.
     - Lowercase-initial archetype names ("roid", "tellarknight", "verz", "code Talker"):
       match both lowercase and uppercase first letters.
     - All other Title-Case / ALL-CAPS names: strict exact case-sensitive substring.
     """
-    if archetype_id == "attraction":
+    if archetype_id == "atorakushon":
         card_name = card_name.replace("\u2c6f", "A")
 
-    if archetype_id in ("number_10x", "number_c10x") and arch_name.endswith("10X"):
+    if archetype_id in ("nanbaazu10x", "kaosunanbaazu10x") and arch_name.endswith("10X"):
         prefix = re.escape(arch_name[:-3])
         return bool(re.search(rf"{prefix}10[1-7]\b", card_name))
 
