@@ -141,6 +141,26 @@ Authoritative log of resolved translation edge cases, naming precedents, and pol
   - `竜騎士ガイア` series (`Dragon Knight Gaia`) → member cards whose Japanese name includes `竜騎士ガイア` must incorporate `Dragon Knight Gaia`.
   - `サイバー・ドラゴン` (`Cyber Dragon (Rush Duel series)`) → Rush Duel member cards whose Japanese name includes `サイバー・ドラゴン` must incorporate `Cyber Dragon`.
 
+### DEC-016 — Preserve Yugipedia Lexical Choices Unless Colliding or Clearly Poor
+- **Date:** 2026-11-25
+- **Status:** Active
+- **Scope:** All `ocg_name` curations (`cards.jsonl`, `rush_cards.jsonl`, `gba_cards.jsonl`, `archetypes.jsonl`, `series.jsonl`)
+- **Ruling:** Preserve Yugipedia's English word/lexical translation choices whenever possible (while still adjusting word order, articles, punctuation, paired em dashes, capitalization, and furigana tiers per Priorities 1–5) **unless**:
+  1. Keeping the wording would collide with a locked archetype (`dump/archetypes.jsonl`) or break mandatory series-name incorporation (`dump/series.jsonl`, `DEC-015`),
+  2. It conflicts with locked core OCG terminology (`dump/terms.jsonl`) or a settled ruling in `DECISIONS.md`,
+  3. Yugipedia's word choice is genuinely bad, inaccurate, or awkward, or
+  4. Yugipedia left the card untranslated and the DB fell back to a flawed TCG localization (`DEC-005`).
+- **Rationale:** Avoids unnecessary synonym churn against community-familiar Yugipedia vocabulary while ensuring bad translations, TCG fallbacks, and mechanical/structural issues are fixed.
+
+### DEC-017 — Japanese Puns & Proper-Noun Kanji Review Rule
+- **Date:** 2026-11-25
+- **Status:** Active
+- **Scope:** All `ocg_name` curations (`cards.jsonl`, `rush_cards.jsonl`, `gba_cards.jsonl`, `archetypes.jsonl`, `series.jsonl`)
+- **Ruling:**
+  - **Japanese puns & wordplay:** Do not blindly keep awkward Yugipedia pun translations or leave cleanly translatable puns in Japanese. Weigh whether keeping romanized Japanese (`DEC-006`) or adapting into natural English is stronger, and present borderline puns to the user in Phase 2 **Bucket B (Judgment Calls)** with 2–3 concrete options and a recommendation.
+  - **Proper-noun kanji vs. common kanji:** Always verify from Japanese source meaning whether kanji/kana name a proper noun (deity, mythical figure, personal/weapon/place name, Japanese folklore/cultural proper noun → keep romanized via `DEC-006`) or a descriptive common noun/title (→ translate). Never assume Yugipedia handled this correctly; flag ambiguous cases in **Bucket B**.
+- **Rationale:** Fixes systematic Yugipedia errors where proper nouns were over-translated literally or descriptive terms/puns were handled inconsistently.
+
 ---
 
 ## Batch Precedents
@@ -148,7 +168,7 @@ Authoritative log of resolved translation edge cases, naming precedents, and pol
 *(Append new batch-level rulings here using the template below.)*
 
 <!--
-### DEC-016 — <Short Descriptive Title>
+### DEC-018 — <Short Descriptive Title>
 - **Date:** YYYY-MM-DD
 - **Status:** Active
 - **Scope:** <Card IDs, archetype_id, or file(s)>
