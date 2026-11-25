@@ -117,15 +117,6 @@ Authoritative log of resolved translation edge cases, naming precedents, and pol
   - During offline `--skip-yugipedia` batches, agents also manually set `overriden_check = 1` when a curated `ocg_name` clearly diverges from Yugipedia; the next Yugipedia sync reconciles final status.
 - **Rationale:** Eliminates the contradiction between manual-flag docs and automated Yugipedia diffing in `sync_db.py`.
 
-### DEC-013 — Pending Migration for Hyphenated Archetypes (`Dark Knight - Gaia`, `King of Wishes - Hope`, `Future King - Hope`)
-- **Date:** 2026-11-25
-- **Status:** Active (Temporary `Current` locked strings pending a dedicated archetype-migration batch)
-- **Scope:** `dump/archetypes.jsonl` (`ankokukishigaia`, `kibououhoopu`, `miraiouhoopu`), `dump/cards.jsonl`
-- **Ruling:** These three archetypes are currently locked with spaced hyphens (`Dark Knight - Gaia`, `King of Wishes - Hope`, `Future King - Hope`) despite having no dash in Japanese (`暗黒騎士ガイア`, `希望皇ホープ`, `未来皇ホープ`).
-  - **Until a dedicated migration batch renames them**, Priority 1 governs: all member cards must preserve the currently locked hyphenated substrings to pass `audit_archetypes.py --strict`.
-  - **Target post-migration names:** `Dark Knight Gaia`, `King of Wishes, Hope`, and `Future King Hope`.
-- **Rationale:** Keeps the database strictly consistent today while recording the planned word-order cleanup clearly.
-
 ---
 
 ## Batch Precedents
