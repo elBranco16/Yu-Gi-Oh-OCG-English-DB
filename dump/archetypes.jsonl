@@ -340,7 +340,7 @@
 {"archetype_id": "mimighoul", "ja_base": null, "ja_kana": "ミミグル", "ocg_name": "Mimigul", "tcg_name": "Mimighoul"}
 {"archetype_id": "mist_valley", "ja_base": "霞の谷", "ja_kana": "ミスト・バレー", "ocg_name": "Mist Valley", "tcg_name": null}
 {"archetype_id": "mitsurugi", "ja_base": "巳剣", "ja_kana": "ミツルギ", "ocg_name": "Mitsurugi", "tcg_name": null}
-{"archetype_id": "mokey_mokey", "ja_base": null, "ja_kana": "もけもけ", "ocg_name": "Mokemoke", "tcg_name": "Mokey Mokey"}
+{"archetype_id": "mokey_mokey", "ja_base": null, "ja_kana": "もけもけ", "ocg_name": "Moke Moke", "tcg_name": "Mokey Mokey"}
 {"archetype_id": "monarch_spell_trap", "ja_base": "帝王", "ja_kana": "ていおう", "ocg_name": "High Emperor", "tcg_name": "Monarch"}
 {"archetype_id": "morganite", "ja_base": null, "ja_kana": "モルガナイト", "ocg_name": "Morganite", "tcg_name": null}
 {"archetype_id": "morphtronic", "ja_base": "Ｄ", "ja_kana": "ディフォーマー", "ocg_name": "Deformer", "tcg_name": "Morphtronic"}
