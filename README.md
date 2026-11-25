@@ -1,8 +1,8 @@
 # Yu-Gi-Oh! OCG Standard Database
 
-A collaborative, Git-friendly Master OCG Standard database covering Yu-Gi-Oh! cards (OCG, Rush Duel, and game-only), archetypes, thematic series, characters, and core terminology.
+A collaborative, Git-friendly Master OCG Standard database covering **34,414 rows across 10 tables** of Yu-Gi-Oh! cards (OCG, Rush Duel, and game-only), archetypes, thematic series, characters, and core terminology.
 
-All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*.jsonl`)** alongside `dump/schema.sql`, and can be rebuilt into `ocg_standard.db` on demand with `sync_db.py`.
+All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*.jsonl`)** alongside `dump/schema.sql`, and can be rebuilt into `ocg_standard.db` on demand with `sync_db.py` or edited visually via **OCG Standard DB Studio**.
 
 ---
 
@@ -10,21 +10,39 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 
 ```text
 .
-├── sync_db.py                  # Export/import/validate/diff-ids between SQLite and dump/, plus Yugipedia overriden_check verification
-├── apply_text_mod.py           # Populate/update ocg_text & en_legacy_names (erratas, numbering, PSCT shortening, OCG localization)
-├── audit_archetypes.py         # Bidirectional Master-format archetype exclusivity & false-negative auditor
+├── Start-Studio.bat                  # Windows launcher for OCG Standard DB Studio
+├── app/                              # Local web curation workbench (Python 3.10+ stdlib + vanilla JS/CSS)
+├── sync_db.py                        # Export/import/check/diff-ids between SQLite and dump/, plus Yugipedia overriden_check sync
+├── apply_text_mod.py                 # Populate/update ocg_text & en_legacy_names (erratas, numbering, PSCT shortening, OCG localization)
+├── audit_archetypes.py               # Bidirectional Master-format archetype exclusivity & false-negative auditor
+├── AGENTS.md                         # Repository governance, invariants, conflict priority & verification gate
+├── DECISIONS.md                      # Settled translation precedents & policy rulings (DEC-001+)
+├── STATUS.md                         # Git-tracked project status, table counts & batch log
+├── .agents/
+│   ├── skills/
+│   │   ├── translate-card-name/      # Card, archetype, series, character & term naming/romanization rules
+│   │   └── ocg-text-terms/           # ocg_text, terms.jsonl, -Race suffixing, flavor text & propagation rules
+│   └── workflows/
+│       └── batch.md                  # End-to-end /batch curation runbook (Phases 1–5)
+├── .opencode/
+│   └── command/
+│       └── batch.md                  # OpenCode /batch slash-command shim
+├── tests/
+│   ├── test_audit_archetypes.py      # Archetype matcher & rule-exclusion regression tests
+│   ├── test_studio_backend.py        # OCG Standard DB Studio backend & HTTP integration tests
+│   └── test_sync_db.py               # sync_db import guard, invariants, diff-ids & Cemetery(ies) tests
 └── dump/
-    ├── schema.sql              # Exact SQLite table & index definitions
-    ├── cards.jsonl             # 14,975 Master-format cards (OCG, game-only, Tokens)
-    ├── rush_cards.jsonl        # 2,839 Rush Duel cards
-    ├── gba_cards.jsonl         # 28 GBA-exclusive DM7/DM8 non-OCG cards
-    ├── archetypes.jsonl        # 615 official OCG archetypes
-    ├── series.jsonl            # 369 thematic series
-    ├── card_archetypes.jsonl   # 10,098 Master card <-> archetype links
-    ├── card_series.jsonl       # 2,049 Master card <-> series links
-    ├── rush_card_series.jsonl  # 1,943 Rush card <-> series links
-    ├── characters.jsonl        # 1,474 characters
-    └── terms.jsonl             # 24 core OCG terminology entries
+    ├── schema.sql                    # Exact SQLite table & index definitions
+    ├── cards.jsonl                   # 14,975 Master-format cards (OCG, game-only, Tokens)
+    ├── rush_cards.jsonl              # 2,839 Rush Duel cards
+    ├── gba_cards.jsonl               # 28 GBA-exclusive DM7/DM8 non-OCG cards
+    ├── archetypes.jsonl              # 615 official OCG archetypes
+    ├── series.jsonl                  # 369 thematic series
+    ├── card_archetypes.jsonl         # 10,098 Master card <-> archetype links
+    ├── card_series.jsonl             # 2,049 Master card <-> series links
+    ├── rush_card_series.jsonl        # 1,943 Rush card <-> series links
+    ├── characters.jsonl              # 1,474 characters
+    └── terms.jsonl                   # 24 core OCG terminology entries
 ```
 
 ---
@@ -45,11 +63,22 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 | `terms` | `term_id`, `category`, `ja_base`, `ja_kana`, `ocg_name`, `tcg_en`, `en_legacy_terms` |
 
 ### Key Conventions
-- **Card IDs (`cards.id` / `gba_cards.id`):** Uses the official Konami Card Database ID (`cid`, e.g., `4007` for *Blue-Eyes White Dragon*, `15150` for *Sevens Road Magician*) as well as `< 4007` retro/video-game IDs. Cards without a Konami `cid` or whose `< 4007` slot is occupied (such as Tokens or older game variants) use sequential IDs starting at `900001`. Standalone `gba_cards.id` uses the official in-game DM7 card number with DM8 fallback (`110`–`898`).
+- **Card IDs (`cards.id` / `rush_cards.id` / `gba_cards.id`):** Uses the official Konami Card Database ID (`cid`, e.g., `4007` for *Blue-Eyes White Dragon*, `15150` for *Sevens Road Magician*) as well as `< 4007` retro/video-game IDs. Cards without a Konami `cid` or whose `< 4007` slot is occupied (such as Tokens or older game variants) use sequential IDs starting at `900001`. Standalone `gba_cards.id` uses the official in-game DM7 card number with DM8 fallback (`110`–`898`).
+- **Entity IDs (`archetype_id`, `series_id`, `character_id`, `term_id`):** `archetype_id` and `series_id` use lowercase ASCII romaji `snake_case` slugs from `ja_kana` (preserving `ou`/`uu`, doubling katakana `ー`, and keeping `_rush` on Rush Duel series). `character_id` and `term_id` use lowercase ASCII `snake_case` slugs (with `_type`/`_attr`/`_subtype` collision suffixes on `terms`).
 - **Japanese Names (`ja_base` / `ja_kana`):** `ja_kana` stores the reading/kana; `ja_base` is `null` whenever identical to `ja_kana`. `gba_cards` preserves verbatim GBA in-game Japanese spelling in `ja_base` (`null` when identical to `ja_kana`).
-- **TCG Divergence (`tcg_name` / `tcg_dub_name`):** Populated only when the TCG card, archetype, series, or dub character name differs from `ocg_name`; otherwise `null`. Alternate official/game name variants (e.g., `#1` punctuation differences) are merged into `en_legacy_names` (`; `-separated).
+- **TCG Divergence (`tcg_name` / `tcg_dub_name`):** Populated only when the TCG card, archetype, series, or dub character name differs from `ocg_name`; otherwise `null`. Alternate official/game name variants (e.g., `#1` punctuation differences) are merged into clean `; `-separated `en_legacy_names`.
 - **Card Text Formatting (`ocg_text`):** Combines official/community effect erratas, `① ② ③` effect numbering (Master `cards.jsonl`), standard PSCT shortenings, and full OCG card/archetype/terminology localization (`terms.jsonl`). Rush Duel cards preserve `[Requirement]` / `[Effect]` blocks; `gba_cards` preserve DM7/DM8 concise text.
-- **Yugipedia Divergence Flag (`overriden_check`):** `1` marks an `ocg_name` that differs from Yugipedia's baseline translation (`0` is default). Maintained automatically by `sync_db.py check` and Studio Save & Export, and also set manually during offline `--skip-yugipedia` curations when clearly diverging.
+- **Yugipedia Divergence Flag (`overriden_check`):** `1` marks an `ocg_name` that differs from Yugipedia's baseline translation (`0` is default; `DEC-012`). Maintained automatically by `sync_db.py check` and Studio Save & Export, and also set manually during offline `--skip-yugipedia` curations when clearly diverging.
+
+---
+
+## Governance & AI-Assisted Curation
+
+Naming standards, terminology rules, and batch workflows are governed by a four-layer documentation structure:
+1. **`AGENTS.md`** — Global invariants, 5-level naming conflict priority (Archetype Integrity → Furigana → Word Order → Articles → Punctuation/Capitalization), stop-and-ask boundaries, and the mandatory verification gate.
+2. **`.agents/skills/`** — Detailed domain rules for naming/romanization (`translate-card-name/SKILL.md`) and `ocg_text` localization/propagation (`ocg-text-terms/SKILL.md`).
+3. **`.agents/workflows/batch.md`** (and `.opencode/command/batch.md` for OpenCode `/batch`) — Step-by-step batch execution protocol from clean-worktree pre-flight and guarded SQLite sync through `diff-ids` auditing and bookkeeping.
+4. **`DECISIONS.md` & `STATUS.md`** — Settled policy precedents (`DEC-001`–`DEC-013`) and Git-tracked session status.
 
 ---
 
@@ -64,7 +93,7 @@ All tables are stored as deterministic, primary-key-sorted **JSON Lines (`dump/*
 ### Option A: Visual Curation Studio (Recommended)
 Double-click `Start-Studio.bat` (or run `python app/server.py`) to launch **OCG Standard DB Studio** in your browser:
 - Automatically checks `ocg_standard.db` against `dump/*.jsonl` on startup (auto-importing if missing, or letting you resume vs. rebuild fresh with a `.cache/backups/` snapshot if local edits exist).
-- Filter & edit all 10 tables (`cards`, `rush_cards`, `gba_cards`, `archetypes`, `series`, `characters`, `terms`, and link tables) with Archetype/Series multi-filters, regex & Japanese search, live archetype collision warnings, inline Yugipedia & Konami OCG DB links, OCG terminology linting, and bulk find & replace.
+- Filter & edit all 10 tables (`cards`, `rush_cards`, `gba_cards`, `archetypes`, `series`, `characters`, `terms`, and link tables) with Archetype/Series multi-filters, regex & Japanese search, live archetype collision warnings, inline Yugipedia & Konami OCG DB links, OCG terminology linting, Safe Rename reference propagation, and bulk find & replace.
 - **Save & Export** (`Ctrl+S`) runs SQLite integrity checks, `audit_archetypes`, and cached Yugipedia `overriden_check` validation before exporting deterministic `dump/*.jsonl` files.
 - **Commit & Push** previews `git diff dump/`, auto-generates a commit message, and runs `git add dump/` → `commit` → `pull --rebase` → `push`.
 
@@ -148,6 +177,16 @@ Validates bidirectional archetype exclusivity across **Master-format `cards.json
 python audit_archetypes.py --format summary
 python audit_archetypes.py --format md
 python audit_archetypes.py --strict
+```
+
+---
+
+## Testing
+
+Run the isolated unit and integration test suite (covering `audit_archetypes.py`, `sync_db.py`, `apply_text_mod.py`, and OCG Standard DB Studio):
+
+```bash
+python -m unittest discover -s tests -v
 ```
 
 ---
