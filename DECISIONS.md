@@ -117,6 +117,30 @@ Authoritative log of resolved translation edge cases, naming precedents, and pol
   - During offline `--skip-yugipedia` batches, agents also manually set `overriden_check = 1` when a curated `ocg_name` clearly diverges from Yugipedia; the next Yugipedia sync reconciles final status.
 - **Rationale:** Eliminates the contradiction between manual-flag docs and automated Yugipedia diffing in `sync_db.py`.
 
+### DEC-014 — Comma Before Common-English-Word Proper Names/Concepts
+- **Date:** 2026-11-25
+- **Status:** Active
+- **Scope:** `cards.jsonl`, `rush_cards.jsonl`, `gba_cards.jsonl`, `archetypes.jsonl`, `series.jsonl` (`ocg_name`)
+- **Ruling:** Whenever a card's (or archetype/series's) proper name or concept—as opposed to its title or epithet—is a common English word that could make it difficult for the reader to recognize it as a proper name (such as `Hope`), insert a comma between the preceding title/epithet and the proper name/concept, even when the Japanese name is unspaced (`[Title][Name]`).
+  - **Priority 1 subordination:** If an existing locked archetype in `dump/archetypes.jsonl` currently omits the comma (e.g., `miraiouhoopu` is currently `Future King Hope` while its 3 member cards in `cards.jsonl` still use `Future King - Hope`), migrate the archetype and its member cards together rather than breaking `audit_archetypes.py --strict`.
+- **Rationale:** Prevents run-on noun-phrase misreading on common-word proper names/concepts while keeping unmistakably proper names after simple unspaced titles comma-free (`Dark Knight Gaia`, `Dragon Knight Gaia`).
+- **Examples:**
+  - `未来皇ホープ` → **Target (pending batch):** `Future King, Hope` *(not `Future King Hope`; `archetypes.jsonl` currently `Future King Hope`, member cards currently `Future King - Hope`)*
+  - `希望皇ホープ` → `King of Wishes, Hope` *(in `archetypes.jsonl`; member cards currently `King of Wishes - Hope`)*
+
+### DEC-015 — Mandatory Series-Name Incorporation When Present in Japanese Name
+- **Date:** 2026-11-25
+- **Status:** Active
+- **Scope:** `cards.jsonl` (`card_series.jsonl`), `rush_cards.jsonl` (`rush_card_series.jsonl`), `dump/series.jsonl` (`ocg_name`)
+- **Ruling:** For any card linked to a series in `dump/card_series.jsonl` or `dump/rush_card_series.jsonl`, its `ocg_name` **must** always incorporate the current translated `ocg_name` of that series from `dump/series.jsonl`—**provided** that the card's original Japanese name (`ja_base` / `ja_kana`) also includes the series's original Japanese name (`series.ja_base` / `series.ja_kana`).
+  - Strip metadata disambiguator suffixes such as `(Rush Duel series)` when embedding `series.ocg_name` into a card name.
+  - Do **not** force the series name onto a linked card whose original Japanese name does not contain the series's Japanese name.
+  - Priority 1 (`dump/archetypes.jsonl` + `audit_archetypes.py --strict`) still takes precedence: if incorporating a series name would conflict with a locked archetype substring or trigger a false-positive collision, **stop and ask**.
+- **Rationale:** Ensures consistent English cross-referencing across thematic series whenever the Japanese naming itself establishes that textual link.
+- **Examples:**
+  - `竜騎士ガイア` series (`Dragon Knight Gaia`) → member cards whose Japanese name includes `竜騎士ガイア` must incorporate `Dragon Knight Gaia`.
+  - `サイバー・ドラゴン` (`Cyber Dragon (Rush Duel series)`) → Rush Duel member cards whose Japanese name includes `サイバー・ドラゴン` must incorporate `Cyber Dragon`.
+
 ---
 
 ## Batch Precedents
@@ -124,7 +148,7 @@ Authoritative log of resolved translation edge cases, naming precedents, and pol
 *(Append new batch-level rulings here using the template below.)*
 
 <!--
-### DEC-014 — <Short Descriptive Title>
+### DEC-016 — <Short Descriptive Title>
 - **Date:** YYYY-MM-DD
 - **Status:** Active
 - **Scope:** <Card IDs, archetype_id, or file(s)>

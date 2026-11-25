@@ -78,7 +78,7 @@ Naming standards, terminology rules, and batch workflows are governed by a four-
 1. **`AGENTS.md`** — Global invariants, 5-level naming conflict priority (Archetype Integrity → Furigana → Word Order → Articles → Punctuation/Capitalization), stop-and-ask boundaries, and the mandatory verification gate.
 2. **`.agents/skills/`** — Detailed domain rules for naming/romanization (`translate-card-name/SKILL.md`) and `ocg_text` localization/propagation (`ocg-text-terms/SKILL.md`).
 3. **`.agents/workflows/batch.md`** (and `.opencode/command/batch.md` for OpenCode `/batch`) — Step-by-step batch execution protocol from clean-worktree pre-flight and guarded SQLite sync through `diff-ids` auditing and bookkeeping.
-4. **`DECISIONS.md` & `STATUS.md`** — Settled policy precedents (`DEC-001`–`DEC-013`) and Git-tracked session status.
+4. **`DECISIONS.md` & `STATUS.md`** — Settled policy precedents (`DEC-001`+) and Git-tracked session status.
 
 ---
 
