@@ -2,7 +2,7 @@
 {"series_id": "aatsuenjeru", "ja_base": null, "ja_kana": "アーツエンジェル", "ocg_name": "Arts Angel", "tcg_name": "Art Angel"}
 {"series_id": "abisukaito", "ja_base": null, "ja_kana": "アビスカイト", "ocg_name": "Abysskite", "tcg_name": null}
 {"series_id": "abisureiyaa", "ja_base": null, "ja_kana": "アビスレイヤー", "ocg_name": "Abysslayer", "tcg_name": null}
-{"series_id": "aged_counterpart", "ja_base": null, "ja_kana": null, "ocg_name": "Aged counterpart", "tcg_name": null}
+{"series_id": "aged_counterpart", "ja_base": null, "ja_kana": null, "ocg_name": "Aged Counterpart", "tcg_name": null}
 {"series_id": "aizu_doragon", "ja_base": null, "ja_kana": "アイズ・ドラゴン", "ocg_name": "-Eyes Dragon", "tcg_name": null}
 {"series_id": "akuseruwandaa", "ja_base": null, "ja_kana": "アクセルワンダー", "ocg_name": "Accel Wonder", "tcg_name": null}
 {"series_id": "anazaa_baasu", "ja_base": null, "ja_kana": "アナザー・バース", "ocg_name": "Anotherverse", "tcg_name": null}
@@ -65,7 +65,7 @@
 {"series_id": "dorein", "ja_base": null, "ja_kana": "ドレイン", "ocg_name": "Drain", "tcg_name": null}
 {"series_id": "doriaado", "ja_base": null, "ja_kana": "ドリアード", "ocg_name": "Doriado", "tcg_name": null}
 {"series_id": "douseidoumeidoumei", "ja_base": "同姓同名同盟", "ja_kana": "どうせいどうめいどうめい", "ocg_name": "League of Uniform Nomenclature", "tcg_name": "Uniform Nomenclature"}
-{"series_id": "duel_winner", "ja_base": null, "ja_kana": null, "ocg_name": "Duel winner", "tcg_name": null}
+{"series_id": "duel_winner", "ja_base": null, "ja_kana": null, "ocg_name": "Duel Winner", "tcg_name": null}
 {"series_id": "dyueru_doragon", "ja_base": "決闘竜", "ja_kana": "デュエル・ドラゴン", "ocg_name": "Duel Dragon", "tcg_name": null}
 {"series_id": "eetuzi", "ja_base": "ＡｔｏＺ", "ja_kana": "エートゥズィ", "ocg_name": "A-to-Z", "tcg_name": null}
 {"series_id": "efudanosanjuushi", "ja_base": "絵札の三銃士", "ja_kana": "えふだのさんじゅうし", "ocg_name": "Three Musketeers of Face Cards", "tcg_name": null}
@@ -130,7 +130,7 @@
 {"series_id": "hikarinoougonhitsu", "ja_base": "光の黄金櫃", "ja_kana": "ひかりのおうごんひつ", "ocg_name": "Gold Chest of Light", "tcg_name": "Shining Sarcophagus"}
 {"series_id": "hikaritoyaminogishiki", "ja_base": "光と闇の儀式", "ja_kana": "ひかりとやみのぎしき", "ocg_name": "Light and Darkness Rite", "tcg_name": "Light and Darkness Ritual"}
 {"series_id": "himitsusousakan", "ja_base": "秘密捜査官", "ja_kana": "ひみつそうさかん", "ocg_name": "Secret Investigator", "tcg_name": "Agent"}
-{"series_id": "hissatsuwaza", "ja_base": "必殺技", "ja_kana": "ひっさつわざ", "ocg_name": "Sure-kill move", "tcg_name": "Signature move"}
+{"series_id": "hissatsuwaza", "ja_base": "必殺技", "ja_kana": "ひっさつわざ", "ocg_name": "Sure-Kill Move", "tcg_name": "Signature move"}
 {"series_id": "hitokuimushi", "ja_base": "人喰い虫", "ja_kana": "ひとくいムシ", "ocg_name": "Man-Eater Bug", "tcg_name": null}
 {"series_id": "hitsugi", "ja_base": "棺", "ja_kana": "ひつぎ", "ocg_name": "Sarcophagus", "tcg_name": null}
 {"series_id": "honoonokenshi", "ja_base": "炎の剣士", "ja_kana": "ほのおのけんし", "ocg_name": "Flame Swordsman", "tcg_name": null}
@@ -211,7 +211,7 @@
 {"series_id": "martial_art_spirit", "ja_base": null, "ja_kana": null, "ocg_name": "Martial Art Spirit", "tcg_name": null}
 {"series_id": "mashou", "ja_base": "魔将", "ja_kana": "ましょう", "ocg_name": "Demon Commander", "tcg_name": "Three Rulers"}
 {"series_id": "masou", "ja_base": "魔装", "ja_kana": "まそう", "ocg_name": "Magic-Equip", "tcg_name": "Empower"}
-{"series_id": "matchikiru", "ja_base": null, "ja_kana": "マッチキル", "ocg_name": "Match kill", "tcg_name": "Match winner"}
+{"series_id": "matchikiru", "ja_base": null, "ja_kana": "マッチキル", "ocg_name": "Match Kill", "tcg_name": "Match winner"}
 {"series_id": "meiseki", "ja_base": "冥跡", "ja_kana": "めいせき", "ocg_name": "Monumenthes", "tcg_name": null}
 {"series_id": "metarion", "ja_base": null, "ja_kana": "メタリオン", "ocg_name": "Metarion", "tcg_name": null}
 {"series_id": "mirror_trap", "ja_base": null, "ja_kana": null, "ocg_name": "Mirror Trap", "tcg_name": null}
@@ -240,7 +240,7 @@
 {"series_id": "oukyuu", "ja_base": "王宮", "ja_kana": "おうきゅう", "ocg_name": "Royal Palace", "tcg_name": "Royal"}
 {"series_id": "pii", "ja_base": "：Ｐ", "ja_kana": "：ピー", "ocg_name": "P", "tcg_name": null}
 {"series_id": "piisu_gooremu", "ja_base": null, "ja_kana": "ピース・ゴーレム", "ocg_name": "Piece Golem", "tcg_name": null}
-{"series_id": "player_killer_of_darkness_s_monsters", "ja_base": null, "ja_kana": null, "ocg_name": "Player Killer of Darkness's monsters", "tcg_name": "PaniK's monsters"}
+{"series_id": "player_killer_of_darkness_s_monsters", "ja_base": null, "ja_kana": null, "ocg_name": "Player Killer of Darkness's Monsters", "tcg_name": "PaniK's monsters"}
 {"series_id": "poddo", "ja_base": null, "ja_kana": "ポッド", "ocg_name": "Pod", "tcg_name": "Jar"}
 {"series_id": "psychic_musician", "ja_base": null, "ja_kana": null, "ocg_name": "Psychic Musician", "tcg_name": null}
 {"series_id": "puraimu", "ja_base": null, "ja_kana": "プライム", "ocg_name": "Praime", "tcg_name": null}
@@ -261,7 +261,7 @@
 {"series_id": "ravu", "ja_base": null, "ja_kana": "ラヴ", "ocg_name": "Love", "tcg_name": "Lovely"}
 {"series_id": "rawanboukentai", "ja_base": "ラワン冒険隊", "ja_kana": "ラワンぼうけんたい", "ocg_name": "Lauan Adventurers", "tcg_name": null}
 {"series_id": "reametaru", "ja_base": null, "ja_kana": "レアメタル", "ocg_name": "Raremetal", "tcg_name": "Robo"}
-{"series_id": "recolored_counterpart", "ja_base": null, "ja_kana": null, "ocg_name": "Recolored counterpart", "tcg_name": null}
+{"series_id": "recolored_counterpart", "ja_base": null, "ja_kana": null, "ocg_name": "Recolored Counterpart", "tcg_name": null}
 {"series_id": "reidaazu", "ja_base": null, "ja_kana": "レイダーズ", "ocg_name": "Raider's", "tcg_name": null}
 {"series_id": "reijutsu", "ja_base": "霊術", "ja_kana": "れいじゅつ", "ocg_name": "Spirit Art", "tcg_name": "Spiritual Art"}
 {"series_id": "rejendo", "ja_base": null, "ja_kana": "レジェンド", "ocg_name": "Legend", "tcg_name": null}
@@ -356,7 +356,7 @@
 {"series_id": "youheibutai", "ja_base": "傭兵部隊", "ja_kana": "ようへいぶたい", "ocg_name": "Mercenary Force", "tcg_name": "Force"}
 {"series_id": "youkai_wooly", "ja_base": "羊界", "ja_kana": "ようかい", "ocg_name": "Sheep World", "tcg_name": "Wooly Wonderland"}
 {"series_id": "youkai_yokai", "ja_base": "妖怪", "ja_kana": "ようかい", "ocg_name": "Yokai", "tcg_name": null}
-{"series_id": "youkaishoujo", "ja_base": "妖怪少女", "ja_kana": "ようかいしょうじょ", "ocg_name": "Yo-kai Girl", "tcg_name": null}
+{"series_id": "youkaishoujo", "ja_base": "妖怪少女", "ja_kana": "ようかいしょうじょ", "ocg_name": "Yokai Girl", "tcg_name": null}
 {"series_id": "yuugoujuinseibutsu", "ja_base": "融合呪印生物", "ja_kana": "ゆうごうじゅいんせいぶつ", "ocg_name": "Fusion Seal Organism", "tcg_name": "Hex-Sealed Fusion"}
 {"series_id": "yuugunki", "ja_base": "湧軍機", "ja_kana": "ゆうぐんき", "ocg_name": "Molten Martial Machine", "tcg_name": null}
 {"series_id": "yuusha", "ja_base": "勇者", "ja_kana": "ゆうしゃ", "ocg_name": "Hero", "tcg_name": "Adventurer"}
@@ -364,6 +364,6 @@
 {"series_id": "zamurai", "ja_base": "侍", "ja_kana": "ざむらい", "ocg_name": "Samurai", "tcg_name": "Sasuke Samurai"}
 {"series_id": "zera_rush", "ja_base": null, "ja_kana": "ゼラ", "ocg_name": "Zera", "tcg_name": null}
 {"series_id": "zetsuboukyouma", "ja_base": "絶望狂魔", "ja_kana": "ぜつぼうきょうま", "ocg_name": "Mad Demon of Despair", "tcg_name": "Mad Fiend of Despair"}
-{"series_id": "zexal_shout", "ja_base": null, "ja_kana": null, "ocg_name": "ZEXAL shout", "tcg_name": null}
+{"series_id": "zexal_shout", "ja_base": null, "ja_kana": null, "ocg_name": "ZEXAL Shout", "tcg_name": null}
 {"series_id": "zokuseinokishi", "ja_base": "属性の騎士", "ja_kana": "ぞくせいのきし", "ocg_name": "Attribute Knight", "tcg_name": null}
 {"series_id": "zokuseinoseirei", "ja_base": "属性の精霊", "ja_kana": "ぞくせいのせいれい", "ocg_name": "Attribute Spirit", "tcg_name": null}
