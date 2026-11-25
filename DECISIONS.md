@@ -167,6 +167,39 @@ Authoritative log of resolved translation edge cases, naming precedents, and pol
 
 *(Append new batch-level rulings here using the template below.)*
 
+### DEC-018 — Stage 0a Batch 3 Archetype Rulings (`harukeshou`, `houkai`, `ikai`, `hisui`)
+- **Date:** 2026-11-25
+- **Status:** Active
+- **Scope:** `dump/archetypes.jsonl`, `dump/cards.jsonl` (`ocg_name`, `ocg_text`, `overriden_check`)
+- **Ruling:** Settle Stage 0a Batch 3 (`geeto_gaadian` → `janku`) Bucket B choices as follows:
+  - `harukeshou` (`春化精` / `はるけしょう`) → **`Vernalizer Fairy`** (replacing `Harukesho`; note `春化精` is `春化` + `精` fairy/spirit rather than `天使族` `Angel`).
+  - `ikai` (`異解△` / `イカイ`) → **`Ikai△`** (replacing `Ikai`, preserving the `△` symbol from `異解△`).
+  - `houkai` (`方界` / `ほうかい`) → **`Hokai`** (replacing `Direction World`; macronless Hepburn `ou` → `o` per `DEC-006`, including `Hokai Counter(s)` in `ocg_text`).
+  - `hisui` (`氷水` / `ヒスイ`) → keep **`Hisui`**.
+- **Rationale:** Captures user-approved English pun (`Vernalizer Fairy`), exact symbol fidelity (`Ikai△`), and `DEC-006` romanization (`Hokai`) over literal `Direction World`, while keeping `Hisui` per Tier 1 katakana ruby.
+- **Examples:**
+  - `春化精` (`はるけしょう`) → `Vernalizer Fairy` (`17418`: `Vernalizer Fairy of the Hills and Flourishes`)
+  - `異解△` (`イカイ`) → `Ikai△` (`23554`: `Ikai△ of Emptiness Gehenna`)
+  - `方界` (`ほうかい`) → `Hokai` (`12515`: `Hokai Seed - Vijam`, `Hokai Counter`)
+
+### DEC-019 — Stage 0a Batch 7 Archetype Ruling (`takemitsu`)
+- **Date:** 2026-11-25
+- **Status:** Active
+- **Scope:** `dump/archetypes.jsonl`, `dump/cards.jsonl` (`ocg_name`, `tcg_name`, `ocg_text`)
+- **Ruling:** Translate `takemitsu` (`竹光` / `たけみつ`) as **`Bamboo Sword`** (replacing `Takemitsu` and clearing `tcg_name` to `null`), cascading to all `6` member cards (`7225`, `7313`, `7635`, `11400`, `13282`, `17825`) and `5` `ocg_text` rows (`7313`, `7635`, `11400`, `13282`, `17825`), clearing `tcg_name` to `null` where `ocg_name` now matches (`7225`, `7635`, `11400`, `13282`).
+- **Rationale:** Per `DEC-017`, `竹光` is a common Japanese noun ("bamboo sword", explicitly contrasted with `真刀` "real blade" in `17825`), not a proper noun; `Bamboo Sword` matches TCG faithfully with zero false-positive collisions in `cards.jsonl`.
+- **Examples:**
+  - `竹光` (`たけみつ`) → `Bamboo Sword` (`7225`: `Broken Bamboo Sword`, `17825`: `True Blade Bamboo Sword`)
+
+### DEC-020 — Stage 0a Batch 8 Archetype Ruling (`zenmai`)
+- **Date:** 2026-11-25
+- **Status:** Active
+- **Scope:** `dump/archetypes.jsonl`, `dump/cards.jsonl` (`ocg_name`, `ocg_text`)
+- **Ruling:** Keep `zenmai` (`ゼンマイ` / `ゼンマイ`) as **`Zenmai`** across the archetype, all `21` member cards (`9630`–`13603`), and `19` `ocg_text` references rather than migrating to `Wind-Up`.
+- **Rationale:** Unlike kanji-written common nouns (`竹光` in `DEC-019`), the archetype key is written in katakana `ゼンマイ` rather than its usual kanji form (`発条`), and keeping `Zenmai` preserves the Japanese katakana identity and portmanteau naming (`Zenmaimai`, `Zenmai Armor Zenmaister`, etc.).
+- **Examples:**
+  - `ゼンマイ` (`ゼンマイ`) → `Zenmai` (`9630`: `Zenmai Soldier`, `9634`: `Zenmaimai`, `9659`: `Zenmai Armor Zenmaister`)
+
 <!--
 ### DEC-018 — <Short Descriptive Title>
 - **Date:** YYYY-MM-DD

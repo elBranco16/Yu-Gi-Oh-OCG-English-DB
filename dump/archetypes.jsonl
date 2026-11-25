@@ -199,7 +199,7 @@
 {"archetype_id": "hanekuriboo", "ja_base": null, "ja_kana": "ハネクリボー", "ocg_name": "Winged Kuriboh", "tcg_name": null}
 {"archetype_id": "haoukenryuu", "ja_base": "覇王眷竜", "ja_kana": "はおうけんりゅう", "ocg_name": "Supreme King Servant Dragon", "tcg_name": "Supreme King Dragon"}
 {"archetype_id": "haoumon", "ja_base": "覇王門", "ja_kana": "はおうもん", "ocg_name": "Supreme King Gate", "tcg_name": null}
-{"archetype_id": "harukeshou", "ja_base": "春化精", "ja_kana": "はるけしょう", "ocg_name": "Harukesho", "tcg_name": "Vernusylph"}
+{"archetype_id": "harukeshou", "ja_base": "春化精", "ja_kana": "はるけしょう", "ocg_name": "Vernalizer Fairy", "tcg_name": "Vernusylph"}
 {"archetype_id": "hebii_metaru", "ja_base": null, "ja_kana": "ヘビー・メタル", "ocg_name": "Heavy Metal", "tcg_name": null}
 {"archetype_id": "heizu", "ja_base": null, "ja_kana": "ヘイズ", "ocg_name": "Haze", "tcg_name": "Hazy"}
 {"archetype_id": "heizubiisuto", "ja_base": "陽炎獣", "ja_kana": "ヘイズビースト", "ocg_name": "Haze Beast", "tcg_name": "Hazy Flame"}
@@ -218,7 +218,7 @@
 {"archetype_id": "horusunokokuenryuu", "ja_base": "ホルスの黒炎竜", "ja_kana": "ホルスのこくえんりゅう", "ocg_name": "Horus the Black Flame Dragon", "tcg_name": null}
 {"archetype_id": "hougyoku", "ja_base": "宝玉", "ja_kana": "ほうぎょく", "ocg_name": "Jewel", "tcg_name": "Crystal"}
 {"archetype_id": "hougyokujuu", "ja_base": "宝玉獣", "ja_kana": "ほうぎょくじゅう", "ocg_name": "Jewel Beast", "tcg_name": "Crystal Beast"}
-{"archetype_id": "houkai", "ja_base": "方界", "ja_kana": "ほうかい", "ocg_name": "Direction World", "tcg_name": "Cubic"}
+{"archetype_id": "houkai", "ja_base": "方界", "ja_kana": "ほうかい", "ocg_name": "Hokai", "tcg_name": "Cubic"}
 {"archetype_id": "howaito_oora", "ja_base": null, "ja_kana": "ホワイト・オーラ", "ocg_name": "White Aura", "tcg_name": null}
 {"archetype_id": "howaitonaitsu_knight", "ja_base": null, "ja_kana": "ホワイトナイツ", "ocg_name": "White Knights", "tcg_name": "White Knight"}
 {"archetype_id": "howaitonaitsu_night", "ja_base": null, "ja_kana": "ホワイトナイツ", "ocg_name": "White Nights", "tcg_name": "White Night"}
@@ -230,7 +230,7 @@
 {"archetype_id": "igunaito", "ja_base": null, "ja_kana": "イグナイト", "ocg_name": "Igknight", "tcg_name": null}
 {"archetype_id": "iibiruhiiroo", "ja_base": "Ｅ－ＨＥＲＯ", "ja_kana": "イービルヒーロー", "ocg_name": "Evil HERO", "tcg_name": null}
 {"archetype_id": "iisaruwepon", "ja_base": null, "ja_kana": "イーサルウェポン", "ocg_name": "Etherweapon", "tcg_name": "Aether"}
-{"archetype_id": "ikai", "ja_base": "異解△", "ja_kana": "イカイ", "ocg_name": "Ikai", "tcg_name": "Trirealm Rift"}
+{"archetype_id": "ikai", "ja_base": "異解△", "ja_kana": "イカイ", "ocg_name": "Ikai△", "tcg_name": "Trirealm Rift"}
 {"archetype_id": "inferuniti", "ja_base": null, "ja_kana": "インフェルニティ", "ocg_name": "Infernity", "tcg_name": null}
 {"archetype_id": "inferunoido", "ja_base": null, "ja_kana": "インフェルノイド", "ocg_name": "Infernoid", "tcg_name": null}
 {"archetype_id": "infiniti", "ja_base": "∞", "ja_kana": "インフィニティ", "ocg_name": "∞", "tcg_name": null}
@@ -354,7 +354,7 @@
 {"archetype_id": "mikaiiki", "ja_base": "未界域", "ja_kana": "みかいいき", "ocg_name": "Lands Unknown", "tcg_name": "Danger!"}
 {"archetype_id": "mikanko", "ja_base": "御巫", "ja_kana": "みかんこ", "ocg_name": "Mikanko", "tcg_name": null}
 {"archetype_id": "mimiguru", "ja_base": null, "ja_kana": "ミミグル", "ocg_name": "Mimigul", "tcg_name": "Mimighoul"}
-{"archetype_id": "miraiouhoopu", "ja_base": "未来皇ホープ", "ja_kana": "みらいおうホープ", "ocg_name": "Future King Hope", "tcg_name": "Utopic Future"}
+{"archetype_id": "miraiouhoopu", "ja_base": "未来皇ホープ", "ja_kana": "みらいおうホープ", "ocg_name": "Future King, Hope", "tcg_name": "Utopic Future"}
 {"archetype_id": "misuto_baree", "ja_base": "霞の谷", "ja_kana": "ミスト・バレー", "ocg_name": "Mist Valley", "tcg_name": null}
 {"archetype_id": "mitsurugi", "ja_base": "巳剣", "ja_kana": "ミツルギ", "ocg_name": "Mitsurugi", "tcg_name": null}
 {"archetype_id": "mokemoke", "ja_base": null, "ja_kana": "もけもけ", "ocg_name": "Moke Moke", "tcg_name": "Mokey Mokey"}
@@ -407,7 +407,7 @@
 {"archetype_id": "puredetaa", "ja_base": null, "ja_kana": "プレデター", "ocg_name": "Predator", "tcg_name": "Predap"}
 {"archetype_id": "puredetaa_purantsu", "ja_base": "捕食植物", "ja_kana": "プレデター・プランツ", "ocg_name": "Predator Plants", "tcg_name": "Predaplant"}
 {"archetype_id": "pyuarii", "ja_base": null, "ja_kana": "ピュアリィ", "ocg_name": "purrely", "tcg_name": "Purrely"}
-{"archetype_id": "raanoyokushinryuu", "ja_base": "ラーの翼神竜", "ja_kana": "ラーのよくしんりゅう", "ocg_name": "The Winged Divine Dragon of Ra", "tcg_name": "The Winged Dragon of Ra"}
+{"archetype_id": "raanoyokushinryuu", "ja_base": "ラーの翼神竜", "ja_kana": "ラーのよくしんりゅう", "ocg_name": "Winged God-Dragon of Ra", "tcg_name": "The Winged Dragon of Ra"}
 {"archetype_id": "rabirinsu_wooru", "ja_base": null, "ja_kana": "ラビリンス・ウォール", "ocg_name": "Labyrinth Wall", "tcg_name": null}
 {"archetype_id": "rabyurinsu", "ja_base": null, "ja_kana": "ラビュリンス", "ocg_name": "Labrynth", "tcg_name": null}
 {"archetype_id": "raibutsuin", "ja_base": null, "ja_kana": "ライブツイン", "ocg_name": "Live☆Twin", "tcg_name": null}
@@ -553,7 +553,7 @@
 {"archetype_id": "suterusu_kuraagen", "ja_base": null, "ja_kana": "ステルス・クラーゲン", "ocg_name": "Stealth Kragen", "tcg_name": null}
 {"archetype_id": "suupaadifensurobo", "ja_base": "ＳＤロボ", "ja_kana": "スーパーディフェンスロボ", "ocg_name": "Super Defense Robo", "tcg_name": "Super Defense Robot"}
 {"archetype_id": "taiyoushin", "ja_base": "太陽神", "ja_kana": "たいようしん", "ocg_name": "Sun God", "tcg_name": null}
-{"archetype_id": "takemitsu", "ja_base": "竹光", "ja_kana": "たけみつ", "ocg_name": "Takemitsu", "tcg_name": "Bamboo Sword"}
+{"archetype_id": "takemitsu", "ja_base": "竹光", "ja_kana": "たけみつ", "ocg_name": "Bamboo Sword", "tcg_name": null}
 {"archetype_id": "takion", "ja_base": null, "ja_kana": "タキオン", "ocg_name": "Tachyon", "tcg_name": null}
 {"archetype_id": "teiou", "ja_base": "帝王", "ja_kana": "ていおう", "ocg_name": "High Emperor", "tcg_name": "Monarch"}
 {"archetype_id": "tekkujiinasu", "ja_base": "ＴＧ", "ja_kana": "テックジーナス", "ocg_name": "Tech Genus", "tcg_name": "T.G."}
