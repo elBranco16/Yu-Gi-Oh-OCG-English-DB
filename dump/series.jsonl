@@ -273,9 +273,9 @@
 {"series_id": "roiyarudemonzu", "ja_base": null, "ja_kana": "ロイヤルデモンズ", "ocg_name": "Royal Demon's", "tcg_name": "Royal Rebel's"}
 {"series_id": "roodo_majikku", "ja_base": null, "ja_kana": "ロード・マジック", "ocg_name": "Road Magic", "tcg_name": null}
 {"series_id": "rosutoriimu", "ja_base": "雲海竜", "ja_kana": "ロストリーム", "ocg_name": "Lostream", "tcg_name": null}
-{"series_id": "ryuukishigaia", "ja_base": "竜騎士ガイア", "ja_kana": "りゅうきしガイア", "ocg_name": "Dragon Knight - Gaia", "tcg_name": "Gaia the Dragon Champion"}
+{"series_id": "ryuukishigaia", "ja_base": "竜騎士ガイア", "ja_kana": "りゅうきしガイア", "ocg_name": "Dragon Knight Gaia", "tcg_name": "Gaia the Dragon Champion"}
 {"series_id": "ryuunoninja", "ja_base": "竜の忍者", "ja_kana": "りゅうのにんじゃ", "ocg_name": "Dragon Ninja", "tcg_name": null}
-{"series_id": "ryuutoatorantisu", "ja_base": "竜都アトランティス", "ja_kana": "りゅうとアトランティス", "ocg_name": "Dragon City - Atlantis", "tcg_name": "Atlantis, City of the Sea Dragon"}
+{"series_id": "ryuutoatorantisu", "ja_base": "竜都アトランティス", "ja_kana": "りゅうとアトランティス", "ocg_name": "Dragon City Atlantis", "tcg_name": "Atlantis, City of the Sea Dragon"}
 {"series_id": "saibaa_doragon_rush", "ja_base": null, "ja_kana": "サイバー・ドラゴン", "ocg_name": "Cyber Dragon (Rush Duel series)", "tcg_name": null}
 {"series_id": "saibaa_gaaru", "ja_base": null, "ja_kana": "サイバー・ガール", "ocg_name": "Cyber Girl", "tcg_name": null}
 {"series_id": "saibaasupaisu", "ja_base": null, "ja_kana": "サイバースパイス", "ocg_name": "Cybersepice", "tcg_name": null}

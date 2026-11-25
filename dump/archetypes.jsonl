@@ -16,7 +16,7 @@
 {"archetype_id": "amorufaaji", "ja_base": null, "ja_kana": "アモルファージ", "ocg_name": "Amorphage", "tcg_name": null}
 {"archetype_id": "anburaru", "ja_base": null, "ja_kana": "アンブラル", "ocg_name": "Umbral", "tcg_name": "Umbral Horror"}
 {"archetype_id": "ankokukai", "ja_base": "暗黒界", "ja_kana": "あんこくかい", "ocg_name": "Dark World", "tcg_name": null}
-{"archetype_id": "ankokukishigaia", "ja_base": "暗黒騎士ガイア", "ja_kana": "あんこくきしガイア", "ocg_name": "Dark Knight - Gaia", "tcg_name": "Gaia The Fierce Knight"}
+{"archetype_id": "ankokukishigaia", "ja_base": "暗黒騎士ガイア", "ja_kana": "あんこくきしガイア", "ocg_name": "Dark Knight Gaia", "tcg_name": "Gaia The Fierce Knight"}
 {"archetype_id": "antiiku_gia", "ja_base": null, "ja_kana": "アンティーク・ギア", "ocg_name": "Antique Gear", "tcg_name": "Ancient Gear"}
 {"archetype_id": "aoinamida", "ja_base": "青い涙", "ja_kana": "あおいなみだ", "ocg_name": "Blue Tears", "tcg_name": null}
 {"archetype_id": "apokurifooto", "ja_base": null, "ja_kana": "アポクリフォート", "ocg_name": "Apoqliphort", "tcg_name": null}
@@ -273,7 +273,7 @@
 {"archetype_id": "keenain", "ja_base": "Ｋ９", "ja_kana": "ケーナイン", "ocg_name": "K9", "tcg_name": null}
 {"archetype_id": "keiyakusho", "ja_base": "契約書", "ja_kana": "けいやくしょ", "ocg_name": "Contract Document", "tcg_name": "Dark Contract"}
 {"archetype_id": "kenran", "ja_base": "絢嵐", "ja_kana": "けんらん", "ocg_name": "Radiant Typhoon", "tcg_name": null}
-{"archetype_id": "kibououhoopu", "ja_base": "希望皇ホープ", "ja_kana": "きぼうおうホープ", "ocg_name": "King of Wishes - Hope", "tcg_name": "Utopia"}
+{"archetype_id": "kibououhoopu", "ja_base": "希望皇ホープ", "ja_kana": "きぼうおうホープ", "ocg_name": "King of Wishes, Hope", "tcg_name": "Utopia"}
 {"archetype_id": "kikai", "ja_base": "機塊", "ja_kana": "きかい", "ocg_name": "Appliancer", "tcg_name": null}
 {"archetype_id": "kikaitenshi", "ja_base": "機械天使", "ja_kana": "きかいてんし", "ocg_name": "Machine Angel", "tcg_name": null}
 {"archetype_id": "kikou", "ja_base": "機皇", "ja_kana": "きこう", "ocg_name": "Machine Imperial", "tcg_name": "Meklord"}
@@ -354,7 +354,7 @@
 {"archetype_id": "mikaiiki", "ja_base": "未界域", "ja_kana": "みかいいき", "ocg_name": "Lands Unknown", "tcg_name": "Danger!"}
 {"archetype_id": "mikanko", "ja_base": "御巫", "ja_kana": "みかんこ", "ocg_name": "Mikanko", "tcg_name": null}
 {"archetype_id": "mimiguru", "ja_base": null, "ja_kana": "ミミグル", "ocg_name": "Mimigul", "tcg_name": "Mimighoul"}
-{"archetype_id": "miraiouhoopu", "ja_base": "未来皇ホープ", "ja_kana": "みらいおうホープ", "ocg_name": "Future King - Hope", "tcg_name": "Utopic Future"}
+{"archetype_id": "miraiouhoopu", "ja_base": "未来皇ホープ", "ja_kana": "みらいおうホープ", "ocg_name": "Future King Hope", "tcg_name": "Utopic Future"}
 {"archetype_id": "misuto_baree", "ja_base": "霞の谷", "ja_kana": "ミスト・バレー", "ocg_name": "Mist Valley", "tcg_name": null}
 {"archetype_id": "mitsurugi", "ja_base": "巳剣", "ja_kana": "ミツルギ", "ocg_name": "Mitsurugi", "tcg_name": null}
 {"archetype_id": "mokemoke", "ja_base": null, "ja_kana": "もけもけ", "ocg_name": "Moke Moke", "tcg_name": "Mokey Mokey"}
