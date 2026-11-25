@@ -96,7 +96,7 @@
 {"archetype_id": "cyber_dragon", "ja_base": null, "ja_kana": "サイバー・ドラゴン", "ocg_name": "Cyber Dragon", "tcg_name": null}
 {"archetype_id": "cyberdark", "ja_base": null, "ja_kana": "サイバー・ダーク", "ocg_name": "Cyber Dark", "tcg_name": "Cyberdark"}
 {"archetype_id": "cyberdark_spell_trap", "ja_base": null, "ja_kana": "サイバーダーク", "ocg_name": "Cyberdark", "tcg_name": null}
-{"archetype_id": "cybernetic", "ja_base": null, "ja_kana": "サイバネティック", "ocg_name": "Cybanetic", "tcg_name": "Cybernetic"}
+{"archetype_id": "cybernetic", "ja_base": null, "ja_kana": "サイバネティック", "ocg_name": "Cibernetic", "tcg_name": "Cybernetic"}
 {"archetype_id": "cynet", "ja_base": null, "ja_kana": "サイバネット", "ocg_name": "Cybenet", "tcg_name": "Cynet"}
 {"archetype_id": "d_d", "ja_base": "ＤＤ", "ja_kana": "ディーディー", "ocg_name": "DD", "tcg_name": "D/D"}
 {"archetype_id": "d_d_d", "ja_base": "ＤＤＤ", "ja_kana": "ディーディーディー", "ocg_name": "DDD", "tcg_name": "D/D/D"}
@@ -602,7 +602,7 @@
 {"archetype_id": "x_saber", "ja_base": "Ｘ－セイバー", "ja_kana": "エックス－セイバー", "ocg_name": "X-Saber", "tcg_name": null}
 {"archetype_id": "xyz", "ja_base": null, "ja_kana": "エクシーズ", "ocg_name": "Xyz", "tcg_name": null}
 {"archetype_id": "xyz_dragon", "ja_base": null, "ja_kana": "エクシーズ・ドラゴン", "ocg_name": "Xyz Dragon", "tcg_name": null}
-{"archetype_id": "yang_zing", "ja_base": "竜星", "ja_kana": "りゅうせい", "ocg_name": "Dragon Star", "tcg_name": "Yang Zing"}
+{"archetype_id": "yang_zing", "ja_base": "竜星", "ja_kana": "りゅうせい", "ocg_name": "Long Xing", "tcg_name": "Yang Zing"}
 {"archetype_id": "yosenju", "ja_base": "妖仙獣", "ja_kana": "ようせんじゅう", "ocg_name": "yosenju", "tcg_name": "Yosenju"}
 {"archetype_id": "yubel", "ja_base": null, "ja_kana": "ユベル", "ocg_name": "Yubel", "tcg_name": null}
 {"archetype_id": "yummy", "ja_base": null, "ja_kana": "ヤミー", "ocg_name": "Yummy", "tcg_name": null}

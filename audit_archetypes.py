@@ -50,6 +50,23 @@ def ja_matches(arch: dict[str, Any], card: dict[str, Any]) -> bool:
     return (ja_a in (card.get("ja_base") or "")) or (ja_a in (card.get("ja_kana") or ""))
 
 
+def has_rule_exclusion(arch_name: str, ocg_text: str | None) -> bool:
+    """Return True if `ocg_text` explicitly excludes this card from `arch_name`."""
+    if not ocg_text or not arch_name:
+        return False
+    cands = [arch_name]
+    if arch_name[0].islower():
+        cands.append(arch_name[0].upper() + arch_name[1:])
+    alts = "|".join(re.escape(c) for c in cands)
+    pat = (
+        rf'\(This card is not treated as an? '
+        rf'(?:"[^"]+"(?:,\s*|\s+(?:or|and)\s+))*'
+        rf'"(?:{alts})"'
+        rf'(?:\s+(?:or|and)\s+"[^"]+")*\s+card\.\)'
+    )
+    return bool(re.search(pat, ocg_text))
+
+
 def match_archetype(arch_name: str, card_name: str, archetype_id: str | None = None) -> bool:
     """
     Canonical Smart First-Letter Case-Sensitive Rule:
@@ -97,6 +114,7 @@ def run_audit(
     # 1. False positives & 2. False negatives across all archetypes
     all_fps_by_arch: dict[str, list[dict[str, Any]]] = {}
     all_fns_by_arch: dict[str, list[dict[str, Any]]] = {}
+    rule_excluded_pairs = 0
     for a in archetypes:
         aid = a["archetype_id"]
         aname = a["ocg_name"]
@@ -112,6 +130,9 @@ def run_audit(
             if c["id"] in mems or c["id"] in allowed_inner_mems:
                 continue
             if match_archetype(aname, c["ocg_name"], aid):
+                if has_rule_exclusion(aname, c.get("ocg_text")):
+                    rule_excluded_pairs += 1
+                    continue
                 fps.append(
                     {
                         "id": c["id"],
@@ -296,6 +317,7 @@ def run_audit(
             "arch_overlap_pairs": len(arch_overlaps),
             "mixed_case_candidates": len(mixed_case),
             "mixed_case_zero_extra_fp": sum(1 for m in mixed_case if m["extra_fp_count"] == 0),
+            "rule_excluded_pairs": rule_excluded_pairs,
             "strict_violations": strict_violations,
         },
         "false_positives": fps_report,
@@ -318,6 +340,8 @@ def format_summary(report: dict[str, Any], category: str) -> str:
         f"Arch Overlaps   : {c['arch_overlap_pairs']} non-sub-archetype A-in-B pairs",
         f"Mixed-Case Cands: {c['mixed_case_candidates']} archetypes ({c['mixed_case_zero_extra_fp']} with 0 extra FPs)",
     ]
+    if c.get("rule_excluded_pairs"):
+        lines.append(f"Rule Exclusions : {c['rule_excluded_pairs']} pairs excluded via ocg_text")
 
     if category in ("fp", "all") and report["false_positives"]:
         lines.append("\n--- Top False Positives ---")

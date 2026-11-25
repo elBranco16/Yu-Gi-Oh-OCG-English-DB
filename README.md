@@ -129,6 +129,7 @@ Validates bidirectional archetype exclusivity across Master-format `cards.jsonl`
 - Exact case-sensitive substring matching by default (`"HERO"` ≠ `"Hero"`, `"Xyz"` ≠ `"XYZ"`).
 - Lowercase-initial archetype names (e.g., `"roid"`, `"tellarknight"`, `"verz"`) match both lowercase and capitalized first letters (`[Rr]oid`, `[Tt]ellarknight`, `[Vv]erz`).
 - Turned-A (`Ɐ`, U+2C6F) normalizes to `A` for `attraction`, and wildcard numeric archetypes (`number_10x`, `number_c10x`) match `101`–`107`.
+- Explicit rule-text exclusions (`(This card is not treated as a "<arch>" card.)` in `ocg_text`) are honored automatically so excluded false positives are not flagged as violations.
 
 ```bash
 python audit_archetypes.py --format summary
