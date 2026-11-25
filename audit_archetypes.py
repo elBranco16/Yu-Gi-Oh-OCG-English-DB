@@ -58,11 +58,12 @@ def has_rule_exclusion(arch_name: str, ocg_text: str | None) -> bool:
     if arch_name[0].islower():
         cands.append(arch_name[0].upper() + arch_name[1:])
     alts = "|".join(re.escape(c) for c in cands)
+    sep = r"(?:,\s*(?:or|and)\s+|,\s*|\s+(?:or|and)\s+)"
     pat = (
         rf'\(This card is not treated as an? '
-        rf'(?:"[^"]+"(?:,\s*|\s+(?:or|and)\s+))*'
+        rf'(?:"[^"]+"{sep})*'
         rf'"(?:{alts})"'
-        rf'(?:\s+(?:or|and)\s+"[^"]+")*\s+card\.\)'
+        rf'(?:{sep}"[^"]+")*\s+card\.\)'
     )
     return bool(re.search(pat, ocg_text))
 

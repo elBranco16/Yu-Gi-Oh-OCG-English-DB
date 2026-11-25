@@ -1,3 +1,4 @@
 *.sql text eol=lf
 *.jsonl text eol=lf
 *.py text eol=lf
+*.md text eol=lf

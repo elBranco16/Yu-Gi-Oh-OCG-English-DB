@@ -5,11 +5,13 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import html
 import json
 import os
 import re
 import sqlite3
+import subprocess
 import sys
 import tempfile
 import time
@@ -40,6 +42,39 @@ CARD_COLUMNS = (
     "ocg_text",
     "overriden_check",
 )
+
+TABLE_PKS: dict[str, tuple[str, ...]] = {
+    "archetypes": ("archetype_id",),
+    "series": ("series_id",),
+    "cards": ("id",),
+    "rush_cards": ("id",),
+    "gba_cards": ("id",),
+    "characters": ("character_id",),
+    "terms": ("term_id",),
+    "card_archetypes": ("card_id", "archetype_id"),
+    "card_series": ("card_id", "series_id"),
+    "rush_card_series": ("card_id", "series_id"),
+}
+
+ENTITY_REQUIRED_STR_COLS: dict[str, tuple[str, ...]] = {
+    "archetypes": ("archetype_id", "ocg_name"),
+    "series": ("series_id", "ocg_name"),
+    "cards": ("ocg_name",),
+    "rush_cards": ("ocg_name",),
+    "gba_cards": ("ocg_name",),
+    "characters": ("character_id", "series", "ocg_name"),
+    "terms": ("term_id", "category", "ocg_name"),
+}
+
+TRIMMED_NULLABLE_COLS: dict[str, tuple[str, ...]] = {
+    "archetypes": ("ja_base", "ja_kana", "tcg_name"),
+    "series": ("ja_base", "ja_kana", "tcg_name"),
+    "cards": ("ja_base", "ja_kana", "tcg_name", "en_legacy_names"),
+    "rush_cards": ("ja_base", "ja_kana", "tcg_name", "en_legacy_names"),
+    "gba_cards": ("ja_base", "ja_kana", "tcg_name", "en_legacy_names"),
+    "characters": ("ja_base", "ja_kana", "tcg_dub_name"),
+    "terms": ("ja_base", "ja_kana", "tcg_en", "en_legacy_terms"),
+}
 
 BAD_TITLE_CHARS_RE = re.compile(r"[#\[\]{}|]")
 REF_BLOCK_RE = re.compile(r"<ref[^>]*>.*?</ref>", re.DOTALL | re.IGNORECASE)
@@ -191,15 +226,283 @@ def _build_db(target_db: Path, verbose: bool = True, dump_dir: Path = DUMP_DIR) 
         con.close()
 
 
-def import_db(db_path: Path) -> None:
+def compare_db_with_dump(db_path: Path, dump_dir: Path = DUMP_DIR) -> dict[str, Any]:
+    """Compare local SQLite table contents against dump/*.jsonl using deterministic SHA-256 hashes."""
+    if not db_path.exists():
+        return {"exists": False, "matches": False, "tables": [], "total_db_rows": 0, "total_dump_rows": 0}
+
+    mismatches: list[dict[str, Any]] = []
+    total_db_rows = 0
+    total_dump_rows = 0
+    con = sqlite3.connect(db_path)
+    try:
+        con.execute("PRAGMA wal_checkpoint(PASSIVE)")
+        db_tables = {
+            r[0]
+            for r in con.execute(
+                "SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'"
+            )
+        }
+        dump_files = {p.stem: p for p in sorted(dump_dir.glob("*.jsonl"))}
+        all_names = sorted(db_tables | set(dump_files))
+
+        for table in all_names:
+            dump_path = dump_files.get(table)
+            dump_hash = ""
+            dump_rows = 0
+            if dump_path and dump_path.exists():
+                h_dump = hashlib.sha256()
+                with dump_path.open("r", encoding="utf-8") as f:
+                    for line in f:
+                        stripped = line.strip()
+                        if not stripped:
+                            continue
+                        h_dump.update((stripped + "\n").encode("utf-8"))
+                        dump_rows += 1
+                dump_hash = h_dump.hexdigest()
+            total_dump_rows += dump_rows
+
+            db_hash = ""
+            db_rows = 0
+            if table in db_tables:
+                cols = [r[1] for r in con.execute(f'PRAGMA table_info("{table}")')]
+                pks = get_pk_columns(con, table)
+                order_by = ", ".join(f'"{c}"' for c in pks) if pks else "rowid"
+                h_db = hashlib.sha256()
+                for row in con.execute(f'SELECT * FROM "{table}" ORDER BY {order_by}'):
+                    obj = dict(zip(cols, row))
+                    h_db.update((json.dumps(obj, ensure_ascii=False) + "\n").encode("utf-8"))
+                    db_rows += 1
+                db_hash = h_db.hexdigest()
+            total_db_rows += db_rows
+
+            if table not in db_tables:
+                status = "missing_in_db"
+            elif table not in dump_files:
+                status = "extra_in_db"
+            elif db_hash != dump_hash or db_rows != dump_rows:
+                status = "modified"
+            else:
+                status = "match"
+
+            if status != "match":
+                mismatches.append(
+                    {
+                        "table": table,
+                        "status": status,
+                        "db_rows": db_rows,
+                        "dump_rows": dump_rows,
+                    }
+                )
+
+        return {
+            "exists": True,
+            "matches": len(mismatches) == 0,
+            "tables": mismatches,
+            "total_db_rows": total_db_rows,
+            "total_dump_rows": total_dump_rows,
+        }
+    finally:
+        con.close()
+
+
+def import_db(db_path: Path, dump_dir: Path = DUMP_DIR, force: bool = False) -> None:
+    if db_path.exists() and not force:
+        cmp_info = compare_db_with_dump(db_path, dump_dir=dump_dir)
+        if not cmp_info["matches"]:
+            details = ", ".join(
+                f"{m['table']} ({m['status']}: db={m['db_rows']:,}, dump={m['dump_rows']:,})"
+                for m in cmp_info["tables"]
+            )
+            sys.exit(
+                f"Aborting import: {db_path.name} differs from {dump_dir.name}/ ({details}).\n"
+                "  - To preserve local DB/Studio edits, run: python sync_db.py export\n"
+                "  - To overwrite the local DB from dump/, run: python sync_db.py import --force"
+            )
+
     tmp_db = db_path.with_name(db_path.name + ".tmp")
-    total_rows = _build_db(tmp_db, verbose=True)
+    total_rows = _build_db(tmp_db, verbose=True, dump_dir=dump_dir)
     try:
         os.replace(tmp_db, db_path)
     except PermissionError:
         tmp_db.unlink(missing_ok=True)
         sys.exit(f"Error: {db_path.name} is open in another program. Close your SQLite editor and re-run.")
     print(f"Done: rebuilt {db_path.name} ({total_rows:,} total rows) with 0 FK/integrity errors.")
+
+
+def _pk_label(table: str, row: dict[str, Any]) -> str:
+    pks = TABLE_PKS.get(table)
+    if pks:
+        return "|".join(str(row.get(k)) for k in pks)
+    first_key = next(iter(row), "?")
+    return str(row.get(first_key))
+
+
+def check_invariants(dump_dir: Path = DUMP_DIR) -> list[str]:
+    """Validate project data invariants across dump/*.jsonl tables."""
+    violations: list[str] = []
+
+    for jsonl_path in sorted(dump_dir.glob("*.jsonl")):
+        table = jsonl_path.stem
+        rows = load_jsonl(jsonl_path)
+        seen_names: dict[str, str] = {}
+
+        for row in rows:
+            pk = _pk_label(table, row)
+
+            for col in ENTITY_REQUIRED_STR_COLS.get(table, ()):
+                val = row.get(col)
+                if not isinstance(val, str) or not val.strip() or val != val.strip():
+                    violations.append(f"{table}[{pk}].{col}: must be a non-empty trimmed string (got {val!r})")
+
+            for col in TRIMMED_NULLABLE_COLS.get(table, ()):
+                val = row.get(col)
+                if val is not None and (not isinstance(val, str) or not val.strip() or val != val.strip()):
+                    violations.append(f"{table}[{pk}].{col}: must be null or a non-empty trimmed string (got {val!r})")
+
+            if table in DEFAULT_CARD_TABLES:
+                ocg = row.get("ocg_name")
+                if isinstance(ocg, str):
+                    if ocg in seen_names:
+                        violations.append(
+                            f"{table}[{pk}].ocg_name: duplicate ocg_name {ocg!r} (already on {seen_names[ocg]})"
+                        )
+                    else:
+                        seen_names[ocg] = pk
+
+                flag = row.get("overriden_check")
+                if isinstance(flag, bool) or flag not in (0, 1):
+                    violations.append(f"{table}[{pk}].overriden_check: must be 0 or 1 (got {flag!r})")
+
+            if table == "card_archetypes":
+                flag = row.get("is_rule_override")
+                if isinstance(flag, bool) or flag not in (0, 1):
+                    violations.append(f"{table}[{pk}].is_rule_override: must be 0 or 1 (got {flag!r})")
+
+            if "ja_base" in row and "ja_kana" in row:
+                ja_base = row.get("ja_base")
+                ja_kana = row.get("ja_kana")
+                if ja_base is not None and ja_kana is not None and ja_base == ja_kana:
+                    violations.append(f"{table}[{pk}]: ja_base equals ja_kana ({ja_base!r}); set ja_base to null")
+
+            ocg_name = row.get("ocg_name")
+            if "tcg_name" in row:
+                tcg_name = row.get("tcg_name")
+                if tcg_name is not None and tcg_name == ocg_name:
+                    violations.append(f"{table}[{pk}]: tcg_name equals ocg_name ({tcg_name!r}); set tcg_name to null")
+
+            if "tcg_dub_name" in row:
+                tcg_dub = row.get("tcg_dub_name")
+                if tcg_dub is not None and tcg_dub == ocg_name:
+                    violations.append(
+                        f"{table}[{pk}]: tcg_dub_name equals ocg_name ({tcg_dub!r}); set tcg_dub_name to null"
+                    )
+
+            for list_col in ("en_legacy_names", "en_legacy_terms"):
+                if list_col in row and row.get(list_col) is not None:
+                    raw = row[list_col]
+                    if isinstance(raw, str):
+                        parts = [p.strip() for p in raw.split(";")]
+                        if any(not p for p in parts) or raw != "; ".join(parts):
+                            violations.append(
+                                f"{table}[{pk}].{list_col}: must be clean '; '-separated non-empty items (got {raw!r})"
+                            )
+
+    return violations
+
+
+def _parse_jsonl_text(text: str) -> list[dict[str, Any]]:
+    return [json.loads(line) for line in text.splitlines() if line.strip()]
+
+
+def diff_dump_ids(
+    dump_dir: Path = DUMP_DIR,
+    base_ref: str = "HEAD",
+    repo_root: Path = ROOT,
+) -> dict[str, Any]:
+    """Compare dump/*.jsonl primary keys in the working tree against a Git ref (default: HEAD)."""
+    dump_abs = dump_dir.resolve()
+    root_abs = repo_root.resolve()
+    try:
+        rel_dump = dump_abs.relative_to(root_abs).as_posix()
+    except ValueError as exc:
+        raise RuntimeError(f"{dump_abs} is not inside repository root {root_abs}") from exc
+
+    def _run_git(*args: str, check: bool = True) -> subprocess.CompletedProcess[str]:
+        return subprocess.run(
+            ["git", *args],
+            cwd=str(root_abs),
+            check=check,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+        )
+
+    diff_res = _run_git("diff", "--name-only", base_ref, "--", rel_dump)
+    untracked_res = _run_git("ls-files", "--others", "--exclude-standard", "--", rel_dump)
+
+    changed_rel_paths = sorted(
+        {
+            p.strip()
+            for p in (diff_res.stdout.splitlines() + untracked_res.stdout.splitlines())
+            if p.strip().endswith(".jsonl")
+        }
+    )
+
+    tables_out: dict[str, dict[str, Any]] = {}
+    total_added = 0
+    total_modified = 0
+    total_deleted = 0
+
+    for rel_path in changed_rel_paths:
+        table = Path(rel_path).stem
+        disk_path = root_abs / rel_path
+
+        show_res = _run_git("show", f"{base_ref}:{rel_path}", check=False)
+        before_rows = _parse_jsonl_text(show_res.stdout) if show_res.returncode == 0 else []
+        after_rows = load_jsonl(disk_path) if disk_path.exists() else []
+
+        before_map = {_pk_label(table, r): r for r in before_rows}
+        after_map = {_pk_label(table, r): r for r in after_rows}
+
+        def _sort_key(pk_str: str) -> tuple[int, Any]:
+            if pk_str.isdigit():
+                return (0, int(pk_str))
+            return (1, pk_str)
+
+        added = sorted((k for k in after_map if k not in before_map), key=_sort_key)
+        deleted = sorted((k for k in before_map if k not in after_map), key=_sort_key)
+        modified: list[dict[str, Any]] = []
+        for k in sorted((k for k in after_map if k in before_map), key=_sort_key):
+            if after_map[k] != before_map[k]:
+                changed_cols = sorted(
+                    col
+                    for col in (set(before_map[k]) | set(after_map[k]))
+                    if before_map[k].get(col) != after_map[k].get(col)
+                )
+                modified.append({"id": k, "fields": changed_cols})
+
+        if added or modified or deleted:
+            tables_out[table] = {
+                "added": added,
+                "modified": modified,
+                "deleted": deleted,
+            }
+            total_added += len(added)
+            total_modified += len(modified)
+            total_deleted += len(deleted)
+
+    return {
+        "base_ref": base_ref,
+        "dump_dir": rel_dump,
+        "summary": {
+            "tables_changed": len(tables_out),
+            "added": total_added,
+            "modified": total_modified,
+            "deleted": total_deleted,
+        },
+        "tables": tables_out,
+    }
 
 
 def load_jsonl(path: Path) -> list[dict[str, Any]]:
@@ -891,21 +1194,69 @@ def check_dump(
     with tempfile.TemporaryDirectory() as tmpdir:
         tmp_db = Path(tmpdir) / "check.db"
         total_rows = _build_db(tmp_db, verbose=True, dump_dir=dump_dir)
-    print(f"OK: {dump_dir.name}/ validated cleanly ({total_rows:,} total rows, 0 JSON/FK/integrity errors).")
+
+    invariant_errors = check_invariants(dump_dir=dump_dir)
+    if invariant_errors:
+        preview = "\n".join(f"  - {err}" for err in invariant_errors[:50])
+        more = (
+            f"\n  ... (+{len(invariant_errors) - 50} more)"
+            if len(invariant_errors) > 50
+            else ""
+        )
+        sys.exit(
+            f"Aborting: {len(invariant_errors)} data invariant violation(s) found in {dump_dir.name}/:\n"
+            f"{preview}{more}"
+        )
+
+    print(
+        f"OK: {dump_dir.name}/ validated cleanly "
+        f"({total_rows:,} total rows, 0 JSON/FK/integrity/invariant errors)."
+    )
 
     if any_modified and not dry_run:
         if sync_db_after and dump_dir.resolve() == DUMP_DIR.resolve():
             print(f"Syncing {db_path.name} from {dump_dir.name}/...")
-            import_db(db_path)
+            import_db(db_path, dump_dir=dump_dir, force=True)
         else:
-            print("Note: dump/*.jsonl was updated; run 'python sync_db.py import' to rebuild ocg_standard.db.")
+            print("Note: dump/*.jsonl was updated; run 'python sync_db.py import --force' to rebuild ocg_standard.db.")
+
+
+def print_diff_ids(report: dict[str, Any], as_json: bool = False) -> None:
+    if as_json:
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+        return
+
+    s = report["summary"]
+    print(
+        f"Diff vs {report['base_ref']} ({report['dump_dir']}/): "
+        f"{s['tables_changed']} table(s) changed "
+        f"(+{s['added']} added, ~{s['modified']} modified, -{s['deleted']} deleted)"
+    )
+    for table, info in report["tables"].items():
+        print(
+            f"\n[{table}] +{len(info['added'])} added, "
+            f"~{len(info['modified'])} modified, -{len(info['deleted'])} deleted"
+        )
+        if info["added"]:
+            print(f"  added   : {', '.join(info['added'])}")
+        if info["modified"]:
+            grouped: dict[tuple[str, ...], list[str]] = {}
+            for item in info["modified"]:
+                grouped.setdefault(tuple(item["fields"]), []).append(item["id"])
+            for fields, ids in grouped.items():
+                print(f"  modified ({', '.join(fields)}): {', '.join(ids)}")
+        if info["deleted"]:
+            print(f"  deleted : {', '.join(info['deleted'])}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Sync ocg_standard.db <-> dump/*.jsonl")
-    parser.add_argument("command", choices=["export", "import", "check"])
+    parser.add_argument("command", choices=["export", "import", "check", "diff-ids"])
     parser.add_argument("--db", type=Path, default=DEFAULT_DB, help="Path to SQLite database (default: ./ocg_standard.db)")
     parser.add_argument("--dump-dir", type=Path, default=DUMP_DIR, help="Path to dump directory (default: ./dump)")
+    parser.add_argument("--force", action="store_true", help="[import] Overwrite --db even if it differs from dump/*.jsonl.")
+    parser.add_argument("--base", default="HEAD", help="[diff-ids] Git ref to compare dump/*.jsonl against (default: HEAD).")
+    parser.add_argument("--json", action="store_true", help="[diff-ids] Print machine-readable JSON output.")
     parser.add_argument("--dry-run", action="store_true", help="[check] Preview overriden_check changes without modifying dump/*.jsonl.")
     parser.add_argument("--skip-yugipedia", action="store_true", help="[check] Skip Yugipedia overriden_check pass and run offline validation only.")
     parser.add_argument("--sync-db", action="store_true", help="[check] Rebuild --db via import_db() if dump/*.jsonl was updated.")
@@ -942,7 +1293,10 @@ def main() -> None:
     if args.command == "export":
         export_db(args.db)
     elif args.command == "import":
-        import_db(args.db)
+        import_db(args.db, dump_dir=args.dump_dir, force=args.force)
+    elif args.command == "diff-ids":
+        report = diff_dump_ids(dump_dir=args.dump_dir, base_ref=args.base)
+        print_diff_ids(report, as_json=args.json)
     elif args.command == "check":
         check_dump(
             dump_dir=args.dump_dir,
